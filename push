@@ -1,14 +1,21 @@
 #!/bin/bash
-# Simple one-command deploy script
+# One-command full refresh + deploy script
 # Usage:
-#   ./push                    # uses default commit message
-#   ./push "My custom message"   # uses your message
+#   ./push                              # default message
+#   ./push "Fixed the three sections"   # custom message
 
-npm run build && \
-git add . && \
-git commit -m "${1:-Update dashboard}" || true && \
+echo "🔄 Refreshing data..."
+python3 update_coffee.py || { echo "⚠️  update_coffee.py had issues (continuing anyway)"; }
+
+echo "🔨 Building..."
+npm run build
+
+echo "📤 Committing and pushing..."
+git add .
+git commit -m "${1:-Update dashboard}" || true
 git push
 
 echo ""
-echo "✅ Pushed! GitHub Action will deploy to https://robbittsaunders.github.io/coffee/"
-echo "   Check the Actions tab for progress."
+echo "✅ Done! The GitHub Action is deploying the latest version (including SPACEX, Elon on X, and Musk Bears Roasts)."
+echo "   Live site: https://robbittsaunders.github.io/coffee/"
+echo "   Check Actions tab for the deploy status."
