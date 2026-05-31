@@ -1,8 +1,16 @@
 #!/bin/bash
 # One-command full refresh + deploy script
-# Usage:
-#   ./push                              # default message
-#   ./push "Fixed the three sections"   # custom message
+#
+# Recommended usage (after adding alias):
+#   push                    # uses default message
+#   push "your message"     # custom commit message
+#
+# To enable just typing "push":
+#   Add this to your ~/.bashrc or ~/.zshrc:
+#     alias push='./push'
+#   Then run: source ~/.bashrc   (or ~/.zshrc)
+#
+# You can also run it directly with: ./push "message"
 
 echo "🔄 Refreshing data..."
 python3 update_coffee.py || { echo "⚠️  update_coffee.py had issues (continuing anyway)"; }
