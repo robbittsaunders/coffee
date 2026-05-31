@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "elon-dashboard"
+version = "0.1.0"
+description = "Personal Elon Musk / xAI / Tesla / SpaceX dashboard - CLI + beautiful HTML"
+authors = [{name = "Grok Build"}]
+requires-python = ">=3.9"
+dependencies = [
+    "yfinance>=0.2.0",
+    "requests>=2.31.0",
+    "rich>=13.0.0",          # Beautiful terminal output
+]
+
+[project.scripts]
+coffee = "coffee:main"
+
+[project.urls]
+Homepage = "https://github.com/yourname/elon-dashboard"

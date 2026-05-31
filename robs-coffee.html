@@ -1,0 +1,836 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rob's Coffee • Daily Briefing</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;600&display=swap');
+        
+        body { font-family: 'Inter', system_ui, sans-serif; }
+        .title-font { font-family: 'Space Grotesk', 'Inter', sans-serif; font-weight: 600; letter-spacing: -0.03em; }
+        
+        .dashboard-card {
+            transition: transform 0.2s cubic-bezier(0.4, 0, 0.2, 1), box-shadow 0.2s ease;
+        }
+        .dashboard-card:hover {
+            transform: translateY(-2px);
+        }
+        
+        .metric-up { color: #22c55e; }
+        .metric-down { color: #ef4444; }
+        
+        .section-header {
+            font-size: 13px;
+            letter-spacing: 0.06em;
+            font-weight: 600;
+            text-transform: uppercase;
+        }
+
+        /* Phone-first tightening for Pixel 9a + readability */
+        .dashboard-card {
+            padding: 0.875rem; /* ~14px, tighter than p-6 */
+        }
+        @media (min-width: 640px) {
+            .dashboard-card { padding: 1rem; }
+        }
+        
+        .weather-icon {
+            font-size: 2rem;
+            line-height: 1;
+        }
+    </style>
+</head>
+<body class="bg-slate-950 text-slate-200">
+    <div class="w-full max-w-[420px] mx-auto px-2.5 py-3 sm:max-w-3xl sm:px-4 sm:py-5 lg:max-w-5xl">
+        <!-- Header -->
+        <div class="flex items-center justify-between mb-5">
+            <div class="flex items-center gap-x-4">
+                <div class="w-11 h-11 bg-amber-400 rounded-2xl flex items-center justify-center">
+                    <span class="text-slate-950 text-3xl">🚀</span>
+                </div>
+                <div>
+                    <h1 class="title-font text-4xl font-semibold tracking-tighter">Rob's Coffee</h1>
+                </div>
+            </div>
+            <div class="flex items-center gap-x-3 text-sm">
+                <div class="px-4 py-2 bg-slate-900 border border-slate-800 rounded-2xl flex items-center gap-x-2">
+                    <div class="w-2 h-2 bg-emerald-400 rounded-full animate-pulse"></div>
+                    <span class="text-slate-400">Updated <span id="last-updated"></span></span>
+                </div>
+                <button onclick="location.reload()" 
+                        class="px-5 py-2 bg-slate-800 hover:bg-slate-700 transition-colors rounded-2xl font-medium flex items-center gap-x-2 text-sm border border-slate-700">
+                    <span>Refresh</span>
+                </button>
+            </div>
+        </div>
+
+        <!-- World Events - Last 24 Hours -->
+        <div class="mb-4">
+            <div class="bg-slate-900 border border-red-900/50 rounded-2xl dashboard-card">
+                <div class="flex items-center gap-x-2 mb-3">
+                    <div class="section-header text-red-400">World Events • Last 24h</div>
+                </div>
+                <div id="world-events" class="space-y-2 text-[15px]">
+                    <!-- Populated dynamically -->
+                </div>
+            </div>
+        </div>
+
+        <!-- Key Numbers -->
+        <div class="mb-4">
+            <div class="bg-slate-900 border border-slate-800 rounded-2xl dashboard-card">
+                <div class="section-header text-slate-400 mb-3">Key Numbers</div>
+                <div id="key-numbers" class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-3 text-[13px]">
+                    <!-- Populated by JS from EMBEDDED_DATA + live fetches -->
+                </div>
+            </div>
+        </div>
+
+        <!-- Stocks -->
+        <div class="mb-4">
+            <div class="bg-slate-900 border border-slate-800 rounded-2xl dashboard-card">
+                <div class="flex items-center justify-between mb-4">
+                    <div>
+                        <div class="section-header text-amber-400">Market Snapshot</div>
+                    </div>
+                </div>
+                <div id="stock-table" class="overflow-x-auto -mx-1 px-1"></div>
+            </div>
+        </div>
+
+        <!-- Cape Town Weather + Launches -->
+        <div class="grid grid-cols-1 lg:grid-cols-5 gap-4 mb-4">
+            
+            <!-- Cape Town Weather Forecast -->
+            <div class="lg:col-span-2 bg-slate-900 border border-slate-800 rounded-2xl dashboard-card">
+                <div class="flex items-center justify-between mb-4">
+                    <div>
+                        <div class="section-header text-cyan-400">Cape Town</div>
+                    </div>
+                </div>
+                
+                <div id="cape-town-weather" class="space-y-2 text-[15px]">
+                    <div class="text-slate-400">Loading forecast...</div>
+                </div>
+            </div>
+
+            <!-- Launches -->
+            <div class="lg:col-span-3 bg-slate-900 border border-slate-800 rounded-2xl dashboard-card">
+                <div class="flex items-center justify-between mb-4">
+                    <div>
+                        <div class="section-header text-violet-400">SpaceX</div>
+                    </div>
+                </div>
+                
+                <div id="launches-list" class="space-y-2 text-[15px]">
+                    <div class="text-slate-400 py-4">Loading...</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- News / Highlights -->
+        <div class="mb-4">
+            <div class="bg-slate-900 border border-slate-800 rounded-2xl dashboard-card">
+                <div class="mb-4">
+
+                </div>
+                
+                <div id="news-list" class="grid grid-cols-1 md:grid-cols-2 gap-4"></div>
+            </div>
+        </div>
+
+        <!-- Elon on X + Roasts -->
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
+            
+            <!-- Elon's Recent Tweets (Informative) -->
+            <div class="bg-slate-900 border border-slate-800 rounded-2xl dashboard-card">
+                <div class="flex items-center justify-between mb-4">
+                    <div>
+                        <div class="section-header text-sky-400">Elon on X</div>
+                    </div>
+                </div>
+                <div id="tweets-list" class="text-[15px]"></div>
+            </div>
+
+            <!-- Musk Bears Roasts -->
+            <div class="bg-slate-900 border border-slate-800 rounded-2xl dashboard-card">
+                <div class="flex items-center justify-between mb-4">
+                    <div>
+                        <div class="section-header text-orange-400">Musk Bears Roasts</div>
+                    </div>
+                </div>
+                <div id="roasts-list" class="space-y-2 text-[15px]"></div>
+            </div>
+
+        </div>
+
+        <!-- My Holdings from Google Sheet (Password Protected) - Moved to bottom -->
+        <div class="mb-4">
+            <div class="bg-slate-900 border border-slate-800 rounded-2xl dashboard-card">
+                <div class="flex items-center justify-between mb-4">
+                    <div>
+                        <div class="section-header text-emerald-400">My Holdings</div>
+                    </div>
+                </div>
+
+                <div id="holdings-protected">
+                    <button onclick="showHoldings()" 
+                            class="px-4 py-2 bg-emerald-600 hover:bg-emerald-500 text-white rounded-xl text-sm font-medium">
+                        Show My Holdings
+                    </button>
+                    <div class="text-[10px] text-slate-500 mt-2">Password protected</div>
+                </div>
+
+                <div id="holdings-content" style="display: none;">
+                    <div id="holdings-table" class="overflow-x-auto text-xs">
+                        <div class="text-slate-400">Loading holdings...</div>
+                    </div>
+                    <div class="text-[10px] text-slate-500 mt-3">
+                        Qty pulled live from your Google Sheet.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="mt-8 text-center text-xs text-slate-500">
+            Rob's Coffee • Built for daily use • 
+            <span onclick="showHostingTip()" class="underline cursor-pointer hover:text-slate-400">Share this with friends →</span>
+        </div>
+
+        <!-- TODO: Add Google Calendar integration for upcoming events (user requested) -->
+    </div>
+
+    <script>
+        // === EMBEDDED DATA (updated via update_coffee.py) ===
+        const EMBEDDED_DATA = {
+            stocks: {
+            "TSLA": {
+                        "price": 442.1,
+                        "change_1d": 0.4,
+                        "change_3d": 1.96,
+                        "change_1m": 15.85,
+                        "change_3m": 8.91,
+                        "change_12m": 23.87,
+                        "change_3y": 119.78,
+                        "updated": "2026-05-29T12:40:06.001567"
+            },
+            "NVDA": {
+                        "price": 214.25,
+                        "change_1d": 0.78,
+                        "change_3d": -0.28,
+                        "change_1m": 7.36,
+                        "change_3m": 17.06,
+                        "change_12m": 58.96,
+                        "change_3y": 434.62,
+                        "updated": "2026-05-29T12:40:06.001889"
+            },
+            "MU": {
+                        "price": 923.52,
+                        "change_1d": -0.53,
+                        "change_3d": 3.09,
+                        "change_1m": 78.58,
+                        "change_3m": 130.53,
+                        "change_12m": 862.5,
+                        "change_3y": 1204.86,
+                        "updated": "2026-05-29T12:40:06.002139"
+            }
+},
+            news: [
+            {
+                        "title": "The Tesla and SpaceX merger everyone is talking about is quietly building",
+                        "link": "https://www.teslarati.com/tesla-spacex-merger-rumors/",
+                        "date": "Fri, 29 May 2026",
+                        "source": "Teslarati"
+            },
+            {
+                        "title": "SpaceX to become America\u2019s Military data backbone for missiles, drones, and warfighters",
+                        "link": "https://www.teslarati.com/spacex-to-become-americas-military-data-backbone-for-missiles-drones-and-warfighters/",
+                        "date": "Thu, 28 May 2026",
+                        "source": "Teslarati"
+            },
+            {
+                        "title": "Tesla\u2019s dedicated Optimus factory construction officially underway at Giga Texas",
+                        "link": "https://www.teslarati.com/tesla-dedicated-optimus-factory-construction-officially-underway-giga-texas/",
+                        "date": "Wed, 27 May 2026",
+                        "source": "Teslarati"
+            },
+            {
+                        "title": "Tesla teases going Plaid Mode with the Model 3",
+                        "link": "https://www.teslarati.com/tesla-teases-going-plaid-mode-model-3/",
+                        "date": "Wed, 27 May 2026",
+                        "source": "Teslarati"
+            },
+            {
+                        "title": "NASA\u2019s first human outpost on the Moon starts now \u2013 SpaceX on deck",
+                        "link": "https://www.teslarati.com/nasas-first-human-outpost-on-the-moon-starts-now-spacex-on-deck/",
+                        "date": "Wed, 27 May 2026",
+                        "source": "Teslarati"
+            },
+            {
+                        "title": "Tesla patent reveals strategy for solving major Full Self-Driving, Optimus issue",
+                        "link": "https://www.teslarati.com/tesla-patent-reveals-strategy-solving-major-full-self-driving-optimus-issue/",
+                        "date": "Tue, 26 May 2026",
+                        "source": "Teslarati"
+            }
+],
+            tweets: [
+            {
+                        "text": "The Tesla and SpaceX merger everyone is talking about is quietly building",
+                        "link": "https://www.teslarati.com/tesla-spacex-merger-rumors/",
+                        "hoursAgo": 4
+            },
+            {
+                        "text": "SpaceX to become America\u2019s Military data backbone for missiles, drones, and warfighters",
+                        "link": "https://www.teslarati.com/spacex-to-become-americas-military-data-backbone-for-missiles-drones-and-warfighters/",
+                        "hoursAgo": 19
+            },
+            {
+                        "text": "Tesla\u2019s dedicated Optimus factory construction officially underway at Giga Texas",
+                        "link": "https://www.teslarati.com/tesla-dedicated-optimus-factory-construction-officially-underway-giga-texas/",
+                        "hoursAgo": 28
+            },
+            {
+                        "text": "Tesla teases going Plaid Mode with the Model 3",
+                        "link": "https://www.teslarati.com/tesla-teases-going-plaid-mode-model-3/",
+                        "hoursAgo": 44
+            }
+],
+            roasts: [
+            {
+                        "quote": "Shorting Tesla since 2017 because 'the numbers don't work' is the financial equivalent of refusing to believe the Earth is round while sailing around it.",
+                        "source": "@SawyerMerritt",
+                        "hoursAgo": 7,
+                        "link": "https://x.com/SawyerMerritt"
+            },
+            {
+                        "quote": "The bears have been wrong about every single major Tesla milestone for a decade. At this point, betting against execution is a lifestyle choice.",
+                        "source": "@WholeMarsBlog",
+                        "hoursAgo": 5,
+                        "link": "https://x.com/WholeMarsBlog"
+            }
+],
+            weather: {
+            "+1h": {
+                        "temp": 13.3,
+                        "condition": "Overcast",
+                        "wind_speed": 7.2,
+                        "wind_dir": "SSE",
+                        "cloud": 89,
+                        "rain": 0.0
+            },
+            "+3h": {
+                        "temp": 13.2,
+                        "condition": "Overcast",
+                        "wind_speed": 9.2,
+                        "wind_dir": "SSE",
+                        "cloud": 99,
+                        "rain": 0.0
+            },
+            "+6h": {
+                        "temp": 12.7,
+                        "condition": "Mainly clear",
+                        "wind_speed": 11.2,
+                        "wind_dir": "SSE",
+                        "cloud": 41,
+                        "rain": 0.0
+            }
+},
+            keyNumbers: {
+            "usdZar": "18.35",
+            "usdZarWeek": "+0.8%",
+            "btc": "108,900",
+            "btcWeek": "-3.2%",
+            "tslaShortInterest": "2.7% (flat last 2 weeks)",
+            "jse": "+0.7%",
+            "sp500": "+0.9%"
+},
+            worldEvents: []
+        };
+        // === EMBEDDED_DATA_END ===
+
+        function renderStockTable() {
+            const container = document.getElementById('stock-table');
+            let html = `<table class="w-full text-sm"><thead><tr class="border-b border-slate-700 text-slate-400">
+                <th class="text-left py-2 font-medium">Ticker</th>
+                <th class="text-right py-2 font-medium">Current</th>
+                <th class="text-right py-2 font-medium">1D</th>
+                <th class="text-right py-2 font-medium">3D</th>
+                <th class="text-right py-2 font-medium">1M</th>
+                <th class="text-right py-2 font-medium">12M</th>
+                <th class="text-right py-2 font-medium">3Y</th>
+            </tr></thead><tbody>`;
+
+            Object.entries(EMBEDDED_DATA.stocks).forEach(([ticker, data]) => {
+                const fmt = (val) => {
+                    if (val === undefined || val === null) return '<span class="text-slate-500">—</span>';
+                    const sign = val >= 0 ? '+' : '';
+                    const color = val >= 0 ? 'text-emerald-400' : 'text-red-400';
+                    return `<span class="${color} font-medium">${sign}${val.toFixed(1)}%</span>`;
+                };
+                html += `<tr class="border-b border-slate-800">
+                    <td class="py-3 font-semibold text-lg">${ticker}</td>
+                    <td class="py-3 text-right font-semibold tabular-nums text-xl">$${data.price}</td>
+                    <td class="py-3 text-right">${fmt(data.change_1d)}</td>
+                    <td class="py-3 text-right">${fmt(data.change_3d)}</td>
+                    <td class="py-3 text-right">${fmt(data.change_1m)}</td>
+                    <td class="py-3 text-right">${fmt(data.change_12m)}</td>
+                    <td class="py-3 text-right">${fmt(data.change_3y)}</td>
+                </tr>`;
+            });
+            html += `</tbody></table>`;
+            container.innerHTML = html;
+        }
+
+        async function loadHoldings() {
+            const container = document.getElementById('holdings-table');
+            const sheetUrl = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vQdpXOT5NT0T56hhGJrBBXG5o9cO9GptY8QaDsWuY92qmB_yHc7q00eXRmLQAwu0LBoakYhVty1JBV7/pub?gid=35247126&single=true&output=csv';
+
+            try {
+                const res = await fetch(sheetUrl);
+                const text = await res.text();
+                const lines = text.trim().split('\n');
+
+                // Better CSV row parser that handles quoted fields with commas
+                function parseCSVLine(line) {
+                    const result = [];
+                    let current = '';
+                    let inQuotes = false;
+                    for (let i = 0; i < line.length; i++) {
+                        const char = line[i];
+                        if (char === '"') {
+                            inQuotes = !inQuotes;
+                        } else if (char === ',' && !inQuotes) {
+                            result.push(current.trim());
+                            current = '';
+                        } else {
+                            current += char;
+                        }
+                    }
+                    result.push(current.trim());
+                    return result;
+                }
+
+                let html = `
+                    <table class="w-full">
+                        <thead>
+                            <tr class="border-b border-slate-700 text-slate-400">
+                                <th class="text-left py-1.5 font-medium">Ticker</th>
+                                <th class="text-right py-1.5 font-medium">Qty</th>
+                                <th class="text-right py-1.5 font-medium">Price</th>
+                                <th class="text-right py-1.5 font-medium">USD</th>
+                                <th class="text-right py-1.5 font-medium">ZAR</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                `;
+
+                let inTrueSection = false;
+                let tslaZarTotal = 0;
+
+                for (let i = 0; i < lines.length; i++) {
+                    const row = parseCSVLine(lines[i]);
+                    const firstCol = row[0] ? row[0].replace(/"/g, '').trim() : '';
+                    let qtyRaw = row[1] ? row[1].replace(/"/g, '').trim() : '';
+
+                    if (!firstCol) continue;
+
+                    // Detect the TRUE section header row
+                    if (firstCol === 'TRUE') {
+                        inTrueSection = true;
+                        continue;
+                    }
+
+                    // Stop when we hit the next person's section
+                    if (inTrueSection && (firstCol === 'Joy' || firstCol === 'Jack' || firstCol === 'garth' || firstCol === 'Bon')) {
+                        break;
+                    }
+
+                    if (inTrueSection && firstCol && qtyRaw) {
+                        const numericQty = qtyRaw.replace(/,/g, '');
+                        const displayQty = Number(numericQty).toLocaleString();
+
+                        const price = row[2] ? row[2].replace(/"/g, '').trim() : '';
+                        const usd = row[3] ? row[3].replace(/"/g, '').trim() : '';
+                        let zar = row[4] ? row[4].replace(/"/g, '').trim() : '';
+
+                        // Accumulate ZAR total for all TSLA-related lines
+                        if (firstCol.startsWith('TSLA')) {
+                            const zarMatch = zar.match(/R\s*([\d.,]+)\s*([kmKM]?)/i);
+                            if (zarMatch) {
+                                let val = parseFloat(zarMatch[1].replace(/,/g, ''));
+                                const suffix = (zarMatch[2] || '').toLowerCase();
+                                if (suffix === 'k') val *= 1000;
+                                if (suffix === 'm') val *= 1000000;
+                                tslaZarTotal += val;
+                            }
+                        }
+
+                        // For the TSLA total row, show the calculated total ZAR
+                        if (firstCol.toLowerCase().includes('total')) {
+                            if (tslaZarTotal > 0) {
+                                zar = `R ${(tslaZarTotal / 1000000).toFixed(1)}m`;
+                            }
+                        }
+
+                        html += `
+                            <tr class="border-b border-slate-800">
+                                <td class="py-0.5 font-medium">${firstCol}</td>
+                                <td class="py-0.5 text-right font-semibold">${displayQty}</td>
+                                <td class="py-0.5 text-right text-slate-400">${price}</td>
+                                <td class="py-0.5 text-right text-slate-400">${usd}</td>
+                                <td class="py-0.5 text-right text-slate-400">${zar}</td>
+                            </tr>
+                        `;
+                    }
+                }
+
+                html += `</tbody></table>`;
+                container.innerHTML = html;
+
+            } catch (e) {
+                container.innerHTML = `<div class="text-red-400 text-sm">Could not load holdings from Google Sheets.</div>`;
+            }
+        }
+
+        async function loadCapeTownWeather() {
+            const container = document.getElementById('cape-town-weather');
+            try {
+                const res = await fetch('https://api.open-meteo.com/v1/forecast?latitude=-33.9249&longitude=18.4241&hourly=temperature_2m,weather_code,wind_speed_10m,wind_direction_10m,cloud_cover,precipitation&timezone=Africa/Johannesburg');
+                const data = await res.json();
+
+                const windDir = (deg) => {
+                    const dirs = ['N','NNE','NE','ENE','E','ESE','SE','SSE','S','SSW','SW','WSW','W','WNW','NW','NNW'];
+                    return dirs[Math.round(deg / 22.5) % 16];
+                };
+
+                const weatherDesc = (code) => ({
+                    0: "Clear", 1: "Mainly clear", 2: "Partly cloudy", 3: "cloudy",
+                    45: "Fog", 61: "Light rain", 63: "Rain", 65: "Heavy rain"
+                }[code] || "Mixed");
+
+                // Now showing +1h, +3h, +6h, +12h, +24h
+                const hours = [1, 3, 6, 12, 24];
+                let html = '';
+
+                hours.forEach(h => {
+                    const temp = Math.round(data.hourly.temperature_2m[h]);
+                    const code = data.hourly.weather_code[h];
+                    const wind = Math.round(data.hourly.wind_speed_10m[h]);
+                    const dir = data.hourly.wind_direction_10m[h];
+                    const cloud = Math.round(data.hourly.cloud_cover[h]);
+                    const rain = Math.round(data.hourly.precipitation[h]);
+
+                    // Simple hiking condition check for Cape Town
+                    const badForHiking = wind > 30 || rain > 0.5 || temp < 8 || temp > 32 || (cloud > 90 && wind > 20);
+                    const hikingNote = badForHiking ? `<span class="text-red-400 text-xs ml-1">Bad for hiking</span>` : '';
+
+                    html += `
+                        <div class="flex justify-between items-center border-b border-slate-800 pb-2 last:border-0 last:pb-0">
+                            <div>
+                                <div class="font-medium">+${h}h</div>
+                                <div class="text-xs text-slate-400">${weatherDesc(code)}${hikingNote}</div>
+                            </div>
+                            <div class="text-right text-sm">
+                                <div><span class="font-semibold">${temp}°C</span></div>
+                                <div>${wind} km/h <span style="display:inline-block; transform: rotate(${dir + 180}deg); transition: transform 0.2s;">${wind > 35 ? '↑↑↑' : wind > 20 ? '↑↑' : '↑'}</span></div>
+                                <div>Cloud: ${cloud}%${rain > 0 ? ` • Rain: ${rain}mm` : ''}</div>
+                            </div>
+                        </div>
+                    `;
+                });
+
+                container.innerHTML = html;
+            } catch (e) {
+                container.innerHTML = `<div class="text-slate-400 text-sm">Cape Town forecast unavailable</div>`;
+            }
+        }
+
+        function renderLaunches() {
+            const container = document.getElementById('launches-list');
+            const parentSection = container.closest('.dashboard-card');
+
+            let html = '';
+            let hasUpcoming = false;
+
+            EMBEDDED_DATA.launches.forEach(l => {
+                let daysText = '';
+                let showLaunch = false;
+
+                if (l.dateISO) {
+                    try {
+                        const targetDate = new Date(l.dateISO);
+                        const today = new Date();
+                        const diffTime = targetDate.getTime() - today.getTime();
+                        const diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24));
+
+                        if (diffDays > 0) {
+                            daysText = ` (in ${diffDays} days)`;
+                            if (diffDays <= 4) {
+                                showLaunch = true;
+                            }
+                        } else if (diffDays === 0) {
+                            daysText = ` (today)`;
+                            showLaunch = true;
+                        }
+                    } catch (e) {
+                        daysText = '';
+                    }
+                }
+
+                if (showLaunch) {
+                    hasUpcoming = true;
+                    html += `
+                        <a href="${l.link}" target="_blank" class="block">
+                            <div class="launch-item px-4 py-3 rounded-2xl border border-slate-700 bg-slate-950 hover:bg-slate-900 transition-colors">
+                                <div class="font-medium text-violet-400">★ ${l.name}</div>
+                                <div class="text-slate-400 text-xs mt-0.5">${l.date}${daysText}</div>
+                            </div>
+                        </a>
+                    `;
+                }
+            });
+
+            if (hasUpcoming) {
+                container.innerHTML = html;
+                if (parentSection) parentSection.style.display = '';
+            } else {
+                // Hide the entire launches section if nothing is within 4 days
+                if (parentSection) parentSection.style.display = 'none';
+            }
+        }
+
+        function renderNews() {
+            const container = document.getElementById('news-list');
+            container.innerHTML = '';
+            EMBEDDED_DATA.news.forEach(item => {
+                const div = document.createElement('div');
+                div.className = `bg-slate-950 border border-slate-800 px-4 py-3.5 rounded-2xl text-base`;
+                const time = item.hoursAgo ? `${item.hoursAgo}h` : (item.date || '');
+                const source = item.source ? ` • ${item.source}` : '';
+                div.innerHTML = `
+                    <a href="${item.link}" target="_blank" class="block hover:opacity-80">
+                        <div class="text-emerald-400/80 text-xs mb-1">${time}${source}</div>
+                        <div class="font-medium">${item.title}</div>
+                        <div class="text-slate-400 mt-1.5 text-[14px] leading-relaxed">${item.summary}</div>
+                    </a>
+                `;
+                container.appendChild(div);
+            });
+        }
+
+        function renderTweets() {
+            const container = document.getElementById('tweets-list');
+            container.innerHTML = '';
+
+            const items = EMBEDDED_DATA.tweets || [];
+            if (items.length === 0) {
+                container.innerHTML = `<div class="text-xs text-slate-500 py-2">No recent items. Edit in update_coffee.py and re-run the script to refresh.</div>`;
+                return;
+            }
+
+            items.forEach(t => {
+                const time = t.hoursAgo ? `${t.hoursAgo}h` : '';
+                const item = document.createElement('div');
+                item.className = `px-1 py-3 border-b border-slate-800 last:border-0 active:bg-slate-900/50 transition-colors`;
+                item.innerHTML = `
+                    <a href="${t.link}" target="_blank" class="block">
+                        <div>
+                            <div class="text-sky-400/80 text-[13px] mb-1">${time} • @elonmusk</div>
+                            <div class="text-[15.5px] leading-[1.35] text-slate-100 break-words">${t.text}</div>
+                        </div>
+                    </a>
+                `;
+                container.appendChild(item);
+            });
+        }
+
+        function renderRoasts() {
+            const container = document.getElementById('roasts-list');
+            container.innerHTML = '';
+
+            const items = EMBEDDED_DATA.roasts || [];
+            if (items.length === 0) {
+                container.innerHTML = `<div class="text-xs text-slate-500 py-2">No recent items. Edit in update_coffee.py and re-run the script to refresh.</div>`;
+                return;
+            }
+
+            items.forEach(r => {
+                const time = r.hoursAgo ? `${r.hoursAgo}h` : '';
+                const source = r.source || '';
+                const header = time ? `${time} • ${source}` : source;
+
+                const item = document.createElement('div');
+                item.className = `px-1 py-3 border-b border-slate-800 last:border-0 active:bg-slate-900/50 transition-colors`;
+
+                const innerContent = `
+                    <div class="text-orange-400/80 text-[13px] mb-1">${header}</div>
+                    <div class="text-[15.5px] leading-[1.35] text-orange-300 break-words">${r.quote}</div>
+                `;
+
+                if (r.link) {
+                    item.innerHTML = `<a href="${r.link}" target="_blank" class="block">${innerContent}</a>`;
+                } else {
+                    item.innerHTML = innerContent;
+                }
+                container.appendChild(item);
+            });
+        }
+
+        function updateTimestamp() {
+            const el = document.getElementById('last-updated');
+            if (el) el.textContent = new Date().toLocaleTimeString([], {hour: '2-digit', minute: '2-digit'});
+        }
+
+        function showHostingTip() {
+            alert(`To share Rob's Coffee with friends:
+
+1. Go to https://app.netlify.com/drop
+2. Drag and drop this robs-coffee.html file
+3. You'll instantly get a shareable URL
+
+Alternative: Upload to GitHub Pages or any static host.`);
+        }
+
+        // World Events are now populated via update_coffee.py (see the world_events list there).
+        // Keep only recent, high-signal events (ideally last 24-48h).
+
+        function renderWorldEvents() {
+            const container = document.getElementById('world-events');
+            if (!container) return;
+
+            const events = EMBEDDED_DATA.worldEvents || [];
+            if (events.length === 0) {
+                container.innerHTML = `<div class="text-xs text-slate-500 py-1">No recent world events. Update the list in update_coffee.py and re-run the script.</div>`;
+                return;
+            }
+
+            let html = '';
+            events.forEach(event => {
+                html += `
+                    <div>
+                        <span class="text-xs text-slate-500 mr-1">${event.hoursAgo}h • </span> ${event.text}
+                    </div>
+                `;
+            });
+            container.innerHTML = html;
+        }
+
+        function showHoldings() {
+            const password = prompt("Enter password to view holdings:");
+            // More robust comparison for mobile prompt quirks (trim + toLowerCase fallback)
+            const normalized = (password || '').trim();
+            if (normalized === "pass,." || normalized.toLowerCase() === "pass,.") {
+                document.getElementById('holdings-protected').style.display = 'none';
+                document.getElementById('holdings-content').style.display = 'block';
+                loadHoldings(); // load only after password is correct
+            } else if (password !== null) {
+                alert("Incorrect password.");
+            }
+        }
+
+        function renderKeyNumbers() {
+            const container = document.getElementById('key-numbers');
+            if (!container) return;
+
+            const k = EMBEDDED_DATA.keyNumbers || {};
+
+            // Live USD/ZAR fetch → show as Rxx.xx/$
+            fetch('https://api.exchangerate-api.com/v4/latest/USD')
+                .then(r => r.json())
+                .then(d => {
+                    const zar = d.rates && d.rates.ZAR ? d.rates.ZAR.toFixed(2) : k.usdZar;
+                    const week = k.usdZarWeek || '';
+                    const weekColor = week.startsWith('+') ? 'text-emerald-400' : (week.startsWith('-') ? 'text-red-400' : 'text-slate-400');
+                    // Higher number = more Rand to buy one Dollar (weaker Rand)
+                    updateKeyCard('usdZar', `R${zar}/$ <span class="${weekColor}">${week}</span>`);
+                })
+                .catch(() => updateKeyCard('usdZar', `R${k.usdZar}/$ <span class="text-emerald-400">${k.usdZarWeek || ''}</span>`));
+
+            // Live BTC fetch → abbreviated format
+            fetch('https://api.coingecko.com/api/v3/simple/price?ids=bitcoin&vs_currencies=usd')
+                .then(r => r.json())
+                .then(d => {
+                    let btc = d.bitcoin && d.bitcoin.usd ? d.bitcoin.usd : parseFloat(k.btc);
+                    const btcDisplay = btc >= 1000 ? (btc / 1000).toFixed(1) + 'k' : btc.toLocaleString();
+                    const week = k.btcWeek || '';
+                    const weekColor = week.startsWith('+') ? 'text-emerald-400' : (week.startsWith('-') ? 'text-red-400' : 'text-slate-400');
+                    updateKeyCard('btc', `BTC $${btcDisplay} <span class="${weekColor}">${week}</span>`);
+                })
+                .catch(() => {
+                    const btc = parseFloat(k.btc);
+                    const btcDisplay = btc >= 1000 ? (btc / 1000).toFixed(1) + 'k' : btc.toLocaleString();
+                    updateKeyCard('btc', `BTC $${btcDisplay}`);
+                });
+
+            // Build the visible cards dynamically based on rules
+            let items = [];
+
+            // USD/ZAR always shown
+            const usdWeekColor = (k.usdZarWeek || '').startsWith('+') ? 'text-emerald-400' : (k.usdZarWeek || '').startsWith('-') ? 'text-red-400' : 'text-slate-400';
+            items.push({ id: 'usdZar', label: `R${k.usdZar}/$ <span class="${usdWeekColor}">${k.usdZarWeek || ''}</span>` });
+
+            // BTC always shown (abbreviated)
+            const btcNum = parseFloat(k.btc);
+            const btcDisplay = btcNum >= 1000 ? (btcNum / 1000).toFixed(1) + 'k' : btcNum.toLocaleString();
+            const btcWeekColor = (k.btcWeek || '').startsWith('+') ? 'text-emerald-400' : (k.btcWeek || '').startsWith('-') ? 'text-red-400' : 'text-slate-400';
+            items.push({ id: 'btc', label: `BTC $${btcDisplay} <span class="${btcWeekColor}">${k.btcWeek || ''}</span>` });
+
+            // TSLA Short Interest - only if it looks like a "major move" (simple heuristic)
+            if (k.tslaShortInterest && !k.tslaShortInterest.toLowerCase().includes('no major')) {
+                items.push({ id: 'tslaShortInterest', label: `TSLA Short Int: ${k.tslaShortInterest}` });
+            }
+
+            // Earnings / key event - only include when the Python updater decides it's within ~3 days
+            if (k.keyEvent) {
+                items.push({ id: 'keyEvent', label: k.keyEvent });
+            }
+
+            // JSE + S&P500 in one card, S&P500 neatly stacked under JSE
+            // Color positives green, negatives red
+            function colorValue(val) {
+                if (!val) return val;
+                const isPos = val.trim().startsWith('+');
+                const color = isPos ? 'text-emerald-400' : 'text-red-400';
+                return `<span class="${color}">${val}</span>`;
+            }
+
+            let jseHtml = `JSE ${colorValue(k.jse)}`;
+            if (k.sp500) {
+                jseHtml += `<br><span class="text-[10px] text-slate-400">S&P500 ${colorValue(k.sp500)}</span>`;
+            }
+            items.push({ id: 'jse', label: jseHtml });
+
+            let html = '';
+            items.forEach(item => {
+                html += `<div id="key-${item.id}" class="bg-slate-950 border border-slate-700 rounded-2xl px-3 py-2 text-center">
+                    <div class="text-xs text-slate-400">${item.label}</div>
+                </div>`;
+            });
+            container.innerHTML = html;
+        }
+
+        function updateKeyCard(id, text) {
+            const el = document.getElementById(`key-${id}`);
+            if (el) el.innerHTML = `<div class="text-xs text-slate-400">${text}</div>`;
+        }
+
+        function init() {
+            renderStockTable();
+            loadHoldings();
+            loadCapeTownWeather();
+            renderKeyNumbers();
+            renderLaunches();
+            renderNews();
+            renderTweets();
+            renderRoasts();
+            renderWorldEvents();
+            updateTimestamp();
+            // Note: loadHoldings() is now called only after password is entered
+        }
+
+        window.onload = init;
+    </script>
+</body>
+</html>
