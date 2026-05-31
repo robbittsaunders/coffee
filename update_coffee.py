@@ -26,7 +26,7 @@ HTML_FILE = Path(__file__).parent / "robs-coffee.html"
 CACHE_FILE = Path.home() / ".elon" / "cache.json"
 
 
-def update_html_with_data(stocks, news, tweets=None, roasts=None, weather=None, key_numbers=None, world_events=None):
+def update_html_with_data(stocks, news, tweets=None, roasts=None, weather=None, key_numbers=None, world_events=None, launches=None):
     """Inject fresh data into the single-file HTML."""
     if not HTML_FILE.exists():
         print(f"HTML file not found: {HTML_FILE}")
@@ -41,6 +41,7 @@ def update_html_with_data(stocks, news, tweets=None, roasts=None, weather=None, 
     weather_json = json.dumps(weather or {}, indent=12)
     key_numbers_json = json.dumps(key_numbers or {}, indent=12)
     world_events_json = json.dumps(world_events or [], indent=12)
+    launches_json = json.dumps(launches or [], indent=12)
 
     # Replace the entire EMBEDDED_DATA block
     marker_start = "const EMBEDDED_DATA = {"
@@ -53,7 +54,8 @@ def update_html_with_data(stocks, news, tweets=None, roasts=None, weather=None, 
             roasts: {roasts_json},
             weather: {weather_json},
             keyNumbers: {key_numbers_json},
-            worldEvents: {world_events_json}
+            worldEvents: {world_events_json},
+            launches: {launches_json}
         }};
         // === EMBEDDED_DATA_END ==='''
 
@@ -153,7 +155,7 @@ def main():
     print(f"   Launches: {len(launches)}")
 
     # Update the beautiful HTML (pass weather too)
-    success = update_html_with_data(stocks, news, tweets, roasts, weather, key_numbers, world_events)
+    success = update_html_with_data(stocks, news, tweets, roasts, weather, key_numbers, world_events, launches)
 
     # Also ensure CLI cache is fresh
     if success:
