@@ -47,8 +47,17 @@ open robs-coffee.html
 ## Updating the Dashboard
 
 1. Edit `robs-coffee.html` (or run `python3 update_coffee.py` if you have data scripts)
-2. Run `npm run deploy`
-3. Done.
+2. Run the deploy command:
+
+   ```bash
+   # Use default commit message
+   npm run deploy
+
+   # Or provide your own commit message
+   npm run deploy "Added new feature / fixed bug"
+   ```
+
+3. Done. The GitHub Action will automatically deploy the changes.
 
 ## Notes
 
