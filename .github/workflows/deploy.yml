@@ -20,18 +20,9 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: '20'
-          cache: 'npm'
-
-      - name: Install dependencies
-        run: npm ci
-
       - name: Build site
         run: |
-          # Build without bumping version (the version bump only happens locally)
+          # We only need to copy the file for GitHub Pages
           cp robs-coffee.html index.html
 
       - name: Setup Pages
