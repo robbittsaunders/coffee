@@ -1,10 +1,11 @@
 {
   "name": "robs-coffee",
-  "version": "1.0.46",
+  "version": "1.0.47",
   "description": "Rob's Coffee - Personal daily briefing dashboard",
   "scripts": {
     "build": "npm version patch --no-git-tag-version && cp robs-coffee.html index.html",
-    "deploy": "npm run build && git add . && git commit -m \"${1:-Update dashboard}\" || true && git push"
+    "deploy": "npm run build && git add . && git commit -m \"${1:-Update dashboard}\" || true && git push",
+    "push": "./push"
   },
   "keywords": [],
   "author": "",

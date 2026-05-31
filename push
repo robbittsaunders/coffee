@@ -1,0 +1,14 @@
+#!/bin/bash
+# Simple one-command deploy script
+# Usage:
+#   ./push                    # uses default commit message
+#   ./push "My custom message"   # uses your message
+
+npm run build && \
+git add . && \
+git commit -m "${1:-Update dashboard}" || true && \
+git push
+
+echo ""
+echo "✅ Pushed! GitHub Action will deploy to https://robbittsaunders.github.io/coffee/"
+echo "   Check the Actions tab for progress."
