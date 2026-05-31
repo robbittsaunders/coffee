@@ -1,6 +1,6 @@
 {
   "name": "robs-coffee",
-  "version": "1.0.58",
+  "version": "1.0.60",
   "description": "Rob's Coffee - Personal daily briefing dashboard",
   "scripts": {
     "build": "npm version patch --no-git-tag-version && cp robs-coffee.html index.html",

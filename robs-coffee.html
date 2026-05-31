@@ -130,30 +130,7 @@
             </div>
         </div>
 
-        <!-- News / Highlights -->
-        <div class="mb-4">
-            <div class="bg-slate-900 border border-slate-800 rounded-2xl dashboard-card">
-                <div class="mb-4">
-
-                </div>
-                
-                <div id="news-list" class="grid grid-cols-1 md:grid-cols-2 gap-4"></div>
-            </div>
-        </div>
-
-        <!-- Elon's companies & related news (combined from multiple sources) -->
-        <div class="mb-4">
-            <div class="bg-slate-900 border border-slate-800 rounded-2xl dashboard-card">
-                <div class="flex items-center justify-between mb-4">
-                    <div>
-                        <div class="section-header text-sky-400">Elon's companies &amp; related news</div>
-                    </div>
-                </div>
-                <div id="company-news-list" class="grid grid-cols-1 md:grid-cols-2 gap-4"></div>
-            </div>
-        </div>
-
-        <!-- My Holdings from Google Sheet (Password Protected) - Moved to bottom -->
+        <!-- My Holdings (password removed) -->
         <div class="mb-4">
             <div class="bg-slate-900 border border-slate-800 rounded-2xl dashboard-card">
                 <div class="flex items-center justify-between mb-4">
@@ -162,15 +139,7 @@
                     </div>
                 </div>
 
-                <div id="holdings-protected">
-                    <button onclick="showHoldings()" 
-                            class="px-4 py-2 bg-emerald-600 hover:bg-emerald-500 text-white rounded-xl text-sm font-medium">
-                        Show My Holdings
-                    </button>
-                    <div class="text-[10px] text-slate-500 mt-2">Password protected</div>
-                </div>
-
-                <div id="holdings-content" style="display: none;">
+                <div id="holdings-content">
                     <div id="holdings-table" class="overflow-x-auto text-xs">
                         <div class="text-slate-400">Loading holdings...</div>
                     </div>
@@ -201,7 +170,7 @@
                         "change_3m": 7.46,
                         "change_12m": 21.58,
                         "change_3y": 116.64,
-                        "updated": "2026-05-31T13:03:03.396610"
+                        "updated": "2026-05-31T13:56:28.887820"
             },
             "NVDA": {
                         "price": 211.14,
@@ -211,7 +180,7 @@
                         "change_3m": 15.17,
                         "change_12m": 51.73,
                         "change_3y": 426.86,
-                        "updated": "2026-05-31T13:03:03.396822"
+                        "updated": "2026-05-31T13:56:28.888066"
             },
             "MU": {
                         "price": 971.0,
@@ -221,7 +190,7 @@
                         "change_3m": 144.66,
                         "change_12m": 905.5,
                         "change_3y": 1271.95,
-                        "updated": "2026-05-31T13:03:03.397023"
+                        "updated": "2026-05-31T13:56:28.888301"
             }
 },
             news: [
@@ -616,51 +585,6 @@
             }
         }
 
-        function renderNews() {
-            const container = document.getElementById('news-list');
-            container.innerHTML = '';
-            EMBEDDED_DATA.news.forEach(item => {
-                const div = document.createElement('div');
-                div.className = `bg-slate-950 border border-slate-800 px-4 py-3.5 rounded-2xl text-base`;
-                const time = item.hoursAgo ? `${item.hoursAgo}h` : (item.date || '');
-                const source = item.source ? ` • ${item.source}` : '';
-                div.innerHTML = `
-                    <a href="${item.link}" target="_blank" class="block hover:opacity-80">
-                        <div class="text-emerald-400/80 text-xs mb-1">${time}${source}</div>
-                        <div class="font-medium">${item.title}</div>
-                        <div class="text-slate-400 mt-1.5 text-[14px] leading-relaxed">${item.summary}</div>
-                    </a>
-                `;
-                container.appendChild(div);
-            });
-        }
-
-        function renderCompanyNews() {
-            const container = document.getElementById('company-news-list');
-            container.innerHTML = '';
-
-            const items = EMBEDDED_DATA.companyNews || [];
-            if (items.length === 0) {
-                container.innerHTML = `<div class="text-xs text-slate-500 py-2">No recent items. Run the update script to refresh.</div>`;
-                return;
-            }
-
-            items.forEach(item => {
-                const div = document.createElement('div');
-                div.className = `bg-slate-950 border border-slate-800 px-4 py-3.5 rounded-2xl text-base`;
-                const time = item.hoursAgo ? `${item.hoursAgo}h` : (item.date || '');
-                const source = item.source ? ` • ${item.source}` : '';
-                div.innerHTML = `
-                    <a href="${item.link}" target="_blank" class="block hover:opacity-80">
-                        <div class="text-emerald-400/80 text-xs mb-1">${time}${source}</div>
-                        <div class="font-medium">${item.title}</div>
-                        <div class="text-slate-400 mt-1.5 text-[14px] leading-relaxed">${item.summary || ''}</div>
-                    </a>
-                `;
-                container.appendChild(div);
-            });
-        }
-
         function updateTimestamp() {
             const el = document.getElementById('last-updated');
             if (el) el.textContent = new Date().toLocaleTimeString([], {hour: '2-digit', minute: '2-digit'});
@@ -700,18 +624,8 @@ Alternative: Upload to GitHub Pages or any static host.`);
             container.innerHTML = html;
         }
 
-        function showHoldings() {
-            const password = prompt("Enter password to view holdings:");
-            // More robust comparison for mobile prompt quirks (trim + toLowerCase fallback)
-            const normalized = (password || '').trim();
-            if (normalized === "pass,." || normalized.toLowerCase() === "pass,.") {
-                document.getElementById('holdings-protected').style.display = 'none';
-                document.getElementById('holdings-content').style.display = 'block';
-                loadHoldings(); // load only after password is correct
-            } else if (password !== null) {
-                alert("Incorrect password.");
-            }
-        }
+        // Password protection for holdings has been removed per request.
+        // Holdings now load automatically.
 
         function renderKeyNumbers() {
             const container = document.getElementById('key-numbers');
@@ -801,15 +715,14 @@ Alternative: Upload to GitHub Pages or any static host.`);
 
         function init() {
             renderStockTable();
-            loadHoldings();
             loadCapeTownWeather();
             renderKeyNumbers();
             renderLaunches();
-            renderNews();
-            renderCompanyNews();
             renderWorldEvents();
             updateTimestamp();
-            // Note: loadHoldings() is now called only after password is entered
+
+            // Holdings load automatically (password protection removed)
+            loadHoldings();
         }
 
         window.onload = init;
