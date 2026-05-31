@@ -16,6 +16,7 @@ git commit -m "${1:-Update dashboard}" || true
 git push
 
 echo ""
-echo "✅ Done! The GitHub Action is deploying the latest version (including SPACEX, Elon on X, and Musk Bears Roasts)."
+echo "✅ Done! The GitHub Action is deploying the latest version."
+echo "   Elon on X and Roasts are now manual (high-signal, correct direct links)."
 echo "   Live site: https://robbittsaunders.github.io/coffee/"
 echo "   Check Actions tab for the deploy status."

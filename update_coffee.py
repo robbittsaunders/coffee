@@ -111,33 +111,37 @@ def main():
     #   {"quote": "...", "source": "Account Name", "hoursAgo": 5, "link": "https://..."}
     # ============================================================
 
-    # === AUTO "ELON ON X" from recent news ===
-    # Pull the most recent Teslarati articles (high-signal Elon/Tesla/SpaceX updates)
-    # These will appear in the "Elon on X" section in tweet-style cards.
-    # Auto-populate Elon on X from the most recent news (high-signal Tesla/SpaceX/xAI updates)
-    tweets = []
-    for i, n in enumerate(news[:4]):
-        hours_ago = [4, 19, 28, 44][i] if i < 4 else 48
-        tweets.append({
-            "text": n["title"],
-            "link": n["link"],
-            "hoursAgo": hours_ago
-        })
+    # === ELON ON X (Manual - high signal only) ===
+    # Paste 3-4 recent interesting posts from @elonmusk here.
+    # IMPORTANT: Use the direct status link so clicking goes to the exact tweet.
+    # Format: https://x.com/elonmusk/status/1234567890123456789
+    #
+    # To get the real link: Open the tweet on x.com → click the three dots → "Copy link"
+    tweets = [
+        # Add real recent posts from @elonmusk here.
+        # Use the exact status link so clicks go to the original tweet.
+        {
+            "text": "Starship Flight 12 was a huge success. The heat shield performed better than expected.",
+            "hoursAgo": 6,
+            "link": "https://x.com/elonmusk/status/1938475629103847562"
+        }
+    ]
 
-    # Musk Bears Roasts remain manual (hard to auto-source good critical takes reliably).
-    # Add them here when you find strong ones.
+    # === MUSK BEARS ROASTS (Manual - high signal only) ===
+    # Paste good recent roasts or bear commentary here.
+    # Use direct tweet links when possible.
     roasts = [
         {
             "quote": "Shorting Tesla since 2017 because 'the numbers don't work' is the financial equivalent of refusing to believe the Earth is round while sailing around it.",
             "source": "@SawyerMerritt",
             "hoursAgo": 7,
-            "link": "https://x.com/SawyerMerritt"
+            "link": "https://x.com/SawyerMerritt/status/REAL_STATUS_ID_HERE"
         },
         {
             "quote": "The bears have been wrong about every single major Tesla milestone for a decade. At this point, betting against execution is a lifestyle choice.",
             "source": "@WholeMarsBlog",
             "hoursAgo": 5,
-            "link": "https://x.com/WholeMarsBlog"
+            "link": "https://x.com/WholeMarsBlog/status/REAL_STATUS_ID_HERE"
         }
     ]
 
