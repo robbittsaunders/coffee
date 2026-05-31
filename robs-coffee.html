@@ -141,29 +141,16 @@
             </div>
         </div>
 
-        <!-- Elon on X + Roasts -->
-        <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
-            
-            <!-- Elon's Recent Tweets (Informative) -->
+        <!-- Elon's companies & related news (combined from multiple sources) -->
+        <div class="mb-4">
             <div class="bg-slate-900 border border-slate-800 rounded-2xl dashboard-card">
                 <div class="flex items-center justify-between mb-4">
                     <div>
-                        <div class="section-header text-sky-400">Elon on X</div>
+                        <div class="section-header text-sky-400">Elon's companies &amp; related news</div>
                     </div>
                 </div>
-                <div id="tweets-list" class="text-[15px]"></div>
+                <div id="company-news-list" class="grid grid-cols-1 md:grid-cols-2 gap-4"></div>
             </div>
-
-            <!-- Musk Bears Roasts -->
-            <div class="bg-slate-900 border border-slate-800 rounded-2xl dashboard-card">
-                <div class="flex items-center justify-between mb-4">
-                    <div>
-                        <div class="section-header text-orange-400">Musk Bears Roasts</div>
-                    </div>
-                </div>
-                <div id="roasts-list" class="space-y-2 text-[15px]"></div>
-            </div>
-
         </div>
 
         <!-- My Holdings from Google Sheet (Password Protected) - Moved to bottom -->
@@ -275,27 +262,8 @@
                         "source": "Teslarati"
             }
 ],
-            tweets: [
-            {
-                        "text": "Starship Flight 12 was a huge success. The heat shield performed better than expected.",
-                        "hoursAgo": 6,
-                        "link": "https://x.com/elonmusk/status/1938475629103847562"
-            }
-],
-            roasts: [
-            {
-                        "quote": "Shorting Tesla since 2017 because 'the numbers don't work' is the financial equivalent of refusing to believe the Earth is round while sailing around it.",
-                        "source": "@SawyerMerritt",
-                        "hoursAgo": 7,
-                        "link": "https://x.com/SawyerMerritt/status/REAL_STATUS_ID_HERE"
-            },
-            {
-                        "quote": "The bears have been wrong about every single major Tesla milestone for a decade. At this point, betting against execution is a lifestyle choice.",
-                        "source": "@WholeMarsBlog",
-                        "hoursAgo": 5,
-                        "link": "https://x.com/WholeMarsBlog/status/REAL_STATUS_ID_HERE"
-            }
-],
+            tweets: [],
+            roasts: [],
             weather: {
             "+1h": {
                         "temp": 13.8,
@@ -356,6 +324,44 @@
                         "date": "Saturday 15 October 07h22",
                         "details": "",
                         "highlight": false
+            }
+],
+            companyNews: [
+            {
+                        "title": "Tesla Full Self-Driving expansion in Europe continues with new addition",
+                        "link": "https://www.teslarati.com/tesla-full-self-driving-expansion-europe-continues-new-addition/",
+                        "date": "Sat, 30 May 2026",
+                        "source": "Teslarati"
+            },
+            {
+                        "title": "Elon Musk strikes down reports on SpaceX IPO rumors",
+                        "link": "https://www.teslarati.com/elon-musk-strikes-down-reports-spacex-ipo-rumors/",
+                        "date": "Fri, 29 May 2026",
+                        "source": "Teslarati"
+            },
+            {
+                        "title": "Tesla\u2019s Robotaxi dreams just took a massive step toward reality",
+                        "link": "https://www.teslarati.com/tesla-robotaxi-dreams-massive-step-toward-reality/",
+                        "date": "Fri, 29 May 2026",
+                        "source": "Teslarati"
+            },
+            {
+                        "title": "The Tesla and SpaceX merger everyone is talking about is quietly building",
+                        "link": "https://www.teslarati.com/tesla-spacex-merger-rumors/",
+                        "date": "Fri, 29 May 2026",
+                        "source": "Teslarati"
+            },
+            {
+                        "title": "SpaceX to become America\u2019s Military data backbone for missiles, drones, and warfighters",
+                        "link": "https://www.teslarati.com/spacex-to-become-americas-military-data-backbone-for-missiles-drones-and-warfighters/",
+                        "date": "Thu, 28 May 2026",
+                        "source": "Teslarati"
+            },
+            {
+                        "title": "Tesla\u2019s dedicated Optimus factory construction officially underway at Giga Texas",
+                        "link": "https://www.teslarati.com/tesla-dedicated-optimus-factory-construction-officially-underway-giga-texas/",
+                        "date": "Wed, 27 May 2026",
+                        "source": "Teslarati"
             }
 ]
         };
@@ -629,61 +635,29 @@
             });
         }
 
-        function renderTweets() {
-            const container = document.getElementById('tweets-list');
+        function renderCompanyNews() {
+            const container = document.getElementById('company-news-list');
             container.innerHTML = '';
 
-            const items = EMBEDDED_DATA.tweets || [];
+            const items = EMBEDDED_DATA.companyNews || [];
             if (items.length === 0) {
-                container.innerHTML = `<div class="text-xs text-slate-500 py-2">No recent items. Edit in update_coffee.py and re-run the script to refresh.</div>`;
+                container.innerHTML = `<div class="text-xs text-slate-500 py-2">No recent items. Run the update script to refresh.</div>`;
                 return;
             }
 
-            items.forEach(t => {
-                const time = t.hoursAgo ? `${t.hoursAgo}h` : '';
-                const item = document.createElement('div');
-                item.className = `px-1 py-3 border-b border-slate-800 last:border-0 active:bg-slate-900/50 transition-colors`;
-                item.innerHTML = `
-                    <a href="${t.link}" target="_blank" class="block">
-                        <div>
-                            <div class="text-sky-400/80 text-[13px] mb-1">${time} • @elonmusk</div>
-                            <div class="text-[15.5px] leading-[1.35] text-slate-100 break-words">${t.text}</div>
-                        </div>
+            items.forEach(item => {
+                const div = document.createElement('div');
+                div.className = `bg-slate-950 border border-slate-800 px-4 py-3.5 rounded-2xl text-base`;
+                const time = item.hoursAgo ? `${item.hoursAgo}h` : (item.date || '');
+                const source = item.source ? ` • ${item.source}` : '';
+                div.innerHTML = `
+                    <a href="${item.link}" target="_blank" class="block hover:opacity-80">
+                        <div class="text-emerald-400/80 text-xs mb-1">${time}${source}</div>
+                        <div class="font-medium">${item.title}</div>
+                        <div class="text-slate-400 mt-1.5 text-[14px] leading-relaxed">${item.summary || ''}</div>
                     </a>
                 `;
-                container.appendChild(item);
-            });
-        }
-
-        function renderRoasts() {
-            const container = document.getElementById('roasts-list');
-            container.innerHTML = '';
-
-            const items = EMBEDDED_DATA.roasts || [];
-            if (items.length === 0) {
-                container.innerHTML = `<div class="text-xs text-slate-500 py-2">No recent items. Edit in update_coffee.py and re-run the script to refresh.</div>`;
-                return;
-            }
-
-            items.forEach(r => {
-                const time = r.hoursAgo ? `${r.hoursAgo}h` : '';
-                const source = r.source || '';
-                const header = time ? `${time} • ${source}` : source;
-
-                const item = document.createElement('div');
-                item.className = `px-1 py-3 border-b border-slate-800 last:border-0 active:bg-slate-900/50 transition-colors`;
-
-                const innerContent = `
-                    <div class="text-orange-400/80 text-[13px] mb-1">${header}</div>
-                    <div class="text-[15.5px] leading-[1.35] text-orange-300 break-words">${r.quote}</div>
-                `;
-
-                if (r.link) {
-                    item.innerHTML = `<a href="${r.link}" target="_blank" class="block">${innerContent}</a>`;
-                } else {
-                    item.innerHTML = innerContent;
-                }
-                container.appendChild(item);
+                container.appendChild(div);
             });
         }
 
@@ -832,8 +806,7 @@ Alternative: Upload to GitHub Pages or any static host.`);
             renderKeyNumbers();
             renderLaunches();
             renderNews();
-            renderTweets();
-            renderRoasts();
+            renderCompanyNews();
             renderWorldEvents();
             updateTimestamp();
             // Note: loadHoldings() is now called only after password is entered

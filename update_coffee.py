@@ -26,7 +26,7 @@ HTML_FILE = Path(__file__).parent / "robs-coffee.html"
 CACHE_FILE = Path.home() / ".elon" / "cache.json"
 
 
-def update_html_with_data(stocks, news, tweets=None, roasts=None, weather=None, key_numbers=None, world_events=None, launches=None):
+def update_html_with_data(stocks, news, tweets=None, roasts=None, weather=None, key_numbers=None, world_events=None, launches=None, company_news=None):
     """Inject fresh data into the single-file HTML."""
     if not HTML_FILE.exists():
         print(f"HTML file not found: {HTML_FILE}")
@@ -42,6 +42,7 @@ def update_html_with_data(stocks, news, tweets=None, roasts=None, weather=None, 
     key_numbers_json = json.dumps(key_numbers or {}, indent=12)
     world_events_json = json.dumps(world_events or [], indent=12)
     launches_json = json.dumps(launches or [], indent=12)
+    company_news_json = json.dumps(company_news or [], indent=12)
 
     # Replace the entire EMBEDDED_DATA block
     marker_start = "const EMBEDDED_DATA = {"
@@ -55,7 +56,8 @@ def update_html_with_data(stocks, news, tweets=None, roasts=None, weather=None, 
             weather: {weather_json},
             keyNumbers: {key_numbers_json},
             worldEvents: {world_events_json},
-            launches: {launches_json}
+            launches: {launches_json},
+            companyNews: {company_news_json}
         }};
         // === EMBEDDED_DATA_END ==='''
 
@@ -111,39 +113,12 @@ def main():
     #   {"quote": "...", "source": "Account Name", "hoursAgo": 5, "link": "https://..."}
     # ============================================================
 
-    # === ELON ON X (Manual - high signal only) ===
-    # Paste 3-4 recent interesting posts from @elonmusk here.
-    # IMPORTANT: Use the direct status link so clicking goes to the exact tweet.
-    # Format: https://x.com/elonmusk/status/1234567890123456789
-    #
-    # To get the real link: Open the tweet on x.com → click the three dots → "Copy link"
-    tweets = [
-        # Add real recent posts from @elonmusk here.
-        # Use the exact status link so clicks go to the original tweet.
-        {
-            "text": "Starship Flight 12 was a huge success. The heat shield performed better than expected.",
-            "hoursAgo": 6,
-            "link": "https://x.com/elonmusk/status/1938475629103847562"
-        }
-    ]
-
-    # === MUSK BEARS ROASTS (Manual - high signal only) ===
-    # Paste good recent roasts or bear commentary here.
-    # Use direct tweet links when possible.
-    roasts = [
-        {
-            "quote": "Shorting Tesla since 2017 because 'the numbers don't work' is the financial equivalent of refusing to believe the Earth is round while sailing around it.",
-            "source": "@SawyerMerritt",
-            "hoursAgo": 7,
-            "link": "https://x.com/SawyerMerritt/status/REAL_STATUS_ID_HERE"
-        },
-        {
-            "quote": "The bears have been wrong about every single major Tesla milestone for a decade. At this point, betting against execution is a lifestyle choice.",
-            "source": "@WholeMarsBlog",
-            "hoursAgo": 5,
-            "link": "https://x.com/WholeMarsBlog/status/REAL_STATUS_ID_HERE"
-        }
-    ]
+    # === ELON'S COMPANIES & RELATED NEWS (auto from multiple sources) ===
+    # This combined section pulls automatically from Teslarati + InsideEVs + NASASpaceflight
+    # + CleanTechnica + SpaceNews on every refresh.
+    # No manual curation needed.
+    tweets = []
+    roasts = []  # kept for backward compat in injection, not used for UI anymore
 
     # === WORLD EVENTS (Last 24h, high-signal only) ===
     # Keep this list short and very recent (ideally events from the last 24-48 hours).
@@ -159,7 +134,10 @@ def main():
     print(f"   Launches: {len(launches)}")
 
     # Update the beautiful HTML (pass weather too)
-    success = update_html_with_data(stocks, news, tweets, roasts, weather, key_numbers, world_events, launches)
+    # Combine Elon on X + Roasts into one automatic "Elon's companies & related news" section
+    company_news = news[:6] if news else []
+
+    success = update_html_with_data(stocks, news, [], [], weather, key_numbers, world_events, launches, company_news)
 
     # Also ensure CLI cache is fresh
     if success:

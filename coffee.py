@@ -36,6 +36,8 @@ NEWS_RSS_URLS = [
     "https://www.teslarati.com/feed/",           # Teslarati
     "https://insideevs.com/feed/",               # InsideEVs
     "https://www.nasaspaceflight.com/feed/",     # NASASpaceflight
+    "https://cleantechnica.com/feed/",           # CleanTechnica
+    "https://spacenews.com/feed/",               # SpaceNews
 ]
 SPACEX_API = "https://api.spacexdata.com/v4/launches/upcoming"
 
