@@ -1,0 +1,243 @@
+{
+  "updatedAt": "2026-08-30T16:01+02:00",
+  "stocks": {
+    "TSLA": {
+      "price": 348.75,
+      "change_1d": -1.71,
+      "change_3d": 0.85,
+      "change_1m": 8.28,
+      "change_12m": 0.8,
+      "change_3y": 35.61,
+      "updated": "2026-08-30T16:00:59.329824"
+    },
+    "NVDA": {
+      "price": 217.55,
+      "change_1d": -4.57,
+      "change_3d": 3.76,
+      "change_1m": 5.28,
+      "change_12m": 20.91,
+      "change_3y": 346.81,
+      "updated": "2026-08-30T16:00:59.330091"
+    },
+    "MU": {
+      "price": 932.86,
+      "change_1d": -0.27,
+      "change_3d": -0.59,
+      "change_1m": 12.46,
+      "change_12m": 665.87,
+      "change_3y": 1314.64,
+      "updated": "2026-08-30T16:00:59.330289"
+    }
+  },
+  "news": [
+    {
+      "title": "OpenAI cites distrust of SpaceX in decision to drop Cursor partnership",
+      "link": "https://www.teslarati.com/openai-cites-distrust-of-spacex-in-decision-to-drop-cursor-partnership/",
+      "date": "Sat, 29 Aug 2026 04:08",
+      "hoursAgo": 33,
+      "source": "Teslarati"
+    },
+    {
+      "title": "Tesla Theater might be getting plenty more streaming platforms",
+      "link": "https://www.teslarati.com/tesla-theater-getting-more-streaming-platforms/",
+      "date": "Fri, 28 Aug 2026 17:14",
+      "hoursAgo": 44,
+      "source": "Teslarati"
+    },
+    {
+      "title": "Tesla Semi’s biggest adoptee gives an update on production timeline",
+      "link": "https://www.teslarati.com/tesla-semi-biggest-adoptee-update-production-timeline/",
+      "date": "Fri, 28 Aug 2026 15:40",
+      "hoursAgo": 46,
+      "source": "Teslarati"
+    },
+    {
+      "title": "Police sergeant recounts his Neuralink journey with Elon Musk’s brain chip",
+      "link": "https://www.teslarati.com/police-sergeant-recounts-his-neuralink-journey-with-elon-musks-brain-chip/",
+      "date": "Fri, 28 Aug 2026 05:43",
+      "hoursAgo": 56,
+      "source": "Teslarati"
+    },
+    {
+      "title": "Tesla Cybercab uses a unique strategy for picking up the right rider",
+      "link": "https://www.teslarati.com/tesla-cybercab-unique-strategy-for-picking-up-right-rider/",
+      "date": "Thu, 27 Aug 2026 19:16",
+      "hoursAgo": 66,
+      "source": "Teslarati"
+    },
+    {
+      "title": "Tesla ends in-house wrap service that always seemed like a short-term program",
+      "link": "https://www.teslarati.com/tesla-ends-in-house-wrap-service/",
+      "date": "Thu, 27 Aug 2026 17:00",
+      "hoursAgo": 69,
+      "source": "Teslarati"
+    }
+  ],
+  "tweets": [],
+  "roasts": [],
+  "weather": {
+    "+1h": {
+      "temp": 11.0,
+      "condition": "Mainly clear",
+      "wind_speed": 5.0,
+      "wind_dir_deg": 165,
+      "cloud": 40,
+      "rain": 0.0
+    },
+    "+3h": {
+      "temp": 12.4,
+      "condition": "Overcast",
+      "wind_speed": 10.0,
+      "wind_dir_deg": 165,
+      "cloud": 100,
+      "rain": 0.0
+    },
+    "+6h": {
+      "temp": 12.5,
+      "condition": "Overcast",
+      "wind_speed": 11.8,
+      "wind_dir_deg": 161,
+      "cloud": 100,
+      "rain": 0.0
+    },
+    "+12h": {
+      "temp": 15.8,
+      "condition": "Partly cloudy",
+      "wind_speed": 19.0,
+      "wind_dir_deg": 147,
+      "cloud": 50,
+      "rain": 0.0
+    },
+    "+24h": {
+      "temp": 12.7,
+      "condition": "Partly cloudy",
+      "wind_speed": 19.7,
+      "wind_dir_deg": 156,
+      "cloud": 63,
+      "rain": 0.0
+    }
+  },
+  "keyNumbers": {
+    "usdZar": "16.17",
+    "usdZarWeek": "-0.1%",
+    "usdZarLabel": "rand stronger",
+    "btc": "78831",
+    "btcWeek": "+0.6%",
+    "jse": "+1.2%",
+    "sp500": "-0.2%"
+  },
+  "worldEvents": [
+    {
+      "text": "Iceland votes against restarting talks on joining EU",
+      "hoursAgo": 3,
+      "link": "https://www.bbc.co.uk/news/articles/c70le8ed1plo"
+    },
+    {
+      "text": "Manhunt after shooting at Swiss rave kills woman, 22, and injures five",
+      "hoursAgo": 1,
+      "link": "https://www.bbc.co.uk/news/articles/c9qr750je1go"
+    },
+    {
+      "text": "Large Lake Ontario sign installed in Canada in latest jab at US",
+      "hoursAgo": 13,
+      "link": "https://www.bbc.co.uk/news/articles/cpq09594vw7o"
+    },
+    {
+      "text": "WhatsApp chat used to send cash for crime and extremism",
+      "hoursAgo": 9,
+      "link": "https://www.bbc.co.uk/news/articles/cgk57lg7566o"
+    },
+    {
+      "text": "At least 37 dead and hundreds evacuated after strike on Kyiv weapons depot",
+      "hoursAgo": 17,
+      "link": "https://www.bbc.co.uk/news/articles/c86xwqez4npo"
+    }
+  ],
+  "launches": [
+    {
+      "name": "Falcon 9 Block 5 | Starlink Group 15-23",
+      "date": "Wednesday 2 September 09h46",
+      "dateISO": "2026-09-02T07:46:00Z",
+      "details": "Space Launch Complex 4E - Vandenberg SFB, CA, USA",
+      "highlight": false,
+      "link": "https://spacelaunchnow.me/launch/falcon-9-block-5-starlink-group-15-23"
+    },
+    {
+      "name": "Falcon 9 Block 5 | Starlink Group 15-24",
+      "date": "Sunday 6 September 12h59",
+      "dateISO": "2026-09-06T10:59:00Z",
+      "details": "Space Launch Complex 4E - Vandenberg SFB, CA, USA",
+      "highlight": false,
+      "link": "https://spacelaunchnow.me/launch/falcon-9-block-5-starlink-group-15-24"
+    },
+    {
+      "name": "Starship | Flight 14",
+      "date": "Wednesday 30 September (TBD)",
+      "dateISO": "2026-09-30T00:00:00Z",
+      "details": "Orbital Launch Pad 2 - SpaceX Starbase, TX, USA",
+      "highlight": true,
+      "link": "https://spacelaunchnow.me/launch/starship-flight-14"
+    },
+    {
+      "name": "Falcon 9 Block 5 | Crew-13",
+      "date": "Wednesday 30 September (TBD)",
+      "dateISO": "2026-09-30T00:00:00Z",
+      "details": "Space Launch Complex 40 - Cape Canaveral SFS, FL, USA",
+      "highlight": true,
+      "link": "https://spacelaunchnow.me/launch/falcon-9-block-5-crew-13"
+    },
+    {
+      "name": "Falcon 9 Block 5 | Dragon CRS-2 SpX-35",
+      "date": "Saturday 31 October (TBD)",
+      "dateISO": "2026-10-31T00:00:00Z",
+      "details": "Unknown Pad - Cape Canaveral SFS, FL, USA",
+      "highlight": true,
+      "link": "https://spacelaunchnow.me/launch/falcon-9-block-5-dragon-crs-2-spx-35"
+    }
+  ],
+  "companyNews": [
+    {
+      "title": "OpenAI cites distrust of SpaceX in decision to drop Cursor partnership",
+      "link": "https://www.teslarati.com/openai-cites-distrust-of-spacex-in-decision-to-drop-cursor-partnership/",
+      "date": "Sat, 29 Aug 2026 04:08",
+      "hoursAgo": 33,
+      "source": "Teslarati"
+    },
+    {
+      "title": "Tesla Theater might be getting plenty more streaming platforms",
+      "link": "https://www.teslarati.com/tesla-theater-getting-more-streaming-platforms/",
+      "date": "Fri, 28 Aug 2026 17:14",
+      "hoursAgo": 44,
+      "source": "Teslarati"
+    },
+    {
+      "title": "Tesla Semi’s biggest adoptee gives an update on production timeline",
+      "link": "https://www.teslarati.com/tesla-semi-biggest-adoptee-update-production-timeline/",
+      "date": "Fri, 28 Aug 2026 15:40",
+      "hoursAgo": 46,
+      "source": "Teslarati"
+    },
+    {
+      "title": "Police sergeant recounts his Neuralink journey with Elon Musk’s brain chip",
+      "link": "https://www.teslarati.com/police-sergeant-recounts-his-neuralink-journey-with-elon-musks-brain-chip/",
+      "date": "Fri, 28 Aug 2026 05:43",
+      "hoursAgo": 56,
+      "source": "Teslarati"
+    },
+    {
+      "title": "Tesla Cybercab uses a unique strategy for picking up the right rider",
+      "link": "https://www.teslarati.com/tesla-cybercab-unique-strategy-for-picking-up-right-rider/",
+      "date": "Thu, 27 Aug 2026 19:16",
+      "hoursAgo": 66,
+      "source": "Teslarati"
+    },
+    {
+      "title": "Tesla ends in-house wrap service that always seemed like a short-term program",
+      "link": "https://www.teslarati.com/tesla-ends-in-house-wrap-service/",
+      "date": "Thu, 27 Aug 2026 17:00",
+      "hoursAgo": 69,
+      "source": "Teslarati"
+    }
+  ],
+  "calendar": []
+}

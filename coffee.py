@@ -2,50 +2,67 @@
 """
 Rob's Coffee (CLI)
 
-Your personal daily briefing — stocks, launches, weather, Elon updates & more.
+Personal daily briefing: stocks, Cape Town weather, SpaceX, world events, Elon-ecosystem news.
 
 Usage:
-    coffee
-    coffee --launches
+    python3 coffee.py
+    python3 coffee.py --refresh
+    python3 coffee.py --launches
 """
 
+from __future__ import annotations
+
+import calendar
 import json
 import os
 import sys
-from datetime import datetime, timedelta
+import xml.etree.ElementTree as ET
+from datetime import datetime, timedelta, timezone
+from email.utils import parsedate_to_datetime
 from pathlib import Path
-from typing import Any, Dict, List
+from typing import Any, Dict, List, Optional
 
 import requests
 import yfinance as yf
+from rich import box
 from rich.console import Console
 from rich.panel import Panel
 from rich.table import Table
-from rich.text import Text
-from rich import box
 
-# ------------------------------------------------------------------
-# CONFIG
-# ------------------------------------------------------------------
 CACHE_DIR = Path.home() / ".robs-coffee"
 CACHE_FILE = CACHE_DIR / "cache.json"
 CACHE_TTL_MINUTES = 45
 
-TICKERS = ["TSLA", "NVDA", "MU"]  # TSLA + key semiconductor plays (NVDA, MU)
+TICKERS = ["TSLA", "NVDA", "MU"]
 NEWS_RSS_URLS = [
-    "https://www.teslarati.com/feed/",           # Teslarati
-    "https://insideevs.com/feed/",               # InsideEVs
-    "https://www.nasaspaceflight.com/feed/",     # NASASpaceflight
-    "https://cleantechnica.com/feed/",           # CleanTechnica
-    "https://spacenews.com/feed/",               # SpaceNews
+    ("https://www.teslarati.com/feed/", "Teslarati"),
+    ("https://insideevs.com/feed/", "InsideEVs"),
+    ("https://www.nasaspaceflight.com/feed/", "NASASpaceflight"),
+    ("https://cleantechnica.com/feed/", "CleanTechnica"),
+    ("https://spacenews.com/feed/", "SpaceNews"),
 ]
-SPACEX_API = "https://api.spacexdata.com/v4/launches/upcoming"
+NEWS_KEYWORDS = (
+    "tesla", "spacex", "starship", "starlink", "cybertruck", "optimus",
+    "xai", "grok", "neuralink", "boring", "elon", "fsd", "robotaxi",
+)
+WORLD_RSS = "https://feeds.bbci.co.uk/news/world/rss.xml"
+LL2_UPCOMING = "https://ll.thespacedevs.com/2.2.0/launch/upcoming/"
+SPACEX_LSP_ID = 121  # SpaceX on The Space Devs
 
+SAST = timezone(timedelta(hours=2))
 console = Console()
 
 
+def now_utc() -> datetime:
+    return datetime.now(timezone.utc)
+
+
+def now_sast() -> datetime:
+    return datetime.now(SAST)
+
+
 # ------------------------------------------------------------------
-# CACHING
+# Caching
 # ------------------------------------------------------------------
 def load_cache() -> Dict[str, Any]:
     if not CACHE_FILE.exists():
@@ -66,84 +83,118 @@ def save_cache(data: Dict[str, Any]) -> None:
     CACHE_FILE.write_text(json.dumps(data, indent=2, default=str))
 
 
-# ------------------------------------------------------------------
-# DATA FETCHERS
-# ------------------------------------------------------------------
-def fetch_stocks() -> Dict[str, Dict[str, Any]]:
-    """Fetch TSLA, NVDA, MU with multiple time periods (1D/3D/1M/3M/12M/3Y)."""
-    cache = load_cache()
-    if "stocks" in cache:
-        return cache["stocks"]
+def cache_get(key: str, use_cache: bool) -> Any:
+    if not use_cache:
+        return None
+    return load_cache().get(key)
 
-    result = {}
+
+def cache_put(key: str, value: Any) -> None:
+    cache = load_cache() or {}
+    cache[key] = value
+    save_cache(cache)
+
+
+# ------------------------------------------------------------------
+# Helpers
+# ------------------------------------------------------------------
+def hours_ago(pub_date: str) -> Optional[int]:
+    if not pub_date:
+        return None
+    try:
+        dt = parsedate_to_datetime(pub_date)
+        if dt.tzinfo is None:
+            dt = dt.replace(tzinfo=timezone.utc)
+        delta = now_utc() - dt.astimezone(timezone.utc)
+        return max(0, int(delta.total_seconds() // 3600))
+    except Exception:
+        return None
+
+
+def fmt_pct(value: float, digits: int = 1) -> str:
+    return f"{value:+.{digits}f}%"
+
+
+def pct_change(new: float, old: float) -> float:
+    if not old:
+        return 0.0
+    return ((new - old) / old) * 100.0
+
+
+def yf_closes(symbol: str, period: str = "3y"):
+    hist = yf.Ticker(symbol).history(period=period, auto_adjust=True)
+    if hist is None or hist.empty or "Close" not in hist:
+        return None
+    return hist["Close"].dropna()
+
+
+def format_sast(utc_iso: str, fuzzy: bool = False) -> str:
+    """UTC ISO -> 'Friday 20 June 14h00'. Midnight TBD dates drop the fake time."""
+    if not utc_iso or "*" in utc_iso:
+        return utc_iso or "TBD"
+    try:
+        if "T" in utc_iso:
+            dt = datetime.fromisoformat(utc_iso.replace("Z", "+00:00"))
+        else:
+            dt = datetime.strptime(utc_iso[:10], "%Y-%m-%d").replace(tzinfo=timezone.utc)
+        if dt.tzinfo is None:
+            dt = dt.replace(tzinfo=timezone.utc)
+        sast = dt.astimezone(SAST)
+        weekday = calendar.day_name[sast.weekday()]
+        month = calendar.month_name[sast.month]
+        utc = dt.astimezone(timezone.utc)
+        if fuzzy and utc.hour == 0 and utc.minute == 0:
+            return f"{weekday} {sast.day} {month} (TBD)"
+        return f"{weekday} {sast.day} {month} {sast.strftime('%Hh%M')}"
+    except Exception:
+        return utc_iso[:16]
+
+
+# ------------------------------------------------------------------
+# Data fetchers
+# ------------------------------------------------------------------
+def fetch_stocks(use_cache: bool = True) -> Dict[str, Dict[str, Any]]:
+    cached = cache_get("stocks", use_cache)
+    if cached:
+        return cached
+
+    result: Dict[str, Dict[str, Any]] = {}
     try:
         tickers = yf.Tickers(" ".join(TICKERS))
-        # Fetch 3 years for reliable long-term changes
         hist = tickers.history(period="3y", auto_adjust=True, progress=False)
-
         for symbol in TICKERS:
             try:
                 closes = hist[("Close", symbol)].dropna()
                 if len(closes) < 2:
                     continue
-
                 latest = float(closes.iloc[-1])
                 prev_close = float(closes.iloc[-2])
-
-                change_1d = ((latest - prev_close) / prev_close) * 100
-
-                # ~3 trading days
                 idx_3d = min(3, len(closes) - 1)
-                val_3d = float(closes.iloc[-idx_3d])
-                change_3d = ((latest - val_3d) / val_3d) * 100
-
-                # ~1 month (~20 trading days)
                 idx_1m = min(20, len(closes) - 1)
-                val_1m = float(closes.iloc[-idx_1m])
-                change_1m = ((latest - val_1m) / val_1m) * 100
-
-                # ~3 months (~60 trading days)
-                idx_3m = min(60, len(closes) - 1)
-                val_3m = float(closes.iloc[-idx_3m])
-                change_3m = ((latest - val_3m) / val_3m) * 100
-
-                # 12 months (oldest in 1y window, or closest)
                 idx_12m = min(252, len(closes) - 1)
-                val_12m = float(closes.iloc[-idx_12m])
-                change_12m = ((latest - val_12m) / val_12m) * 100
-
-                # 3 years (oldest available)
-                val_3y = float(closes.iloc[0])
-                change_3y = ((latest - val_3y) / val_3y) * 100
-
                 result[symbol] = {
                     "price": round(latest, 2),
-                    "change_1d": round(change_1d, 2),
-                    "change_3d": round(change_3d, 2),
-                    "change_1m": round(change_1m, 2),
-                    "change_3m": round(change_3m, 2),
-                    "change_12m": round(change_12m, 2),
-                    "change_3y": round(change_3y, 2),
+                    "change_1d": round(pct_change(latest, prev_close), 2),
+                    "change_3d": round(pct_change(latest, float(closes.iloc[-idx_3d])), 2),
+                    "change_1m": round(pct_change(latest, float(closes.iloc[-idx_1m])), 2),
+                    "change_12m": round(pct_change(latest, float(closes.iloc[-idx_12m])), 2),
+                    "change_3y": round(pct_change(latest, float(closes.iloc[0])), 2),
                     "updated": datetime.now().isoformat(),
                 }
             except Exception:
                 continue
-
     except Exception as e:
         console.print(f"[red]Stock fetch error: {e}[/red]")
 
     if result:
-        cache["stocks"] = result
-        save_cache(cache)
+        cache_put("stocks", result)
     return result
 
 
-def fetch_cape_town_forecast() -> Dict[str, Any]:
-    """Fetch Cape Town weather forecast for +1h, +3h, +6h using Open-Meteo."""
-    cache = load_cache()
-    key = "cape_town_forecast"
-    if key in cache:
-        return cache[key]
+def fetch_cape_town_forecast(use_cache: bool = True) -> Dict[str, Any]:
+    cached = cache_get("cape_town_forecast", use_cache)
+    if cached:
+        return cached
 
     try:
         url = (
@@ -152,211 +203,383 @@ def fetch_cape_town_forecast() -> Dict[str, Any]:
             "&hourly=temperature_2m,weather_code,wind_speed_10m,wind_direction_10m,cloud_cover,precipitation"
             "&timezone=Africa/Johannesburg"
         )
-        resp = requests.get(url, timeout=10)
+        resp = requests.get(url, timeout=12)
         resp.raise_for_status()
         data = resp.json()
 
-        def wind_dir(deg):
-            dirs = ["N", "NNE", "NE", "ENE", "E", "ESE", "SE", "SSE",
-                    "S", "SSW", "SW", "WSW", "W", "WNW", "NW", "NNW"]
-            return dirs[round(deg / 22.5) % 16]
-
-        def weather_desc(code):
+        def weather_desc(code: int) -> str:
             mapping = {
                 0: "Clear", 1: "Mainly clear", 2: "Partly cloudy", 3: "Overcast",
-                45: "Fog", 61: "Light rain", 63: "Rain", 65: "Heavy rain"
+                45: "Fog", 61: "Light rain", 63: "Rain", 65: "Heavy rain",
             }
             return mapping.get(code, "Mixed")
 
         forecast = {}
-        for hours in [1, 3, 6]:
+        for hours in [1, 3, 6, 12, 24]:
             idx = hours
             forecast[f"+{hours}h"] = {
                 "temp": round(data["hourly"]["temperature_2m"][idx], 1),
                 "condition": weather_desc(data["hourly"]["weather_code"][idx]),
                 "wind_speed": round(data["hourly"]["wind_speed_10m"][idx], 1),
-                "wind_dir": wind_dir(data["hourly"]["wind_direction_10m"][idx]),
+                "wind_dir_deg": round(data["hourly"]["wind_direction_10m"][idx]),
                 "cloud": data["hourly"]["cloud_cover"][idx],
                 "rain": round(data["hourly"]["precipitation"][idx], 1),
             }
-
-        cache[key] = forecast
-        save_cache(cache)
+        cache_put("cape_town_forecast", forecast)
         return forecast
-
     except Exception as e:
         console.print(f"[yellow]Cape Town weather warning: {e}[/yellow]")
         return {}
 
 
-def fetch_key_numbers() -> Dict[str, str]:
-    """Return key numbers for the dashboard (curated + can be enriched)."""
+def _index_move(symbol: str, period: str = "10d") -> Optional[Dict[str, float]]:
+    closes = yf_closes(symbol, period=period)
+    if closes is None or len(closes) < 2:
+        return None
+    latest = float(closes.iloc[-1])
+    prev = float(closes.iloc[-2])
+    week = float(closes.iloc[0])
     return {
-        "usdZar": "18.35",
-        "usdZarWeek": "+0.8%",
-        "btc": "108,900",
-        "btcWeek": "-3.2%",
-        "tslaShortInterest": "2.7% (flat last 2 weeks)",  # JS hides unless "major move"
-        "jse": "+0.7%",
-        "sp500": "+0.9%"
-        # keyEvent (e.g. earnings) only added here when it's within ~3 days
+        "price": latest,
+        "change_1d": pct_change(latest, prev),
+        "change_1w": pct_change(latest, week),
     }
 
-def format_sast(utc_iso: str) -> str:
-    """Convert UTC ISO date to South African time format: 'Friday 20 June 14h00'"""
-    from datetime import datetime, timedelta
-    import calendar
 
-    if not utc_iso or "*" in utc_iso:
-        return utc_iso or "TBD"
+def fetch_key_numbers(use_cache: bool = True) -> Dict[str, str]:
+    cached = cache_get("key_numbers", use_cache)
+    if cached:
+        return cached
+
+    out: Dict[str, str] = {}
+
+    zar = _index_move("ZAR=X")
+    if zar:
+        out["usdZar"] = f"{zar['price']:.2f}"
+        out["usdZarWeek"] = fmt_pct(zar["change_1w"])
+        out["usdZarLabel"] = "rand weaker" if zar["change_1w"] > 0 else "rand stronger"
+
+    btc = _index_move("BTC-USD")
+    if btc:
+        out["btc"] = f"{btc['price']:.0f}"
+        out["btcWeek"] = fmt_pct(btc["change_1w"])
+
+    jse = _index_move("^J203.JO")
+    if jse:
+        out["jse"] = fmt_pct(jse["change_1d"])
+
+    sp = _index_move("^GSPC")
+    if sp:
+        out["sp500"] = fmt_pct(sp["change_1d"])
 
     try:
-        # Parse UTC time
-        if "T" in utc_iso:
-            dt = datetime.fromisoformat(utc_iso.replace("Z", "+00:00"))
-        else:
-            dt = datetime.strptime(utc_iso, "%Y-%m-%d")
-
-        # Convert to SAST (UTC+2)
-        sast = dt + timedelta(hours=2)
-
-        weekday = calendar.day_name[sast.weekday()]
-        day = sast.day
-        month = calendar.month_name[sast.month]
-        time_str = sast.strftime("%Hh%M")
-
-        return f"{weekday} {day} {month} {time_str}"
+        cal = yf.Ticker("TSLA").calendar or {}
+        dates = cal.get("Earnings Date") or []
+        if dates:
+            earn = dates[0]
+            if hasattr(earn, "year"):
+                earn_date = datetime(earn.year, earn.month, earn.day, tzinfo=SAST)
+            else:
+                earn_date = datetime.fromisoformat(str(earn)[:10]).replace(tzinfo=SAST)
+            days = (earn_date.date() - now_sast().date()).days
+            if 0 <= days <= 3:
+                when = "today" if days == 0 else ("tomorrow" if days == 1 else f"in {days} days")
+                out["keyEvent"] = f"TSLA earnings {when}"
     except Exception:
-        return utc_iso[:16]
+        pass
+
+    if out:
+        cache_put("key_numbers", out)
+    return out
 
 
-def fetch_spacex_launches(limit: int = 5) -> List[Dict[str, Any]]:
-    """Fetch upcoming SpaceX launches with SAST formatting."""
-    cache = load_cache()
-    if "launches" in cache:
-        return cache["launches"][:limit]
+def fetch_spacex_launches(limit: int = 5, use_cache: bool = True) -> List[Dict[str, Any]]:
+    cached = cache_get("launches", use_cache)
+    if cached:
+        return cached[:limit]
 
-    launches = []
+    launches: List[Dict[str, Any]] = []
     try:
-        resp = requests.get(SPACEX_API, timeout=12)
+        resp = requests.get(
+            LL2_UPCOMING,
+            params={"lsp__id": SPACEX_LSP_ID, "limit": 15, "mode": "list"},
+            timeout=20,
+            headers={"User-Agent": "robs-coffee/1.0"},
+        )
         resp.raise_for_status()
-        data = resp.json()
+        rows = resp.json().get("results") or []
+        cutoff = now_utc() - timedelta(hours=2)
 
-        for item in data[:limit * 2]:
-            name = item.get("name", "Unknown Mission")
-            date_utc = item.get("date_utc", "")
-            details = (item.get("details") or "")[:140]
+        def field_name(val) -> str:
+            if isinstance(val, dict):
+                return val.get("name") or ""
+            return val or ""
 
-            formatted_date = format_sast(date_utc)
-            highlight = "Starship" in name or "crew" in name.lower() or "Artemis" in details.lower()
+        raw = []
+        for item in rows:
+            try:
+                net = item.get("net") or ""
+                net_dt = datetime.fromisoformat(net.replace("Z", "+00:00"))
+                if net_dt < cutoff:
+                    continue
+                status_obj = item.get("status") or {}
+                status = (status_obj.get("abbrev") if isinstance(status_obj, dict) else str(status_obj)).upper()
+                if status in {"SUCCESS", "FAILURE", "PARTIAL FAILURE"}:
+                    continue
+                name = item.get("name") or "Unknown mission"
+                pad = field_name(item.get("pad"))
+                loc = field_name(item.get("location")) or field_name((item.get("pad") or {}).get("location") if isinstance(item.get("pad"), dict) else "")
+                details = " - ".join(p for p in [pad, loc] if p)
+                fuzzy = status in {"TBD", "TBC"} or (net_dt.hour == 0 and net_dt.minute == 0)
+                info_urls = item.get("infoURLs") or []
+                link = ""
+                if info_urls and isinstance(info_urls[0], dict):
+                    link = info_urls[0].get("url") or ""
+                elif info_urls and isinstance(info_urls[0], str):
+                    link = info_urls[0]
+                slug = item.get("slug") or ""
+                if not link:
+                    link = f"https://spacelaunchnow.me/launch/{slug}" if slug else "https://nextspaceflight.com/"
+                lower = name.lower()
+                highlight = any(k in lower for k in ("starship", "crew", "hls", "dragon", "roman"))
+                is_starlink = "starlink" in lower
+                raw.append({
+                    "name": name,
+                    "date": format_sast(net, fuzzy=fuzzy),
+                    "dateISO": net,
+                    "details": details,
+                    "highlight": highlight,
+                    "link": link,
+                    "starlink": is_starlink,
+                    "net_dt": net_dt,
+                })
+            except Exception:
+                continue
 
-            launches.append({
-                "name": name,
-                "date": formatted_date,
-                "details": details,
-                "highlight": highlight,
-            })
-            if len(launches) >= limit:
-                break
+        def clean_row(row: Dict[str, Any]) -> Dict[str, Any]:
+            return {k: v for k, v in row.items() if k not in {"starlink", "net_dt"}}
 
-    except Exception:
-        # High-quality curated upcoming missions (realistic as of 2025-2026)
-        launches = [
-            {
-                "name": "Starship Flight Test 8",
-                "date": "Friday 20 June 14h00",
-                "details": "Next major Starship integrated test flight",
-                "highlight": True
-            },
-            {
-                "name": "Starlink Group 16-4",
-                "date": "Tuesday 24 June 21h30",
-                "details": "Falcon 9 • Starlink mission",
-                "highlight": False
-            },
-            {
-                "name": "Starship Flight Test 9",
-                "date": "Wednesday 9 July 13h00",
-                "details": "Continuing rapid iteration on Starship",
-                "highlight": True
-            },
-            {
-                "name": "Starlink Group 17-2",
-                "date": "Saturday 12 July 02h15",
-                "details": "Falcon 9 rideshare",
-                "highlight": False
-            },
-        ]
+        starship = [r for r in raw if "starship" in r["name"].lower()]
+        highlights = [r for r in raw if r["highlight"] and "starship" not in r["name"].lower()]
+        starlinks = [r for r in raw if r["starlink"]]
+        other = [r for r in raw if not r["starlink"] and not r["highlight"]]
+
+        selected: List[Dict[str, Any]] = []
+        seen = set()
+
+        def take(rows: List[Dict[str, Any]], n: Optional[int] = None) -> None:
+            added = 0
+            for row in rows:
+                if len(selected) >= limit:
+                    break
+                if n is not None and added >= n:
+                    break
+                if row["name"] in seen:
+                    continue
+                seen.add(row["name"])
+                selected.append(row)
+                added += 1
+
+        take(starship, 1)
+        take(highlights)
+        take(starlinks, 2)
+        take(other)
+        selected.sort(key=lambda r: r["net_dt"])
+        launches = [clean_row(r) for r in selected]
+    except Exception as e:
+        console.print(f"[yellow]Launch fetch warning: {e}[/yellow]")
 
     if launches:
-        cache["launches"] = launches
-        save_cache(cache)
+        cache_put("launches", launches)
     return launches
 
 
-def fetch_news(limit: int = 6) -> List[Dict[str, str]]:
-    """Fetch recent positive Elon ecosystem news from multiple RSS feeds."""
-    cache = load_cache()
-    if "news" in cache:
-        return cache["news"][:limit]
+def fetch_news(limit: int = 6, use_cache: bool = True) -> List[Dict[str, Any]]:
+    cached = cache_get("news", use_cache)
+    if cached:
+        return cached[:limit]
 
-    news = []
-    import xml.etree.ElementTree as ET
-
-    for rss_url in NEWS_RSS_URLS:
+    news: List[Dict[str, Any]] = []
+    for rss_url, source in NEWS_RSS_URLS:
         try:
-            resp = requests.get(rss_url, timeout=10)
+            resp = requests.get(rss_url, timeout=12, headers={"User-Agent": "robs-coffee/1.0"})
+            resp.raise_for_status()
             root = ET.fromstring(resp.content)
-
             for item in root.findall(".//item")[:8]:
                 title = (item.findtext("title") or "").strip()
-                link = item.findtext("link") or ""
+                link = (item.findtext("link") or "").strip()
                 pub_date = item.findtext("pubDate") or ""
-
-                # Positive / relevant filter
-                if any(kw in title.lower() for kw in ["tesla", "spacex", "starship", "starlink", "cybertruck", "optimus", "xai", "neuralink", "boring"]):
-                    news.append({
-                        "title": title[:110],
-                        "link": link,
-                        "date": pub_date[:16] if pub_date else "",
-                        "source": rss_url.split("/")[2].replace("www.", "").split(".")[0].title()
-                    })
-                if len(news) >= limit * 2:
-                    break
+                if not title:
+                    continue
+                if not any(kw in title.lower() for kw in NEWS_KEYWORDS):
+                    continue
+                news.append({
+                    "title": title[:140],
+                    "link": link,
+                    "date": pub_date[:22] if pub_date else "",
+                    "hoursAgo": hours_ago(pub_date),
+                    "source": source,
+                })
         except Exception as e:
-            console.print(f"[yellow]News source warning ({rss_url}): {e}[/yellow]")
+            console.print(f"[yellow]News source warning ({source}): {e}[/yellow]")
 
-    # Deduplicate by title
     seen = set()
     deduped = []
     for item in news:
-        if item["title"] not in seen:
-            seen.add(item["title"])
-            deduped.append(item)
+        key = item["title"].lower()
+        if key in seen:
+            continue
+        seen.add(key)
+        deduped.append(item)
         if len(deduped) >= limit:
             break
 
-    if not deduped:
-        deduped = [
-            {"title": "SpaceX Starlink gets its latest airline adoptee", "link": "", "date": "Recent", "source": "Teslarati"},
-            {"title": "Tesla ships new feature that silences Supercharger complaints", "link": "", "date": "Recent", "source": "Teslarati"},
-        ]
-
-    cache["news"] = deduped
-    save_cache(cache)
+    if deduped:
+        cache_put("news", deduped)
     return deduped[:limit]
 
 
-# ------------------------------------------------------------------
-# RENDERING (Rich)
-# ------------------------------------------------------------------
-def render_dashboard(stocks, launches, news, weather=None):
-    console.rule("[bold amber]ROB'S COFFEE[/bold amber]", style="amber")
-    console.print(f"[dim]{datetime.now().strftime('%A, %B %d, %Y • %H:%M')}[/dim]\n")
+def fetch_world_events(limit: int = 5, use_cache: bool = True) -> List[Dict[str, Any]]:
+    cached = cache_get("world_events", use_cache)
+    if cached:
+        return cached[:limit]
 
-    # Stocks
+    events: List[Dict[str, Any]] = []
+    try:
+        resp = requests.get(WORLD_RSS, timeout=12, headers={"User-Agent": "robs-coffee/1.0"})
+        resp.raise_for_status()
+        root = ET.fromstring(resp.content)
+        for item in root.findall(".//item"):
+            title = (item.findtext("title") or "").strip()
+            link = (item.findtext("link") or "").split("?")[0]
+            pub_date = item.findtext("pubDate") or ""
+            ago = hours_ago(pub_date)
+            if ago is None or ago > 36:
+                continue
+            if not title:
+                continue
+            events.append({
+                "text": title,
+                "hoursAgo": ago,
+                "link": link,
+            })
+            if len(events) >= limit:
+                break
+    except Exception as e:
+        console.print(f"[yellow]World events warning: {e}[/yellow]")
+
+    if events:
+        cache_put("world_events", events)
+    return events
+
+
+def fetch_calendar(limit: int = 8) -> List[Dict[str, Any]]:
+    """Optional. Set CALENDAR_ICS_URL to a private Google Calendar ICS address.
+
+    Only titles and times are stored. Descriptions are discarded so a public
+    GitHub Pages deploy does not leak meeting notes or medical detail.
+    """
+    url = os.environ.get("CALENDAR_ICS_URL", "").strip()
+    if not url:
+        return []
+
+    try:
+        resp = requests.get(url, timeout=15)
+        resp.raise_for_status()
+        text = resp.text
+    except Exception as e:
+        console.print(f"[yellow]Calendar warning: {e}[/yellow]")
+        return []
+
+    events: List[Dict[str, Any]] = []
+    blocks = text.split("BEGIN:VEVENT")
+    window_end = now_sast() + timedelta(days=5)
+    today = now_sast().date()
+
+    def unfold(raw: str) -> str:
+        return raw.replace("\r\n ", "").replace("\n ", "")
+
+    def ics_dt(value: str) -> Optional[datetime]:
+        value = value.strip()
+        try:
+            if value.endswith("Z"):
+                return datetime.strptime(value, "%Y%m%dT%H%M%SZ").replace(tzinfo=timezone.utc).astimezone(SAST)
+            if "T" in value:
+                return datetime.strptime(value, "%Y%m%dT%H%M%S").replace(tzinfo=SAST)
+            return datetime.strptime(value[:8], "%Y%m%d").replace(tzinfo=SAST)
+        except Exception:
+            return None
+
+    for block in blocks[1:]:
+        block = unfold(block)
+        summary = ""
+        start = None
+        all_day = False
+        for line in block.splitlines():
+            if line.startswith("SUMMARY"):
+                summary = line.split(":", 1)[-1].strip()
+            elif line.startswith("DTSTART"):
+                raw = line.split(":", 1)[-1]
+                all_day = "VALUE=DATE" in line or ("T" not in raw)
+                start = ics_dt(raw)
+        if not summary or start is None:
+            continue
+        start_date = start.date()
+        if start_date < today or start > window_end:
+            continue
+        if start_date == today:
+            when = "today" if all_day or (start.hour == 0 and start.minute == 0) else start.strftime("%Hh%M")
+        elif start_date == today + timedelta(days=1):
+            when = "tomorrow" if all_day else f"tomorrow {start.strftime('%Hh%M')}"
+        else:
+            when = start.strftime("%a %d %b") if all_day else start.strftime("%a %d %b %Hh%M")
+        events.append({
+            "title": summary[:80],
+            "when": when,
+            "startISO": start.isoformat(),
+        })
+
+    events.sort(key=lambda e: e["startISO"])
+    return events[:limit]
+
+
+# ------------------------------------------------------------------
+# Rendering (Rich)
+# ------------------------------------------------------------------
+def render_dashboard(stocks, launches, news, weather=None, key_numbers=None, world_events=None, calendar_events=None):
+    console.rule("[bold amber]ROB'S COFFEE[/bold amber]", style="amber")
+    console.print(f"[dim]{now_sast().strftime('%A, %B %d, %Y  %H:%M')} SAST[/dim]\n")
+
+    if calendar_events:
+        console.print(Panel.fit("[bold]Coming up[/bold]", border_style="blue"))
+        for ev in calendar_events:
+            console.print(f"  [bold]{ev['when']}[/bold]  {ev['title']}")
+        console.print()
+
+    if world_events:
+        console.print(Panel.fit("[bold red]World events[/bold red]  last 24h", border_style="red"))
+        for ev in world_events:
+            console.print(f"  {ev['hoursAgo']}h • {ev['text']}")
+        console.print()
+
+    if key_numbers:
+        bits = []
+        if key_numbers.get("usdZar"):
+            bits.append(f"R{key_numbers['usdZar']}/$ {key_numbers.get('usdZarWeek', '')} {key_numbers.get('usdZarLabel', '')}")
+        if key_numbers.get("btc"):
+            btc = float(key_numbers["btc"])
+            bits.append(f"BTC ${btc/1000:.1f}k {key_numbers.get('btcWeek', '')}")
+        if key_numbers.get("jse"):
+            bits.append(f"JSE {key_numbers['jse']}")
+        if key_numbers.get("sp500"):
+            bits.append(f"S&P {key_numbers['sp500']}")
+        if key_numbers.get("keyEvent"):
+            bits.append(key_numbers["keyEvent"])
+        if bits:
+            console.print("[bold]Key numbers[/bold]  " + "   ".join(bits) + "\n")
+
     if stocks:
-        table = Table(title="📈 Market Snapshot (TSLA, NVDA & MU)", box=box.SIMPLE_HEAVY)
+        table = Table(title="Market Snapshot (TSLA, NVDA, MU)", box=box.SIMPLE_HEAVY)
         table.add_column("Ticker", style="bold")
         table.add_column("Price", justify="right")
         table.add_column("1D", justify="right")
@@ -364,96 +587,81 @@ def render_dashboard(stocks, launches, news, weather=None):
         table.add_column("1M", justify="right")
         table.add_column("12M", justify="right")
         table.add_column("3Y", justify="right")
-
         for sym, data in stocks.items():
-            def fmt(key):
-                val = data.get(key, 0)
+            def fmt(key, d=data):
+                val = d.get(key, 0)
                 color = "green" if val >= 0 else "red"
                 return f"[{color}]{val:+.1f}%[/]"
-
-            table.add_row(
-                sym,
-                f"${data['price']}",
-                fmt("change_1d"),
-                fmt("change_3d"),
-                fmt("change_1m"),
-                fmt("change_12m"),
-                fmt("change_3y"),
-            )
+            table.add_row(sym, f"${data['price']}", fmt("change_1d"), fmt("change_3d"), fmt("change_1m"), fmt("change_12m"), fmt("change_3y"))
         console.print(table)
         console.print()
 
-    # Cape Town Weather (forecast)
     if weather:
-        console.print(Panel.fit("[bold cyan]Cape Town Weather Forecast[/bold cyan]", border_style="cyan"))
+        console.print(Panel.fit("[bold cyan]Cape Town[/bold cyan]", border_style="cyan"))
         for label, w in weather.items():
             console.print(
                 f"  [bold]{label}[/bold]  {w['temp']}°C  {w['condition']}  "
-                f"Wind {w['wind_speed']} km/h {w['wind_dir']}  "
-                f"Cloud {w['cloud']}%  Rain {w['rain']}mm"
+                f"Wind {w['wind_speed']} km/h  Cloud {w['cloud']}%  Rain {w['rain']}mm"
             )
         console.print()
 
-    # Launches
     if launches:
-        console.print(Panel.fit("[bold]🚀 Starship & Key Missions[/bold]", border_style="magenta"))
-        for l in launches:
-            prefix = "★ " if l.get("highlight") else "  "
-            console.print(f"{prefix}[bold]{l['name']}[/bold]  •  {l['date']}")
-            if l.get("details"):
-                console.print(f"   [dim]{l['details']}[/dim]")
+        console.print(Panel.fit("[bold]SpaceX[/bold]", border_style="magenta"))
+        for launch in launches:
+            prefix = "★ " if launch.get("highlight") else "  "
+            console.print(f"{prefix}[bold]{launch['name']}[/bold]  •  {launch['date']}")
+            if launch.get("details"):
+                console.print(f"   [dim]{launch['details']}[/dim]")
         console.print()
 
-    # News
     if news:
-        console.print(Panel.fit("[bold green]Latest Updates[/bold green] (Tesla • xAI • SpaceX)", border_style="green"))
+        console.print(Panel.fit("[bold green]Tesla • SpaceX • xAI[/bold green]", border_style="green"))
         for item in news:
-            console.print(f"• {item['title']}")
-            if item.get("date"):
-                console.print(f"  [dim]{item['date']}[/dim]")
+            ago = item.get("hoursAgo")
+            prefix = f"{ago}h • " if ago is not None else ""
+            console.print(f"  {prefix}{item['title']}")
         console.print()
 
     console.rule(style="dim")
-    console.print("[dim]Run [bold]elon --help[/bold] for options  •  Data cached ~45min  •  elon-dashboard.html for visuals[/dim]")
+    console.print("[dim]Data cached ~45min  •  open robs-coffee.html for the phone view[/dim]")
 
 
 def main():
     import argparse
 
-    parser = argparse.ArgumentParser(description="Elon Dashboard - quick daily overview")
-    parser.add_argument("--stocks", action="store_true", help="Show only stock prices")
-    parser.add_argument("--launches", action="store_true", help="Show only upcoming SpaceX launches")
-    parser.add_argument("--news", action="store_true", help="Show only recent highlights")
-    parser.add_argument("--refresh", action="store_true", help="Force refresh all data (ignore cache)")
+    parser = argparse.ArgumentParser(description="Rob's Coffee - daily briefing")
+    parser.add_argument("--stocks", action="store_true")
+    parser.add_argument("--launches", action="store_true")
+    parser.add_argument("--news", action="store_true")
+    parser.add_argument("--refresh", action="store_true", help="Ignore cache")
     args = parser.parse_args()
 
-    if args.refresh:
-        if CACHE_FILE.exists():
-            CACHE_FILE.unlink()
+    if args.refresh and CACHE_FILE.exists():
+        CACHE_FILE.unlink()
 
-    stocks = fetch_stocks()
-    launches = fetch_spacex_launches()
-    news_items = fetch_news()
+    use_cache = not args.refresh
+    stocks = fetch_stocks(use_cache=use_cache)
+    launches = fetch_spacex_launches(use_cache=use_cache)
+    news_items = fetch_news(use_cache=use_cache)
 
     if args.stocks:
-        # simple stock only output
         for sym, d in stocks.items():
-            print(f"{sym}: ${d['price']}  | 1D: {d.get('change_1d', 0):+.1f}%  3D: {d.get('change_3d', 0):+.1f}%  1M: {d.get('change_1m', 0):+.1f}%  12M: {d.get('change_12m', 0):+.1f}%  3Y: {d.get('change_3y', 0):+.1f}%")
+            print(f"{sym}: ${d['price']}  | 1D {d.get('change_1d', 0):+.1f}%  3D {d.get('change_3d', 0):+.1f}%  1M {d.get('change_1m', 0):+.1f}%  12M {d.get('change_12m', 0):+.1f}%  3Y {d.get('change_3y', 0):+.1f}%")
         return
-
     if args.launches:
-        for l in launches:
-            print(f"{l['name']} | {l['date']}")
+        for launch in launches:
+            print(f"{launch['name']} | {launch['date']}")
         return
-
     if args.news:
         for n in news_items:
             print(f"- {n['title']}")
         return
 
-    # Full dashboard
-    weather = fetch_cape_town_forecast()
-    render_dashboard(stocks, launches, news_items, weather)
+    weather = fetch_cape_town_forecast(use_cache=use_cache)
+    key_numbers = fetch_key_numbers(use_cache=use_cache)
+    world_events = fetch_world_events(use_cache=use_cache)
+    calendar_events = fetch_calendar()
+    render_dashboard(stocks, launches, news_items, weather, key_numbers, world_events, calendar_events)
 
 
 if __name__ == "__main__":
