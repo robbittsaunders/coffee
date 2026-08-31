@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-30T16:01+02:00",
+  "updatedAt": "2026-08-31T12:32+02:00",
   "stocks": {
     "TSLA": {
       "price": 348.75,
@@ -8,16 +8,7 @@
       "change_1m": 8.28,
       "change_12m": 0.8,
       "change_3y": 35.61,
-      "updated": "2026-08-30T16:00:59.329824"
-    },
-    "NVDA": {
-      "price": 217.55,
-      "change_1d": -4.57,
-      "change_3d": 3.76,
-      "change_1m": 5.28,
-      "change_12m": 20.91,
-      "change_3y": 346.81,
-      "updated": "2026-08-30T16:00:59.330091"
+      "updated": "2026-08-31T10:32:13.987828"
     },
     "MU": {
       "price": 932.86,
@@ -25,51 +16,51 @@
       "change_3d": -0.59,
       "change_1m": 12.46,
       "change_12m": 665.87,
-      "change_3y": 1314.64,
-      "updated": "2026-08-30T16:00:59.330289"
+      "change_3y": 1314.65,
+      "updated": "2026-08-31T10:32:13.988135"
     }
   },
   "news": [
     {
+      "title": "Elon Musk says he knows how to save Earth for a billion years",
+      "link": "https://www.teslarati.com/elon-musk-says-he-knows-how-to-save-earth-for-a-billion-years/",
+      "date": "Mon, 31 Aug 2026 05:16",
+      "hoursAgo": 5,
+      "source": "Teslarati"
+    },
+    {
       "title": "OpenAI cites distrust of SpaceX in decision to drop Cursor partnership",
       "link": "https://www.teslarati.com/openai-cites-distrust-of-spacex-in-decision-to-drop-cursor-partnership/",
       "date": "Sat, 29 Aug 2026 04:08",
-      "hoursAgo": 33,
+      "hoursAgo": 54,
       "source": "Teslarati"
     },
     {
       "title": "Tesla Theater might be getting plenty more streaming platforms",
       "link": "https://www.teslarati.com/tesla-theater-getting-more-streaming-platforms/",
       "date": "Fri, 28 Aug 2026 17:14",
-      "hoursAgo": 44,
+      "hoursAgo": 65,
       "source": "Teslarati"
     },
     {
       "title": "Tesla Semi’s biggest adoptee gives an update on production timeline",
       "link": "https://www.teslarati.com/tesla-semi-biggest-adoptee-update-production-timeline/",
       "date": "Fri, 28 Aug 2026 15:40",
-      "hoursAgo": 46,
+      "hoursAgo": 66,
       "source": "Teslarati"
     },
     {
       "title": "Police sergeant recounts his Neuralink journey with Elon Musk’s brain chip",
       "link": "https://www.teslarati.com/police-sergeant-recounts-his-neuralink-journey-with-elon-musks-brain-chip/",
       "date": "Fri, 28 Aug 2026 05:43",
-      "hoursAgo": 56,
+      "hoursAgo": 76,
       "source": "Teslarati"
     },
     {
       "title": "Tesla Cybercab uses a unique strategy for picking up the right rider",
       "link": "https://www.teslarati.com/tesla-cybercab-unique-strategy-for-picking-up-right-rider/",
       "date": "Thu, 27 Aug 2026 19:16",
-      "hoursAgo": 66,
-      "source": "Teslarati"
-    },
-    {
-      "title": "Tesla ends in-house wrap service that always seemed like a short-term program",
-      "link": "https://www.teslarati.com/tesla-ends-in-house-wrap-service/",
-      "date": "Thu, 27 Aug 2026 17:00",
-      "hoursAgo": 69,
+      "hoursAgo": 87,
       "source": "Teslarati"
     }
   ],
@@ -77,80 +68,80 @@
   "roasts": [],
   "weather": {
     "+1h": {
-      "temp": 11.0,
-      "condition": "Mainly clear",
-      "wind_speed": 5.0,
-      "wind_dir_deg": 165,
-      "cloud": 40,
+      "temp": 12.1,
+      "condition": "Clear",
+      "wind_speed": 16.3,
+      "wind_dir_deg": 158,
+      "cloud": 4,
       "rain": 0.0
     },
     "+3h": {
-      "temp": 12.4,
-      "condition": "Overcast",
-      "wind_speed": 10.0,
-      "wind_dir_deg": 165,
-      "cloud": 100,
+      "temp": 12.2,
+      "condition": "Clear",
+      "wind_speed": 17.3,
+      "wind_dir_deg": 163,
+      "cloud": 0,
       "rain": 0.0
     },
     "+6h": {
-      "temp": 12.5,
-      "condition": "Overcast",
-      "wind_speed": 11.8,
+      "temp": 10.7,
+      "condition": "Mainly clear",
+      "wind_speed": 8.8,
       "wind_dir_deg": 161,
-      "cloud": 100,
+      "cloud": 23,
       "rain": 0.0
     },
     "+12h": {
-      "temp": 15.8,
-      "condition": "Partly cloudy",
-      "wind_speed": 19.0,
-      "wind_dir_deg": 147,
-      "cloud": 50,
+      "temp": 16.6,
+      "condition": "Clear",
+      "wind_speed": 14.3,
+      "wind_dir_deg": 163,
+      "cloud": 0,
       "rain": 0.0
     },
     "+24h": {
-      "temp": 12.7,
-      "condition": "Partly cloudy",
-      "wind_speed": 19.7,
-      "wind_dir_deg": 156,
-      "cloud": 63,
+      "temp": 11.0,
+      "condition": "Overcast",
+      "wind_speed": 6.7,
+      "wind_dir_deg": 188,
+      "cloud": 83,
       "rain": 0.0
     }
   },
   "keyNumbers": {
-    "usdZar": "16.17",
-    "usdZarWeek": "-0.1%",
+    "usdZar": "15.99",
+    "usdZarWeek": "-1.4%",
     "usdZarLabel": "rand stronger",
-    "btc": "78831",
-    "btcWeek": "+0.6%",
-    "jse": "+1.2%",
+    "btc": "78384",
+    "btcWeek": "+1.7%",
+    "jse": "-0.5%",
     "sp500": "-0.2%"
   },
   "worldEvents": [
     {
-      "text": "Iceland votes against restarting talks on joining EU",
-      "hoursAgo": 3,
-      "link": "https://www.bbc.co.uk/news/articles/c70le8ed1plo"
-    },
-    {
-      "text": "Manhunt after shooting at Swiss rave kills woman, 22, and injures five",
+      "text": "US and Iran trade strikes for first time in weeks",
       "hoursAgo": 1,
-      "link": "https://www.bbc.co.uk/news/articles/c9qr750je1go"
+      "link": "https://www.bbc.co.uk/news/articles/cx2z72x5z1po"
     },
     {
-      "text": "Large Lake Ontario sign installed in Canada in latest jab at US",
-      "hoursAgo": 13,
-      "link": "https://www.bbc.co.uk/news/articles/cpq09594vw7o"
+      "text": "Eight killed and 18 missing after ferry capsizes off northern Cyprus",
+      "hoursAgo": 6,
+      "link": "https://www.bbc.co.uk/news/articles/c770jyd4l7lo"
     },
     {
-      "text": "WhatsApp chat used to send cash for crime and extremism",
-      "hoursAgo": 9,
-      "link": "https://www.bbc.co.uk/news/articles/cgk57lg7566o"
+      "text": "South African airline defends low-altitude aerial stunt over packed stadium",
+      "hoursAgo": 0,
+      "link": "https://www.bbc.co.uk/news/articles/c3rew8jqny5o"
     },
     {
-      "text": "At least 37 dead and hundreds evacuated after strike on Kyiv weapons depot",
-      "hoursAgo": 17,
-      "link": "https://www.bbc.co.uk/news/articles/c86xwqez4npo"
+      "text": "Dolly Parton laid to rest alongside husband in Nashville",
+      "hoursAgo": 1,
+      "link": "https://www.bbc.co.uk/news/articles/cew95ke74l7o"
+    },
+    {
+      "text": "'Moonies' church leader jailed for two years over bribery offences",
+      "hoursAgo": 3,
+      "link": "https://www.bbc.co.uk/news/articles/c8xkqjdk142o"
     }
   ],
   "launches": [
@@ -197,45 +188,45 @@
   ],
   "companyNews": [
     {
+      "title": "Elon Musk says he knows how to save Earth for a billion years",
+      "link": "https://www.teslarati.com/elon-musk-says-he-knows-how-to-save-earth-for-a-billion-years/",
+      "date": "Mon, 31 Aug 2026 05:16",
+      "hoursAgo": 5,
+      "source": "Teslarati"
+    },
+    {
       "title": "OpenAI cites distrust of SpaceX in decision to drop Cursor partnership",
       "link": "https://www.teslarati.com/openai-cites-distrust-of-spacex-in-decision-to-drop-cursor-partnership/",
       "date": "Sat, 29 Aug 2026 04:08",
-      "hoursAgo": 33,
+      "hoursAgo": 54,
       "source": "Teslarati"
     },
     {
       "title": "Tesla Theater might be getting plenty more streaming platforms",
       "link": "https://www.teslarati.com/tesla-theater-getting-more-streaming-platforms/",
       "date": "Fri, 28 Aug 2026 17:14",
-      "hoursAgo": 44,
+      "hoursAgo": 65,
       "source": "Teslarati"
     },
     {
       "title": "Tesla Semi’s biggest adoptee gives an update on production timeline",
       "link": "https://www.teslarati.com/tesla-semi-biggest-adoptee-update-production-timeline/",
       "date": "Fri, 28 Aug 2026 15:40",
-      "hoursAgo": 46,
+      "hoursAgo": 66,
       "source": "Teslarati"
     },
     {
       "title": "Police sergeant recounts his Neuralink journey with Elon Musk’s brain chip",
       "link": "https://www.teslarati.com/police-sergeant-recounts-his-neuralink-journey-with-elon-musks-brain-chip/",
       "date": "Fri, 28 Aug 2026 05:43",
-      "hoursAgo": 56,
+      "hoursAgo": 76,
       "source": "Teslarati"
     },
     {
       "title": "Tesla Cybercab uses a unique strategy for picking up the right rider",
       "link": "https://www.teslarati.com/tesla-cybercab-unique-strategy-for-picking-up-right-rider/",
       "date": "Thu, 27 Aug 2026 19:16",
-      "hoursAgo": 66,
-      "source": "Teslarati"
-    },
-    {
-      "title": "Tesla ends in-house wrap service that always seemed like a short-term program",
-      "link": "https://www.teslarati.com/tesla-ends-in-house-wrap-service/",
-      "date": "Thu, 27 Aug 2026 17:00",
-      "hoursAgo": 69,
+      "hoursAgo": 87,
       "source": "Teslarati"
     }
   ],
