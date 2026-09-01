@@ -1,75 +1,75 @@
 {
-  "updatedAt": "2026-09-01T19:21+02:00",
+  "updatedAt": "2026-09-01T23:07+02:00",
   "stocks": {
     "TSLA": {
-      "price": 356.87,
-      "change_1d": -3.01,
-      "change_3d": 2.33,
-      "change_1m": 10.98,
-      "change_12m": 8.35,
-      "change_3y": 45.66,
-      "updated": "2026-09-01T17:21:06.823670"
+      "price": 356.09,
+      "change_1d": -3.22,
+      "change_3d": 2.1,
+      "change_1m": 10.74,
+      "change_12m": 8.12,
+      "change_3y": 38.83,
+      "updated": "2026-09-01T21:07:52.181219"
     },
     "NVDA": {
-      "price": 218.25,
-      "change_1d": -1.15,
-      "change_3d": 0.32,
-      "change_1m": -0.44,
-      "change_12m": 27.97,
-      "change_3y": 350.79,
-      "updated": "2026-09-01T17:21:06.823873"
+      "price": 217.44,
+      "change_1d": -1.51,
+      "change_3d": -0.05,
+      "change_1m": -0.81,
+      "change_12m": 27.49,
+      "change_3y": 348.76,
+      "updated": "2026-09-01T21:07:52.181388"
     },
     "MU": {
-      "price": 941.32,
-      "change_1d": -1.82,
-      "change_3d": 0.91,
-      "change_1m": 5.39,
-      "change_12m": 695.77,
-      "change_3y": 1252.24,
-      "updated": "2026-09-01T17:21:06.824051"
+      "price": 933.44,
+      "change_1d": -2.64,
+      "change_3d": 0.06,
+      "change_1m": 4.51,
+      "change_12m": 689.11,
+      "change_3y": 1242.82,
+      "updated": "2026-09-01T21:07:52.181519"
     }
   },
   "news": [
     {
-      "title": "Elon Musk says SpaceX would not exist if this crucial early launch failed",
+      "title": "SpaceX tells the FCC that Starship Flight 14 is going to orbit",
+      "link": "https://www.teslarati.com/spacex-tells-the-fcc-that-starship-flight-14-is-going-to-orbit/",
+      "date": "Tue, 01 Sep 2026 19:23",
+      "hoursAgo": 1,
+      "source": "Teslarati"
+    },
+    {
+      "title": "Tesla Cybercab Event: what to expect from Austin",
+      "link": "https://www.teslarati.com/tesla-cybercab-event-what-to-expect-from-austin/",
+      "date": "Tue, 01 Sep 2026 18:07",
+      "hoursAgo": 3,
+      "source": "Teslarati"
+    },
+    {
+      "title": "SpaceX would not exist if this crucial early launch failed, Musk says",
       "link": "https://www.teslarati.com/elon-musk-spacex-would-not-exist-crucial-early-launch-failed/",
       "date": "Tue, 01 Sep 2026 15:37",
-      "hoursAgo": 1,
+      "hoursAgo": 5,
       "source": "Teslarati"
     },
     {
       "title": "Tesla surges Robotaxi fleet ahead of Cybercab launch event",
       "link": "https://www.teslarati.com/tesla-surges-robotaxi-fleet-ahead-of-cybercab-launch-event/",
       "date": "Tue, 01 Sep 2026 05:01",
-      "hoursAgo": 12,
+      "hoursAgo": 16,
       "source": "Teslarati"
     },
     {
       "title": "Tesla Cybertruck windshield protection just got cheaper",
       "link": "https://www.teslarati.com/tesla-cybertruck-windshield-protection-cheaper/",
       "date": "Mon, 31 Aug 2026 20:08",
-      "hoursAgo": 21,
+      "hoursAgo": 24,
       "source": "Teslarati"
     },
     {
       "title": "Tesla Cybercab fleet grows in Austin ahead of launch event",
       "link": "https://www.teslarati.com/tesla-cybercab-fleet-grows-austin-ahead-launch-event/",
       "date": "Mon, 31 Aug 2026 17:17",
-      "hoursAgo": 24,
-      "source": "Teslarati"
-    },
-    {
-      "title": "Tesla expands driverless Robotaxi geofence in Austin",
-      "link": "https://www.teslarati.com/tesla-expands-driverless-robotaxi-geofence-austin/",
-      "date": "Mon, 31 Aug 2026 15:08",
-      "hoursAgo": 26,
-      "source": "Teslarati"
-    },
-    {
-      "title": "Elon Musk’s Grok can basically control anything in your Tesla now",
-      "link": "https://www.teslarati.com/elon-musk-grok-basically-control-anything-in-your-tesla/",
-      "date": "Mon, 31 Aug 2026 14:51",
-      "hoursAgo": 26,
+      "hoursAgo": 27,
       "source": "Teslarati"
     }
   ],
@@ -111,18 +111,18 @@
     "+24h": {
       "temp": 11.7,
       "condition": "Partly cloudy",
-      "wind_speed": 5.8,
-      "wind_dir_deg": 176,
-      "cloud": 64,
+      "wind_speed": 5.3,
+      "wind_dir_deg": 172,
+      "cloud": 61,
       "rain": 0.0
     }
   },
   "keyNumbers": {
-    "usdZar": "16.14",
-    "usdZarWeek": "-0.7%",
+    "usdZar": "16.17",
+    "usdZarWeek": "-0.5%",
     "usdZarLabel": "rand stronger",
-    "btc": "77588",
-    "btcWeek": "-0.2%",
+    "btc": "77211",
+    "btcWeek": "-0.7%",
     "jse": "-0.3%",
     "sp500": "-0.7%"
   },
@@ -133,24 +133,24 @@
       "link": "https://www.bbc.co.uk/news/articles/c5ylm3m67n2o"
     },
     {
+      "text": "US launches more strikes on Iran as state media reports explosions",
+      "hoursAgo": 0,
+      "link": "https://www.bbc.co.uk/news/articles/cj06q4ynpmjo"
+    },
+    {
       "text": "'I've never been to Afghanistan': Six million deportees forced to start over under the Taliban",
-      "hoursAgo": 12,
+      "hoursAgo": 16,
       "link": "https://www.bbc.co.uk/news/articles/c2e074nn8eko"
     },
     {
       "text": "River water smashed into tunnel and chased me for 20 minutes, Nepal worker tells BBC",
-      "hoursAgo": 1,
+      "hoursAgo": 4,
       "link": "https://www.bbc.co.uk/news/articles/cg49590v6k1o"
     },
     {
       "text": "Sexual assaults happening almost every day in Ceuta, prosecutors say",
-      "hoursAgo": 1,
+      "hoursAgo": 5,
       "link": "https://www.bbc.co.uk/news/articles/c3v4pgk7gweo"
-    },
-    {
-      "text": "Vance calls Michigan Senate candidate El-Sayed 'evil' at campaign rally",
-      "hoursAgo": 1,
-      "link": "https://www.bbc.co.uk/news/articles/cn9w39py48xo"
     }
   ],
   "launches": [
@@ -197,45 +197,45 @@
   ],
   "companyNews": [
     {
-      "title": "Elon Musk says SpaceX would not exist if this crucial early launch failed",
+      "title": "SpaceX tells the FCC that Starship Flight 14 is going to orbit",
+      "link": "https://www.teslarati.com/spacex-tells-the-fcc-that-starship-flight-14-is-going-to-orbit/",
+      "date": "Tue, 01 Sep 2026 19:23",
+      "hoursAgo": 1,
+      "source": "Teslarati"
+    },
+    {
+      "title": "Tesla Cybercab Event: what to expect from Austin",
+      "link": "https://www.teslarati.com/tesla-cybercab-event-what-to-expect-from-austin/",
+      "date": "Tue, 01 Sep 2026 18:07",
+      "hoursAgo": 3,
+      "source": "Teslarati"
+    },
+    {
+      "title": "SpaceX would not exist if this crucial early launch failed, Musk says",
       "link": "https://www.teslarati.com/elon-musk-spacex-would-not-exist-crucial-early-launch-failed/",
       "date": "Tue, 01 Sep 2026 15:37",
-      "hoursAgo": 1,
+      "hoursAgo": 5,
       "source": "Teslarati"
     },
     {
       "title": "Tesla surges Robotaxi fleet ahead of Cybercab launch event",
       "link": "https://www.teslarati.com/tesla-surges-robotaxi-fleet-ahead-of-cybercab-launch-event/",
       "date": "Tue, 01 Sep 2026 05:01",
-      "hoursAgo": 12,
+      "hoursAgo": 16,
       "source": "Teslarati"
     },
     {
       "title": "Tesla Cybertruck windshield protection just got cheaper",
       "link": "https://www.teslarati.com/tesla-cybertruck-windshield-protection-cheaper/",
       "date": "Mon, 31 Aug 2026 20:08",
-      "hoursAgo": 21,
+      "hoursAgo": 24,
       "source": "Teslarati"
     },
     {
       "title": "Tesla Cybercab fleet grows in Austin ahead of launch event",
       "link": "https://www.teslarati.com/tesla-cybercab-fleet-grows-austin-ahead-launch-event/",
       "date": "Mon, 31 Aug 2026 17:17",
-      "hoursAgo": 24,
-      "source": "Teslarati"
-    },
-    {
-      "title": "Tesla expands driverless Robotaxi geofence in Austin",
-      "link": "https://www.teslarati.com/tesla-expands-driverless-robotaxi-geofence-austin/",
-      "date": "Mon, 31 Aug 2026 15:08",
-      "hoursAgo": 26,
-      "source": "Teslarati"
-    },
-    {
-      "title": "Elon Musk’s Grok can basically control anything in your Tesla now",
-      "link": "https://www.teslarati.com/elon-musk-grok-basically-control-anything-in-your-tesla/",
-      "date": "Mon, 31 Aug 2026 14:51",
-      "hoursAgo": 26,
+      "hoursAgo": 27,
       "source": "Teslarati"
     }
   ],
