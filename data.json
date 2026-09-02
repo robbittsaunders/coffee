@@ -1,75 +1,75 @@
 {
-  "updatedAt": "2026-09-02T19:12+02:00",
+  "updatedAt": "2026-09-02T21:51+02:00",
   "stocks": {
     "TSLA": {
-      "price": 353.07,
-      "change_1d": -0.85,
-      "change_3d": -4.05,
-      "change_1m": 10.5,
-      "change_12m": 5.68,
-      "change_3y": 37.65,
-      "updated": "2026-09-02T17:12:23.285786"
+      "price": 355.67,
+      "change_1d": -0.12,
+      "change_3d": -3.34,
+      "change_1m": 11.31,
+      "change_12m": 6.46,
+      "change_3y": 38.67,
+      "updated": "2026-09-02T19:51:19.707693"
     },
     "NVDA": {
-      "price": 224.98,
-      "change_1d": 3.47,
-      "change_3d": 1.9,
-      "change_1m": 2.74,
-      "change_12m": 32.04,
-      "change_3y": 364.32,
-      "updated": "2026-09-02T17:12:23.285981"
+      "price": 224.27,
+      "change_1d": 3.14,
+      "change_3d": 1.58,
+      "change_1m": 2.41,
+      "change_12m": 31.62,
+      "change_3y": 362.86,
+      "updated": "2026-09-02T19:51:19.707894"
     },
     "MU": {
-      "price": 943.65,
-      "change_1d": 1.09,
-      "change_3d": -1.57,
-      "change_1m": 7.05,
-      "change_12m": 696.12,
-      "change_3y": 1257.51,
-      "updated": "2026-09-02T17:12:23.286153"
+      "price": 954.0,
+      "change_1d": 2.2,
+      "change_3d": -0.49,
+      "change_1m": 8.23,
+      "change_12m": 704.86,
+      "change_3y": 1272.4,
+      "updated": "2026-09-02T19:51:19.708069"
     }
   },
   "news": [
     {
-      "title": "Tesla starts teasing and hyping groundbreaking Cybercab event",
+      "title": "Tesla Model Y L gets suspension complaints in over odd issue China",
+      "link": "https://www.teslarati.com/tesla-model-y-l-gets-suspension-complaints-odd-issue-china/",
+      "date": "Wed, 02 Sep 2026 18:05",
+      "hoursAgo": 1,
+      "source": "Teslarati"
+    },
+    {
+      "title": "Tesla Cybercab event gains steam ahead of massive launch",
       "link": "https://www.teslarati.com/tesla-starts-teasing-and-hyping-groundbreaking-cybercab-event/",
       "date": "Wed, 02 Sep 2026 16:34",
-      "hoursAgo": 0,
+      "hoursAgo": 3,
       "source": "Teslarati"
     },
     {
       "title": "SpaceX tells the FCC that Starship Flight 14 is going to orbit",
       "link": "https://www.teslarati.com/spacex-tells-the-fcc-that-starship-flight-14-is-going-to-orbit/",
       "date": "Tue, 01 Sep 2026 19:23",
-      "hoursAgo": 21,
+      "hoursAgo": 24,
       "source": "Teslarati"
     },
     {
       "title": "Tesla Cybercab Event: what to expect from Austin",
       "link": "https://www.teslarati.com/tesla-cybercab-event-what-to-expect-from-austin/",
       "date": "Tue, 01 Sep 2026 18:07",
-      "hoursAgo": 23,
+      "hoursAgo": 25,
       "source": "Teslarati"
     },
     {
       "title": "SpaceX would not exist if this crucial early launch failed, Musk says",
       "link": "https://www.teslarati.com/elon-musk-spacex-would-not-exist-crucial-early-launch-failed/",
       "date": "Tue, 01 Sep 2026 15:37",
-      "hoursAgo": 25,
+      "hoursAgo": 28,
       "source": "Teslarati"
     },
     {
       "title": "Tesla surges Robotaxi fleet ahead of Cybercab launch event",
       "link": "https://www.teslarati.com/tesla-surges-robotaxi-fleet-ahead-of-cybercab-launch-event/",
       "date": "Tue, 01 Sep 2026 05:01",
-      "hoursAgo": 36,
-      "source": "Teslarati"
-    },
-    {
-      "title": "Tesla Cybertruck windshield protection just got cheaper",
-      "link": "https://www.teslarati.com/tesla-cybertruck-windshield-protection-cheaper/",
-      "date": "Mon, 31 Aug 2026 20:08",
-      "hoursAgo": 45,
+      "hoursAgo": 38,
       "source": "Teslarati"
     }
   ],
@@ -109,48 +109,48 @@
       "rain": 0.0
     },
     "+24h": {
-      "temp": 14.0,
+      "temp": 13.9,
       "condition": "Clear",
-      "wind_speed": 17.0,
-      "wind_dir_deg": 148,
-      "cloud": 5,
+      "wind_speed": 16.3,
+      "wind_dir_deg": 146,
+      "cloud": 2,
       "rain": 0.0
     }
   },
   "keyNumbers": {
-    "usdZar": "16.06",
-    "usdZarWeek": "-0.2%",
-    "usdZarLabel": "rand stronger",
-    "btc": "77102",
-    "btcWeek": "-2.4%",
+    "usdZar": "16.09",
+    "usdZarWeek": "+0.0%",
+    "usdZarLabel": "rand weaker",
+    "btc": "77239",
+    "btcWeek": "-2.2%",
     "jse": "-0.7%",
-    "sp500": "+0.4%"
+    "sp500": "+0.5%"
   },
   "worldEvents": [
     {
       "text": "Iran says US strike killed four at wedding in 'war crime' as US denies targeting civilians",
-      "hoursAgo": 1,
+      "hoursAgo": 4,
       "link": "https://www.bbc.co.uk/news/articles/cj06q4ynpmjo"
     },
     {
+      "text": "Iranian attack on Saudi tanker killed two Filipino sailors, Saudi Arabia says",
+      "hoursAgo": 2,
+      "link": "https://www.bbc.co.uk/news/articles/cx2zxgg4mx9o"
+    },
+    {
       "text": "EU and Nato vow to step up pressure on Russia after 'new escalation' in Germany",
-      "hoursAgo": 0,
+      "hoursAgo": 3,
       "link": "https://www.bbc.co.uk/news/articles/ce9e810pg7ko"
     },
     {
       "text": "Rosenberg: Putin's veiled threat to UK part of Russia's campaign against West",
-      "hoursAgo": 5,
+      "hoursAgo": 8,
       "link": "https://www.bbc.co.uk/news/articles/c62j50n131mo"
     },
     {
       "text": "US sailors arrive in Thailand's Pattaya after record 250 days at sea",
-      "hoursAgo": 7,
+      "hoursAgo": 9,
       "link": "https://www.bbc.co.uk/news/articles/cg7k09z4lj9o"
-    },
-    {
-      "text": "Woman charged with juror intimidation in Lindsay Clancy trial",
-      "hoursAgo": 0,
-      "link": "https://www.bbc.co.uk/news/articles/cwyze4593zwo"
     }
   ],
   "launches": [
@@ -163,12 +163,12 @@
       "link": "https://spacelaunchnow.me/launch/falcon-9-block-5-starlink-group-15-24"
     },
     {
-      "name": "Falcon 9 Block 5 | USSF-xxx (\"R-2\")",
+      "name": "Falcon 9 Block 5 | USSF-153",
       "date": "Thursday 10 September 17h37",
       "dateISO": "2026-09-10T15:37:00Z",
       "details": "Space Launch Complex 4E - Vandenberg SFB, CA, USA",
       "highlight": false,
-      "link": "https://spacelaunchnow.me/launch/falcon-9-block-5-ussf-xxx-r-2"
+      "link": "https://spacelaunchnow.me/launch/falcon-9-block-5-ussf-153"
     },
     {
       "name": "Starship | Flight 14",
@@ -197,45 +197,45 @@
   ],
   "companyNews": [
     {
-      "title": "Tesla starts teasing and hyping groundbreaking Cybercab event",
+      "title": "Tesla Model Y L gets suspension complaints in over odd issue China",
+      "link": "https://www.teslarati.com/tesla-model-y-l-gets-suspension-complaints-odd-issue-china/",
+      "date": "Wed, 02 Sep 2026 18:05",
+      "hoursAgo": 1,
+      "source": "Teslarati"
+    },
+    {
+      "title": "Tesla Cybercab event gains steam ahead of massive launch",
       "link": "https://www.teslarati.com/tesla-starts-teasing-and-hyping-groundbreaking-cybercab-event/",
       "date": "Wed, 02 Sep 2026 16:34",
-      "hoursAgo": 0,
+      "hoursAgo": 3,
       "source": "Teslarati"
     },
     {
       "title": "SpaceX tells the FCC that Starship Flight 14 is going to orbit",
       "link": "https://www.teslarati.com/spacex-tells-the-fcc-that-starship-flight-14-is-going-to-orbit/",
       "date": "Tue, 01 Sep 2026 19:23",
-      "hoursAgo": 21,
+      "hoursAgo": 24,
       "source": "Teslarati"
     },
     {
       "title": "Tesla Cybercab Event: what to expect from Austin",
       "link": "https://www.teslarati.com/tesla-cybercab-event-what-to-expect-from-austin/",
       "date": "Tue, 01 Sep 2026 18:07",
-      "hoursAgo": 23,
+      "hoursAgo": 25,
       "source": "Teslarati"
     },
     {
       "title": "SpaceX would not exist if this crucial early launch failed, Musk says",
       "link": "https://www.teslarati.com/elon-musk-spacex-would-not-exist-crucial-early-launch-failed/",
       "date": "Tue, 01 Sep 2026 15:37",
-      "hoursAgo": 25,
+      "hoursAgo": 28,
       "source": "Teslarati"
     },
     {
       "title": "Tesla surges Robotaxi fleet ahead of Cybercab launch event",
       "link": "https://www.teslarati.com/tesla-surges-robotaxi-fleet-ahead-of-cybercab-launch-event/",
       "date": "Tue, 01 Sep 2026 05:01",
-      "hoursAgo": 36,
-      "source": "Teslarati"
-    },
-    {
-      "title": "Tesla Cybertruck windshield protection just got cheaper",
-      "link": "https://www.teslarati.com/tesla-cybertruck-windshield-protection-cheaper/",
-      "date": "Mon, 31 Aug 2026 20:08",
-      "hoursAgo": 45,
+      "hoursAgo": 38,
       "source": "Teslarati"
     }
   ],
