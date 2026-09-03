@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-03T00:42+02:00",
+  "updatedAt": "2026-09-03T10:33+02:00",
   "stocks": {
     "TSLA": {
       "price": 357.01,
@@ -8,7 +8,7 @@
       "change_1m": 11.73,
       "change_12m": 6.86,
       "change_3y": 39.19,
-      "updated": "2026-09-02T22:42:06.134163"
+      "updated": "2026-09-03T08:33:17.333787"
     },
     "NVDA": {
       "price": 224.41,
@@ -17,7 +17,7 @@
       "change_1m": 2.47,
       "change_12m": 31.7,
       "change_3y": 363.14,
-      "updated": "2026-09-02T22:42:06.134538"
+      "updated": "2026-09-03T08:33:17.333917"
     },
     "MU": {
       "price": 956.08,
@@ -26,7 +26,7 @@
       "change_1m": 8.46,
       "change_12m": 706.62,
       "change_3y": 1275.39,
-      "updated": "2026-09-02T22:42:06.134869"
+      "updated": "2026-09-03T08:33:17.334021"
     }
   },
   "news": [
@@ -34,42 +34,42 @@
       "title": "Tesla Model Y L gets suspension complaints in over odd issue China",
       "link": "https://www.teslarati.com/tesla-model-y-l-gets-suspension-complaints-odd-issue-china/",
       "date": "Wed, 02 Sep 2026 18:05",
-      "hoursAgo": 4,
+      "hoursAgo": 14,
       "source": "Teslarati"
     },
     {
       "title": "Tesla Cybercab event gains steam ahead of massive launch",
       "link": "https://www.teslarati.com/tesla-starts-teasing-and-hyping-groundbreaking-cybercab-event/",
       "date": "Wed, 02 Sep 2026 16:34",
-      "hoursAgo": 6,
+      "hoursAgo": 15,
       "source": "Teslarati"
     },
     {
       "title": "SpaceX tells the FCC that Starship Flight 14 is going to orbit",
       "link": "https://www.teslarati.com/spacex-tells-the-fcc-that-starship-flight-14-is-going-to-orbit/",
       "date": "Tue, 01 Sep 2026 19:23",
-      "hoursAgo": 27,
+      "hoursAgo": 37,
       "source": "Teslarati"
     },
     {
       "title": "Tesla Cybercab Event: what to expect from Austin",
       "link": "https://www.teslarati.com/tesla-cybercab-event-what-to-expect-from-austin/",
       "date": "Tue, 01 Sep 2026 18:07",
-      "hoursAgo": 28,
+      "hoursAgo": 38,
       "source": "Teslarati"
     },
     {
       "title": "SpaceX would not exist if this crucial early launch failed, Musk says",
       "link": "https://www.teslarati.com/elon-musk-spacex-would-not-exist-crucial-early-launch-failed/",
       "date": "Tue, 01 Sep 2026 15:37",
-      "hoursAgo": 31,
+      "hoursAgo": 40,
       "source": "Teslarati"
     },
     {
       "title": "Tesla surges Robotaxi fleet ahead of Cybercab launch event",
       "link": "https://www.teslarati.com/tesla-surges-robotaxi-fleet-ahead-of-cybercab-launch-event/",
       "date": "Tue, 01 Sep 2026 05:01",
-      "hoursAgo": 41,
+      "hoursAgo": 51,
       "source": "Teslarati"
     }
   ],
@@ -77,80 +77,80 @@
   "roasts": [],
   "weather": {
     "+1h": {
-      "temp": 13.4,
+      "temp": 12.8,
       "condition": "Clear",
-      "wind_speed": 12.3,
-      "wind_dir_deg": 130,
-      "cloud": 3,
+      "wind_speed": 8.7,
+      "wind_dir_deg": 122,
+      "cloud": 2,
       "rain": 0.0
     },
     "+3h": {
-      "temp": 11.2,
-      "condition": "Clear",
-      "wind_speed": 2.5,
-      "wind_dir_deg": 274,
-      "cloud": 5,
+      "temp": 11.1,
+      "condition": "Mainly clear",
+      "wind_speed": 1.3,
+      "wind_dir_deg": 344,
+      "cloud": 30,
       "rain": 0.0
     },
     "+6h": {
       "temp": 10.8,
       "condition": "Overcast",
-      "wind_speed": 4.0,
-      "wind_dir_deg": 82,
+      "wind_speed": 3.6,
+      "wind_dir_deg": 84,
       "cloud": 100,
       "rain": 0.0
     },
     "+12h": {
-      "temp": 18.1,
-      "condition": "Mainly clear",
-      "wind_speed": 17.0,
-      "wind_dir_deg": 141,
-      "cloud": 44,
-      "rain": 0.0
+      "temp": 16.7,
+      "condition": "Mixed",
+      "wind_speed": 17.8,
+      "wind_dir_deg": 140,
+      "cloud": 55,
+      "rain": 0.5
     },
     "+24h": {
       "temp": 14.5,
-      "condition": "Clear",
-      "wind_speed": 32.0,
-      "wind_dir_deg": 138,
-      "cloud": 13,
+      "condition": "Mainly clear",
+      "wind_speed": 32.4,
+      "wind_dir_deg": 140,
+      "cloud": 21,
       "rain": 0.0
     }
   },
   "keyNumbers": {
-    "usdZar": "16.05",
+    "usdZar": "16.06",
     "usdZarWeek": "-0.3%",
     "usdZarLabel": "rand stronger",
-    "btc": "77098",
-    "btcWeek": "-2.4%",
-    "jse": "-0.3%",
+    "btc": "77931",
+    "btcWeek": "-0.8%",
+    "jse": "+0.7%",
     "sp500": "+0.5%"
   },
   "worldEvents": [
     {
+      "text": "UN warns of 'supersized' El Niño as countries prepare for impact",
+      "hoursAgo": 2,
+      "link": "https://www.bbc.co.uk/news/articles/c17jqp0xzpzo"
+    },
+    {
+      "text": "Channel smuggling gangs resort to 'mega-dinghies' as crackdown limits small boat supply",
+      "hoursAgo": 3,
+      "link": "https://www.bbc.co.uk/news/articles/ce3rn93de9eo"
+    },
+    {
       "text": "Iranian attack on Saudi tanker killed two Filipino sailors, Saudi Arabia says",
-      "hoursAgo": 5,
+      "hoursAgo": 14,
       "link": "https://www.bbc.co.uk/news/articles/cx2zxgg4mx9o"
     },
     {
-      "text": "Protests in Spain over government's handling of Ceuta migrant crisis",
-      "hoursAgo": 1,
-      "link": "https://www.bbc.co.uk/news/articles/c1mvn2yp9n2o"
+      "text": "Could Lindsay Clancy trial end in a mistrial? Here are the jury's options",
+      "hoursAgo": 8,
+      "link": "https://www.bbc.co.uk/news/articles/c93vgv4kr49o"
     },
     {
-      "text": "EU and Nato vow to step up pressure on Russia after 'new escalation' in Germany",
-      "hoursAgo": 5,
-      "link": "https://www.bbc.co.uk/news/articles/ce9e810pg7ko"
-    },
-    {
-      "text": "Rosenberg: Putin's veiled threat to UK part of Russia's campaign against West",
-      "hoursAgo": 10,
-      "link": "https://www.bbc.co.uk/news/articles/c62j50n131mo"
-    },
-    {
-      "text": "Watch: Jury still unable to reach unanimous decision in Lindsay Clancy case",
-      "hoursAgo": 2,
-      "link": "https://www.bbc.co.uk/news/videos/cy8z32v7130o"
+      "text": "Trump $1 coin makes him first living president on US currency in a century",
+      "hoursAgo": 4,
+      "link": "https://www.bbc.co.uk/news/articles/c7507g9v992o"
     }
   ],
   "launches": [
@@ -200,42 +200,42 @@
       "title": "Tesla Model Y L gets suspension complaints in over odd issue China",
       "link": "https://www.teslarati.com/tesla-model-y-l-gets-suspension-complaints-odd-issue-china/",
       "date": "Wed, 02 Sep 2026 18:05",
-      "hoursAgo": 4,
+      "hoursAgo": 14,
       "source": "Teslarati"
     },
     {
       "title": "Tesla Cybercab event gains steam ahead of massive launch",
       "link": "https://www.teslarati.com/tesla-starts-teasing-and-hyping-groundbreaking-cybercab-event/",
       "date": "Wed, 02 Sep 2026 16:34",
-      "hoursAgo": 6,
+      "hoursAgo": 15,
       "source": "Teslarati"
     },
     {
       "title": "SpaceX tells the FCC that Starship Flight 14 is going to orbit",
       "link": "https://www.teslarati.com/spacex-tells-the-fcc-that-starship-flight-14-is-going-to-orbit/",
       "date": "Tue, 01 Sep 2026 19:23",
-      "hoursAgo": 27,
+      "hoursAgo": 37,
       "source": "Teslarati"
     },
     {
       "title": "Tesla Cybercab Event: what to expect from Austin",
       "link": "https://www.teslarati.com/tesla-cybercab-event-what-to-expect-from-austin/",
       "date": "Tue, 01 Sep 2026 18:07",
-      "hoursAgo": 28,
+      "hoursAgo": 38,
       "source": "Teslarati"
     },
     {
       "title": "SpaceX would not exist if this crucial early launch failed, Musk says",
       "link": "https://www.teslarati.com/elon-musk-spacex-would-not-exist-crucial-early-launch-failed/",
       "date": "Tue, 01 Sep 2026 15:37",
-      "hoursAgo": 31,
+      "hoursAgo": 40,
       "source": "Teslarati"
     },
     {
       "title": "Tesla surges Robotaxi fleet ahead of Cybercab launch event",
       "link": "https://www.teslarati.com/tesla-surges-robotaxi-fleet-ahead-of-cybercab-launch-event/",
       "date": "Tue, 01 Sep 2026 05:01",
-      "hoursAgo": 41,
+      "hoursAgo": 51,
       "source": "Teslarati"
     }
   ],
