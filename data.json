@@ -1,32 +1,32 @@
 {
-  "updatedAt": "2026-09-04T21:40+02:00",
+  "updatedAt": "2026-09-05T00:24+02:00",
   "stocks": {
     "TSLA": {
-      "price": 353.67,
-      "change_1d": -6.03,
-      "change_3d": -0.94,
-      "change_1m": 6.89,
-      "change_12m": 0.81,
-      "change_3y": 37.89,
-      "updated": "2026-09-04T19:40:52.892417"
+      "price": 354.08,
+      "change_1d": -5.92,
+      "change_3d": -0.82,
+      "change_1m": 7.01,
+      "change_12m": 0.92,
+      "change_3y": 38.05,
+      "updated": "2026-09-04T22:24:45.665064"
     },
     "NVDA": {
-      "price": 230.15,
-      "change_1d": 0.74,
-      "change_3d": 2.56,
-      "change_1m": 5.79,
-      "change_12m": 37.98,
-      "change_3y": 374.99,
-      "updated": "2026-09-04T19:40:52.892615"
+      "price": 230.36,
+      "change_1d": 0.84,
+      "change_3d": 2.65,
+      "change_1m": 5.89,
+      "change_12m": 38.11,
+      "change_3y": 375.42,
+      "updated": "2026-09-04T22:24:45.665181"
     },
     "MU": {
-      "price": 1008.67,
-      "change_1d": 5.27,
-      "change_3d": 5.5,
-      "change_1m": 17.15,
-      "change_12m": 669.04,
-      "change_3y": 1351.05,
-      "updated": "2026-09-04T19:40:52.892853"
+      "price": 1016.59,
+      "change_1d": 6.1,
+      "change_3d": 6.33,
+      "change_1m": 18.07,
+      "change_12m": 675.08,
+      "change_3y": 1362.44,
+      "updated": "2026-09-04T22:24:45.665268"
     }
   },
   "news": [
@@ -34,42 +34,42 @@
       "title": "Tesla Cybercab launch catches NHTSA’s attention who wants to know more",
       "link": "https://www.teslarati.com/tesla-cybercab-launch-nhtsa-attention-know-more/",
       "date": "Fri, 04 Sep 2026 15:47",
-      "hoursAgo": 3,
+      "hoursAgo": 6,
       "source": "Teslarati"
     },
     {
       "title": "Tesla Cybercab is coming to Asia this month as US service officially begins",
       "link": "https://www.teslarati.com/tesla-cybercab-is-coming-to-asia-this-month-as-us-service-officially-begins/",
       "date": "Fri, 04 Sep 2026 03:26",
-      "hoursAgo": 16,
+      "hoursAgo": 18,
       "source": "Teslarati"
     },
     {
       "title": "Tesla Cybertruck targets job site crews with new Tailgate Utility Track and Bed Gear Box accessory",
       "link": "https://www.teslarati.com/tesla-cybertruck-tailgate-utility-track-bed-gear-box/",
       "date": "Fri, 04 Sep 2026 02:45",
-      "hoursAgo": 16,
+      "hoursAgo": 19,
       "source": "Teslarati"
     },
     {
       "title": "Tesla set to open Cybercab rides to the public, with no steering wheel or pedals",
       "link": "https://www.teslarati.com/tesla-opens-cybercab-rides-to-the-public-with-no-steering-wheel-or-pedals/",
       "date": "Fri, 04 Sep 2026 01:40",
-      "hoursAgo": 18,
+      "hoursAgo": 20,
       "source": "Teslarati"
     },
     {
       "title": "Tesla hints its already prepping for Cybercab fleet orders",
       "link": "https://www.teslarati.com/tesla-hints-prepping-cybercab-fleet-orders/",
       "date": "Thu, 03 Sep 2026 21:41",
-      "hoursAgo": 21,
+      "hoursAgo": 24,
       "source": "Teslarati"
     },
     {
       "title": "Tesla Robotaxi riders will face the best dilemma when booking a ride",
       "link": "https://www.teslarati.com/tesla-robotaxi-riders-face-best-dilemma-booking-ride/",
       "date": "Thu, 03 Sep 2026 16:53",
-      "hoursAgo": 26,
+      "hoursAgo": 29,
       "source": "Teslarati"
     }
   ],
@@ -77,43 +77,43 @@
   "roasts": [],
   "weather": {
     "+1h": {
-      "temp": 14.4,
+      "temp": 14.0,
       "condition": "Clear",
-      "wind_speed": 35.5,
-      "wind_dir_deg": 141,
-      "cloud": 16,
+      "wind_speed": 30.3,
+      "wind_dir_deg": 137,
+      "cloud": 3,
       "rain": 0.0
     },
     "+3h": {
-      "temp": 14.8,
-      "condition": "Partly cloudy",
-      "wind_speed": 36.9,
-      "wind_dir_deg": 140,
-      "cloud": 78,
+      "temp": 13.4,
+      "condition": "Clear",
+      "wind_speed": 26.1,
+      "wind_dir_deg": 137,
+      "cloud": 0,
       "rain": 0.0
     },
     "+6h": {
-      "temp": 13.9,
-      "condition": "Mainly clear",
-      "wind_speed": 29.2,
-      "wind_dir_deg": 136,
-      "cloud": 25,
+      "temp": 12.4,
+      "condition": "Clear",
+      "wind_speed": 25.5,
+      "wind_dir_deg": 140,
+      "cloud": 0,
       "rain": 0.0
     },
     "+12h": {
-      "temp": 18.5,
+      "temp": 20.5,
       "condition": "Clear",
-      "wind_speed": 30.9,
-      "wind_dir_deg": 127,
-      "cloud": 12,
+      "wind_speed": 20.0,
+      "wind_dir_deg": 138,
+      "cloud": 0,
       "rain": 0.0
     },
     "+24h": {
-      "temp": 14.2,
-      "condition": "Clear",
-      "wind_speed": 34.3,
+      "temp": 15.4,
+      "condition": "Mainly clear",
+      "wind_speed": 22.9,
       "wind_dir_deg": 137,
-      "cloud": 5,
+      "cloud": 20,
       "rain": 0.0
     }
   },
@@ -121,35 +121,35 @@
     "usdZar": "15.95",
     "usdZarWeek": "-0.3%",
     "usdZarLabel": "rand stronger",
-    "btc": "79704",
+    "btc": "79700",
     "btcWeek": "+0.9%",
-    "jse": "+0.0%",
+    "jse": "+1.4%",
     "sp500": "-0.4%"
   },
   "worldEvents": [
     {
       "text": "Europe targeted by spiralling campaign of sabotage - and Russia is the chief suspect",
-      "hoursAgo": 2,
+      "hoursAgo": 5,
       "link": "https://www.bbc.co.uk/news/articles/c5y4g6meekro"
     },
     {
       "text": "'A rare moment of joy': Nepal tunnel rescues bring hope for more flood survivors",
-      "hoursAgo": 5,
+      "hoursAgo": 7,
       "link": "https://www.bbc.co.uk/news/videos/cd79vp91321o"
     },
     {
       "text": "UK support for Falkland Islands 'unwavering' after Argentina restates claims, No 10 says",
-      "hoursAgo": 7,
+      "hoursAgo": 10,
       "link": "https://www.bbc.co.uk/news/articles/cn45jg3zlz4o"
     },
     {
       "text": "Russia hits Ukrainian security headquarters in drone attack, Zelensky says",
-      "hoursAgo": 3,
+      "hoursAgo": 6,
       "link": "https://www.bbc.co.uk/news/articles/c5yep7y48x2o"
     },
     {
       "text": "Steve Irwin's family celebrates 'superhero' dad, 20 years after shock death",
-      "hoursAgo": 15,
+      "hoursAgo": 18,
       "link": "https://www.bbc.co.uk/news/articles/cjrx75ldydwo"
     }
   ],
@@ -200,42 +200,42 @@
       "title": "Tesla Cybercab launch catches NHTSA’s attention who wants to know more",
       "link": "https://www.teslarati.com/tesla-cybercab-launch-nhtsa-attention-know-more/",
       "date": "Fri, 04 Sep 2026 15:47",
-      "hoursAgo": 3,
+      "hoursAgo": 6,
       "source": "Teslarati"
     },
     {
       "title": "Tesla Cybercab is coming to Asia this month as US service officially begins",
       "link": "https://www.teslarati.com/tesla-cybercab-is-coming-to-asia-this-month-as-us-service-officially-begins/",
       "date": "Fri, 04 Sep 2026 03:26",
-      "hoursAgo": 16,
+      "hoursAgo": 18,
       "source": "Teslarati"
     },
     {
       "title": "Tesla Cybertruck targets job site crews with new Tailgate Utility Track and Bed Gear Box accessory",
       "link": "https://www.teslarati.com/tesla-cybertruck-tailgate-utility-track-bed-gear-box/",
       "date": "Fri, 04 Sep 2026 02:45",
-      "hoursAgo": 16,
+      "hoursAgo": 19,
       "source": "Teslarati"
     },
     {
       "title": "Tesla set to open Cybercab rides to the public, with no steering wheel or pedals",
       "link": "https://www.teslarati.com/tesla-opens-cybercab-rides-to-the-public-with-no-steering-wheel-or-pedals/",
       "date": "Fri, 04 Sep 2026 01:40",
-      "hoursAgo": 18,
+      "hoursAgo": 20,
       "source": "Teslarati"
     },
     {
       "title": "Tesla hints its already prepping for Cybercab fleet orders",
       "link": "https://www.teslarati.com/tesla-hints-prepping-cybercab-fleet-orders/",
       "date": "Thu, 03 Sep 2026 21:41",
-      "hoursAgo": 21,
+      "hoursAgo": 24,
       "source": "Teslarati"
     },
     {
       "title": "Tesla Robotaxi riders will face the best dilemma when booking a ride",
       "link": "https://www.teslarati.com/tesla-robotaxi-riders-face-best-dilemma-booking-ride/",
       "date": "Thu, 03 Sep 2026 16:53",
-      "hoursAgo": 26,
+      "hoursAgo": 29,
       "source": "Teslarati"
     }
   ],
