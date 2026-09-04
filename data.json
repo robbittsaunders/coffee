@@ -1,75 +1,75 @@
 {
-  "updatedAt": "2026-09-04T10:28+02:00",
+  "updatedAt": "2026-09-04T18:54+02:00",
   "stocks": {
     "TSLA": {
-      "price": 376.37,
-      "change_1d": 5.42,
-      "change_3d": 5.7,
-      "change_1m": 14.54,
-      "change_12m": 11.18,
-      "change_3y": 46.74,
-      "updated": "2026-09-04T08:28:45.561753"
+      "price": 352.6,
+      "change_1d": -6.32,
+      "change_3d": -1.24,
+      "change_1m": 6.56,
+      "change_12m": 0.5,
+      "change_3y": 37.47,
+      "updated": "2026-09-04T16:54:01.473557"
     },
     "NVDA": {
-      "price": 228.45,
-      "change_1d": 1.8,
-      "change_3d": 5.06,
-      "change_1m": 2.0,
-      "change_12m": 33.26,
-      "change_3y": 371.48,
-      "updated": "2026-09-04T08:28:45.561920"
+      "price": 231.54,
+      "change_1d": 1.35,
+      "change_3d": 3.18,
+      "change_1m": 6.43,
+      "change_12m": 38.81,
+      "change_3y": 377.86,
+      "updated": "2026-09-04T16:54:01.473687"
     },
     "MU": {
-      "price": 958.16,
-      "change_1d": 0.22,
-      "change_3d": 2.65,
-      "change_1m": 9.18,
-      "change_12m": 672.64,
-      "change_3y": 1278.39,
-      "updated": "2026-09-04T08:28:45.562065"
+      "price": 1004.65,
+      "change_1d": 4.85,
+      "change_3d": 5.08,
+      "change_1m": 16.68,
+      "change_12m": 665.98,
+      "change_3y": 1345.27,
+      "updated": "2026-09-04T16:54:01.473791"
     }
   },
   "news": [
     {
+      "title": "Tesla Cybercab launch catches NHTSA’s attention who wants to know more",
+      "link": "https://www.teslarati.com/tesla-cybercab-launch-nhtsa-attention-know-more/",
+      "date": "Fri, 04 Sep 2026 15:47",
+      "hoursAgo": 1,
+      "source": "Teslarati"
+    },
+    {
       "title": "Tesla Cybercab is coming to Asia this month as US service officially begins",
       "link": "https://www.teslarati.com/tesla-cybercab-is-coming-to-asia-this-month-as-us-service-officially-begins/",
       "date": "Fri, 04 Sep 2026 03:26",
-      "hoursAgo": 5,
+      "hoursAgo": 13,
       "source": "Teslarati"
     },
     {
       "title": "Tesla Cybertruck targets job site crews with new Tailgate Utility Track and Bed Gear Box accessory",
       "link": "https://www.teslarati.com/tesla-cybertruck-tailgate-utility-track-bed-gear-box/",
       "date": "Fri, 04 Sep 2026 02:45",
-      "hoursAgo": 5,
+      "hoursAgo": 14,
       "source": "Teslarati"
     },
     {
-      "title": "Tesla opens Cybercab rides to the public, with no steering wheel or pedals",
+      "title": "Tesla set to open Cybercab rides to the public, with no steering wheel or pedals",
       "link": "https://www.teslarati.com/tesla-opens-cybercab-rides-to-the-public-with-no-steering-wheel-or-pedals/",
       "date": "Fri, 04 Sep 2026 01:40",
-      "hoursAgo": 6,
+      "hoursAgo": 15,
       "source": "Teslarati"
     },
     {
       "title": "Tesla hints its already prepping for Cybercab fleet orders",
       "link": "https://www.teslarati.com/tesla-hints-prepping-cybercab-fleet-orders/",
       "date": "Thu, 03 Sep 2026 21:41",
-      "hoursAgo": 10,
+      "hoursAgo": 19,
       "source": "Teslarati"
     },
     {
       "title": "Tesla Robotaxi riders will face the best dilemma when booking a ride",
       "link": "https://www.teslarati.com/tesla-robotaxi-riders-face-best-dilemma-booking-ride/",
       "date": "Thu, 03 Sep 2026 16:53",
-      "hoursAgo": 15,
-      "source": "Teslarati"
-    },
-    {
-      "title": "Tesla Cybercab sightings broaden well outside of Austin with autonomy in focus",
-      "link": "https://www.teslarati.com/tesla-cybercab-sightings-broaden-well-outside-austin-autonomy-in-focus/",
-      "date": "Thu, 03 Sep 2026 14:42",
-      "hoursAgo": 17,
+      "hoursAgo": 24,
       "source": "Teslarati"
     }
   ],
@@ -103,53 +103,53 @@
     "+12h": {
       "temp": 18.5,
       "condition": "Clear",
-      "wind_speed": 32.1,
-      "wind_dir_deg": 131,
-      "cloud": 8,
+      "wind_speed": 30.9,
+      "wind_dir_deg": 127,
+      "cloud": 12,
       "rain": 0.0
     },
     "+24h": {
-      "temp": 13.9,
-      "condition": "Mainly clear",
-      "wind_speed": 34.7,
-      "wind_dir_deg": 139,
-      "cloud": 24,
+      "temp": 14.0,
+      "condition": "Clear",
+      "wind_speed": 33.8,
+      "wind_dir_deg": 138,
+      "cloud": 12,
       "rain": 0.0
     }
   },
   "keyNumbers": {
-    "usdZar": "15.97",
-    "usdZarWeek": "-0.2%",
+    "usdZar": "15.94",
+    "usdZarWeek": "-0.4%",
     "usdZarLabel": "rand stronger",
-    "btc": "80944",
-    "btcWeek": "+2.4%",
-    "jse": "+0.8%",
-    "sp500": "+1.1%"
+    "btc": "79756",
+    "btcWeek": "+0.9%",
+    "jse": "+0.0%",
+    "sp500": "-0.3%"
   },
   "worldEvents": [
     {
-      "text": "Nepal says it will need billions in funding to rebuild after flash floods",
-      "hoursAgo": 6,
-      "link": "https://www.bbc.co.uk/news/videos/ce8x2401zdeo"
+      "text": "Europe targeted by spiralling campaign of sabotage - and Russia is the chief suspect",
+      "hoursAgo": 0,
+      "link": "https://www.bbc.co.uk/news/articles/c5y4g6meekro"
     },
     {
-      "text": "Tensions flare as judge declines to remove juror in Lindsay Clancy trial",
-      "hoursAgo": 7,
-      "link": "https://www.bbc.co.uk/news/articles/c7v4n7pv5epo"
+      "text": "'A rare moment of joy': Nepal tunnel rescues bring hope for more flood survivors",
+      "hoursAgo": 2,
+      "link": "https://www.bbc.co.uk/news/videos/cd79vp91321o"
     },
     {
-      "text": "Argentine leader threatens to sanction oil firms and reiterates Falklands claim",
-      "hoursAgo": 1,
-      "link": "https://www.bbc.co.uk/news/articles/clyk18g1l8ko"
+      "text": "UK support for Falkland Islands 'unwavering' after Argentina restates claims, No 10 says",
+      "hoursAgo": 4,
+      "link": "https://www.bbc.co.uk/news/articles/cn45jg3zlz4o"
     },
     {
-      "text": "US investigating if missile hit Iran wedding, Vance says",
-      "hoursAgo": 10,
-      "link": "https://www.bbc.co.uk/news/articles/cy4zvk3z2k1o"
+      "text": "Russia hits Ukrainian security headquarters in drone attack, Zelensky says",
+      "hoursAgo": 0,
+      "link": "https://www.bbc.co.uk/news/articles/c5yep7y48x2o"
     },
     {
       "text": "Steve Irwin's family celebrates 'superhero' dad, 20 years after shock death",
-      "hoursAgo": 4,
+      "hoursAgo": 12,
       "link": "https://www.bbc.co.uk/news/articles/cjrx75ldydwo"
     }
   ],
@@ -197,45 +197,45 @@
   ],
   "companyNews": [
     {
+      "title": "Tesla Cybercab launch catches NHTSA’s attention who wants to know more",
+      "link": "https://www.teslarati.com/tesla-cybercab-launch-nhtsa-attention-know-more/",
+      "date": "Fri, 04 Sep 2026 15:47",
+      "hoursAgo": 1,
+      "source": "Teslarati"
+    },
+    {
       "title": "Tesla Cybercab is coming to Asia this month as US service officially begins",
       "link": "https://www.teslarati.com/tesla-cybercab-is-coming-to-asia-this-month-as-us-service-officially-begins/",
       "date": "Fri, 04 Sep 2026 03:26",
-      "hoursAgo": 5,
+      "hoursAgo": 13,
       "source": "Teslarati"
     },
     {
       "title": "Tesla Cybertruck targets job site crews with new Tailgate Utility Track and Bed Gear Box accessory",
       "link": "https://www.teslarati.com/tesla-cybertruck-tailgate-utility-track-bed-gear-box/",
       "date": "Fri, 04 Sep 2026 02:45",
-      "hoursAgo": 5,
+      "hoursAgo": 14,
       "source": "Teslarati"
     },
     {
-      "title": "Tesla opens Cybercab rides to the public, with no steering wheel or pedals",
+      "title": "Tesla set to open Cybercab rides to the public, with no steering wheel or pedals",
       "link": "https://www.teslarati.com/tesla-opens-cybercab-rides-to-the-public-with-no-steering-wheel-or-pedals/",
       "date": "Fri, 04 Sep 2026 01:40",
-      "hoursAgo": 6,
+      "hoursAgo": 15,
       "source": "Teslarati"
     },
     {
       "title": "Tesla hints its already prepping for Cybercab fleet orders",
       "link": "https://www.teslarati.com/tesla-hints-prepping-cybercab-fleet-orders/",
       "date": "Thu, 03 Sep 2026 21:41",
-      "hoursAgo": 10,
+      "hoursAgo": 19,
       "source": "Teslarati"
     },
     {
       "title": "Tesla Robotaxi riders will face the best dilemma when booking a ride",
       "link": "https://www.teslarati.com/tesla-robotaxi-riders-face-best-dilemma-booking-ride/",
       "date": "Thu, 03 Sep 2026 16:53",
-      "hoursAgo": 15,
-      "source": "Teslarati"
-    },
-    {
-      "title": "Tesla Cybercab sightings broaden well outside of Austin with autonomy in focus",
-      "link": "https://www.teslarati.com/tesla-cybercab-sightings-broaden-well-outside-austin-autonomy-in-focus/",
-      "date": "Thu, 03 Sep 2026 14:42",
-      "hoursAgo": 17,
+      "hoursAgo": 24,
       "source": "Teslarati"
     }
   ],
