@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-05T00:24+02:00",
+  "updatedAt": "2026-09-05T10:03+02:00",
   "stocks": {
     "TSLA": {
       "price": 354.08,
@@ -8,7 +8,7 @@
       "change_1m": 7.01,
       "change_12m": 0.92,
       "change_3y": 38.05,
-      "updated": "2026-09-04T22:24:45.665064"
+      "updated": "2026-09-05T08:03:18.620013"
     },
     "NVDA": {
       "price": 230.36,
@@ -17,16 +17,7 @@
       "change_1m": 5.89,
       "change_12m": 38.11,
       "change_3y": 375.42,
-      "updated": "2026-09-04T22:24:45.665181"
-    },
-    "MU": {
-      "price": 1016.59,
-      "change_1d": 6.1,
-      "change_3d": 6.33,
-      "change_1m": 18.07,
-      "change_12m": 675.08,
-      "change_3y": 1362.44,
-      "updated": "2026-09-04T22:24:45.665268"
+      "updated": "2026-09-05T08:03:18.620214"
     }
   },
   "news": [
@@ -34,42 +25,42 @@
       "title": "Tesla Cybercab launch catches NHTSA’s attention who wants to know more",
       "link": "https://www.teslarati.com/tesla-cybercab-launch-nhtsa-attention-know-more/",
       "date": "Fri, 04 Sep 2026 15:47",
-      "hoursAgo": 6,
+      "hoursAgo": 16,
       "source": "Teslarati"
     },
     {
       "title": "Tesla Cybercab is coming to Asia this month as US service officially begins",
       "link": "https://www.teslarati.com/tesla-cybercab-is-coming-to-asia-this-month-as-us-service-officially-begins/",
       "date": "Fri, 04 Sep 2026 03:26",
-      "hoursAgo": 18,
+      "hoursAgo": 28,
       "source": "Teslarati"
     },
     {
       "title": "Tesla Cybertruck targets job site crews with new Tailgate Utility Track and Bed Gear Box accessory",
       "link": "https://www.teslarati.com/tesla-cybertruck-tailgate-utility-track-bed-gear-box/",
       "date": "Fri, 04 Sep 2026 02:45",
-      "hoursAgo": 19,
+      "hoursAgo": 29,
       "source": "Teslarati"
     },
     {
       "title": "Tesla set to open Cybercab rides to the public, with no steering wheel or pedals",
       "link": "https://www.teslarati.com/tesla-opens-cybercab-rides-to-the-public-with-no-steering-wheel-or-pedals/",
       "date": "Fri, 04 Sep 2026 01:40",
-      "hoursAgo": 20,
+      "hoursAgo": 30,
       "source": "Teslarati"
     },
     {
       "title": "Tesla hints its already prepping for Cybercab fleet orders",
       "link": "https://www.teslarati.com/tesla-hints-prepping-cybercab-fleet-orders/",
       "date": "Thu, 03 Sep 2026 21:41",
-      "hoursAgo": 24,
+      "hoursAgo": 34,
       "source": "Teslarati"
     },
     {
       "title": "Tesla Robotaxi riders will face the best dilemma when booking a ride",
       "link": "https://www.teslarati.com/tesla-robotaxi-riders-face-best-dilemma-booking-ride/",
       "date": "Thu, 03 Sep 2026 16:53",
-      "hoursAgo": 29,
+      "hoursAgo": 39,
       "source": "Teslarati"
     }
   ],
@@ -77,43 +68,43 @@
   "roasts": [],
   "weather": {
     "+1h": {
-      "temp": 14.0,
+      "temp": 13.8,
       "condition": "Clear",
-      "wind_speed": 30.3,
-      "wind_dir_deg": 137,
-      "cloud": 3,
+      "wind_speed": 30.2,
+      "wind_dir_deg": 140,
+      "cloud": 1,
       "rain": 0.0
     },
     "+3h": {
-      "temp": 13.4,
+      "temp": 13.5,
       "condition": "Clear",
-      "wind_speed": 26.1,
-      "wind_dir_deg": 137,
-      "cloud": 0,
-      "rain": 0.0
-    },
-    "+6h": {
-      "temp": 12.4,
-      "condition": "Clear",
-      "wind_speed": 25.5,
-      "wind_dir_deg": 140,
-      "cloud": 0,
-      "rain": 0.0
-    },
-    "+12h": {
-      "temp": 20.5,
-      "condition": "Clear",
-      "wind_speed": 20.0,
+      "wind_speed": 24.3,
       "wind_dir_deg": 138,
       "cloud": 0,
       "rain": 0.0
     },
+    "+6h": {
+      "temp": 12.6,
+      "condition": "Clear",
+      "wind_speed": 22.5,
+      "wind_dir_deg": 141,
+      "cloud": 0,
+      "rain": 0.0
+    },
+    "+12h": {
+      "temp": 21.6,
+      "condition": "Clear",
+      "wind_speed": 16.2,
+      "wind_dir_deg": 135,
+      "cloud": 0,
+      "rain": 0.0
+    },
     "+24h": {
-      "temp": 15.4,
-      "condition": "Mainly clear",
-      "wind_speed": 22.9,
-      "wind_dir_deg": 137,
-      "cloud": 20,
+      "temp": 15.1,
+      "condition": "Clear",
+      "wind_speed": 20.9,
+      "wind_dir_deg": 139,
+      "cloud": 4,
       "rain": 0.0
     }
   },
@@ -121,36 +112,36 @@
     "usdZar": "15.95",
     "usdZarWeek": "-0.3%",
     "usdZarLabel": "rand stronger",
-    "btc": "79700",
-    "btcWeek": "+0.9%",
-    "jse": "+1.4%",
+    "btc": "79689",
+    "btcWeek": "-0.7%",
+    "jse": "+0.0%",
     "sp500": "-0.4%"
   },
   "worldEvents": [
     {
+      "text": "Mistrial declared in Lindsay Clancy murder case, after jury deadlocks",
+      "hoursAgo": 9,
+      "link": "https://www.bbc.co.uk/news/articles/cpwlrj2je1po"
+    },
+    {
+      "text": "Trump's peace envoys to visit Moscow and Kyiv over weekend",
+      "hoursAgo": 3,
+      "link": "https://www.bbc.co.uk/news/articles/c23x0z48x0no"
+    },
+    {
       "text": "Europe targeted by spiralling campaign of sabotage - and Russia is the chief suspect",
-      "hoursAgo": 5,
+      "hoursAgo": 15,
       "link": "https://www.bbc.co.uk/news/articles/c5y4g6meekro"
     },
     {
-      "text": "'A rare moment of joy': Nepal tunnel rescues bring hope for more flood survivors",
+      "text": "UN votes to adopt new world map to reflect Africa's true size",
       "hoursAgo": 7,
-      "link": "https://www.bbc.co.uk/news/videos/cd79vp91321o"
+      "link": "https://www.bbc.co.uk/news/articles/ce30vp55dnlo"
     },
     {
-      "text": "UK support for Falkland Islands 'unwavering' after Argentina restates claims, No 10 says",
-      "hoursAgo": 10,
-      "link": "https://www.bbc.co.uk/news/articles/cn45jg3zlz4o"
-    },
-    {
-      "text": "Russia hits Ukrainian security headquarters in drone attack, Zelensky says",
-      "hoursAgo": 6,
-      "link": "https://www.bbc.co.uk/news/articles/c5yep7y48x2o"
-    },
-    {
-      "text": "Steve Irwin's family celebrates 'superhero' dad, 20 years after shock death",
-      "hoursAgo": 18,
-      "link": "https://www.bbc.co.uk/news/articles/cjrx75ldydwo"
+      "text": "At least two dead in blast at Bolivia military barracks",
+      "hoursAgo": 2,
+      "link": "https://www.bbc.co.uk/news/articles/c3v45xy67g5o"
     }
   ],
   "launches": [
@@ -200,42 +191,42 @@
       "title": "Tesla Cybercab launch catches NHTSA’s attention who wants to know more",
       "link": "https://www.teslarati.com/tesla-cybercab-launch-nhtsa-attention-know-more/",
       "date": "Fri, 04 Sep 2026 15:47",
-      "hoursAgo": 6,
+      "hoursAgo": 16,
       "source": "Teslarati"
     },
     {
       "title": "Tesla Cybercab is coming to Asia this month as US service officially begins",
       "link": "https://www.teslarati.com/tesla-cybercab-is-coming-to-asia-this-month-as-us-service-officially-begins/",
       "date": "Fri, 04 Sep 2026 03:26",
-      "hoursAgo": 18,
+      "hoursAgo": 28,
       "source": "Teslarati"
     },
     {
       "title": "Tesla Cybertruck targets job site crews with new Tailgate Utility Track and Bed Gear Box accessory",
       "link": "https://www.teslarati.com/tesla-cybertruck-tailgate-utility-track-bed-gear-box/",
       "date": "Fri, 04 Sep 2026 02:45",
-      "hoursAgo": 19,
+      "hoursAgo": 29,
       "source": "Teslarati"
     },
     {
       "title": "Tesla set to open Cybercab rides to the public, with no steering wheel or pedals",
       "link": "https://www.teslarati.com/tesla-opens-cybercab-rides-to-the-public-with-no-steering-wheel-or-pedals/",
       "date": "Fri, 04 Sep 2026 01:40",
-      "hoursAgo": 20,
+      "hoursAgo": 30,
       "source": "Teslarati"
     },
     {
       "title": "Tesla hints its already prepping for Cybercab fleet orders",
       "link": "https://www.teslarati.com/tesla-hints-prepping-cybercab-fleet-orders/",
       "date": "Thu, 03 Sep 2026 21:41",
-      "hoursAgo": 24,
+      "hoursAgo": 34,
       "source": "Teslarati"
     },
     {
       "title": "Tesla Robotaxi riders will face the best dilemma when booking a ride",
       "link": "https://www.teslarati.com/tesla-robotaxi-riders-face-best-dilemma-booking-ride/",
       "date": "Thu, 03 Sep 2026 16:53",
-      "hoursAgo": 29,
+      "hoursAgo": 39,
       "source": "Teslarati"
     }
   ],
