@@ -1,75 +1,75 @@
 {
-  "updatedAt": "2026-09-08T19:17+02:00",
+  "updatedAt": "2026-09-08T21:57+02:00",
   "stocks": {
     "TSLA": {
-      "price": 367.72,
-      "change_1d": 3.85,
-      "change_3d": -2.3,
-      "change_1m": 10.49,
-      "change_12m": 6.15,
-      "change_3y": 47.98,
-      "updated": "2026-09-08T17:17:21.239608"
+      "price": 368.45,
+      "change_1d": 4.06,
+      "change_3d": -2.11,
+      "change_1m": 10.71,
+      "change_12m": 6.36,
+      "change_3y": 48.27,
+      "updated": "2026-09-08T19:57:26.342360"
     },
     "NVDA": {
-      "price": 226.1,
-      "change_1d": -1.85,
-      "change_3d": -1.03,
-      "change_1m": 3.95,
-      "change_12m": 34.51,
-      "change_3y": 397.06,
-      "updated": "2026-09-08T17:17:21.239808"
+      "price": 225.33,
+      "change_1d": -2.18,
+      "change_3d": -1.37,
+      "change_1m": 3.6,
+      "change_12m": 34.06,
+      "change_3y": 395.37,
+      "updated": "2026-09-08T19:57:26.342561"
     },
     "MU": {
-      "price": 1019.77,
-      "change_1d": 0.31,
-      "change_3d": 6.43,
-      "change_1m": 17.41,
-      "change_12m": 676.97,
-      "change_3y": 1369.32,
-      "updated": "2026-09-08T17:17:21.240019"
+      "price": 1000.13,
+      "change_1d": -1.62,
+      "change_3d": 4.38,
+      "change_1m": 15.15,
+      "change_12m": 662.01,
+      "change_3y": 1341.02,
+      "updated": "2026-09-08T19:57:26.342738"
     }
   },
   "news": [
     {
+      "title": "Elon Musk hints at Tesla Cybercab’s next market",
+      "link": "https://www.teslarati.com/elon-musk-hints-tesla-cybercab-next-market/",
+      "date": "Tue, 08 Sep 2026 18:43",
+      "hoursAgo": 1,
+      "source": "Teslarati"
+    },
+    {
+      "title": "Tesla Cybercab improvements are already on the minds of company engineers",
+      "link": "https://www.teslarati.com/tesla-cybercab-improvements-already-on-minds-company-engineers/",
+      "date": "Tue, 08 Sep 2026 17:23",
+      "hoursAgo": 2,
+      "source": "Teslarati"
+    },
+    {
       "title": "Tesla Cybertruck engineer reveals new changes in ‘constantly evolving’ pickup",
       "link": "https://www.teslarati.com/tesla-cybertruck-engineer-reveals-new-changes-constantly-evolving-pickup/",
       "date": "Tue, 08 Sep 2026 13:00",
-      "hoursAgo": 4,
+      "hoursAgo": 6,
       "source": "Teslarati"
     },
     {
       "title": "Tesla Cybercabs narrowly miss deadly Amazon cargo plane crash",
       "link": "https://www.teslarati.com/tesla-cybercabs-narrowly-miss-deadly-amazon-cargo-plane-crash/",
       "date": "Tue, 08 Sep 2026 05:23",
-      "hoursAgo": 11,
+      "hoursAgo": 14,
       "source": "Teslarati"
     },
     {
       "title": "Tesla crosses major Unsupervised Self-Driving milestone",
       "link": "https://www.teslarati.com/tesla-crosses-major-unsupervised-self-driving-milestone/",
       "date": "Sun, 06 Sep 2026 18:39",
-      "hoursAgo": 46,
+      "hoursAgo": 49,
       "source": "Teslarati"
     },
     {
       "title": "Tesla Robotaxi will be a 24/7 service: here’s when",
       "link": "https://www.teslarati.com/tesla-robotaxi-24-7-service/",
       "date": "Sat, 05 Sep 2026 18:52",
-      "hoursAgo": 70,
-      "source": "Teslarati"
-    },
-    {
-      "title": "Tesla Full Self-Driving will now overtake manual driving to avoid disaster",
-      "link": "https://www.teslarati.com/tesla-full-self-driving-overtake-manual-driving-avoid-disaster/",
-      "date": "Sat, 05 Sep 2026 13:13",
-      "hoursAgo": 76,
-      "source": "Teslarati"
-    },
-    {
-      "title": "Tesla Cybercab launch catches NHTSA’s attention who wants to know more",
-      "link": "https://www.teslarati.com/tesla-cybercab-launch-nhtsa-attention-know-more/",
-      "date": "Fri, 04 Sep 2026 15:47",
-      "hoursAgo": 97,
+      "hoursAgo": 73,
       "source": "Teslarati"
     }
   ],
@@ -109,48 +109,48 @@
       "rain": 0.0
     },
     "+24h": {
-      "temp": 17.1,
+      "temp": 18.2,
       "condition": "Clear",
-      "wind_speed": 7.9,
-      "wind_dir_deg": 137,
+      "wind_speed": 7.3,
+      "wind_dir_deg": 142,
       "cloud": 0,
       "rain": 0.0
     }
   },
   "keyNumbers": {
-    "usdZar": "15.98",
-    "usdZarWeek": "+0.4%",
+    "usdZar": "16.01",
+    "usdZarWeek": "+0.5%",
     "usdZarLabel": "rand weaker",
-    "btc": "78673",
-    "btcWeek": "+1.3%",
+    "btc": "78335",
+    "btcWeek": "+0.9%",
     "jse": "+0.4%",
-    "sp500": "-0.3%"
+    "sp500": "-0.6%"
   },
   "worldEvents": [
     {
+      "text": "UK announces sanctions on West Bank settlements prompting furious Israeli response",
+      "hoursAgo": 0,
+      "link": "https://www.bbc.co.uk/news/articles/c4g7zen0vveo"
+    },
+    {
       "text": "Carney says US trade war 'will come at a cost' as Canada strikes back on tariffs",
-      "hoursAgo": 2,
+      "hoursAgo": 5,
       "link": "https://www.bbc.co.uk/news/articles/c8jdev0422jo"
     },
     {
       "text": "Renoir paintings worth millions stolen in French museum heist",
-      "hoursAgo": 3,
+      "hoursAgo": 6,
       "link": "https://www.bbc.co.uk/news/articles/c70drp0pyw2o"
     },
     {
       "text": "Argentina to file criminal case against oil company operating in Falklands",
-      "hoursAgo": 6,
+      "hoursAgo": 8,
       "link": "https://www.bbc.co.uk/news/articles/c8jd14glvneo"
     },
     {
       "text": "Ukrainian TV channel building hit by Russian drone as five killed in Kyiv",
-      "hoursAgo": 0,
+      "hoursAgo": 2,
       "link": "https://www.bbc.co.uk/news/articles/cn8m1k7p3v7o"
-    },
-    {
-      "text": "British widow faces deportation from Sweden after 22 years",
-      "hoursAgo": 0,
-      "link": "https://www.bbc.co.uk/news/articles/c62k0d4px6ro"
     }
   ],
   "launches": [
@@ -197,45 +197,45 @@
   ],
   "companyNews": [
     {
+      "title": "Elon Musk hints at Tesla Cybercab’s next market",
+      "link": "https://www.teslarati.com/elon-musk-hints-tesla-cybercab-next-market/",
+      "date": "Tue, 08 Sep 2026 18:43",
+      "hoursAgo": 1,
+      "source": "Teslarati"
+    },
+    {
+      "title": "Tesla Cybercab improvements are already on the minds of company engineers",
+      "link": "https://www.teslarati.com/tesla-cybercab-improvements-already-on-minds-company-engineers/",
+      "date": "Tue, 08 Sep 2026 17:23",
+      "hoursAgo": 2,
+      "source": "Teslarati"
+    },
+    {
       "title": "Tesla Cybertruck engineer reveals new changes in ‘constantly evolving’ pickup",
       "link": "https://www.teslarati.com/tesla-cybertruck-engineer-reveals-new-changes-constantly-evolving-pickup/",
       "date": "Tue, 08 Sep 2026 13:00",
-      "hoursAgo": 4,
+      "hoursAgo": 6,
       "source": "Teslarati"
     },
     {
       "title": "Tesla Cybercabs narrowly miss deadly Amazon cargo plane crash",
       "link": "https://www.teslarati.com/tesla-cybercabs-narrowly-miss-deadly-amazon-cargo-plane-crash/",
       "date": "Tue, 08 Sep 2026 05:23",
-      "hoursAgo": 11,
+      "hoursAgo": 14,
       "source": "Teslarati"
     },
     {
       "title": "Tesla crosses major Unsupervised Self-Driving milestone",
       "link": "https://www.teslarati.com/tesla-crosses-major-unsupervised-self-driving-milestone/",
       "date": "Sun, 06 Sep 2026 18:39",
-      "hoursAgo": 46,
+      "hoursAgo": 49,
       "source": "Teslarati"
     },
     {
       "title": "Tesla Robotaxi will be a 24/7 service: here’s when",
       "link": "https://www.teslarati.com/tesla-robotaxi-24-7-service/",
       "date": "Sat, 05 Sep 2026 18:52",
-      "hoursAgo": 70,
-      "source": "Teslarati"
-    },
-    {
-      "title": "Tesla Full Self-Driving will now overtake manual driving to avoid disaster",
-      "link": "https://www.teslarati.com/tesla-full-self-driving-overtake-manual-driving-avoid-disaster/",
-      "date": "Sat, 05 Sep 2026 13:13",
-      "hoursAgo": 76,
-      "source": "Teslarati"
-    },
-    {
-      "title": "Tesla Cybercab launch catches NHTSA’s attention who wants to know more",
-      "link": "https://www.teslarati.com/tesla-cybercab-launch-nhtsa-attention-know-more/",
-      "date": "Fri, 04 Sep 2026 15:47",
-      "hoursAgo": 97,
+      "hoursAgo": 73,
       "source": "Teslarati"
     }
   ],
