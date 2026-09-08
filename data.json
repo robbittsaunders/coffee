@@ -1,32 +1,32 @@
 {
-  "updatedAt": "2026-09-08T21:57+02:00",
+  "updatedAt": "2026-09-09T00:44+02:00",
   "stocks": {
     "TSLA": {
-      "price": 368.45,
-      "change_1d": 4.06,
-      "change_3d": -2.11,
-      "change_1m": 10.71,
-      "change_12m": 6.36,
-      "change_3y": 48.27,
-      "updated": "2026-09-08T19:57:26.342360"
+      "price": 368.16,
+      "change_1d": 3.98,
+      "change_3d": -2.18,
+      "change_1m": 10.62,
+      "change_12m": 6.28,
+      "change_3y": 34.57,
+      "updated": "2026-09-08T22:44:46.465422"
     },
     "NVDA": {
-      "price": 225.33,
-      "change_1d": -2.18,
-      "change_3d": -1.37,
-      "change_1m": 3.6,
-      "change_12m": 34.06,
-      "change_3y": 395.37,
-      "updated": "2026-09-08T19:57:26.342561"
+      "price": 225.73,
+      "change_1d": -2.01,
+      "change_3d": -1.19,
+      "change_1m": 3.78,
+      "change_12m": 34.29,
+      "change_3y": 400.58,
+      "updated": "2026-09-08T22:44:46.465549"
     },
     "MU": {
-      "price": 1000.13,
-      "change_1d": -1.62,
-      "change_3d": 4.38,
-      "change_1m": 15.15,
-      "change_12m": 662.01,
-      "change_3y": 1341.02,
-      "updated": "2026-09-08T19:57:26.342738"
+      "price": 1000.26,
+      "change_1d": -1.61,
+      "change_3d": 4.39,
+      "change_1m": 15.17,
+      "change_12m": 662.11,
+      "change_3y": 1344.29,
+      "updated": "2026-09-08T22:44:46.465653"
     }
   },
   "news": [
@@ -34,42 +34,42 @@
       "title": "Elon Musk hints at Tesla Cybercab’s next market",
       "link": "https://www.teslarati.com/elon-musk-hints-tesla-cybercab-next-market/",
       "date": "Tue, 08 Sep 2026 18:43",
-      "hoursAgo": 1,
+      "hoursAgo": 4,
       "source": "Teslarati"
     },
     {
       "title": "Tesla Cybercab improvements are already on the minds of company engineers",
       "link": "https://www.teslarati.com/tesla-cybercab-improvements-already-on-minds-company-engineers/",
       "date": "Tue, 08 Sep 2026 17:23",
-      "hoursAgo": 2,
+      "hoursAgo": 5,
       "source": "Teslarati"
     },
     {
       "title": "Tesla Cybertruck engineer reveals new changes in ‘constantly evolving’ pickup",
       "link": "https://www.teslarati.com/tesla-cybertruck-engineer-reveals-new-changes-constantly-evolving-pickup/",
       "date": "Tue, 08 Sep 2026 13:00",
-      "hoursAgo": 6,
+      "hoursAgo": 9,
       "source": "Teslarati"
     },
     {
       "title": "Tesla Cybercabs narrowly miss deadly Amazon cargo plane crash",
       "link": "https://www.teslarati.com/tesla-cybercabs-narrowly-miss-deadly-amazon-cargo-plane-crash/",
       "date": "Tue, 08 Sep 2026 05:23",
-      "hoursAgo": 14,
+      "hoursAgo": 17,
       "source": "Teslarati"
     },
     {
       "title": "Tesla crosses major Unsupervised Self-Driving milestone",
       "link": "https://www.teslarati.com/tesla-crosses-major-unsupervised-self-driving-milestone/",
       "date": "Sun, 06 Sep 2026 18:39",
-      "hoursAgo": 49,
+      "hoursAgo": 52,
       "source": "Teslarati"
     },
     {
       "title": "Tesla Robotaxi will be a 24/7 service: here’s when",
       "link": "https://www.teslarati.com/tesla-robotaxi-24-7-service/",
       "date": "Sat, 05 Sep 2026 18:52",
-      "hoursAgo": 73,
+      "hoursAgo": 75,
       "source": "Teslarati"
     }
   ],
@@ -77,80 +77,80 @@
   "roasts": [],
   "weather": {
     "+1h": {
-      "temp": 18.3,
+      "temp": 17.7,
       "condition": "Clear",
-      "wind_speed": 3.2,
-      "wind_dir_deg": 133,
+      "wind_speed": 8.3,
+      "wind_dir_deg": 146,
       "cloud": 0,
       "rain": 0.0
     },
     "+3h": {
-      "temp": 16.9,
+      "temp": 16.7,
       "condition": "Clear",
-      "wind_speed": 3.7,
-      "wind_dir_deg": 241,
+      "wind_speed": 9.4,
+      "wind_dir_deg": 150,
       "cloud": 0,
       "rain": 0.0
     },
     "+6h": {
-      "temp": 15.6,
+      "temp": 16.0,
       "condition": "Clear",
-      "wind_speed": 4.2,
-      "wind_dir_deg": 108,
-      "cloud": 4,
+      "wind_speed": 8.4,
+      "wind_dir_deg": 143,
+      "cloud": 0,
       "rain": 0.0
     },
     "+12h": {
-      "temp": 27.0,
+      "temp": 23.3,
       "condition": "Clear",
-      "wind_speed": 8.5,
-      "wind_dir_deg": 331,
+      "wind_speed": 13.0,
+      "wind_dir_deg": 145,
       "cloud": 0,
       "rain": 0.0
     },
     "+24h": {
-      "temp": 18.2,
-      "condition": "Clear",
-      "wind_speed": 7.3,
-      "wind_dir_deg": 142,
-      "cloud": 0,
+      "temp": 15.8,
+      "condition": "Overcast",
+      "wind_speed": 21.0,
+      "wind_dir_deg": 157,
+      "cloud": 100,
       "rain": 0.0
     }
   },
   "keyNumbers": {
-    "usdZar": "16.01",
-    "usdZarWeek": "+0.5%",
+    "usdZar": "15.99",
+    "usdZarWeek": "+0.4%",
     "usdZarLabel": "rand weaker",
-    "btc": "78335",
-    "btcWeek": "+0.9%",
-    "jse": "+0.4%",
+    "btc": "78477",
+    "btcWeek": "+1.0%",
+    "jse": "+0.2%",
     "sp500": "-0.6%"
   },
   "worldEvents": [
     {
       "text": "UK announces sanctions on West Bank settlements prompting furious Israeli response",
-      "hoursAgo": 0,
+      "hoursAgo": 3,
       "link": "https://www.bbc.co.uk/news/articles/c4g7zen0vveo"
     },
     {
+      "text": "Paul Adams: British-Israeli relations at lowest ebb in decades",
+      "hoursAgo": 0,
+      "link": "https://www.bbc.co.uk/news/articles/c5ydlex9yn3o"
+    },
+    {
       "text": "Carney says US trade war 'will come at a cost' as Canada strikes back on tariffs",
-      "hoursAgo": 5,
+      "hoursAgo": 7,
       "link": "https://www.bbc.co.uk/news/articles/c8jdev0422jo"
     },
     {
       "text": "Renoir paintings worth millions stolen in French museum heist",
-      "hoursAgo": 6,
+      "hoursAgo": 9,
       "link": "https://www.bbc.co.uk/news/articles/c70drp0pyw2o"
     },
     {
       "text": "Argentina to file criminal case against oil company operating in Falklands",
-      "hoursAgo": 8,
+      "hoursAgo": 11,
       "link": "https://www.bbc.co.uk/news/articles/c8jd14glvneo"
-    },
-    {
-      "text": "Ukrainian TV channel building hit by Russian drone as five killed in Kyiv",
-      "hoursAgo": 2,
-      "link": "https://www.bbc.co.uk/news/articles/cn8m1k7p3v7o"
     }
   ],
   "launches": [
@@ -200,42 +200,42 @@
       "title": "Elon Musk hints at Tesla Cybercab’s next market",
       "link": "https://www.teslarati.com/elon-musk-hints-tesla-cybercab-next-market/",
       "date": "Tue, 08 Sep 2026 18:43",
-      "hoursAgo": 1,
+      "hoursAgo": 4,
       "source": "Teslarati"
     },
     {
       "title": "Tesla Cybercab improvements are already on the minds of company engineers",
       "link": "https://www.teslarati.com/tesla-cybercab-improvements-already-on-minds-company-engineers/",
       "date": "Tue, 08 Sep 2026 17:23",
-      "hoursAgo": 2,
+      "hoursAgo": 5,
       "source": "Teslarati"
     },
     {
       "title": "Tesla Cybertruck engineer reveals new changes in ‘constantly evolving’ pickup",
       "link": "https://www.teslarati.com/tesla-cybertruck-engineer-reveals-new-changes-constantly-evolving-pickup/",
       "date": "Tue, 08 Sep 2026 13:00",
-      "hoursAgo": 6,
+      "hoursAgo": 9,
       "source": "Teslarati"
     },
     {
       "title": "Tesla Cybercabs narrowly miss deadly Amazon cargo plane crash",
       "link": "https://www.teslarati.com/tesla-cybercabs-narrowly-miss-deadly-amazon-cargo-plane-crash/",
       "date": "Tue, 08 Sep 2026 05:23",
-      "hoursAgo": 14,
+      "hoursAgo": 17,
       "source": "Teslarati"
     },
     {
       "title": "Tesla crosses major Unsupervised Self-Driving milestone",
       "link": "https://www.teslarati.com/tesla-crosses-major-unsupervised-self-driving-milestone/",
       "date": "Sun, 06 Sep 2026 18:39",
-      "hoursAgo": 49,
+      "hoursAgo": 52,
       "source": "Teslarati"
     },
     {
       "title": "Tesla Robotaxi will be a 24/7 service: here’s when",
       "link": "https://www.teslarati.com/tesla-robotaxi-24-7-service/",
       "date": "Sat, 05 Sep 2026 18:52",
-      "hoursAgo": 73,
+      "hoursAgo": 75,
       "source": "Teslarati"
     }
   ],
