@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-07T23:36+02:00",
+  "updatedAt": "2026-09-08T10:36+02:00",
   "stocks": {
     "TSLA": {
       "price": 354.08,
@@ -8,7 +8,7 @@
       "change_1m": 7.01,
       "change_12m": 0.92,
       "change_3y": 38.05,
-      "updated": "2026-09-07T21:35:56.661952"
+      "updated": "2026-09-08T08:36:42.595827"
     },
     "NVDA": {
       "price": 230.36,
@@ -17,7 +17,7 @@
       "change_1m": 5.89,
       "change_12m": 38.11,
       "change_3y": 375.42,
-      "updated": "2026-09-07T21:35:56.662119"
+      "updated": "2026-09-08T08:36:42.596005"
     },
     "MU": {
       "price": 1016.59,
@@ -26,50 +26,50 @@
       "change_1m": 18.07,
       "change_12m": 675.08,
       "change_3y": 1362.44,
-      "updated": "2026-09-07T21:35:56.662257"
+      "updated": "2026-09-08T08:36:42.596145"
     }
   },
   "news": [
     {
+      "title": "Tesla Cybercabs narrowly miss deadly Amazon cargo plane crash",
+      "link": "https://www.teslarati.com/tesla-cybercabs-narrowly-miss-deadly-amazon-cargo-plane-crash/",
+      "date": "Tue, 08 Sep 2026 05:23",
+      "hoursAgo": 3,
+      "source": "Teslarati"
+    },
+    {
       "title": "Tesla crosses major Unsupervised Self-Driving milestone",
       "link": "https://www.teslarati.com/tesla-crosses-major-unsupervised-self-driving-milestone/",
       "date": "Sun, 06 Sep 2026 18:39",
-      "hoursAgo": 26,
+      "hoursAgo": 37,
       "source": "Teslarati"
     },
     {
       "title": "Tesla Robotaxi will be a 24/7 service: here’s when",
       "link": "https://www.teslarati.com/tesla-robotaxi-24-7-service/",
       "date": "Sat, 05 Sep 2026 18:52",
-      "hoursAgo": 50,
+      "hoursAgo": 61,
       "source": "Teslarati"
     },
     {
       "title": "Tesla Full Self-Driving will now overtake manual driving to avoid disaster",
       "link": "https://www.teslarati.com/tesla-full-self-driving-overtake-manual-driving-avoid-disaster/",
       "date": "Sat, 05 Sep 2026 13:13",
-      "hoursAgo": 56,
+      "hoursAgo": 67,
       "source": "Teslarati"
     },
     {
       "title": "Tesla Cybercab launch catches NHTSA’s attention who wants to know more",
       "link": "https://www.teslarati.com/tesla-cybercab-launch-nhtsa-attention-know-more/",
       "date": "Fri, 04 Sep 2026 15:47",
-      "hoursAgo": 77,
+      "hoursAgo": 88,
       "source": "Teslarati"
     },
     {
       "title": "Tesla Cybercab is coming to Asia this month as US service officially begins",
       "link": "https://www.teslarati.com/tesla-cybercab-is-coming-to-asia-this-month-as-us-service-officially-begins/",
       "date": "Fri, 04 Sep 2026 03:26",
-      "hoursAgo": 90,
-      "source": "Teslarati"
-    },
-    {
-      "title": "Tesla Cybertruck targets job site crews with new Tailgate Utility Track and Bed Gear Box accessory",
-      "link": "https://www.teslarati.com/tesla-cybertruck-tailgate-utility-track-bed-gear-box/",
-      "date": "Fri, 04 Sep 2026 02:45",
-      "hoursAgo": 90,
+      "hoursAgo": 101,
       "source": "Teslarati"
     }
   ],
@@ -77,80 +77,80 @@
   "roasts": [],
   "weather": {
     "+1h": {
-      "temp": 18.1,
+      "temp": 18.3,
       "condition": "Clear",
-      "wind_speed": 4.3,
-      "wind_dir_deg": 105,
+      "wind_speed": 3.2,
+      "wind_dir_deg": 133,
       "cloud": 0,
       "rain": 0.0
     },
     "+3h": {
-      "temp": 17.8,
+      "temp": 16.9,
       "condition": "Clear",
-      "wind_speed": 3.1,
-      "wind_dir_deg": 103,
+      "wind_speed": 3.7,
+      "wind_dir_deg": 241,
       "cloud": 0,
       "rain": 0.0
     },
     "+6h": {
-      "temp": 17.2,
+      "temp": 15.6,
       "condition": "Clear",
-      "wind_speed": 4.1,
-      "wind_dir_deg": 38,
-      "cloud": 0,
+      "wind_speed": 4.2,
+      "wind_dir_deg": 108,
+      "cloud": 4,
       "rain": 0.0
     },
     "+12h": {
-      "temp": 27.5,
+      "temp": 27.2,
       "condition": "Clear",
-      "wind_speed": 5.6,
-      "wind_dir_deg": 272,
+      "wind_speed": 8.8,
+      "wind_dir_deg": 329,
       "cloud": 0,
       "rain": 0.0
     },
     "+24h": {
-      "temp": 19.5,
+      "temp": 17.6,
       "condition": "Clear",
-      "wind_speed": 1.2,
-      "wind_dir_deg": 141,
+      "wind_speed": 8.3,
+      "wind_dir_deg": 139,
       "cloud": 0,
       "rain": 0.0
     }
   },
   "keyNumbers": {
-    "usdZar": "15.98",
-    "usdZarWeek": "-0.1%",
-    "usdZarLabel": "rand stronger",
-    "btc": "79182",
-    "btcWeek": "+1.2%",
-    "jse": "+0.2%",
+    "usdZar": "15.96",
+    "usdZarWeek": "+0.2%",
+    "usdZarLabel": "rand weaker",
+    "btc": "78495",
+    "btcWeek": "+1.1%",
+    "jse": "-0.7%",
     "sp500": "-0.4%"
   },
   "worldEvents": [
     {
+      "text": "Canada braces for prolonged trade war as counter-tariffs on US take effect",
+      "hoursAgo": 3,
+      "link": "https://www.bbc.co.uk/news/articles/c8jdev0422jo"
+    },
+    {
       "text": "Palestinian parents fear for children's lives at school as settler attacks grow",
-      "hoursAgo": 0,
+      "hoursAgo": 11,
       "link": "https://www.bbc.co.uk/news/articles/c3wj45g73g1o"
     },
     {
-      "text": "Germany's far-right AfD says 'democracy demands' parties work with them after state election win",
+      "text": "Flight recorders recovered from Amazon cargo plane crash",
+      "hoursAgo": 10,
+      "link": "https://www.bbc.co.uk/news/articles/ce8e32n8epeo"
+    },
+    {
+      "text": "Eiffel Tower shut by staff protest after female workers moved for religious visit",
+      "hoursAgo": 8,
+      "link": "https://www.bbc.co.uk/news/articles/clyenxp540vo"
+    },
+    {
+      "text": "Trial over alleged murders of Australian surfer brothers starts in Mexico",
       "hoursAgo": 7,
-      "link": "https://www.bbc.co.uk/news/articles/cpd0113082eo"
-    },
-    {
-      "text": "Thousands turn out in Serbia for funeral of  'Butcher of Bosnia' Ratko Mladić",
-      "hoursAgo": 6,
-      "link": "https://www.bbc.co.uk/news/articles/cn5dkk7yw74o"
-    },
-    {
-      "text": "Israeli strikes in southern Lebanese village kill 12",
-      "hoursAgo": 7,
-      "link": "https://www.bbc.co.uk/news/articles/c5yl96vz0edo"
-    },
-    {
-      "text": "Grindr to pay £26m to settle claims it allegedly shared users' HIV status",
-      "hoursAgo": 6,
-      "link": "https://www.bbc.co.uk/news/articles/cn8e63qdqwzo"
+      "link": "https://www.bbc.co.uk/news/articles/crernpv433vo"
     }
   ],
   "launches": [
@@ -197,45 +197,45 @@
   ],
   "companyNews": [
     {
+      "title": "Tesla Cybercabs narrowly miss deadly Amazon cargo plane crash",
+      "link": "https://www.teslarati.com/tesla-cybercabs-narrowly-miss-deadly-amazon-cargo-plane-crash/",
+      "date": "Tue, 08 Sep 2026 05:23",
+      "hoursAgo": 3,
+      "source": "Teslarati"
+    },
+    {
       "title": "Tesla crosses major Unsupervised Self-Driving milestone",
       "link": "https://www.teslarati.com/tesla-crosses-major-unsupervised-self-driving-milestone/",
       "date": "Sun, 06 Sep 2026 18:39",
-      "hoursAgo": 26,
+      "hoursAgo": 37,
       "source": "Teslarati"
     },
     {
       "title": "Tesla Robotaxi will be a 24/7 service: here’s when",
       "link": "https://www.teslarati.com/tesla-robotaxi-24-7-service/",
       "date": "Sat, 05 Sep 2026 18:52",
-      "hoursAgo": 50,
+      "hoursAgo": 61,
       "source": "Teslarati"
     },
     {
       "title": "Tesla Full Self-Driving will now overtake manual driving to avoid disaster",
       "link": "https://www.teslarati.com/tesla-full-self-driving-overtake-manual-driving-avoid-disaster/",
       "date": "Sat, 05 Sep 2026 13:13",
-      "hoursAgo": 56,
+      "hoursAgo": 67,
       "source": "Teslarati"
     },
     {
       "title": "Tesla Cybercab launch catches NHTSA’s attention who wants to know more",
       "link": "https://www.teslarati.com/tesla-cybercab-launch-nhtsa-attention-know-more/",
       "date": "Fri, 04 Sep 2026 15:47",
-      "hoursAgo": 77,
+      "hoursAgo": 88,
       "source": "Teslarati"
     },
     {
       "title": "Tesla Cybercab is coming to Asia this month as US service officially begins",
       "link": "https://www.teslarati.com/tesla-cybercab-is-coming-to-asia-this-month-as-us-service-officially-begins/",
       "date": "Fri, 04 Sep 2026 03:26",
-      "hoursAgo": 90,
-      "source": "Teslarati"
-    },
-    {
-      "title": "Tesla Cybertruck targets job site crews with new Tailgate Utility Track and Bed Gear Box accessory",
-      "link": "https://www.teslarati.com/tesla-cybertruck-tailgate-utility-track-bed-gear-box/",
-      "date": "Fri, 04 Sep 2026 02:45",
-      "hoursAgo": 90,
+      "hoursAgo": 101,
       "source": "Teslarati"
     }
   ],
