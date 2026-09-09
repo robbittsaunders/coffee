@@ -1,75 +1,75 @@
 {
-  "updatedAt": "2026-09-09T19:11+02:00",
+  "updatedAt": "2026-09-09T21:50+02:00",
   "stocks": {
     "TSLA": {
-      "price": 368.35,
-      "change_1d": 0.05,
-      "change_3d": 4.03,
-      "change_1m": 12.47,
-      "change_12m": 6.16,
-      "change_3y": 34.64,
-      "updated": "2026-09-09T17:11:16.198016"
+      "price": 368.88,
+      "change_1d": 0.2,
+      "change_3d": 4.18,
+      "change_1m": 12.63,
+      "change_12m": 6.31,
+      "change_3y": 34.83,
+      "updated": "2026-09-09T19:50:34.388060"
     },
     "NVDA": {
-      "price": 224.13,
-      "change_1d": -0.71,
-      "change_3d": -2.7,
-      "change_1m": 0.02,
-      "change_12m": 31.43,
-      "change_3y": 397.03,
-      "updated": "2026-09-09T17:11:16.198208"
+      "price": 223.8,
+      "change_1d": -0.86,
+      "change_3d": -2.85,
+      "change_1m": -0.13,
+      "change_12m": 31.24,
+      "change_3y": 396.3,
+      "updated": "2026-09-09T19:50:34.388255"
     },
     "MU": {
-      "price": 1020.78,
-      "change_1d": 2.05,
-      "change_3d": 0.41,
-      "change_1m": 12.01,
-      "change_12m": 656.0,
-      "change_3y": 1373.92,
-      "updated": "2026-09-09T17:11:16.198380"
+      "price": 1028.74,
+      "change_1d": 2.85,
+      "change_3d": 1.2,
+      "change_1m": 12.89,
+      "change_12m": 661.9,
+      "change_3y": 1385.42,
+      "updated": "2026-09-09T19:50:34.388423"
     }
   },
   "news": [
     {
+      "title": "Tesla’s two defunct flagship models are getting a big upgrade",
+      "link": "https://www.teslarati.com/tesla-two-defunct-models-big-upgrade/",
+      "date": "Wed, 09 Sep 2026 17:28",
+      "hoursAgo": 2,
+      "source": "Teslarati"
+    },
+    {
       "title": "This tiny Tesla Cybertruck adjustment has big advantages",
       "link": "https://www.teslarati.com/tiny-tesla-cybertruck-adjustment-big-advantages/",
       "date": "Wed, 09 Sep 2026 15:32",
-      "hoursAgo": 1,
+      "hoursAgo": 4,
       "source": "Teslarati"
     },
     {
       "title": "Tesla is rolling out a new FSD version with a massive safety addition",
       "link": "https://www.teslarati.com/tesla-rolling-new-fsd-version-massive-safety-addition/",
       "date": "Wed, 09 Sep 2026 14:07",
-      "hoursAgo": 3,
+      "hoursAgo": 5,
       "source": "Teslarati"
     },
     {
       "title": "Tesla primes Cybercabs for 4K streaming and high bandwidth gaming with Starlink integration",
       "link": "https://www.teslarati.com/tesla-primes-cybercabs-for-4k-streaming-and-high-bandwidth-gaming-with-starlink-integration/",
       "date": "Wed, 09 Sep 2026 06:09",
-      "hoursAgo": 11,
+      "hoursAgo": 13,
       "source": "Teslarati"
     },
     {
       "title": "Elon Musk hints at Tesla Cybercab’s next market",
       "link": "https://www.teslarati.com/elon-musk-hints-tesla-cybercab-next-market/",
       "date": "Tue, 08 Sep 2026 18:43",
-      "hoursAgo": 22,
+      "hoursAgo": 25,
       "source": "Teslarati"
     },
     {
       "title": "Tesla Cybercab improvements are already on the minds of company engineers",
       "link": "https://www.teslarati.com/tesla-cybercab-improvements-already-on-minds-company-engineers/",
       "date": "Tue, 08 Sep 2026 17:23",
-      "hoursAgo": 23,
-      "source": "Teslarati"
-    },
-    {
-      "title": "Tesla Cybertruck engineer reveals new changes in ‘constantly evolving’ pickup",
-      "link": "https://www.teslarati.com/tesla-cybertruck-engineer-reveals-new-changes-constantly-evolving-pickup/",
-      "date": "Tue, 08 Sep 2026 13:00",
-      "hoursAgo": 28,
+      "hoursAgo": 26,
       "source": "Teslarati"
     }
   ],
@@ -109,48 +109,48 @@
       "rain": 0.0
     },
     "+24h": {
-      "temp": 15.3,
+      "temp": 15.4,
       "condition": "Mainly clear",
-      "wind_speed": 19.0,
-      "wind_dir_deg": 149,
-      "cloud": 38,
+      "wind_speed": 19.7,
+      "wind_dir_deg": 150,
+      "cloud": 33,
       "rain": 0.0
     }
   },
   "keyNumbers": {
-    "usdZar": "16.03",
-    "usdZarWeek": "+0.5%",
+    "usdZar": "16.05",
+    "usdZarWeek": "+0.7%",
     "usdZarLabel": "rand weaker",
-    "btc": "78797",
-    "btcWeek": "+0.3%",
+    "btc": "78228",
+    "btcWeek": "-0.4%",
     "jse": "-0.8%",
     "sp500": "-0.4%"
   },
   "worldEvents": [
     {
       "text": "Germany's Merz attacks AfD in stormy debate after far-right election win",
-      "hoursAgo": 3,
+      "hoursAgo": 6,
       "link": "https://www.bbc.co.uk/news/articles/c98679wr78do"
     },
     {
+      "text": "Google picks Finland for its largest single investment in Europe",
+      "hoursAgo": 2,
+      "link": "https://www.bbc.co.uk/news/articles/c8r6y4me2g6o"
+    },
+    {
       "text": "Oil hits $100 a barrel for first time since July after US and Houthi strikes",
-      "hoursAgo": 0,
+      "hoursAgo": 3,
       "link": "https://www.bbc.co.uk/news/articles/cyvznqypz0yo"
     },
     {
       "text": "US to ban imports of some Canadian alcohol, dairy goods and motorbikes",
-      "hoursAgo": 6,
+      "hoursAgo": 9,
       "link": "https://www.bbc.co.uk/news/articles/c99dm1000p7o"
     },
     {
       "text": "Europe's royalty pay respects to King Harald V in Norway",
-      "hoursAgo": 0,
+      "hoursAgo": 3,
       "link": "https://www.bbc.co.uk/news/articles/cd94jgy7e94o"
-    },
-    {
-      "text": "Two die at Moldovan border as Russia-Ukraine drone war rages",
-      "hoursAgo": 1,
-      "link": "https://www.bbc.co.uk/news/articles/cvgyvpxe3yjo"
     }
   ],
   "launches": [
@@ -197,45 +197,45 @@
   ],
   "companyNews": [
     {
+      "title": "Tesla’s two defunct flagship models are getting a big upgrade",
+      "link": "https://www.teslarati.com/tesla-two-defunct-models-big-upgrade/",
+      "date": "Wed, 09 Sep 2026 17:28",
+      "hoursAgo": 2,
+      "source": "Teslarati"
+    },
+    {
       "title": "This tiny Tesla Cybertruck adjustment has big advantages",
       "link": "https://www.teslarati.com/tiny-tesla-cybertruck-adjustment-big-advantages/",
       "date": "Wed, 09 Sep 2026 15:32",
-      "hoursAgo": 1,
+      "hoursAgo": 4,
       "source": "Teslarati"
     },
     {
       "title": "Tesla is rolling out a new FSD version with a massive safety addition",
       "link": "https://www.teslarati.com/tesla-rolling-new-fsd-version-massive-safety-addition/",
       "date": "Wed, 09 Sep 2026 14:07",
-      "hoursAgo": 3,
+      "hoursAgo": 5,
       "source": "Teslarati"
     },
     {
       "title": "Tesla primes Cybercabs for 4K streaming and high bandwidth gaming with Starlink integration",
       "link": "https://www.teslarati.com/tesla-primes-cybercabs-for-4k-streaming-and-high-bandwidth-gaming-with-starlink-integration/",
       "date": "Wed, 09 Sep 2026 06:09",
-      "hoursAgo": 11,
+      "hoursAgo": 13,
       "source": "Teslarati"
     },
     {
       "title": "Elon Musk hints at Tesla Cybercab’s next market",
       "link": "https://www.teslarati.com/elon-musk-hints-tesla-cybercab-next-market/",
       "date": "Tue, 08 Sep 2026 18:43",
-      "hoursAgo": 22,
+      "hoursAgo": 25,
       "source": "Teslarati"
     },
     {
       "title": "Tesla Cybercab improvements are already on the minds of company engineers",
       "link": "https://www.teslarati.com/tesla-cybercab-improvements-already-on-minds-company-engineers/",
       "date": "Tue, 08 Sep 2026 17:23",
-      "hoursAgo": 23,
-      "source": "Teslarati"
-    },
-    {
-      "title": "Tesla Cybertruck engineer reveals new changes in ‘constantly evolving’ pickup",
-      "link": "https://www.teslarati.com/tesla-cybertruck-engineer-reveals-new-changes-constantly-evolving-pickup/",
-      "date": "Tue, 08 Sep 2026 13:00",
-      "hoursAgo": 28,
+      "hoursAgo": 26,
       "source": "Teslarati"
     }
   ],
