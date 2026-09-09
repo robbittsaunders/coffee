@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-09T00:44+02:00",
+  "updatedAt": "2026-09-09T10:38+02:00",
   "stocks": {
     "TSLA": {
       "price": 368.16,
@@ -8,7 +8,7 @@
       "change_1m": 10.62,
       "change_12m": 6.28,
       "change_3y": 34.57,
-      "updated": "2026-09-08T22:44:46.465422"
+      "updated": "2026-09-09T08:38:11.755657"
     },
     "NVDA": {
       "price": 225.73,
@@ -17,7 +17,7 @@
       "change_1m": 3.78,
       "change_12m": 34.29,
       "change_3y": 400.58,
-      "updated": "2026-09-08T22:44:46.465549"
+      "updated": "2026-09-09T08:38:11.755763"
     },
     "MU": {
       "price": 1000.26,
@@ -26,50 +26,50 @@
       "change_1m": 15.17,
       "change_12m": 662.11,
       "change_3y": 1344.29,
-      "updated": "2026-09-08T22:44:46.465653"
+      "updated": "2026-09-09T08:38:11.755849"
     }
   },
   "news": [
     {
+      "title": "Tesla primes Cybercabs for 4K streaming and high bandwidth gaming with Starlink integration",
+      "link": "https://www.teslarati.com/tesla-primes-cybercabs-for-4k-streaming-and-high-bandwidth-gaming-with-starlink-integration/",
+      "date": "Wed, 09 Sep 2026 06:09",
+      "hoursAgo": 2,
+      "source": "Teslarati"
+    },
+    {
       "title": "Elon Musk hints at Tesla Cybercab’s next market",
       "link": "https://www.teslarati.com/elon-musk-hints-tesla-cybercab-next-market/",
       "date": "Tue, 08 Sep 2026 18:43",
-      "hoursAgo": 4,
+      "hoursAgo": 13,
       "source": "Teslarati"
     },
     {
       "title": "Tesla Cybercab improvements are already on the minds of company engineers",
       "link": "https://www.teslarati.com/tesla-cybercab-improvements-already-on-minds-company-engineers/",
       "date": "Tue, 08 Sep 2026 17:23",
-      "hoursAgo": 5,
+      "hoursAgo": 15,
       "source": "Teslarati"
     },
     {
       "title": "Tesla Cybertruck engineer reveals new changes in ‘constantly evolving’ pickup",
       "link": "https://www.teslarati.com/tesla-cybertruck-engineer-reveals-new-changes-constantly-evolving-pickup/",
       "date": "Tue, 08 Sep 2026 13:00",
-      "hoursAgo": 9,
+      "hoursAgo": 19,
       "source": "Teslarati"
     },
     {
       "title": "Tesla Cybercabs narrowly miss deadly Amazon cargo plane crash",
       "link": "https://www.teslarati.com/tesla-cybercabs-narrowly-miss-deadly-amazon-cargo-plane-crash/",
       "date": "Tue, 08 Sep 2026 05:23",
-      "hoursAgo": 17,
+      "hoursAgo": 27,
       "source": "Teslarati"
     },
     {
       "title": "Tesla crosses major Unsupervised Self-Driving milestone",
       "link": "https://www.teslarati.com/tesla-crosses-major-unsupervised-self-driving-milestone/",
       "date": "Sun, 06 Sep 2026 18:39",
-      "hoursAgo": 52,
-      "source": "Teslarati"
-    },
-    {
-      "title": "Tesla Robotaxi will be a 24/7 service: here’s when",
-      "link": "https://www.teslarati.com/tesla-robotaxi-24-7-service/",
-      "date": "Sat, 05 Sep 2026 18:52",
-      "hoursAgo": 75,
+      "hoursAgo": 61,
       "source": "Teslarati"
     }
   ],
@@ -77,165 +77,124 @@
   "roasts": [],
   "weather": {
     "+1h": {
-      "temp": 17.7,
+      "temp": 17.0,
       "condition": "Clear",
-      "wind_speed": 8.3,
-      "wind_dir_deg": 146,
+      "wind_speed": 11.5,
+      "wind_dir_deg": 145,
       "cloud": 0,
       "rain": 0.0
     },
     "+3h": {
-      "temp": 16.7,
+      "temp": 15.8,
       "condition": "Clear",
-      "wind_speed": 9.4,
+      "wind_speed": 13.2,
       "wind_dir_deg": 150,
       "cloud": 0,
       "rain": 0.0
     },
     "+6h": {
-      "temp": 16.0,
+      "temp": 15.6,
       "condition": "Clear",
-      "wind_speed": 8.4,
-      "wind_dir_deg": 143,
-      "cloud": 0,
+      "wind_speed": 10.6,
+      "wind_dir_deg": 140,
+      "cloud": 3,
       "rain": 0.0
     },
     "+12h": {
-      "temp": 23.3,
+      "temp": 22.0,
       "condition": "Clear",
-      "wind_speed": 13.0,
-      "wind_dir_deg": 145,
-      "cloud": 0,
+      "wind_speed": 13.9,
+      "wind_dir_deg": 151,
+      "cloud": 9,
       "rain": 0.0
     },
     "+24h": {
-      "temp": 15.8,
+      "temp": 15.6,
       "condition": "Overcast",
-      "wind_speed": 21.0,
-      "wind_dir_deg": 157,
-      "cloud": 100,
+      "wind_speed": 20.4,
+      "wind_dir_deg": 152,
+      "cloud": 94,
       "rain": 0.0
     }
   },
   "keyNumbers": {
-    "usdZar": "15.99",
+    "usdZar": "16.01",
     "usdZarWeek": "+0.4%",
     "usdZarLabel": "rand weaker",
-    "btc": "78477",
-    "btcWeek": "+1.0%",
-    "jse": "+0.2%",
+    "btc": "79639",
+    "btcWeek": "+1.4%",
+    "jse": "-0.8%",
     "sp500": "-0.6%"
   },
   "worldEvents": [
     {
-      "text": "UK announces sanctions on West Bank settlements prompting furious Israeli response",
-      "hoursAgo": 3,
-      "link": "https://www.bbc.co.uk/news/articles/c4g7zen0vveo"
+      "text": "US strikes Iranian oil tankers as Tehran targets American base in Jordan",
+      "hoursAgo": 4,
+      "link": "https://www.bbc.co.uk/news/articles/cyvznqypz0yo"
     },
     {
       "text": "Paul Adams: British-Israeli relations at lowest ebb in decades",
-      "hoursAgo": 0,
+      "hoursAgo": 10,
       "link": "https://www.bbc.co.uk/news/articles/c5ydlex9yn3o"
     },
     {
-      "text": "Carney says US trade war 'will come at a cost' as Canada strikes back on tariffs",
-      "hoursAgo": 7,
-      "link": "https://www.bbc.co.uk/news/articles/c8jdev0422jo"
+      "text": "US slaps import ban on Canadian alcohol, motorbikes and other goods",
+      "hoursAgo": 2,
+      "link": "https://www.bbc.co.uk/news/articles/c99dm1000p7o"
     },
     {
-      "text": "Renoir paintings worth millions stolen in French museum heist",
+      "text": "'Constantly on my mind' - 9/11 agony endures for bereaved, 25 years on",
       "hoursAgo": 9,
-      "link": "https://www.bbc.co.uk/news/articles/c70drp0pyw2o"
+      "link": "https://www.bbc.co.uk/news/articles/clyrjw1yj75o"
     },
     {
-      "text": "Argentina to file criminal case against oil company operating in Falklands",
-      "hoursAgo": 11,
-      "link": "https://www.bbc.co.uk/news/articles/c8jd14glvneo"
+      "text": "South Park creators rename show 'South America' in apparent dig at Trump",
+      "hoursAgo": 2,
+      "link": "https://www.bbc.co.uk/news/articles/cp9340rg7k8o"
     }
   ],
-  "launches": [
-    {
-      "name": "Falcon 9 Block 5 | USSF-153",
-      "date": "Thursday 10 September 17h37",
-      "dateISO": "2026-09-10T15:37:00Z",
-      "details": "Space Launch Complex 4E - Vandenberg SFB, CA, USA",
-      "highlight": false,
-      "link": "https://spacelaunchnow.me/launch/falcon-9-block-5-ussf-153"
-    },
-    {
-      "name": "Starship | Flight 14",
-      "date": "Tuesday 15 September (TBD)",
-      "dateISO": "2026-09-15T00:00:00Z",
-      "details": "Orbital Launch Pad 2 - SpaceX Starbase, TX, USA",
-      "highlight": true,
-      "link": "https://spacelaunchnow.me/launch/starship-flight-14"
-    },
-    {
-      "name": "Falcon 9 Block 5 | Starlink Group 15-27",
-      "date": "Sunday 20 September 03h47",
-      "dateISO": "2026-09-20T01:47:00Z",
-      "details": "Space Launch Complex 4E - Vandenberg SFB, CA, USA",
-      "highlight": false,
-      "link": "https://spacelaunchnow.me/launch/falcon-9-block-5-starlink-group-15-27"
-    },
-    {
-      "name": "Falcon 9 Block 5 | Crew-13",
-      "date": "Wednesday 30 September (TBD)",
-      "dateISO": "2026-09-30T00:00:00Z",
-      "details": "Space Launch Complex 40 - Cape Canaveral SFS, FL, USA",
-      "highlight": true,
-      "link": "https://spacelaunchnow.me/launch/falcon-9-block-5-crew-13"
-    },
-    {
-      "name": "Falcon 9 Block 5 | Dragon CRS-2 SpX-35",
-      "date": "Saturday 31 October (TBD)",
-      "dateISO": "2026-10-31T00:00:00Z",
-      "details": "Space Launch Complex 40 - Cape Canaveral SFS, FL, USA",
-      "highlight": true,
-      "link": "https://spacelaunchnow.me/launch/falcon-9-block-5-dragon-crs-2-spx-35"
-    }
-  ],
+  "launches": [],
   "companyNews": [
+    {
+      "title": "Tesla primes Cybercabs for 4K streaming and high bandwidth gaming with Starlink integration",
+      "link": "https://www.teslarati.com/tesla-primes-cybercabs-for-4k-streaming-and-high-bandwidth-gaming-with-starlink-integration/",
+      "date": "Wed, 09 Sep 2026 06:09",
+      "hoursAgo": 2,
+      "source": "Teslarati"
+    },
     {
       "title": "Elon Musk hints at Tesla Cybercab’s next market",
       "link": "https://www.teslarati.com/elon-musk-hints-tesla-cybercab-next-market/",
       "date": "Tue, 08 Sep 2026 18:43",
-      "hoursAgo": 4,
+      "hoursAgo": 13,
       "source": "Teslarati"
     },
     {
       "title": "Tesla Cybercab improvements are already on the minds of company engineers",
       "link": "https://www.teslarati.com/tesla-cybercab-improvements-already-on-minds-company-engineers/",
       "date": "Tue, 08 Sep 2026 17:23",
-      "hoursAgo": 5,
+      "hoursAgo": 15,
       "source": "Teslarati"
     },
     {
       "title": "Tesla Cybertruck engineer reveals new changes in ‘constantly evolving’ pickup",
       "link": "https://www.teslarati.com/tesla-cybertruck-engineer-reveals-new-changes-constantly-evolving-pickup/",
       "date": "Tue, 08 Sep 2026 13:00",
-      "hoursAgo": 9,
+      "hoursAgo": 19,
       "source": "Teslarati"
     },
     {
       "title": "Tesla Cybercabs narrowly miss deadly Amazon cargo plane crash",
       "link": "https://www.teslarati.com/tesla-cybercabs-narrowly-miss-deadly-amazon-cargo-plane-crash/",
       "date": "Tue, 08 Sep 2026 05:23",
-      "hoursAgo": 17,
+      "hoursAgo": 27,
       "source": "Teslarati"
     },
     {
       "title": "Tesla crosses major Unsupervised Self-Driving milestone",
       "link": "https://www.teslarati.com/tesla-crosses-major-unsupervised-self-driving-milestone/",
       "date": "Sun, 06 Sep 2026 18:39",
-      "hoursAgo": 52,
-      "source": "Teslarati"
-    },
-    {
-      "title": "Tesla Robotaxi will be a 24/7 service: here’s when",
-      "link": "https://www.teslarati.com/tesla-robotaxi-24-7-service/",
-      "date": "Sat, 05 Sep 2026 18:52",
-      "hoursAgo": 75,
+      "hoursAgo": 61,
       "source": "Teslarati"
     }
   ],
