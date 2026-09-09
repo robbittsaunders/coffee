@@ -1,75 +1,75 @@
 {
-  "updatedAt": "2026-09-09T10:38+02:00",
+  "updatedAt": "2026-09-09T19:11+02:00",
   "stocks": {
     "TSLA": {
-      "price": 368.16,
-      "change_1d": 3.98,
-      "change_3d": -2.18,
-      "change_1m": 10.62,
-      "change_12m": 6.28,
-      "change_3y": 34.57,
-      "updated": "2026-09-09T08:38:11.755657"
+      "price": 368.35,
+      "change_1d": 0.05,
+      "change_3d": 4.03,
+      "change_1m": 12.47,
+      "change_12m": 6.16,
+      "change_3y": 34.64,
+      "updated": "2026-09-09T17:11:16.198016"
     },
     "NVDA": {
-      "price": 225.73,
-      "change_1d": -2.01,
-      "change_3d": -1.19,
-      "change_1m": 3.78,
-      "change_12m": 34.29,
-      "change_3y": 400.58,
-      "updated": "2026-09-09T08:38:11.755763"
+      "price": 224.13,
+      "change_1d": -0.71,
+      "change_3d": -2.7,
+      "change_1m": 0.02,
+      "change_12m": 31.43,
+      "change_3y": 397.03,
+      "updated": "2026-09-09T17:11:16.198208"
     },
     "MU": {
-      "price": 1000.26,
-      "change_1d": -1.61,
-      "change_3d": 4.39,
-      "change_1m": 15.17,
-      "change_12m": 662.11,
-      "change_3y": 1344.29,
-      "updated": "2026-09-09T08:38:11.755849"
+      "price": 1020.78,
+      "change_1d": 2.05,
+      "change_3d": 0.41,
+      "change_1m": 12.01,
+      "change_12m": 656.0,
+      "change_3y": 1373.92,
+      "updated": "2026-09-09T17:11:16.198380"
     }
   },
   "news": [
     {
+      "title": "This tiny Tesla Cybertruck adjustment has big advantages",
+      "link": "https://www.teslarati.com/tiny-tesla-cybertruck-adjustment-big-advantages/",
+      "date": "Wed, 09 Sep 2026 15:32",
+      "hoursAgo": 1,
+      "source": "Teslarati"
+    },
+    {
+      "title": "Tesla is rolling out a new FSD version with a massive safety addition",
+      "link": "https://www.teslarati.com/tesla-rolling-new-fsd-version-massive-safety-addition/",
+      "date": "Wed, 09 Sep 2026 14:07",
+      "hoursAgo": 3,
+      "source": "Teslarati"
+    },
+    {
       "title": "Tesla primes Cybercabs for 4K streaming and high bandwidth gaming with Starlink integration",
       "link": "https://www.teslarati.com/tesla-primes-cybercabs-for-4k-streaming-and-high-bandwidth-gaming-with-starlink-integration/",
       "date": "Wed, 09 Sep 2026 06:09",
-      "hoursAgo": 2,
+      "hoursAgo": 11,
       "source": "Teslarati"
     },
     {
       "title": "Elon Musk hints at Tesla Cybercab’s next market",
       "link": "https://www.teslarati.com/elon-musk-hints-tesla-cybercab-next-market/",
       "date": "Tue, 08 Sep 2026 18:43",
-      "hoursAgo": 13,
+      "hoursAgo": 22,
       "source": "Teslarati"
     },
     {
       "title": "Tesla Cybercab improvements are already on the minds of company engineers",
       "link": "https://www.teslarati.com/tesla-cybercab-improvements-already-on-minds-company-engineers/",
       "date": "Tue, 08 Sep 2026 17:23",
-      "hoursAgo": 15,
+      "hoursAgo": 23,
       "source": "Teslarati"
     },
     {
       "title": "Tesla Cybertruck engineer reveals new changes in ‘constantly evolving’ pickup",
       "link": "https://www.teslarati.com/tesla-cybertruck-engineer-reveals-new-changes-constantly-evolving-pickup/",
       "date": "Tue, 08 Sep 2026 13:00",
-      "hoursAgo": 19,
-      "source": "Teslarati"
-    },
-    {
-      "title": "Tesla Cybercabs narrowly miss deadly Amazon cargo plane crash",
-      "link": "https://www.teslarati.com/tesla-cybercabs-narrowly-miss-deadly-amazon-cargo-plane-crash/",
-      "date": "Tue, 08 Sep 2026 05:23",
-      "hoursAgo": 27,
-      "source": "Teslarati"
-    },
-    {
-      "title": "Tesla crosses major Unsupervised Self-Driving milestone",
-      "link": "https://www.teslarati.com/tesla-crosses-major-unsupervised-self-driving-milestone/",
-      "date": "Sun, 06 Sep 2026 18:39",
-      "hoursAgo": 61,
+      "hoursAgo": 28,
       "source": "Teslarati"
     }
   ],
@@ -101,100 +101,141 @@
       "rain": 0.0
     },
     "+12h": {
-      "temp": 22.0,
+      "temp": 21.7,
       "condition": "Clear",
-      "wind_speed": 13.9,
-      "wind_dir_deg": 151,
-      "cloud": 9,
+      "wind_speed": 13.0,
+      "wind_dir_deg": 149,
+      "cloud": 4,
       "rain": 0.0
     },
     "+24h": {
-      "temp": 15.6,
-      "condition": "Overcast",
-      "wind_speed": 20.4,
-      "wind_dir_deg": 152,
-      "cloud": 94,
+      "temp": 15.3,
+      "condition": "Mainly clear",
+      "wind_speed": 19.0,
+      "wind_dir_deg": 149,
+      "cloud": 38,
       "rain": 0.0
     }
   },
   "keyNumbers": {
-    "usdZar": "16.01",
-    "usdZarWeek": "+0.4%",
+    "usdZar": "16.03",
+    "usdZarWeek": "+0.5%",
     "usdZarLabel": "rand weaker",
-    "btc": "79639",
-    "btcWeek": "+1.4%",
+    "btc": "78797",
+    "btcWeek": "+0.3%",
     "jse": "-0.8%",
-    "sp500": "-0.6%"
+    "sp500": "-0.4%"
   },
   "worldEvents": [
     {
-      "text": "US strikes Iranian oil tankers as Tehran targets American base in Jordan",
-      "hoursAgo": 4,
+      "text": "Germany's Merz attacks AfD in stormy debate after far-right election win",
+      "hoursAgo": 3,
+      "link": "https://www.bbc.co.uk/news/articles/c98679wr78do"
+    },
+    {
+      "text": "Oil hits $100 a barrel for first time since July after US and Houthi strikes",
+      "hoursAgo": 0,
       "link": "https://www.bbc.co.uk/news/articles/cyvznqypz0yo"
     },
     {
-      "text": "Paul Adams: British-Israeli relations at lowest ebb in decades",
-      "hoursAgo": 10,
-      "link": "https://www.bbc.co.uk/news/articles/c5ydlex9yn3o"
-    },
-    {
-      "text": "US slaps import ban on Canadian alcohol, motorbikes and other goods",
-      "hoursAgo": 2,
+      "text": "US to ban imports of some Canadian alcohol, dairy goods and motorbikes",
+      "hoursAgo": 6,
       "link": "https://www.bbc.co.uk/news/articles/c99dm1000p7o"
     },
     {
-      "text": "'Constantly on my mind' - 9/11 agony endures for bereaved, 25 years on",
-      "hoursAgo": 9,
-      "link": "https://www.bbc.co.uk/news/articles/clyrjw1yj75o"
+      "text": "Europe's royalty pay respects to King Harald V in Norway",
+      "hoursAgo": 0,
+      "link": "https://www.bbc.co.uk/news/articles/cd94jgy7e94o"
     },
     {
-      "text": "South Park creators rename show 'South America' in apparent dig at Trump",
-      "hoursAgo": 2,
-      "link": "https://www.bbc.co.uk/news/articles/cp9340rg7k8o"
+      "text": "Two die at Moldovan border as Russia-Ukraine drone war rages",
+      "hoursAgo": 1,
+      "link": "https://www.bbc.co.uk/news/articles/cvgyvpxe3yjo"
     }
   ],
-  "launches": [],
+  "launches": [
+    {
+      "name": "Falcon 9 Block 5 | USSF-153",
+      "date": "Thursday 10 September 17h37",
+      "dateISO": "2026-09-10T15:37:00Z",
+      "details": "Space Launch Complex 4E - Vandenberg SFB, CA, USA",
+      "highlight": false,
+      "link": "https://spacelaunchnow.me/launch/falcon-9-block-5-ussf-153"
+    },
+    {
+      "name": "Starship | Flight 14",
+      "date": "Tuesday 15 September (TBD)",
+      "dateISO": "2026-09-15T00:00:00Z",
+      "details": "Orbital Launch Pad 2 - SpaceX Starbase, TX, USA",
+      "highlight": true,
+      "link": "https://spacelaunchnow.me/launch/starship-flight-14"
+    },
+    {
+      "name": "Falcon 9 Block 5 | Starlink Group 15-27",
+      "date": "Sunday 20 September 03h47",
+      "dateISO": "2026-09-20T01:47:00Z",
+      "details": "Space Launch Complex 4E - Vandenberg SFB, CA, USA",
+      "highlight": false,
+      "link": "https://spacelaunchnow.me/launch/falcon-9-block-5-starlink-group-15-27"
+    },
+    {
+      "name": "Falcon 9 Block 5 | Crew-13",
+      "date": "Wednesday 30 September (TBD)",
+      "dateISO": "2026-09-30T00:00:00Z",
+      "details": "Space Launch Complex 40 - Cape Canaveral SFS, FL, USA",
+      "highlight": true,
+      "link": "https://spacelaunchnow.me/launch/falcon-9-block-5-crew-13"
+    },
+    {
+      "name": "Falcon 9 Block 5 | Dragon CRS-2 SpX-35",
+      "date": "Saturday 31 October (TBD)",
+      "dateISO": "2026-10-31T00:00:00Z",
+      "details": "Space Launch Complex 40 - Cape Canaveral SFS, FL, USA",
+      "highlight": true,
+      "link": "https://spacelaunchnow.me/launch/falcon-9-block-5-dragon-crs-2-spx-35"
+    }
+  ],
   "companyNews": [
+    {
+      "title": "This tiny Tesla Cybertruck adjustment has big advantages",
+      "link": "https://www.teslarati.com/tiny-tesla-cybertruck-adjustment-big-advantages/",
+      "date": "Wed, 09 Sep 2026 15:32",
+      "hoursAgo": 1,
+      "source": "Teslarati"
+    },
+    {
+      "title": "Tesla is rolling out a new FSD version with a massive safety addition",
+      "link": "https://www.teslarati.com/tesla-rolling-new-fsd-version-massive-safety-addition/",
+      "date": "Wed, 09 Sep 2026 14:07",
+      "hoursAgo": 3,
+      "source": "Teslarati"
+    },
     {
       "title": "Tesla primes Cybercabs for 4K streaming and high bandwidth gaming with Starlink integration",
       "link": "https://www.teslarati.com/tesla-primes-cybercabs-for-4k-streaming-and-high-bandwidth-gaming-with-starlink-integration/",
       "date": "Wed, 09 Sep 2026 06:09",
-      "hoursAgo": 2,
+      "hoursAgo": 11,
       "source": "Teslarati"
     },
     {
       "title": "Elon Musk hints at Tesla Cybercab’s next market",
       "link": "https://www.teslarati.com/elon-musk-hints-tesla-cybercab-next-market/",
       "date": "Tue, 08 Sep 2026 18:43",
-      "hoursAgo": 13,
+      "hoursAgo": 22,
       "source": "Teslarati"
     },
     {
       "title": "Tesla Cybercab improvements are already on the minds of company engineers",
       "link": "https://www.teslarati.com/tesla-cybercab-improvements-already-on-minds-company-engineers/",
       "date": "Tue, 08 Sep 2026 17:23",
-      "hoursAgo": 15,
+      "hoursAgo": 23,
       "source": "Teslarati"
     },
     {
       "title": "Tesla Cybertruck engineer reveals new changes in ‘constantly evolving’ pickup",
       "link": "https://www.teslarati.com/tesla-cybertruck-engineer-reveals-new-changes-constantly-evolving-pickup/",
       "date": "Tue, 08 Sep 2026 13:00",
-      "hoursAgo": 19,
-      "source": "Teslarati"
-    },
-    {
-      "title": "Tesla Cybercabs narrowly miss deadly Amazon cargo plane crash",
-      "link": "https://www.teslarati.com/tesla-cybercabs-narrowly-miss-deadly-amazon-cargo-plane-crash/",
-      "date": "Tue, 08 Sep 2026 05:23",
-      "hoursAgo": 27,
-      "source": "Teslarati"
-    },
-    {
-      "title": "Tesla crosses major Unsupervised Self-Driving milestone",
-      "link": "https://www.teslarati.com/tesla-crosses-major-unsupervised-self-driving-milestone/",
-      "date": "Sun, 06 Sep 2026 18:39",
-      "hoursAgo": 61,
+      "hoursAgo": 28,
       "source": "Teslarati"
     }
   ],
