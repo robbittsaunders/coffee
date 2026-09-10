@@ -1,66 +1,75 @@
 {
-  "updatedAt": "2026-09-10T19:02+02:00",
+  "updatedAt": "2026-09-10T21:47+02:00",
   "stocks": {
     "TSLA": {
-      "price": 365.7,
-      "change_1d": -0.57,
-      "change_3d": -0.67,
-      "change_1m": 7.57,
-      "change_12m": 5.15,
-      "change_3y": 33.67,
-      "updated": "2026-09-10T17:01:59.660299"
+      "price": 363.55,
+      "change_1d": -1.16,
+      "change_3d": -1.25,
+      "change_1m": 6.94,
+      "change_12m": 4.53,
+      "change_3y": 32.89,
+      "updated": "2026-09-10T19:47:40.112510"
     },
     "NVDA": {
-      "price": 218.79,
-      "change_1d": -2.18,
-      "change_3d": -3.07,
-      "change_1m": -2.89,
-      "change_12m": 23.55,
-      "change_3y": 385.2,
-      "updated": "2026-09-10T17:01:59.660494"
+      "price": 218.67,
+      "change_1d": -2.24,
+      "change_3d": -3.13,
+      "change_1m": -2.94,
+      "change_12m": 23.48,
+      "change_3y": 384.92,
+      "updated": "2026-09-10T19:47:40.112714"
+    },
+    "MU": {
+      "price": 981.59,
+      "change_1d": -4.49,
+      "change_3d": -1.87,
+      "change_1m": 3.34,
+      "change_12m": 602.26,
+      "change_3y": 1317.34,
+      "updated": "2026-09-10T19:47:40.112922"
     }
   },
   "news": [
     {
+      "title": "Tesla ruined other cars for me: one year Model Y ownership review",
+      "link": "https://www.teslarati.com/tesla-model-y-one-year-ownership-review/",
+      "date": "Thu, 10 Sep 2026 18:28",
+      "hoursAgo": 1,
+      "source": "Teslarati"
+    },
+    {
       "title": "Elon Musk rips ABC News over fatal NYC Tesla crash report",
       "link": "https://www.teslarati.com/elon-musk-rips-abc-news-over-fatal-nyc-tesla-crash-report/",
       "date": "Thu, 10 Sep 2026 05:44",
-      "hoursAgo": 11,
+      "hoursAgo": 14,
       "source": "Teslarati"
     },
     {
       "title": "Tesla’s two defunct flagship models are getting a big upgrade",
       "link": "https://www.teslarati.com/tesla-two-defunct-models-big-upgrade/",
       "date": "Wed, 09 Sep 2026 17:28",
-      "hoursAgo": 23,
+      "hoursAgo": 26,
       "source": "Teslarati"
     },
     {
       "title": "This tiny Tesla Cybertruck adjustment has big advantages",
       "link": "https://www.teslarati.com/tiny-tesla-cybertruck-adjustment-big-advantages/",
       "date": "Wed, 09 Sep 2026 15:32",
-      "hoursAgo": 25,
+      "hoursAgo": 28,
       "source": "Teslarati"
     },
     {
       "title": "Tesla is rolling out a new FSD version with a massive safety addition",
       "link": "https://www.teslarati.com/tesla-rolling-new-fsd-version-massive-safety-addition/",
       "date": "Wed, 09 Sep 2026 14:07",
-      "hoursAgo": 26,
+      "hoursAgo": 29,
       "source": "Teslarati"
     },
     {
       "title": "Tesla primes Cybercabs for 4K streaming and high bandwidth gaming with Starlink integration",
       "link": "https://www.teslarati.com/tesla-primes-cybercabs-for-4k-streaming-and-high-bandwidth-gaming-with-starlink-integration/",
       "date": "Wed, 09 Sep 2026 06:09",
-      "hoursAgo": 34,
-      "source": "Teslarati"
-    },
-    {
-      "title": "Elon Musk hints at Tesla Cybercab’s next market",
-      "link": "https://www.teslarati.com/elon-musk-hints-tesla-cybercab-next-market/",
-      "date": "Tue, 08 Sep 2026 18:43",
-      "hoursAgo": 46,
+      "hoursAgo": 37,
       "source": "Teslarati"
     }
   ],
@@ -100,22 +109,22 @@
       "rain": 0.0
     },
     "+24h": {
-      "temp": 15.8,
+      "temp": 15.7,
       "condition": "Overcast",
-      "wind_speed": 24.9,
-      "wind_dir_deg": 143,
-      "cloud": 93,
+      "wind_speed": 25.6,
+      "wind_dir_deg": 144,
+      "cloud": 100,
       "rain": 0.0
     }
   },
   "keyNumbers": {
-    "usdZar": "16.19",
-    "usdZarWeek": "+1.2%",
+    "usdZar": "16.21",
+    "usdZarWeek": "+1.4%",
     "usdZarLabel": "rand weaker",
-    "btc": "77107",
-    "btcWeek": "-0.4%",
+    "btc": "77142",
+    "btcWeek": "-0.3%",
     "jse": "-1.3%",
-    "sp500": "-0.4%"
+    "sp500": "-0.6%"
   },
   "worldEvents": [
     {
@@ -124,39 +133,39 @@
       "link": "https://www.bbc.co.uk/news/articles/c4g7vr0lngwo"
     },
     {
+      "text": "Can Trump really pay $5,000 to every American adult?",
+      "hoursAgo": 2,
+      "link": "https://www.bbc.co.uk/news/articles/c8r6vj7r8rko"
+    },
+    {
       "text": "Pilot warned Amazon cargo plane going too fast before deadly crash, data shows",
-      "hoursAgo": 0,
+      "hoursAgo": 3,
       "link": "https://www.bbc.co.uk/news/articles/cj4jynv59ddo"
     },
     {
-      "text": "Trump says every adult American will get $5,000 if Republicans win midterms",
-      "hoursAgo": 3,
-      "link": "https://www.bbc.co.uk/news/articles/c62kzr1jg0jo"
-    },
-    {
       "text": "Israel's Netanyahu to sue newspaper over claim UAE warned him of 7 October attack",
-      "hoursAgo": 1,
+      "hoursAgo": 3,
       "link": "https://www.bbc.co.uk/news/articles/c1kxwm870g1o"
     },
     {
       "text": "Twenty-five dead after fire on cargo ship in eastern China",
-      "hoursAgo": 4,
+      "hoursAgo": 7,
       "link": "https://www.bbc.co.uk/news/articles/cj4jyv7l92eo"
     }
   ],
   "launches": [
     {
-      "name": "Falcon 9 Block 5 | USSF-153",
-      "date": "Thursday 10 September 17h42",
-      "dateISO": "2026-09-10T15:42:30Z",
-      "details": "Space Launch Complex 4E - Vandenberg SFB, CA, USA",
+      "name": "Falcon 9 Block 5 | O3b mPower 11-13",
+      "date": "Sunday 13 September 20h49",
+      "dateISO": "2026-09-13T18:49:00Z",
+      "details": "Space Launch Complex 40 - Cape Canaveral SFS, FL, USA",
       "highlight": false,
-      "link": "https://spacelaunchnow.me/launch/falcon-9-block-5-ussf-153"
+      "link": "https://spacelaunchnow.me/launch/falcon-9-block-5-o3b-mpower-11-13"
     },
     {
       "name": "Starship | Flight 14",
-      "date": "Tuesday 15 September (TBD)",
-      "dateISO": "2026-09-15T00:00:00Z",
+      "date": "Friday 18 September (TBD)",
+      "dateISO": "2026-09-18T00:00:00Z",
       "details": "Orbital Launch Pad 2 - SpaceX Starbase, TX, USA",
       "highlight": true,
       "link": "https://spacelaunchnow.me/launch/starship-flight-14"
@@ -188,45 +197,45 @@
   ],
   "companyNews": [
     {
+      "title": "Tesla ruined other cars for me: one year Model Y ownership review",
+      "link": "https://www.teslarati.com/tesla-model-y-one-year-ownership-review/",
+      "date": "Thu, 10 Sep 2026 18:28",
+      "hoursAgo": 1,
+      "source": "Teslarati"
+    },
+    {
       "title": "Elon Musk rips ABC News over fatal NYC Tesla crash report",
       "link": "https://www.teslarati.com/elon-musk-rips-abc-news-over-fatal-nyc-tesla-crash-report/",
       "date": "Thu, 10 Sep 2026 05:44",
-      "hoursAgo": 11,
+      "hoursAgo": 14,
       "source": "Teslarati"
     },
     {
       "title": "Tesla’s two defunct flagship models are getting a big upgrade",
       "link": "https://www.teslarati.com/tesla-two-defunct-models-big-upgrade/",
       "date": "Wed, 09 Sep 2026 17:28",
-      "hoursAgo": 23,
+      "hoursAgo": 26,
       "source": "Teslarati"
     },
     {
       "title": "This tiny Tesla Cybertruck adjustment has big advantages",
       "link": "https://www.teslarati.com/tiny-tesla-cybertruck-adjustment-big-advantages/",
       "date": "Wed, 09 Sep 2026 15:32",
-      "hoursAgo": 25,
+      "hoursAgo": 28,
       "source": "Teslarati"
     },
     {
       "title": "Tesla is rolling out a new FSD version with a massive safety addition",
       "link": "https://www.teslarati.com/tesla-rolling-new-fsd-version-massive-safety-addition/",
       "date": "Wed, 09 Sep 2026 14:07",
-      "hoursAgo": 26,
+      "hoursAgo": 29,
       "source": "Teslarati"
     },
     {
       "title": "Tesla primes Cybercabs for 4K streaming and high bandwidth gaming with Starlink integration",
       "link": "https://www.teslarati.com/tesla-primes-cybercabs-for-4k-streaming-and-high-bandwidth-gaming-with-starlink-integration/",
       "date": "Wed, 09 Sep 2026 06:09",
-      "hoursAgo": 34,
-      "source": "Teslarati"
-    },
-    {
-      "title": "Elon Musk hints at Tesla Cybercab’s next market",
-      "link": "https://www.teslarati.com/elon-musk-hints-tesla-cybercab-next-market/",
-      "date": "Tue, 08 Sep 2026 18:43",
-      "hoursAgo": 46,
+      "hoursAgo": 37,
       "source": "Teslarati"
     }
   ],
