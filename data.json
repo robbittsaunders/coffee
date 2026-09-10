@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-10T00:37+02:00",
+  "updatedAt": "2026-09-10T10:39+02:00",
   "stocks": {
     "TSLA": {
       "price": 367.81,
@@ -8,7 +8,7 @@
       "change_1m": 12.3,
       "change_12m": 6.01,
       "change_3y": 34.44,
-      "updated": "2026-09-09T22:37:12.649229"
+      "updated": "2026-09-10T08:39:36.259861"
     },
     "NVDA": {
       "price": 223.67,
@@ -17,7 +17,7 @@
       "change_1m": -0.19,
       "change_12m": 31.16,
       "change_3y": 396.01,
-      "updated": "2026-09-09T22:37:12.649397"
+      "updated": "2026-09-10T08:39:36.260025"
     },
     "MU": {
       "price": 1027.77,
@@ -26,50 +26,50 @@
       "change_1m": 12.78,
       "change_12m": 661.18,
       "change_3y": 1384.02,
-      "updated": "2026-09-09T22:37:12.649578"
+      "updated": "2026-09-10T08:39:36.260161"
     }
   },
   "news": [
     {
+      "title": "Elon Musk rips ABC News over fatal NYC Tesla crash report",
+      "link": "https://www.teslarati.com/elon-musk-rips-abc-news-over-fatal-nyc-tesla-crash-report/",
+      "date": "Thu, 10 Sep 2026 05:44",
+      "hoursAgo": 2,
+      "source": "Teslarati"
+    },
+    {
       "title": "Tesla’s two defunct flagship models are getting a big upgrade",
       "link": "https://www.teslarati.com/tesla-two-defunct-models-big-upgrade/",
       "date": "Wed, 09 Sep 2026 17:28",
-      "hoursAgo": 5,
+      "hoursAgo": 15,
       "source": "Teslarati"
     },
     {
       "title": "This tiny Tesla Cybertruck adjustment has big advantages",
       "link": "https://www.teslarati.com/tiny-tesla-cybertruck-adjustment-big-advantages/",
       "date": "Wed, 09 Sep 2026 15:32",
-      "hoursAgo": 7,
+      "hoursAgo": 17,
       "source": "Teslarati"
     },
     {
       "title": "Tesla is rolling out a new FSD version with a massive safety addition",
       "link": "https://www.teslarati.com/tesla-rolling-new-fsd-version-massive-safety-addition/",
       "date": "Wed, 09 Sep 2026 14:07",
-      "hoursAgo": 8,
+      "hoursAgo": 18,
       "source": "Teslarati"
     },
     {
       "title": "Tesla primes Cybercabs for 4K streaming and high bandwidth gaming with Starlink integration",
       "link": "https://www.teslarati.com/tesla-primes-cybercabs-for-4k-streaming-and-high-bandwidth-gaming-with-starlink-integration/",
       "date": "Wed, 09 Sep 2026 06:09",
-      "hoursAgo": 16,
+      "hoursAgo": 26,
       "source": "Teslarati"
     },
     {
       "title": "Elon Musk hints at Tesla Cybercab’s next market",
       "link": "https://www.teslarati.com/elon-musk-hints-tesla-cybercab-next-market/",
       "date": "Tue, 08 Sep 2026 18:43",
-      "hoursAgo": 27,
-      "source": "Teslarati"
-    },
-    {
-      "title": "Tesla Cybercab improvements are already on the minds of company engineers",
-      "link": "https://www.teslarati.com/tesla-cybercab-improvements-already-on-minds-company-engineers/",
-      "date": "Tue, 08 Sep 2026 17:23",
-      "hoursAgo": 29,
+      "hoursAgo": 37,
       "source": "Teslarati"
     }
   ],
@@ -79,85 +79,85 @@
     "+1h": {
       "temp": 15.3,
       "condition": "Clear",
-      "wind_speed": 16.5,
-      "wind_dir_deg": 146,
-      "cloud": 17,
+      "wind_speed": 14.4,
+      "wind_dir_deg": 147,
+      "cloud": 8,
       "rain": 0.0
     },
     "+3h": {
-      "temp": 14.9,
-      "condition": "Clear",
-      "wind_speed": 12.5,
-      "wind_dir_deg": 162,
-      "cloud": 13,
+      "temp": 14.8,
+      "condition": "Overcast",
+      "wind_speed": 14.5,
+      "wind_dir_deg": 172,
+      "cloud": 88,
       "rain": 0.0
     },
     "+6h": {
-      "temp": 14.9,
+      "temp": 15.2,
       "condition": "Overcast",
-      "wind_speed": 16.0,
+      "wind_speed": 14.1,
       "wind_dir_deg": 159,
       "cloud": 100,
       "rain": 0.0
     },
     "+12h": {
-      "temp": 19.3,
+      "temp": 19.7,
       "condition": "Overcast",
-      "wind_speed": 18.7,
-      "wind_dir_deg": 160,
+      "wind_speed": 13.8,
+      "wind_dir_deg": 168,
       "cloud": 100,
       "rain": 0.0
     },
     "+24h": {
       "temp": 15.9,
       "condition": "Overcast",
-      "wind_speed": 22.6,
-      "wind_dir_deg": 149,
-      "cloud": 87,
+      "wind_speed": 23.2,
+      "wind_dir_deg": 144,
+      "cloud": 92,
       "rain": 0.0
     }
   },
   "keyNumbers": {
-    "usdZar": "16.03",
-    "usdZarWeek": "+0.6%",
+    "usdZar": "16.04",
+    "usdZarWeek": "+0.3%",
     "usdZarLabel": "rand weaker",
-    "btc": "77979",
-    "btcWeek": "-0.7%",
-    "jse": "+0.4%",
+    "btc": "78106",
+    "btcWeek": "+0.9%",
+    "jse": "-0.0%",
     "sp500": "-0.5%"
   },
   "worldEvents": [
     {
-      "text": "Spanish intelligence warned of Ceuta mass crossing plans before surge",
+      "text": "Trump says every adult American would get $5,000 if Republicans win midterms",
       "hoursAgo": 1,
+      "link": "https://www.bbc.co.uk/news/articles/c62kzr1jg0jo"
+    },
+    {
+      "text": "Iran war won't end until after crucial November elections, says Trump",
+      "hoursAgo": 2,
+      "link": "https://www.bbc.co.uk/news/articles/c5ydld0gykpo"
+    },
+    {
+      "text": "Five dead and 86 missing as 'heartbreaking' fire breaks out on Philippines ferry",
+      "hoursAgo": 2,
+      "link": "https://www.bbc.co.uk/news/articles/cy4zd4dn9n9o"
+    },
+    {
+      "text": "Spanish intelligence warned of Ceuta mass crossing plans before surge",
+      "hoursAgo": 11,
       "link": "https://www.bbc.co.uk/news/articles/ced7vj2gv82o"
     },
     {
-      "text": "Google picks Finland for its largest single investment in Europe",
-      "hoursAgo": 5,
-      "link": "https://www.bbc.co.uk/news/articles/c8r6y4me2g6o"
-    },
-    {
-      "text": "Oil hits $100 a barrel for first time since July after US and Houthi strikes",
-      "hoursAgo": 5,
-      "link": "https://www.bbc.co.uk/news/articles/cyvznqypz0yo"
-    },
-    {
-      "text": "Iran referred to UN Security Council for nuclear non-compliance",
-      "hoursAgo": 2,
-      "link": "https://www.bbc.co.uk/news/articles/ckgwj4kl5lno"
-    },
-    {
-      "text": "Germany's Merz attacks AfD in stormy debate after far-right election win",
-      "hoursAgo": 9,
-      "link": "https://www.bbc.co.uk/news/articles/c98679wr78do"
+      "text": "Apple's new boss starts with big gamble on $2,000 first folding iPhone",
+      "hoursAgo": 12,
+      "link": "https://www.bbc.co.uk/news/articles/clyjd1jnd03o"
     }
   ],
   "launches": [
     {
       "name": "Falcon 9 Block 5 | USSF-153",
-      "date": "Thursday 10 September 17h37",
-      "dateISO": "2026-09-10T15:37:00Z",
+      "date": "Thursday 10 September 17h42",
+      "dateISO": "2026-09-10T15:42:00Z",
       "details": "Space Launch Complex 4E - Vandenberg SFB, CA, USA",
       "highlight": false,
       "link": "https://spacelaunchnow.me/launch/falcon-9-block-5-ussf-153"
@@ -197,45 +197,45 @@
   ],
   "companyNews": [
     {
+      "title": "Elon Musk rips ABC News over fatal NYC Tesla crash report",
+      "link": "https://www.teslarati.com/elon-musk-rips-abc-news-over-fatal-nyc-tesla-crash-report/",
+      "date": "Thu, 10 Sep 2026 05:44",
+      "hoursAgo": 2,
+      "source": "Teslarati"
+    },
+    {
       "title": "Tesla’s two defunct flagship models are getting a big upgrade",
       "link": "https://www.teslarati.com/tesla-two-defunct-models-big-upgrade/",
       "date": "Wed, 09 Sep 2026 17:28",
-      "hoursAgo": 5,
+      "hoursAgo": 15,
       "source": "Teslarati"
     },
     {
       "title": "This tiny Tesla Cybertruck adjustment has big advantages",
       "link": "https://www.teslarati.com/tiny-tesla-cybertruck-adjustment-big-advantages/",
       "date": "Wed, 09 Sep 2026 15:32",
-      "hoursAgo": 7,
+      "hoursAgo": 17,
       "source": "Teslarati"
     },
     {
       "title": "Tesla is rolling out a new FSD version with a massive safety addition",
       "link": "https://www.teslarati.com/tesla-rolling-new-fsd-version-massive-safety-addition/",
       "date": "Wed, 09 Sep 2026 14:07",
-      "hoursAgo": 8,
+      "hoursAgo": 18,
       "source": "Teslarati"
     },
     {
       "title": "Tesla primes Cybercabs for 4K streaming and high bandwidth gaming with Starlink integration",
       "link": "https://www.teslarati.com/tesla-primes-cybercabs-for-4k-streaming-and-high-bandwidth-gaming-with-starlink-integration/",
       "date": "Wed, 09 Sep 2026 06:09",
-      "hoursAgo": 16,
+      "hoursAgo": 26,
       "source": "Teslarati"
     },
     {
       "title": "Elon Musk hints at Tesla Cybercab’s next market",
       "link": "https://www.teslarati.com/elon-musk-hints-tesla-cybercab-next-market/",
       "date": "Tue, 08 Sep 2026 18:43",
-      "hoursAgo": 27,
-      "source": "Teslarati"
-    },
-    {
-      "title": "Tesla Cybercab improvements are already on the minds of company engineers",
-      "link": "https://www.teslarati.com/tesla-cybercab-improvements-already-on-minds-company-engineers/",
-      "date": "Tue, 08 Sep 2026 17:23",
-      "hoursAgo": 29,
+      "hoursAgo": 37,
       "source": "Teslarati"
     }
   ],
