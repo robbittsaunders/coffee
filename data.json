@@ -1,32 +1,32 @@
 {
-  "updatedAt": "2026-09-15T19:41+02:00",
+  "updatedAt": "2026-09-15T23:28+02:00",
   "stocks": {
     "TSLA": {
-      "price": 357.28,
-      "change_1d": -0.47,
-      "change_3d": -2.23,
-      "change_1m": 6.06,
-      "change_12m": -12.87,
-      "change_3y": 30.21,
-      "updated": "2026-09-15T17:41:52.480998"
+      "price": 356.58,
+      "change_1d": -0.67,
+      "change_3d": -2.42,
+      "change_1m": 5.85,
+      "change_12m": -13.04,
+      "change_3y": 34.42,
+      "updated": "2026-09-15T21:28:44.075449"
     },
     "NVDA": {
-      "price": 211.68,
-      "change_1d": 0.34,
-      "change_3d": -3.03,
-      "change_1m": -3.56,
-      "change_12m": 19.37,
-      "change_3y": 383.63,
-      "updated": "2026-09-15T17:41:52.481148"
+      "price": 212.17,
+      "change_1d": 0.57,
+      "change_3d": -2.8,
+      "change_1m": -3.34,
+      "change_12m": 19.65,
+      "change_3y": 384.02,
+      "updated": "2026-09-15T21:28:44.075567"
     },
     "MU": {
-      "price": 924.49,
-      "change_1d": 0.05,
-      "change_3d": -5.21,
-      "change_1m": -1.73,
-      "change_12m": 486.92,
-      "change_3y": 1237.76,
-      "updated": "2026-09-15T17:41:52.481271"
+      "price": 927.6,
+      "change_1d": 0.39,
+      "change_3d": -4.89,
+      "change_1m": -1.4,
+      "change_12m": 488.89,
+      "change_3y": 1230.45,
+      "updated": "2026-09-15T21:28:44.075656"
     }
   },
   "news": [
@@ -34,42 +34,42 @@
       "title": "Elon Musk gives his most telling Tesla-SpaceX merger conversation yet",
       "link": "https://www.teslarati.com/elon-musk-gives-his-most-telling-tesla-spacex-merger-conversation-yet/",
       "date": "Tue, 15 Sep 2026 16:45",
-      "hoursAgo": 0,
+      "hoursAgo": 4,
       "source": "Teslarati"
     },
     {
       "title": "Tesla Roadster unveiling is getting hyped up by Elon Musk",
       "link": "https://www.teslarati.com/tesla-roadster-unveiling-getting-hyped-up-elon-musk/",
       "date": "Tue, 15 Sep 2026 15:58",
-      "hoursAgo": 1,
+      "hoursAgo": 5,
       "source": "Teslarati"
     },
     {
       "title": "Elon Musk’s Boring Company has big plans for Las Vegas by year’s end",
       "link": "https://www.teslarati.com/elon-musks-boring-company-has-big-plans-for-las-vegas-by-years-end/",
       "date": "Tue, 15 Sep 2026 04:55",
-      "hoursAgo": 12,
+      "hoursAgo": 16,
       "source": "Teslarati"
     },
     {
       "title": "Tesla looks to expand into new Asian market, strengthening presence",
       "link": "https://www.teslarati.com/tesla-looks-expand-into-new-asian-market-strengthening-presence/",
       "date": "Mon, 14 Sep 2026 20:38",
-      "hoursAgo": 21,
+      "hoursAgo": 24,
       "source": "Teslarati"
     },
     {
       "title": "Elon Musk’s companies made up with Apple but OpenAI still on the hook",
       "link": "https://www.teslarati.com/elon-musks-companies-made-up-with-apple-but-openai-still-on-the-hook/",
       "date": "Mon, 14 Sep 2026 17:21",
-      "hoursAgo": 24,
+      "hoursAgo": 28,
       "source": "Teslarati"
     },
     {
       "title": "Why SpaceX is finishing another space-internet system that isn’t Starlink",
       "link": "https://www.teslarati.com/spacex-ses-03b-network-vs-starlink/",
       "date": "Sun, 13 Sep 2026 19:37",
-      "hoursAgo": 46,
+      "hoursAgo": 49,
       "source": "Teslarati"
     }
   ],
@@ -109,48 +109,48 @@
       "rain": 0.0
     },
     "+24h": {
-      "temp": 13.8,
-      "condition": "Light rain",
-      "wind_speed": 4.9,
-      "wind_dir_deg": 213,
+      "temp": 13.7,
+      "condition": "Mixed",
+      "wind_speed": 6.3,
+      "wind_dir_deg": 275,
       "cloud": 100,
-      "rain": 1.4
+      "rain": 2.2
     }
   },
   "keyNumbers": {
-    "usdZar": "16.26",
+    "usdZar": "16.25",
     "usdZarWeek": "+0.6%",
     "usdZarLabel": "rand weaker",
-    "btc": "76851",
-    "btcWeek": "-4.4%",
+    "btc": "75629",
+    "btcWeek": "-5.9%",
     "jse": "+0.4%",
-    "sp500": "-0.5%"
+    "sp500": "-0.4%"
   },
   "worldEvents": [
     {
       "text": "Denmark says Russian warship fired flares at military helicopter",
-      "hoursAgo": 6,
+      "hoursAgo": 9,
       "link": "https://www.bbc.co.uk/news/articles/cwn8mjl31p5yo"
     },
     {
       "text": "What weapon could the US have put into space?",
-      "hoursAgo": 3,
+      "hoursAgo": 7,
       "link": "https://www.bbc.co.uk/news/articles/cmy4zqgk97wlo"
     },
     {
       "text": "Suspected sabotage causes major Netherlands rail disruption",
-      "hoursAgo": 0,
+      "hoursAgo": 4,
       "link": "https://www.bbc.co.uk/news/articles/c8ly49w9g1edo"
     },
     {
-      "text": "Two sailors missing after tanker attacked in Strait of Hormuz, Oman says",
-      "hoursAgo": 1,
-      "link": "https://www.bbc.co.uk/news/articles/c3n07ydqdzlvo"
+      "text": "South African president vows justice as more women's bodies found near Johannesburg",
+      "hoursAgo": 3,
+      "link": "https://www.bbc.co.uk/news/articles/crgqde1nex2vo"
     },
     {
-      "text": "Iran war has led to US munitions shortfalls, Pentagon inspector confirms",
-      "hoursAgo": 2,
-      "link": "https://www.bbc.co.uk/news/articles/c9gk58xgng0vo"
+      "text": "Two sailors missing after tanker attacked in Strait of Hormuz, Oman says",
+      "hoursAgo": 5,
+      "link": "https://www.bbc.co.uk/news/articles/c3n07ydqdzlvo"
     }
   ],
   "launches": [
@@ -200,42 +200,42 @@
       "title": "Elon Musk gives his most telling Tesla-SpaceX merger conversation yet",
       "link": "https://www.teslarati.com/elon-musk-gives-his-most-telling-tesla-spacex-merger-conversation-yet/",
       "date": "Tue, 15 Sep 2026 16:45",
-      "hoursAgo": 0,
+      "hoursAgo": 4,
       "source": "Teslarati"
     },
     {
       "title": "Tesla Roadster unveiling is getting hyped up by Elon Musk",
       "link": "https://www.teslarati.com/tesla-roadster-unveiling-getting-hyped-up-elon-musk/",
       "date": "Tue, 15 Sep 2026 15:58",
-      "hoursAgo": 1,
+      "hoursAgo": 5,
       "source": "Teslarati"
     },
     {
       "title": "Elon Musk’s Boring Company has big plans for Las Vegas by year’s end",
       "link": "https://www.teslarati.com/elon-musks-boring-company-has-big-plans-for-las-vegas-by-years-end/",
       "date": "Tue, 15 Sep 2026 04:55",
-      "hoursAgo": 12,
+      "hoursAgo": 16,
       "source": "Teslarati"
     },
     {
       "title": "Tesla looks to expand into new Asian market, strengthening presence",
       "link": "https://www.teslarati.com/tesla-looks-expand-into-new-asian-market-strengthening-presence/",
       "date": "Mon, 14 Sep 2026 20:38",
-      "hoursAgo": 21,
+      "hoursAgo": 24,
       "source": "Teslarati"
     },
     {
       "title": "Elon Musk’s companies made up with Apple but OpenAI still on the hook",
       "link": "https://www.teslarati.com/elon-musks-companies-made-up-with-apple-but-openai-still-on-the-hook/",
       "date": "Mon, 14 Sep 2026 17:21",
-      "hoursAgo": 24,
+      "hoursAgo": 28,
       "source": "Teslarati"
     },
     {
       "title": "Why SpaceX is finishing another space-internet system that isn’t Starlink",
       "link": "https://www.teslarati.com/spacex-ses-03b-network-vs-starlink/",
       "date": "Sun, 13 Sep 2026 19:37",
-      "hoursAgo": 46,
+      "hoursAgo": 49,
       "source": "Teslarati"
     }
   ],
