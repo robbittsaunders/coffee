@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-15T00:34+02:00",
+  "updatedAt": "2026-09-15T11:12+02:00",
   "stocks": {
     "TSLA": {
       "price": 358.97,
@@ -8,7 +8,16 @@
       "change_1m": 5.8,
       "change_12m": -9.34,
       "change_3y": 30.82,
-      "updated": "2026-09-14T22:34:02.258447"
+      "updated": "2026-09-15T09:12:06.725058"
+    },
+    "NVDA": {
+      "price": 210.96,
+      "change_1d": -3.36,
+      "change_3d": -3.39,
+      "change_1m": -6.14,
+      "change_12m": 18.92,
+      "change_3y": 381.98,
+      "updated": "2026-09-15T09:12:06.725282"
     },
     "MU": {
       "price": 924.03,
@@ -17,50 +26,50 @@
       "change_1m": -8.67,
       "change_12m": 488.64,
       "change_3y": 1237.09,
-      "updated": "2026-09-14T22:34:02.258683"
+      "updated": "2026-09-15T09:12:06.725457"
     }
   },
   "news": [
     {
+      "title": "Elon Musk’s Boring Company has big plans for Las Vegas by year’s end",
+      "link": "https://www.teslarati.com/elon-musks-boring-company-has-big-plans-for-las-vegas-by-years-end/",
+      "date": "Tue, 15 Sep 2026 04:55",
+      "hoursAgo": 4,
+      "source": "Teslarati"
+    },
+    {
       "title": "Tesla looks to expand into new Asian market, strengthening presence",
       "link": "https://www.teslarati.com/tesla-looks-expand-into-new-asian-market-strengthening-presence/",
       "date": "Mon, 14 Sep 2026 20:38",
-      "hoursAgo": 1,
+      "hoursAgo": 12,
       "source": "Teslarati"
     },
     {
       "title": "Elon Musk’s companies made up with Apple but OpenAI still on the hook",
       "link": "https://www.teslarati.com/elon-musks-companies-made-up-with-apple-but-openai-still-on-the-hook/",
       "date": "Mon, 14 Sep 2026 17:21",
-      "hoursAgo": 5,
+      "hoursAgo": 15,
       "source": "Teslarati"
     },
     {
       "title": "Why SpaceX is finishing another space-internet system that isn’t Starlink",
       "link": "https://www.teslarati.com/spacex-ses-03b-network-vs-starlink/",
       "date": "Sun, 13 Sep 2026 19:37",
-      "hoursAgo": 26,
+      "hoursAgo": 37,
       "source": "Teslarati"
     },
     {
       "title": "Tesla gives the Roadster an official “Go for launch” demonstration date",
       "link": "https://www.teslarati.com/tesla-roadster-event-date-spacex-package-demo/",
       "date": "Sat, 12 Sep 2026 21:23",
-      "hoursAgo": 49,
+      "hoursAgo": 59,
       "source": "Teslarati"
     },
     {
       "title": "Tesla plans big safety improvements for Full Self-Driving v15",
       "link": "https://www.teslarati.com/tesla-plans-big-safety-improvements-full-self-driving-v15/",
       "date": "Sat, 12 Sep 2026 13:50",
-      "hoursAgo": 56,
-      "source": "Teslarati"
-    },
-    {
-      "title": "Tesla’s most delayed Cybertruck feature is finally here",
-      "link": "https://www.teslarati.com/tesla-cybertruck-powershare-powerwall/",
-      "date": "Fri, 11 Sep 2026 05:21",
-      "hoursAgo": 89,
+      "hoursAgo": 67,
       "source": "Teslarati"
     }
   ],
@@ -70,78 +79,78 @@
     "+1h": {
       "temp": 14.0,
       "condition": "Mixed",
-      "wind_speed": 16.0,
-      "wind_dir_deg": 345,
-      "cloud": 100,
-      "rain": 0.1
-    },
-    "+3h": {
-      "temp": 14.4,
-      "condition": "Mixed",
-      "wind_speed": 15.2,
-      "wind_dir_deg": 304,
+      "wind_speed": 17.5,
+      "wind_dir_deg": 343,
       "cloud": 100,
       "rain": 0.3
+    },
+    "+3h": {
+      "temp": 14.0,
+      "condition": "Mixed",
+      "wind_speed": 15.8,
+      "wind_dir_deg": 333,
+      "cloud": 100,
+      "rain": 0.2
     },
     "+6h": {
       "temp": 13.8,
       "condition": "Mixed",
-      "wind_speed": 22.2,
-      "wind_dir_deg": 320,
-      "cloud": 91,
+      "wind_speed": 21.8,
+      "wind_dir_deg": 326,
+      "cloud": 61,
       "rain": 0.1
     },
     "+12h": {
-      "temp": 15.1,
-      "condition": "Overcast",
-      "wind_speed": 29.1,
-      "wind_dir_deg": 332,
+      "temp": 15.4,
+      "condition": "Mixed",
+      "wind_speed": 30.0,
+      "wind_dir_deg": 333,
       "cloud": 100,
-      "rain": 0.0
+      "rain": 0.3
     },
     "+24h": {
       "temp": 13.5,
       "condition": "Mixed",
-      "wind_speed": 10.3,
-      "wind_dir_deg": 202,
+      "wind_speed": 12.2,
+      "wind_dir_deg": 319,
       "cloud": 100,
-      "rain": 3.1
+      "rain": 1.8
     }
   },
   "keyNumbers": {
-    "usdZar": "16.24",
-    "usdZarWeek": "+0.9%",
+    "usdZar": "16.33",
+    "usdZarWeek": "+1.1%",
     "usdZarLabel": "rand weaker",
-    "btc": "78531",
-    "btcWeek": "-1.6%",
-    "jse": "+0.1%",
+    "btc": "76889",
+    "btcWeek": "-4.3%",
+    "jse": "-0.5%",
     "sp500": "-0.5%"
   },
   "worldEvents": [
     {
-      "text": "China criticises idea it is in 'malicious competition' over AI",
-      "hoursAgo": 11,
-      "link": "https://www.bbc.co.uk/news/articles/cn8me133119o"
+      "text": "Trump says AI safety fears a 'hoax' as he rejects calls for greater safeguards",
+      "hoursAgo": 0,
+      "link": "https://www.bbc.co.uk/news/articles/cw980n0nd0qjo"
     },
     {
-      "text": "Russia hits Ukrainian train shortly after Boris Johnson and top European officials leave station",
-      "hoursAgo": 10,
-      "link": "https://www.bbc.co.uk/news/articles/cy5zg41dkqwo"
+      "text": "AI regulation faces political deadlock as calls grow for Congress to act",
+      "hoursAgo": 6,
+      "link": "https://www.bbc.co.uk/news/articles/ck20989806e9o"
     },
     {
-      "text": "Swedish left-wing bloc narrowly ahead with election too close to call",
-      "hoursAgo": 13,
-      "link": "https://www.bbc.co.uk/news/articles/c0qx5d79kdeo"
+      "text": "Welsh actor Matthew Rhys makes Emmy Awards history with double win",
+      "hoursAgo": 5,
+      "link": "https://www.bbc.co.uk/news/articles/cqlykdx48xrpo"
     },
     {
-      "text": "Wild dogs record 2,500-mile trek across Zambia in search of a mate",
-      "hoursAgo": 8,
-      "link": "https://www.bbc.co.uk/news/articles/cy459y5y9yxo"
+      "text": "Nato jets down drone that entered Lithuanian airspace",
+      "hoursAgo": 0,
+      "link": "https://www.bbc.co.uk/news/articles/cjx2zgk7edlzo"
     },
     {
-      "text": "Thousands demand end to violence in Mexican cartel hotspot",
-      "hoursAgo": 11,
-      "link": "https://www.bbc.co.uk/news/articles/cde06rxw5g6o"
+      "text": "Suspected sabotage causes major Netherlands rail disruption",
+      "hoursAgo": 0,
+      "link": "https://www.bbc.co.uk/news/articles/c8ly49w9g1edo"
     }
   ],
   "launches": [
@@ -188,45 +197,45 @@
   ],
   "companyNews": [
     {
+      "title": "Elon Musk’s Boring Company has big plans for Las Vegas by year’s end",
+      "link": "https://www.teslarati.com/elon-musks-boring-company-has-big-plans-for-las-vegas-by-years-end/",
+      "date": "Tue, 15 Sep 2026 04:55",
+      "hoursAgo": 4,
+      "source": "Teslarati"
+    },
+    {
       "title": "Tesla looks to expand into new Asian market, strengthening presence",
       "link": "https://www.teslarati.com/tesla-looks-expand-into-new-asian-market-strengthening-presence/",
       "date": "Mon, 14 Sep 2026 20:38",
-      "hoursAgo": 1,
+      "hoursAgo": 12,
       "source": "Teslarati"
     },
     {
       "title": "Elon Musk’s companies made up with Apple but OpenAI still on the hook",
       "link": "https://www.teslarati.com/elon-musks-companies-made-up-with-apple-but-openai-still-on-the-hook/",
       "date": "Mon, 14 Sep 2026 17:21",
-      "hoursAgo": 5,
+      "hoursAgo": 15,
       "source": "Teslarati"
     },
     {
       "title": "Why SpaceX is finishing another space-internet system that isn’t Starlink",
       "link": "https://www.teslarati.com/spacex-ses-03b-network-vs-starlink/",
       "date": "Sun, 13 Sep 2026 19:37",
-      "hoursAgo": 26,
+      "hoursAgo": 37,
       "source": "Teslarati"
     },
     {
       "title": "Tesla gives the Roadster an official “Go for launch” demonstration date",
       "link": "https://www.teslarati.com/tesla-roadster-event-date-spacex-package-demo/",
       "date": "Sat, 12 Sep 2026 21:23",
-      "hoursAgo": 49,
+      "hoursAgo": 59,
       "source": "Teslarati"
     },
     {
       "title": "Tesla plans big safety improvements for Full Self-Driving v15",
       "link": "https://www.teslarati.com/tesla-plans-big-safety-improvements-full-self-driving-v15/",
       "date": "Sat, 12 Sep 2026 13:50",
-      "hoursAgo": 56,
-      "source": "Teslarati"
-    },
-    {
-      "title": "Tesla’s most delayed Cybertruck feature is finally here",
-      "link": "https://www.teslarati.com/tesla-cybertruck-powershare-powerwall/",
-      "date": "Fri, 11 Sep 2026 05:21",
-      "hoursAgo": 89,
+      "hoursAgo": 67,
       "source": "Teslarati"
     }
   ],
