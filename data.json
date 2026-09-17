@@ -1,32 +1,32 @@
 {
-  "updatedAt": "2026-09-17T19:39+02:00",
+  "updatedAt": "2026-09-17T23:29+02:00",
   "stocks": {
     "TSLA": {
-      "price": 367.91,
-      "change_1d": 2.75,
-      "change_3d": 3.18,
-      "change_1m": 6.6,
-      "change_12m": -13.61,
-      "change_3y": 38.69,
-      "updated": "2026-09-17T17:39:35.972350"
+      "price": 366.2,
+      "change_1d": 2.27,
+      "change_3d": 2.7,
+      "change_1m": 6.1,
+      "change_12m": -14.01,
+      "change_3y": 38.04,
+      "updated": "2026-09-17T21:29:13.257053"
     },
     "NVDA": {
-      "price": 219.08,
-      "change_1d": 2.42,
-      "change_3d": 3.26,
-      "change_1m": 1.14,
-      "change_12m": 28.96,
-      "change_3y": 399.78,
-      "updated": "2026-09-17T17:39:35.972563"
+      "price": 219.34,
+      "change_1d": 2.54,
+      "change_3d": 3.38,
+      "change_1m": 1.26,
+      "change_12m": 29.11,
+      "change_3y": 400.38,
+      "updated": "2026-09-17T21:29:13.257220"
     },
     "MU": {
-      "price": 973.79,
-      "change_1d": 5.1,
-      "change_3d": 4.98,
-      "change_1m": -0.06,
-      "change_12m": 509.63,
-      "change_3y": 1296.7,
-      "updated": "2026-09-17T17:39:35.972845"
+      "price": 977.5,
+      "change_1d": 5.5,
+      "change_3d": 5.38,
+      "change_1m": 0.33,
+      "change_12m": 511.96,
+      "change_3y": 1302.02,
+      "updated": "2026-09-17T21:29:13.257354"
     }
   },
   "news": [
@@ -34,42 +34,42 @@
       "title": "Tesla and SpaceX take “Terafab” Trademark fight to Federal Court",
       "link": "https://www.teslarati.com/tesla-spacex-lawsuit-terafab-trademark-court/",
       "date": "Thu, 17 Sep 2026 16:55",
-      "hoursAgo": 0,
+      "hoursAgo": 4,
       "source": "Teslarati"
     },
     {
       "title": "NHTSA just escalated its Tesla Cybercab investigation in a big way",
       "link": "https://www.teslarati.com/nhtsa-just-escalated-its-tesla-cybercab-investigation-in-a-big-way/",
       "date": "Thu, 17 Sep 2026 03:56",
-      "hoursAgo": 13,
+      "hoursAgo": 17,
       "source": "Teslarati"
     },
     {
       "title": "Tesla uber bull Ron Baron says ‘the time to buy the stock is now’",
       "link": "https://www.teslarati.com/tesla-tsla-uber-bull-ron-baron-says-the-time-to-buy-the-stock-is-now/",
       "date": "Wed, 16 Sep 2026 20:06",
-      "hoursAgo": 21,
+      "hoursAgo": 25,
       "source": "Teslarati"
     },
     {
       "title": "SpaceX’s next Starship launch is about to attempt its biggest leap yet",
       "link": "https://www.teslarati.com/spacex-starship-flight-14-orbit/",
       "date": "Wed, 16 Sep 2026 04:28",
-      "hoursAgo": 37,
+      "hoursAgo": 41,
       "source": "Teslarati"
     },
     {
       "title": "Elon Musk gives his most telling Tesla-SpaceX merger conversation yet",
       "link": "https://www.teslarati.com/elon-musk-gives-his-most-telling-tesla-spacex-merger-conversation-yet/",
       "date": "Tue, 15 Sep 2026 16:45",
-      "hoursAgo": 48,
+      "hoursAgo": 52,
       "source": "Teslarati"
     },
     {
       "title": "Tesla Roadster unveiling is getting hyped up by Elon Musk",
       "link": "https://www.teslarati.com/tesla-roadster-unveiling-getting-hyped-up-elon-musk/",
       "date": "Tue, 15 Sep 2026 15:58",
-      "hoursAgo": 49,
+      "hoursAgo": 53,
       "source": "Teslarati"
     }
   ],
@@ -109,48 +109,48 @@
       "rain": 0.0
     },
     "+24h": {
-      "temp": 12.8,
+      "temp": 12.7,
       "condition": "Clear",
-      "wind_speed": 26.3,
+      "wind_speed": 25.4,
       "wind_dir_deg": 131,
       "cloud": 2,
       "rain": 0.0
     }
   },
   "keyNumbers": {
-    "usdZar": "16.27",
-    "usdZarWeek": "+1.8%",
+    "usdZar": "16.25",
+    "usdZarWeek": "+1.7%",
     "usdZarLabel": "rand weaker",
-    "btc": "76752",
-    "btcWeek": "-2.2%",
+    "btc": "76510",
+    "btcWeek": "-2.5%",
     "jse": "+0.5%",
     "sp500": "+1.1%"
   },
   "worldEvents": [
     {
       "text": "Canada welcomes EU proposal to become 'associate member'",
-      "hoursAgo": 5,
+      "hoursAgo": 9,
       "link": "https://www.bbc.co.uk/news/articles/cwly7vkke4jxo"
     },
     {
       "text": "Ninth woman's body found as South African police investigate string of deaths",
-      "hoursAgo": 3,
+      "hoursAgo": 7,
       "link": "https://www.bbc.co.uk/news/articles/cqx2zgk8k8xvo"
     },
     {
       "text": "UN experts say grounds to believe US committed war crimes in Iran strikes",
-      "hoursAgo": 2,
+      "hoursAgo": 0,
       "link": "https://www.bbc.co.uk/news/articles/cm9w4n5nverdo"
     },
     {
-      "text": "Wife of US scholar jailed in China asks Trump to raise arrest at Xi meeting",
-      "hoursAgo": 0,
-      "link": "https://www.bbc.co.uk/news/articles/c9j3d2rr6g24o"
+      "text": "Hyrox athlete apologises for continuing race after soiling herself",
+      "hoursAgo": 6,
+      "link": "https://www.bbc.co.uk/news/articles/ck0e35qyqlx0o"
     },
     {
-      "text": "Assad regime planned US journalist's kidnap for weeks, BBC finds",
-      "hoursAgo": 12,
-      "link": "https://www.bbc.co.uk/news/articles/cv0lrxw6ygl2o"
+      "text": "US to allow Iran delegation to attend UN meetings in New York as war passes half-year mark",
+      "hoursAgo": 0,
+      "link": "https://www.bbc.co.uk/news/articles/c6n8m72r13ngo"
     }
   ],
   "launches": [
@@ -172,8 +172,8 @@
     },
     {
       "name": "Starship | Starlink Group 31-1 (Starship Flight 14)",
-      "date": "Monday 28 September 15h15",
-      "dateISO": "2026-09-28T13:15:00Z",
+      "date": "Monday 28 September 14h15",
+      "dateISO": "2026-09-28T12:15:00Z",
       "details": "Orbital Launch Pad 2 - SpaceX Starbase, TX, USA",
       "highlight": true,
       "link": "https://spacelaunchnow.me/launch/starship-starlink-group-31-1-starship-flight-14"
@@ -200,42 +200,42 @@
       "title": "Tesla and SpaceX take “Terafab” Trademark fight to Federal Court",
       "link": "https://www.teslarati.com/tesla-spacex-lawsuit-terafab-trademark-court/",
       "date": "Thu, 17 Sep 2026 16:55",
-      "hoursAgo": 0,
+      "hoursAgo": 4,
       "source": "Teslarati"
     },
     {
       "title": "NHTSA just escalated its Tesla Cybercab investigation in a big way",
       "link": "https://www.teslarati.com/nhtsa-just-escalated-its-tesla-cybercab-investigation-in-a-big-way/",
       "date": "Thu, 17 Sep 2026 03:56",
-      "hoursAgo": 13,
+      "hoursAgo": 17,
       "source": "Teslarati"
     },
     {
       "title": "Tesla uber bull Ron Baron says ‘the time to buy the stock is now’",
       "link": "https://www.teslarati.com/tesla-tsla-uber-bull-ron-baron-says-the-time-to-buy-the-stock-is-now/",
       "date": "Wed, 16 Sep 2026 20:06",
-      "hoursAgo": 21,
+      "hoursAgo": 25,
       "source": "Teslarati"
     },
     {
       "title": "SpaceX’s next Starship launch is about to attempt its biggest leap yet",
       "link": "https://www.teslarati.com/spacex-starship-flight-14-orbit/",
       "date": "Wed, 16 Sep 2026 04:28",
-      "hoursAgo": 37,
+      "hoursAgo": 41,
       "source": "Teslarati"
     },
     {
       "title": "Elon Musk gives his most telling Tesla-SpaceX merger conversation yet",
       "link": "https://www.teslarati.com/elon-musk-gives-his-most-telling-tesla-spacex-merger-conversation-yet/",
       "date": "Tue, 15 Sep 2026 16:45",
-      "hoursAgo": 48,
+      "hoursAgo": 52,
       "source": "Teslarati"
     },
     {
       "title": "Tesla Roadster unveiling is getting hyped up by Elon Musk",
       "link": "https://www.teslarati.com/tesla-roadster-unveiling-getting-hyped-up-elon-musk/",
       "date": "Tue, 15 Sep 2026 15:58",
-      "hoursAgo": 49,
+      "hoursAgo": 53,
       "source": "Teslarati"
     }
   ],
