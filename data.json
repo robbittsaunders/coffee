@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-16T23:24+02:00",
+  "updatedAt": "2026-09-17T11:13+02:00",
   "stocks": {
     "TSLA": {
       "price": 358.08,
@@ -8,7 +8,7 @@
       "change_1m": 1.98,
       "change_12m": -15.07,
       "change_3y": 34.98,
-      "updated": "2026-09-16T21:24:12.404653"
+      "updated": "2026-09-17T09:13:08.999030"
     },
     "NVDA": {
       "price": 213.9,
@@ -17,7 +17,7 @@
       "change_1m": -1.57,
       "change_12m": 22.61,
       "change_3y": 387.97,
-      "updated": "2026-09-16T21:24:12.404873"
+      "updated": "2026-09-17T09:13:08.999228"
     },
     "MU": {
       "price": 926.55,
@@ -26,50 +26,50 @@
       "change_1m": -1.13,
       "change_12m": 484.33,
       "change_3y": 1228.94,
-      "updated": "2026-09-16T21:24:12.405018"
+      "updated": "2026-09-17T09:13:08.999430"
     }
   },
   "news": [
     {
+      "title": "NHTSA just escalated its Tesla Cybercab investigation in a big way",
+      "link": "https://www.teslarati.com/nhtsa-just-escalated-its-tesla-cybercab-investigation-in-a-big-way/",
+      "date": "Thu, 17 Sep 2026 03:56",
+      "hoursAgo": 5,
+      "source": "Teslarati"
+    },
+    {
       "title": "Tesla uber bull Ron Baron says ‘the time to buy the stock is now’",
       "link": "https://www.teslarati.com/tesla-tsla-uber-bull-ron-baron-says-the-time-to-buy-the-stock-is-now/",
       "date": "Wed, 16 Sep 2026 20:06",
-      "hoursAgo": 1,
+      "hoursAgo": 13,
       "source": "Teslarati"
     },
     {
       "title": "SpaceX’s next Starship launch is about to attempt its biggest leap yet",
       "link": "https://www.teslarati.com/spacex-starship-flight-14-orbit/",
       "date": "Wed, 16 Sep 2026 04:28",
-      "hoursAgo": 16,
+      "hoursAgo": 28,
       "source": "Teslarati"
     },
     {
       "title": "Elon Musk gives his most telling Tesla-SpaceX merger conversation yet",
       "link": "https://www.teslarati.com/elon-musk-gives-his-most-telling-tesla-spacex-merger-conversation-yet/",
       "date": "Tue, 15 Sep 2026 16:45",
-      "hoursAgo": 28,
+      "hoursAgo": 40,
       "source": "Teslarati"
     },
     {
       "title": "Tesla Roadster unveiling is getting hyped up by Elon Musk",
       "link": "https://www.teslarati.com/tesla-roadster-unveiling-getting-hyped-up-elon-musk/",
       "date": "Tue, 15 Sep 2026 15:58",
-      "hoursAgo": 29,
+      "hoursAgo": 41,
       "source": "Teslarati"
     },
     {
       "title": "Elon Musk’s Boring Company has big plans for Las Vegas by year’s end",
       "link": "https://www.teslarati.com/elon-musks-boring-company-has-big-plans-for-las-vegas-by-years-end/",
       "date": "Tue, 15 Sep 2026 04:55",
-      "hoursAgo": 40,
-      "source": "Teslarati"
-    },
-    {
-      "title": "Tesla looks to expand into new Asian market, strengthening presence",
-      "link": "https://www.teslarati.com/tesla-looks-expand-into-new-asian-market-strengthening-presence/",
-      "date": "Mon, 14 Sep 2026 20:38",
-      "hoursAgo": 48,
+      "hoursAgo": 52,
       "source": "Teslarati"
     }
   ],
@@ -77,91 +77,83 @@
   "roasts": [],
   "weather": {
     "+1h": {
-      "temp": 13.2,
-      "condition": "Mixed",
-      "wind_speed": 14.7,
-      "wind_dir_deg": 173,
-      "cloud": 100,
-      "rain": 0.5
-    },
-    "+3h": {
-      "temp": 12.5,
-      "condition": "Mixed",
-      "wind_speed": 15.9,
-      "wind_dir_deg": 184,
-      "cloud": 100,
-      "rain": 0.1
-    },
-    "+6h": {
-      "temp": 12.4,
-      "condition": "Partly cloudy",
-      "wind_speed": 17.0,
-      "wind_dir_deg": 153,
-      "cloud": 63,
-      "rain": 0.0
-    },
-    "+12h": {
-      "temp": 16.0,
+      "temp": 12.8,
       "condition": "Clear",
-      "wind_speed": 22.8,
-      "wind_dir_deg": 141,
+      "wind_speed": 24.1,
+      "wind_dir_deg": 135,
       "cloud": 6,
       "rain": 0.0
     },
-    "+24h": {
-      "temp": 12.6,
-      "condition": "Clear",
-      "wind_speed": 23.6,
+    "+3h": {
+      "temp": 12.7,
+      "condition": "Mainly clear",
+      "wind_speed": 23.9,
       "wind_dir_deg": 133,
-      "cloud": 9,
+      "cloud": 30,
+      "rain": 0.0
+    },
+    "+6h": {
+      "temp": 12.7,
+      "condition": "Clear",
+      "wind_speed": 24.8,
+      "wind_dir_deg": 138,
+      "cloud": 5,
+      "rain": 0.0
+    },
+    "+12h": {
+      "temp": 16.8,
+      "condition": "Clear",
+      "wind_speed": 29.1,
+      "wind_dir_deg": 141,
+      "cloud": 7,
+      "rain": 0.0
+    },
+    "+24h": {
+      "temp": 12.8,
+      "condition": "Clear",
+      "wind_speed": 25.8,
+      "wind_dir_deg": 128,
+      "cloud": 6,
       "rain": 0.0
     }
   },
   "keyNumbers": {
-    "usdZar": "16.38",
-    "usdZarWeek": "+2.0%",
+    "usdZar": "16.27",
+    "usdZarWeek": "+1.9%",
     "usdZarLabel": "rand weaker",
-    "btc": "76000",
-    "btcWeek": "-3.9%",
-    "jse": "-0.4%",
+    "btc": "76630",
+    "btcWeek": "-2.3%",
+    "jse": "+0.1%",
     "sp500": "-0.4%"
   },
   "worldEvents": [
     {
-      "text": "Photos show widespread damage at US sites from Iranian attacks",
-      "hoursAgo": 2,
-      "link": "https://www.bbc.co.uk/news/articles/c8g49e0gwxeno"
-    },
-    {
-      "text": "EU chief backs plan for Canada to become 'associate member'",
-      "hoursAgo": 8,
-      "link": "https://www.bbc.co.uk/news/articles/cjwyzrr9d3dko"
-    },
-    {
-      "text": "Eight children among 21 killed after war-damaged Gaza building collapses, rescuers say",
+      "text": "Assad regime planned US journalist's kidnap for weeks, BBC finds",
       "hoursAgo": 4,
-      "link": "https://www.bbc.co.uk/news/articles/cvp8d00j9gg5o"
+      "link": "https://www.bbc.co.uk/news/articles/cv0lrxw6ygl2o"
     },
     {
-      "text": "US House votes to hold billionaire Epstein associate Leon Black in contempt",
-      "hoursAgo": 1,
-      "link": "https://www.bbc.co.uk/news/articles/c62l8g8qlr0ko"
+      "text": "Uncontrolled AI could lead to 'silicon species' rivalling humans, warns Microsoft",
+      "hoursAgo": 0,
+      "link": "https://www.bbc.co.uk/news/articles/c6n07ypqz8kzo"
     },
     {
-      "text": "OpenAI boss says world 'right to be afraid' but should trust AI firms",
-      "hoursAgo": 11,
-      "link": "https://www.bbc.co.uk/news/articles/cqx2zpj4y525o"
+      "text": "EU announces plan to restrict social media access for under-15s",
+      "hoursAgo": 0,
+      "link": "https://www.bbc.co.uk/news/articles/c3j4jz8vpz1xo"
+    },
+    {
+      "text": "US interest rates raised for first time in three years",
+      "hoursAgo": 8,
+      "link": "https://www.bbc.co.uk/news/articles/cw4gmlyvj422o"
+    },
+    {
+      "text": "Rosenberg: Russia's elections will have few surprises, but for the Kremlin they matter",
+      "hoursAgo": 4,
+      "link": "https://www.bbc.co.uk/news/articles/ck62m0r4r1y3o"
     }
   ],
   "launches": [
-    {
-      "name": "Falcon 9 Block 5 | USSF-259",
-      "date": "Thursday 17 September 03h07",
-      "dateISO": "2026-09-17T01:07:56Z",
-      "details": "Space Launch Complex 4E - Vandenberg SFB, CA, USA",
-      "highlight": false,
-      "link": "https://spacelaunchnow.me/launch/falcon-9-block-5-ussf-259"
-    },
     {
       "name": "Falcon 9 Block 5 | Starlink Group 15-27",
       "date": "Sunday 20 September 03h47",
@@ -177,6 +169,14 @@
       "details": "Orbital Launch Pad 2 - SpaceX Starbase, TX, USA",
       "highlight": true,
       "link": "https://spacelaunchnow.me/launch/starship-starlink-group-31-1-starship-flight-14"
+    },
+    {
+      "name": "Falcon 9 Block 5 | USSF-385",
+      "date": "Saturday 26 September 13h56",
+      "dateISO": "2026-09-26T11:56:00Z",
+      "details": "Space Launch Complex 4E - Vandenberg SFB, CA, USA",
+      "highlight": false,
+      "link": "https://spacelaunchnow.me/launch/falcon-9-block-5-ussf-385"
     },
     {
       "name": "Falcon 9 Block 5 | Crew-13",
@@ -197,45 +197,45 @@
   ],
   "companyNews": [
     {
+      "title": "NHTSA just escalated its Tesla Cybercab investigation in a big way",
+      "link": "https://www.teslarati.com/nhtsa-just-escalated-its-tesla-cybercab-investigation-in-a-big-way/",
+      "date": "Thu, 17 Sep 2026 03:56",
+      "hoursAgo": 5,
+      "source": "Teslarati"
+    },
+    {
       "title": "Tesla uber bull Ron Baron says ‘the time to buy the stock is now’",
       "link": "https://www.teslarati.com/tesla-tsla-uber-bull-ron-baron-says-the-time-to-buy-the-stock-is-now/",
       "date": "Wed, 16 Sep 2026 20:06",
-      "hoursAgo": 1,
+      "hoursAgo": 13,
       "source": "Teslarati"
     },
     {
       "title": "SpaceX’s next Starship launch is about to attempt its biggest leap yet",
       "link": "https://www.teslarati.com/spacex-starship-flight-14-orbit/",
       "date": "Wed, 16 Sep 2026 04:28",
-      "hoursAgo": 16,
+      "hoursAgo": 28,
       "source": "Teslarati"
     },
     {
       "title": "Elon Musk gives his most telling Tesla-SpaceX merger conversation yet",
       "link": "https://www.teslarati.com/elon-musk-gives-his-most-telling-tesla-spacex-merger-conversation-yet/",
       "date": "Tue, 15 Sep 2026 16:45",
-      "hoursAgo": 28,
+      "hoursAgo": 40,
       "source": "Teslarati"
     },
     {
       "title": "Tesla Roadster unveiling is getting hyped up by Elon Musk",
       "link": "https://www.teslarati.com/tesla-roadster-unveiling-getting-hyped-up-elon-musk/",
       "date": "Tue, 15 Sep 2026 15:58",
-      "hoursAgo": 29,
+      "hoursAgo": 41,
       "source": "Teslarati"
     },
     {
       "title": "Elon Musk’s Boring Company has big plans for Las Vegas by year’s end",
       "link": "https://www.teslarati.com/elon-musks-boring-company-has-big-plans-for-las-vegas-by-years-end/",
       "date": "Tue, 15 Sep 2026 04:55",
-      "hoursAgo": 40,
-      "source": "Teslarati"
-    },
-    {
-      "title": "Tesla looks to expand into new Asian market, strengthening presence",
-      "link": "https://www.teslarati.com/tesla-looks-expand-into-new-asian-market-strengthening-presence/",
-      "date": "Mon, 14 Sep 2026 20:38",
-      "hoursAgo": 48,
+      "hoursAgo": 52,
       "source": "Teslarati"
     }
   ],
