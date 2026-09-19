@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-19T00:39+02:00",
+  "updatedAt": "2026-09-19T10:32+02:00",
   "stocks": {
     "TSLA": {
       "price": 364.27,
@@ -8,7 +8,7 @@
       "change_1m": 0.39,
       "change_12m": -12.61,
       "change_3y": 36.69,
-      "updated": "2026-09-18T22:39:18.594458"
+      "updated": "2026-09-19T08:32:05.044946"
     },
     "NVDA": {
       "price": 222.27,
@@ -17,7 +17,7 @@
       "change_1m": 3.63,
       "change_12m": 26.42,
       "change_3y": 412.26,
-      "updated": "2026-09-18T22:39:18.594658"
+      "updated": "2026-09-19T08:32:05.045142"
     },
     "MU": {
       "price": 1015.8,
@@ -26,50 +26,50 @@
       "change_1m": 5.07,
       "change_12m": 502.42,
       "change_3y": 1352.63,
-      "updated": "2026-09-18T22:39:18.594867"
+      "updated": "2026-09-19T08:32:05.045314"
     }
   },
   "news": [
     {
+      "title": "NASA taps SpaceX for more astronaut missions as Boeing Starliner remains grounded",
+      "link": "https://www.teslarati.com/nasa-spacex-crew-dragon-contract-iss/",
+      "date": "Sat, 19 Sep 2026 05:22",
+      "hoursAgo": 3,
+      "source": "Teslarati"
+    },
+    {
       "title": "New drone video shows Tesla’s Optimus Factory reaching a turning point",
       "link": "https://www.teslarati.com/new-drone-video-shows-teslas-optimus-factory-reaching-a-turning-point/",
       "date": "Fri, 18 Sep 2026 10:03",
-      "hoursAgo": 12,
+      "hoursAgo": 22,
       "source": "Teslarati"
     },
     {
       "title": "Tesla and SpaceX take “Terafab” Trademark fight to Federal Court",
       "link": "https://www.teslarati.com/tesla-spacex-lawsuit-terafab-trademark-court/",
       "date": "Thu, 17 Sep 2026 16:55",
-      "hoursAgo": 29,
+      "hoursAgo": 39,
       "source": "Teslarati"
     },
     {
       "title": "NHTSA just escalated its Tesla Cybercab investigation in a big way",
       "link": "https://www.teslarati.com/nhtsa-just-escalated-its-tesla-cybercab-investigation-in-a-big-way/",
       "date": "Thu, 17 Sep 2026 03:56",
-      "hoursAgo": 42,
+      "hoursAgo": 52,
       "source": "Teslarati"
     },
     {
       "title": "Tesla uber bull Ron Baron says ‘the time to buy the stock is now’",
       "link": "https://www.teslarati.com/tesla-tsla-uber-bull-ron-baron-says-the-time-to-buy-the-stock-is-now/",
       "date": "Wed, 16 Sep 2026 20:06",
-      "hoursAgo": 50,
+      "hoursAgo": 60,
       "source": "Teslarati"
     },
     {
       "title": "SpaceX’s next Starship launch is about to attempt its biggest leap yet",
       "link": "https://www.teslarati.com/spacex-starship-flight-14-orbit/",
       "date": "Wed, 16 Sep 2026 04:28",
-      "hoursAgo": 66,
-      "source": "Teslarati"
-    },
-    {
-      "title": "Elon Musk gives his most telling Tesla-SpaceX merger conversation yet",
-      "link": "https://www.teslarati.com/elon-musk-gives-his-most-telling-tesla-spacex-merger-conversation-yet/",
-      "date": "Tue, 15 Sep 2026 16:45",
-      "hoursAgo": 77,
+      "hoursAgo": 76,
       "source": "Teslarati"
     }
   ],
@@ -77,80 +77,80 @@
   "roasts": [],
   "weather": {
     "+1h": {
-      "temp": 12.9,
+      "temp": 12.6,
       "condition": "Clear",
-      "wind_speed": 10.0,
-      "wind_dir_deg": 139,
+      "wind_speed": 8.5,
+      "wind_dir_deg": 144,
       "cloud": 0,
       "rain": 0.0
     },
     "+3h": {
       "temp": 12.7,
       "condition": "Clear",
-      "wind_speed": 9.1,
-      "wind_dir_deg": 150,
+      "wind_speed": 9.0,
+      "wind_dir_deg": 154,
       "cloud": 0,
       "rain": 0.0
     },
     "+6h": {
-      "temp": 12.7,
+      "temp": 12.5,
       "condition": "Clear",
-      "wind_speed": 13.0,
-      "wind_dir_deg": 145,
+      "wind_speed": 10.4,
+      "wind_dir_deg": 148,
       "cloud": 0,
       "rain": 0.0
     },
     "+12h": {
-      "temp": 23.2,
+      "temp": 25.2,
       "condition": "Clear",
-      "wind_speed": 7.2,
-      "wind_dir_deg": 152,
-      "cloud": 1,
+      "wind_speed": 3.6,
+      "wind_dir_deg": 210,
+      "cloud": 0,
       "rain": 0.0
     },
     "+24h": {
-      "temp": 15.9,
+      "temp": 16.0,
       "condition": "Clear",
-      "wind_speed": 15.1,
+      "wind_speed": 13.2,
       "wind_dir_deg": 141,
-      "cloud": 2,
+      "cloud": 0,
       "rain": 0.0
     }
   },
   "keyNumbers": {
-    "usdZar": "16.25",
-    "usdZarWeek": "+1.8%",
+    "usdZar": "16.26",
+    "usdZarWeek": "+1.9%",
     "usdZarLabel": "rand weaker",
-    "btc": "81149",
-    "btcWeek": "+3.7%",
-    "jse": "+0.5%",
+    "btc": "81278",
+    "btcWeek": "+6.2%",
+    "jse": "-1.0%",
     "sp500": "+0.2%"
   },
   "worldEvents": [
     {
-      "text": "US and Denmark reach deal over Greenland's security",
-      "hoursAgo": 0,
+      "text": "US and Denmark reach deal over Greenland after Trump annexation threats",
+      "hoursAgo": 9,
       "link": "https://www.bbc.co.uk/news/articles/c63d7lexyym1o"
     },
     {
-      "text": "Russian hybrid attacks against Europe intensifying, says Macron",
-      "hoursAgo": 4,
-      "link": "https://www.bbc.co.uk/news/articles/cm2dw1w9d3yjo"
-    },
-    {
       "text": "Trump says he is banning CNN and Politico from White House",
-      "hoursAgo": 0,
+      "hoursAgo": 2,
       "link": "https://www.bbc.co.uk/news/articles/c6e30580jqjpo"
     },
     {
-      "text": "Is the Kennedy Center losing 'hundreds of millions of dollars'?",
-      "hoursAgo": 3,
-      "link": "https://www.bbc.co.uk/news/videos/cqy4zw4xr717o"
+      "text": "Google's Gemini AI hacked three companies in security test",
+      "hoursAgo": 4,
+      "link": "https://www.bbc.co.uk/news/articles/c607l0k72rlvo"
     },
     {
-      "text": "At least 21 killed after vehicle loaded with explosives rams Pakistan mosque",
-      "hoursAgo": 2,
-      "link": "https://www.bbc.co.uk/news/articles/ckn9wenz8wjwo"
+      "text": "Trump signs sweeping Russia sanctions bill",
+      "hoursAgo": 10,
+      "link": "https://www.bbc.co.uk/news/articles/cqvgy34ndj4eo"
+    },
+    {
+      "text": "Grim discoveries of murdered women spark fear in South Africa",
+      "hoursAgo": 9,
+      "link": "https://www.bbc.co.uk/news/articles/cjkg71e67k17o"
     }
   ],
   "launches": [
@@ -197,45 +197,45 @@
   ],
   "companyNews": [
     {
+      "title": "NASA taps SpaceX for more astronaut missions as Boeing Starliner remains grounded",
+      "link": "https://www.teslarati.com/nasa-spacex-crew-dragon-contract-iss/",
+      "date": "Sat, 19 Sep 2026 05:22",
+      "hoursAgo": 3,
+      "source": "Teslarati"
+    },
+    {
       "title": "New drone video shows Tesla’s Optimus Factory reaching a turning point",
       "link": "https://www.teslarati.com/new-drone-video-shows-teslas-optimus-factory-reaching-a-turning-point/",
       "date": "Fri, 18 Sep 2026 10:03",
-      "hoursAgo": 12,
+      "hoursAgo": 22,
       "source": "Teslarati"
     },
     {
       "title": "Tesla and SpaceX take “Terafab” Trademark fight to Federal Court",
       "link": "https://www.teslarati.com/tesla-spacex-lawsuit-terafab-trademark-court/",
       "date": "Thu, 17 Sep 2026 16:55",
-      "hoursAgo": 29,
+      "hoursAgo": 39,
       "source": "Teslarati"
     },
     {
       "title": "NHTSA just escalated its Tesla Cybercab investigation in a big way",
       "link": "https://www.teslarati.com/nhtsa-just-escalated-its-tesla-cybercab-investigation-in-a-big-way/",
       "date": "Thu, 17 Sep 2026 03:56",
-      "hoursAgo": 42,
+      "hoursAgo": 52,
       "source": "Teslarati"
     },
     {
       "title": "Tesla uber bull Ron Baron says ‘the time to buy the stock is now’",
       "link": "https://www.teslarati.com/tesla-tsla-uber-bull-ron-baron-says-the-time-to-buy-the-stock-is-now/",
       "date": "Wed, 16 Sep 2026 20:06",
-      "hoursAgo": 50,
+      "hoursAgo": 60,
       "source": "Teslarati"
     },
     {
       "title": "SpaceX’s next Starship launch is about to attempt its biggest leap yet",
       "link": "https://www.teslarati.com/spacex-starship-flight-14-orbit/",
       "date": "Wed, 16 Sep 2026 04:28",
-      "hoursAgo": 66,
-      "source": "Teslarati"
-    },
-    {
-      "title": "Elon Musk gives his most telling Tesla-SpaceX merger conversation yet",
-      "link": "https://www.teslarati.com/elon-musk-gives-his-most-telling-tesla-spacex-merger-conversation-yet/",
-      "date": "Tue, 15 Sep 2026 16:45",
-      "hoursAgo": 77,
+      "hoursAgo": 76,
       "source": "Teslarati"
     }
   ],
