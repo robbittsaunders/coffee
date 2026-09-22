@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-22T00:37+02:00",
+  "updatedAt": "2026-09-22T11:01+02:00",
   "stocks": {
     "TSLA": {
       "price": 375.3,
@@ -8,7 +8,7 @@
       "change_1m": 7.55,
       "change_12m": -11.92,
       "change_3y": 53.26,
-      "updated": "2026-09-21T22:37:33.599653"
+      "updated": "2026-09-22T09:01:05.057235"
     },
     "NVDA": {
       "price": 227.38,
@@ -17,7 +17,7 @@
       "change_1m": 9.19,
       "change_12m": 29.01,
       "change_3y": 448.09,
-      "updated": "2026-09-21T22:37:33.599781"
+      "updated": "2026-09-22T09:01:05.057443"
     },
     "MU": {
       "price": 1043.96,
@@ -26,50 +26,50 @@
       "change_1m": 14.67,
       "change_12m": 542.56,
       "change_3y": 1432.56,
-      "updated": "2026-09-21T22:37:33.599912"
+      "updated": "2026-09-22T09:01:05.057628"
     }
   },
   "news": [
     {
+      "title": "Why automakers keep turning down Elon Musk’s Tesla Full Self-Driving offer",
+      "link": "https://www.teslarati.com/why-automakers-keep-turning-down-elon-musks-tesla-full-self-driving-offer/",
+      "date": "Tue, 22 Sep 2026 04:57",
+      "hoursAgo": 4,
+      "source": "Teslarati"
+    },
+    {
       "title": "Tesla Roadster is available for order once again following brief hold",
       "link": "https://www.teslarati.com/tesla-roadster-available-order-once-again-following-brief-hold/",
       "date": "Mon, 21 Sep 2026 19:09",
-      "hoursAgo": 3,
+      "hoursAgo": 13,
       "source": "Teslarati"
     },
     {
       "title": "Tesla Full Self-Driving expands to another European country",
       "link": "https://www.teslarati.com/tesla-full-self-driving-expands-another-european-country-czechia/",
       "date": "Mon, 21 Sep 2026 15:59",
-      "hoursAgo": 6,
+      "hoursAgo": 17,
       "source": "Teslarati"
     },
     {
       "title": "Tesla Roadster event requires restricted airspace, and the FAA obliges",
       "link": "https://www.teslarati.com/tesla-raodster-event-restricted-airspace-faa-obliges/",
       "date": "Mon, 21 Sep 2026 15:12",
-      "hoursAgo": 7,
+      "hoursAgo": 17,
       "source": "Teslarati"
     },
     {
       "title": "Elon Musk drops a surprise update on Boring Company’s next big dig",
       "link": "https://www.teslarati.com/elon-musk-drops-a-surprise-update-on-boring-companys-next-big-dig/",
       "date": "Mon, 21 Sep 2026 05:09",
-      "hoursAgo": 17,
+      "hoursAgo": 27,
       "source": "Teslarati"
     },
     {
       "title": "Tesla eyes supply partners for Optimus mass production",
       "link": "https://www.teslarati.com/tesla-eyes-supply-partners-for-optimus-mass-production/",
       "date": "Sun, 20 Sep 2026 23:24",
-      "hoursAgo": 23,
-      "source": "Teslarati"
-    },
-    {
-      "title": "Elon Musk’s next Uranium in Uranus merch is Boring Company’s weirdest tease yet",
-      "link": "https://www.teslarati.com/elon-musk-boring-company-uranium-uranus-merch/",
-      "date": "Sat, 19 Sep 2026 23:47",
-      "hoursAgo": 46,
+      "hoursAgo": 33,
       "source": "Teslarati"
     }
   ],
@@ -77,80 +77,80 @@
   "roasts": [],
   "weather": {
     "+1h": {
-      "temp": 21.1,
+      "temp": 21.2,
       "condition": "Clear",
-      "wind_speed": 3.2,
-      "wind_dir_deg": 106,
-      "cloud": 13,
+      "wind_speed": 4.3,
+      "wind_dir_deg": 105,
+      "cloud": 2,
       "rain": 0.0
     },
     "+3h": {
-      "temp": 21.2,
-      "condition": "Clear",
-      "wind_speed": 3.7,
-      "wind_dir_deg": 104,
-      "cloud": 13,
+      "temp": 20.6,
+      "condition": "Mainly clear",
+      "wind_speed": 6.7,
+      "wind_dir_deg": 85,
+      "cloud": 48,
       "rain": 0.0
     },
     "+6h": {
-      "temp": 21.3,
-      "condition": "Mainly clear",
-      "wind_speed": 6.4,
-      "wind_dir_deg": 63,
-      "cloud": 24,
-      "rain": 0.0
+      "temp": 20.5,
+      "condition": "Mixed",
+      "wind_speed": 5.8,
+      "wind_dir_deg": 76,
+      "cloud": 37,
+      "rain": 0.1
     },
     "+12h": {
-      "temp": 30.4,
+      "temp": 28.9,
       "condition": "Mainly clear",
-      "wind_speed": 16.8,
-      "wind_dir_deg": 331,
-      "cloud": 38,
+      "wind_speed": 11.7,
+      "wind_dir_deg": 316,
+      "cloud": 39,
       "rain": 0.0
     },
     "+24h": {
-      "temp": 17.7,
+      "temp": 18.4,
       "condition": "Overcast",
-      "wind_speed": 8.8,
-      "wind_dir_deg": 345,
-      "cloud": 93,
+      "wind_speed": 5.9,
+      "wind_dir_deg": 346,
+      "cloud": 96,
       "rain": 0.0
     }
   },
   "keyNumbers": {
-    "usdZar": "16.23",
+    "usdZar": "16.27",
     "usdZarWeek": "+1.6%",
     "usdZarLabel": "rand weaker",
-    "btc": "86520",
+    "btc": "86078",
     "btcWeek": "+12.0%",
-    "jse": "-1.0%",
+    "jse": "-0.2%",
     "sp500": "+1.5%"
   },
   "worldEvents": [
     {
-      "text": "Yemenis flee across Red Sea as Houthis and Saudi-backed forces escalate war",
-      "hoursAgo": 8,
-      "link": "https://www.bbc.co.uk/news/articles/cw4gm7l742dmo"
-    },
-    {
-      "text": "CNN, MS NOW and Politico file lawsuit against Trump's White House ban",
+      "text": "Major US outlets boycott shared Trump coverage in protest at media ban",
       "hoursAgo": 0,
-      "link": "https://www.bbc.co.uk/news/articles/cm0e32rwvrryo"
+      "link": "https://www.bbc.co.uk/news/articles/cje3rezd92y3o"
     },
     {
-      "text": "Merz vows to keep coalition together for Germany's 'democratic future'",
-      "hoursAgo": 5,
-      "link": "https://www.bbc.co.uk/news/articles/cqm27p8enwmko"
+      "text": "Lithuania ready to 'fight back' but has evacuation plans in face of Russia threats, PM tells BBC",
+      "hoursAgo": 0,
+      "link": "https://www.bbc.co.uk/news/articles/ck5yw8npxzrlo"
     },
     {
-      "text": "First UK charges brought over 1994 Rwanda genocide",
-      "hoursAgo": 4,
-      "link": "https://www.bbc.co.uk/news/articles/cr2092216nywo"
+      "text": "Iran must stop arming Houthis in Yemen, G7 says ahead of UN General Assembly",
+      "hoursAgo": 1,
+      "link": "https://www.bbc.co.uk/news/articles/cwm2qpmepmlzo"
     },
     {
-      "text": "Millions urged to evacuate as powerful Typhoon Dujuan hits Japan",
-      "hoursAgo": 2,
-      "link": "https://www.bbc.co.uk/news/articles/cm3wj2lexl97o"
+      "text": "Sri Lankan court to deliver verdict on deadly Easter bombings",
+      "hoursAgo": 0,
+      "link": "https://www.bbc.co.uk/news/articles/cw8r687nedzgo"
+    },
+    {
+      "text": "Yemenis flee across Red Sea as Houthis and Saudi-backed forces escalate war",
+      "hoursAgo": 18,
+      "link": "https://www.bbc.co.uk/news/articles/cw4gm7l742dmo"
     }
   ],
   "launches": [
@@ -171,20 +171,20 @@
       "link": "https://spacelaunchnow.me/launch/starship-starlink-group-31-1-starship-flight-14"
     },
     {
-      "name": "Falcon 9 Block 5 | Starlink Group 15-25",
-      "date": "Wednesday 30 September 18h00",
-      "dateISO": "2026-09-30T16:00:00Z",
-      "details": "Space Launch Complex 4E - Vandenberg SFB, CA, USA",
-      "highlight": false,
-      "link": "https://spacelaunchnow.me/launch/falcon-9-block-5-starlink-group-15-25"
-    },
-    {
       "name": "Falcon 9 Block 5 | Crew-13",
       "date": "Thursday 1 October 17h10",
       "dateISO": "2026-10-01T15:10:06Z",
       "details": "Space Launch Complex 40 - Cape Canaveral SFS, FL, USA",
       "highlight": true,
       "link": "https://spacelaunchnow.me/launch/falcon-9-block-5-crew-13"
+    },
+    {
+      "name": "Falcon 9 Block 5 | Starlink Group 15-25",
+      "date": "Saturday 10 October 18h00",
+      "dateISO": "2026-10-10T16:00:00Z",
+      "details": "Space Launch Complex 4E - Vandenberg SFB, CA, USA",
+      "highlight": false,
+      "link": "https://spacelaunchnow.me/launch/falcon-9-block-5-starlink-group-15-25"
     },
     {
       "name": "Falcon 9 Block 5 | Dragon CRS-2 SpX-35",
@@ -197,45 +197,45 @@
   ],
   "companyNews": [
     {
+      "title": "Why automakers keep turning down Elon Musk’s Tesla Full Self-Driving offer",
+      "link": "https://www.teslarati.com/why-automakers-keep-turning-down-elon-musks-tesla-full-self-driving-offer/",
+      "date": "Tue, 22 Sep 2026 04:57",
+      "hoursAgo": 4,
+      "source": "Teslarati"
+    },
+    {
       "title": "Tesla Roadster is available for order once again following brief hold",
       "link": "https://www.teslarati.com/tesla-roadster-available-order-once-again-following-brief-hold/",
       "date": "Mon, 21 Sep 2026 19:09",
-      "hoursAgo": 3,
+      "hoursAgo": 13,
       "source": "Teslarati"
     },
     {
       "title": "Tesla Full Self-Driving expands to another European country",
       "link": "https://www.teslarati.com/tesla-full-self-driving-expands-another-european-country-czechia/",
       "date": "Mon, 21 Sep 2026 15:59",
-      "hoursAgo": 6,
+      "hoursAgo": 17,
       "source": "Teslarati"
     },
     {
       "title": "Tesla Roadster event requires restricted airspace, and the FAA obliges",
       "link": "https://www.teslarati.com/tesla-raodster-event-restricted-airspace-faa-obliges/",
       "date": "Mon, 21 Sep 2026 15:12",
-      "hoursAgo": 7,
+      "hoursAgo": 17,
       "source": "Teslarati"
     },
     {
       "title": "Elon Musk drops a surprise update on Boring Company’s next big dig",
       "link": "https://www.teslarati.com/elon-musk-drops-a-surprise-update-on-boring-companys-next-big-dig/",
       "date": "Mon, 21 Sep 2026 05:09",
-      "hoursAgo": 17,
+      "hoursAgo": 27,
       "source": "Teslarati"
     },
     {
       "title": "Tesla eyes supply partners for Optimus mass production",
       "link": "https://www.teslarati.com/tesla-eyes-supply-partners-for-optimus-mass-production/",
       "date": "Sun, 20 Sep 2026 23:24",
-      "hoursAgo": 23,
-      "source": "Teslarati"
-    },
-    {
-      "title": "Elon Musk’s next Uranium in Uranus merch is Boring Company’s weirdest tease yet",
-      "link": "https://www.teslarati.com/elon-musk-boring-company-uranium-uranus-merch/",
-      "date": "Sat, 19 Sep 2026 23:47",
-      "hoursAgo": 46,
+      "hoursAgo": 33,
       "source": "Teslarati"
     }
   ],
