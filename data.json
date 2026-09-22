@@ -1,75 +1,75 @@
 {
-  "updatedAt": "2026-09-22T19:39+02:00",
+  "updatedAt": "2026-09-22T23:26+02:00",
   "stocks": {
     "TSLA": {
-      "price": 378.04,
-      "change_1d": 0.73,
-      "change_3d": 3.78,
-      "change_1m": 7.93,
-      "change_12m": -12.94,
-      "change_3y": 54.38,
-      "updated": "2026-09-22T17:39:50.336032"
+      "price": 378.9,
+      "change_1d": 0.96,
+      "change_3d": 4.02,
+      "change_1m": 8.18,
+      "change_12m": -12.74,
+      "change_3y": 53.41,
+      "updated": "2026-09-22T21:26:19.788232"
     },
     "NVDA": {
-      "price": 229.16,
-      "change_1d": 0.79,
-      "change_3d": 3.1,
-      "change_1m": 7.68,
-      "change_12m": 25.11,
-      "change_3y": 452.39,
-      "updated": "2026-09-22T17:39:50.336162"
+      "price": 228.87,
+      "change_1d": 0.66,
+      "change_3d": 2.97,
+      "change_1m": 7.55,
+      "change_12m": 24.95,
+      "change_3y": 443.68,
+      "updated": "2026-09-22T21:26:19.788429"
     },
     "MU": {
-      "price": 1081.4,
-      "change_1d": 3.59,
-      "change_3d": 6.46,
-      "change_1m": 15.91,
-      "change_12m": 557.96,
-      "change_3y": 1487.51,
-      "updated": "2026-09-22T17:39:50.336305"
+      "price": 1096.16,
+      "change_1d": 5.0,
+      "change_3d": 7.91,
+      "change_1m": 17.49,
+      "change_12m": 566.94,
+      "change_3y": 1516.23,
+      "updated": "2026-09-22T21:26:19.788599"
     }
   },
   "news": [
     {
+      "title": "Tesla integrates Grok Bot into its vehicles for the ultimate personal assistant",
+      "link": "https://www.teslarati.com/tesla-integrates-grok-bot-ultimate-personal-assistant/",
+      "date": "Tue, 22 Sep 2026 19:02",
+      "hoursAgo": 2,
+      "source": "Teslarati"
+    },
+    {
       "title": "Did Tesla make the perfect car for families? Tesla Model Y L Full Review",
       "link": "https://www.teslarati.com/tesla-model-y-l-perfect-car-families-review-video/",
       "date": "Tue, 22 Sep 2026 16:01",
-      "hoursAgo": 1,
+      "hoursAgo": 5,
       "source": "Teslarati"
     },
     {
       "title": "Why automakers keep turning down Elon Musk’s Tesla Full Self-Driving offer",
       "link": "https://www.teslarati.com/why-automakers-keep-turning-down-elon-musks-tesla-full-self-driving-offer/",
       "date": "Tue, 22 Sep 2026 04:57",
-      "hoursAgo": 12,
+      "hoursAgo": 16,
       "source": "Teslarati"
     },
     {
       "title": "Tesla Roadster is available for order once again following brief hold",
       "link": "https://www.teslarati.com/tesla-roadster-available-order-once-again-following-brief-hold/",
       "date": "Mon, 21 Sep 2026 19:09",
-      "hoursAgo": 22,
+      "hoursAgo": 26,
       "source": "Teslarati"
     },
     {
       "title": "Tesla Full Self-Driving expands to another European country",
       "link": "https://www.teslarati.com/tesla-full-self-driving-expands-another-european-country-czechia/",
       "date": "Mon, 21 Sep 2026 15:59",
-      "hoursAgo": 25,
+      "hoursAgo": 29,
       "source": "Teslarati"
     },
     {
       "title": "Tesla Roadster event requires restricted airspace, and the FAA obliges",
       "link": "https://www.teslarati.com/tesla-raodster-event-restricted-airspace-faa-obliges/",
       "date": "Mon, 21 Sep 2026 15:12",
-      "hoursAgo": 26,
-      "source": "Teslarati"
-    },
-    {
-      "title": "Elon Musk drops a surprise update on Boring Company’s next big dig",
-      "link": "https://www.teslarati.com/elon-musk-drops-a-surprise-update-on-boring-companys-next-big-dig/",
-      "date": "Mon, 21 Sep 2026 05:09",
-      "hoursAgo": 36,
+      "hoursAgo": 30,
       "source": "Teslarati"
     }
   ],
@@ -109,48 +109,48 @@
       "rain": 0.0
     },
     "+24h": {
-      "temp": 17.6,
+      "temp": 16.3,
       "condition": "Overcast",
-      "wind_speed": 3.1,
-      "wind_dir_deg": 40,
-      "cloud": 94,
+      "wind_speed": 7.4,
+      "wind_dir_deg": 360,
+      "cloud": 91,
       "rain": 0.0
     }
   },
   "keyNumbers": {
-    "usdZar": "16.23",
-    "usdZarWeek": "+1.4%",
+    "usdZar": "16.18",
+    "usdZarWeek": "+1.1%",
     "usdZarLabel": "rand weaker",
-    "btc": "86474",
-    "btcWeek": "+12.5%",
+    "btc": "86228",
+    "btcWeek": "+12.2%",
     "jse": "+0.2%",
     "sp500": "-0.0%"
   },
   "worldEvents": [
     {
+      "text": "US to build two military bases in Greenland under new deal with Denmark",
+      "hoursAgo": 2,
+      "link": "https://www.bbc.co.uk/news/articles/c9dr74g32g8go"
+    },
+    {
+      "text": "How Ceuta, football and Israel are shaping Morocco's election",
+      "hoursAgo": 0,
+      "link": "https://www.bbc.co.uk/news/articles/c8r4v7n6py97o"
+    },
+    {
       "text": "Sri Lanka court convicts 15 men over deadly Easter Sunday bombings",
-      "hoursAgo": 3,
+      "hoursAgo": 1,
       "link": "https://www.bbc.co.uk/news/articles/cqy7z275yx65o"
     },
     {
       "text": "Developing El Niño becomes strongest on record weeks before expected peak",
-      "hoursAgo": 4,
+      "hoursAgo": 8,
       "link": "https://www.bbc.co.uk/weather/articles/cmvgy4nv9d62o"
     },
     {
-      "text": "Eleven injured in shooting outside Turkish school",
-      "hoursAgo": 6,
-      "link": "https://www.bbc.co.uk/news/articles/c6y0z4gv0le4o"
-    },
-    {
-      "text": "Lindsay Clancy's lawyer asks judge to investigate juror and check his phone",
-      "hoursAgo": 3,
-      "link": "https://www.bbc.co.uk/news/articles/cm4gvyw80dp2o"
-    },
-    {
-      "text": "Top South African policeman charged with sexual offences",
-      "hoursAgo": 0,
-      "link": "https://www.bbc.co.uk/news/articles/cwjdvgx77n0zo"
+      "text": "Ukraine anger as EU removes Russian oligarchs from sanctions list",
+      "hoursAgo": 2,
+      "link": "https://www.bbc.co.uk/news/articles/c6dj4k98107do"
     }
   ],
   "launches": [
@@ -197,45 +197,45 @@
   ],
   "companyNews": [
     {
+      "title": "Tesla integrates Grok Bot into its vehicles for the ultimate personal assistant",
+      "link": "https://www.teslarati.com/tesla-integrates-grok-bot-ultimate-personal-assistant/",
+      "date": "Tue, 22 Sep 2026 19:02",
+      "hoursAgo": 2,
+      "source": "Teslarati"
+    },
+    {
       "title": "Did Tesla make the perfect car for families? Tesla Model Y L Full Review",
       "link": "https://www.teslarati.com/tesla-model-y-l-perfect-car-families-review-video/",
       "date": "Tue, 22 Sep 2026 16:01",
-      "hoursAgo": 1,
+      "hoursAgo": 5,
       "source": "Teslarati"
     },
     {
       "title": "Why automakers keep turning down Elon Musk’s Tesla Full Self-Driving offer",
       "link": "https://www.teslarati.com/why-automakers-keep-turning-down-elon-musks-tesla-full-self-driving-offer/",
       "date": "Tue, 22 Sep 2026 04:57",
-      "hoursAgo": 12,
+      "hoursAgo": 16,
       "source": "Teslarati"
     },
     {
       "title": "Tesla Roadster is available for order once again following brief hold",
       "link": "https://www.teslarati.com/tesla-roadster-available-order-once-again-following-brief-hold/",
       "date": "Mon, 21 Sep 2026 19:09",
-      "hoursAgo": 22,
+      "hoursAgo": 26,
       "source": "Teslarati"
     },
     {
       "title": "Tesla Full Self-Driving expands to another European country",
       "link": "https://www.teslarati.com/tesla-full-self-driving-expands-another-european-country-czechia/",
       "date": "Mon, 21 Sep 2026 15:59",
-      "hoursAgo": 25,
+      "hoursAgo": 29,
       "source": "Teslarati"
     },
     {
       "title": "Tesla Roadster event requires restricted airspace, and the FAA obliges",
       "link": "https://www.teslarati.com/tesla-raodster-event-restricted-airspace-faa-obliges/",
       "date": "Mon, 21 Sep 2026 15:12",
-      "hoursAgo": 26,
-      "source": "Teslarati"
-    },
-    {
-      "title": "Elon Musk drops a surprise update on Boring Company’s next big dig",
-      "link": "https://www.teslarati.com/elon-musk-drops-a-surprise-update-on-boring-companys-next-big-dig/",
-      "date": "Mon, 21 Sep 2026 05:09",
-      "hoursAgo": 36,
+      "hoursAgo": 30,
       "source": "Teslarati"
     }
   ],
