@@ -1,75 +1,75 @@
 {
-  "updatedAt": "2026-09-24T10:59+02:00",
+  "updatedAt": "2026-09-24T19:53+02:00",
   "stocks": {
     "TSLA": {
-      "price": 380.12,
-      "change_1d": 0.32,
-      "change_3d": 1.28,
-      "change_1m": 9.92,
-      "change_12m": -10.74,
-      "change_3y": 53.9,
-      "updated": "2026-09-24T08:59:52.359255"
+      "price": 380.2,
+      "change_1d": 0.02,
+      "change_3d": 0.34,
+      "change_1m": 7.16,
+      "change_12m": -14.13,
+      "change_3y": 53.94,
+      "updated": "2026-09-24T17:52:57.466669"
     },
     "NVDA": {
-      "price": 225.51,
-      "change_1d": -1.47,
-      "change_3d": -0.82,
-      "change_1m": 7.68,
-      "change_12m": 26.69,
-      "change_3y": 435.7,
-      "updated": "2026-09-24T08:59:52.359346"
+      "price": 223.99,
+      "change_1d": -0.68,
+      "change_3d": -2.13,
+      "change_1m": -1.64,
+      "change_12m": 26.87,
+      "change_3y": 432.08,
+      "updated": "2026-09-24T17:52:57.466834"
     },
     "MU": {
-      "price": 1071.88,
-      "change_1d": -2.22,
-      "change_3d": 2.67,
-      "change_1m": 14.22,
-      "change_12m": 545.15,
-      "change_3y": 1480.43,
-      "updated": "2026-09-24T08:59:52.359419"
+      "price": 1068.64,
+      "change_1d": -0.3,
+      "change_3d": -2.51,
+      "change_1m": 14.25,
+      "change_12m": 561.9,
+      "change_3y": 1475.65,
+      "updated": "2026-09-24T17:52:57.466968"
     }
   },
   "news": [
     {
+      "title": "Tesla drops big hints ahead of Semi handover event",
+      "link": "https://www.teslarati.com/tesla-drops-big-hints-ahead-semi-handover-event/",
+      "date": "Thu, 24 Sep 2026 15:48",
+      "hoursAgo": 2,
+      "source": "Teslarati"
+    },
+    {
+      "title": "Tesla App now shows you what your Supercharger will look like upon arrival",
+      "link": "https://www.teslarati.com/tesla-app-supercharger-will-look-like-upon-arrival-site-map/",
+      "date": "Thu, 24 Sep 2026 13:36",
+      "hoursAgo": 4,
+      "source": "Teslarati"
+    },
+    {
       "title": "Tesla Optimus Gen 3 shows off a cleaner, factory-ready design in new app discovery",
       "link": "https://www.teslarati.com/tesla-optimus-gen-3-shows-off-a-cleaner-factory-ready-design-in-new-app-discovery/",
       "date": "Wed, 23 Sep 2026 22:04",
-      "hoursAgo": 10,
+      "hoursAgo": 19,
       "source": "Teslarati"
     },
     {
       "title": "Tesla Semi lands the biggest electric truck deal in U.S. history",
       "link": "https://www.teslarati.com/tesla-semi-lands-the-biggest-electric-truck-deal-in-u-s-history/",
       "date": "Wed, 23 Sep 2026 05:17",
-      "hoursAgo": 27,
+      "hoursAgo": 36,
       "source": "Teslarati"
     },
     {
       "title": "Tesla integrates Grok Bot into its vehicles for the ultimate personal assistant",
       "link": "https://www.teslarati.com/tesla-integrates-grok-bot-ultimate-personal-assistant/",
       "date": "Tue, 22 Sep 2026 19:02",
-      "hoursAgo": 37,
+      "hoursAgo": 46,
       "source": "Teslarati"
     },
     {
       "title": "Did Tesla make the perfect car for families? Tesla Model Y L Full Review",
       "link": "https://www.teslarati.com/tesla-model-y-l-perfect-car-families-review-video/",
       "date": "Tue, 22 Sep 2026 16:01",
-      "hoursAgo": 40,
-      "source": "Teslarati"
-    },
-    {
-      "title": "Why automakers keep turning down Elon Musk’s Tesla Full Self-Driving offer",
-      "link": "https://www.teslarati.com/why-automakers-keep-turning-down-elon-musks-tesla-full-self-driving-offer/",
-      "date": "Tue, 22 Sep 2026 04:57",
-      "hoursAgo": 52,
-      "source": "Teslarati"
-    },
-    {
-      "title": "Tesla Roadster is available for order once again following brief hold",
-      "link": "https://www.teslarati.com/tesla-roadster-available-order-once-again-following-brief-hold/",
-      "date": "Mon, 21 Sep 2026 19:09",
-      "hoursAgo": 61,
+      "hoursAgo": 49,
       "source": "Teslarati"
     }
   ],
@@ -101,56 +101,56 @@
       "rain": 0.0
     },
     "+12h": {
-      "temp": 20.9,
+      "temp": 21.4,
       "condition": "Overcast",
-      "wind_speed": 5.6,
+      "wind_speed": 3.5,
       "wind_dir_deg": 285,
       "cloud": 100,
       "rain": 0.0
     },
     "+24h": {
-      "temp": 15.0,
+      "temp": 15.5,
       "condition": "Overcast",
-      "wind_speed": 5.2,
-      "wind_dir_deg": 319,
+      "wind_speed": 4.2,
+      "wind_dir_deg": 324,
       "cloud": 100,
       "rain": 0.0
     }
   },
   "keyNumbers": {
-    "usdZar": "16.42",
-    "usdZarWeek": "+1.4%",
+    "usdZar": "16.45",
+    "usdZarWeek": "+1.5%",
     "usdZarLabel": "rand weaker",
-    "btc": "83598",
-    "btcWeek": "+10.6%",
+    "btc": "84096",
+    "btcWeek": "+11.2%",
     "jse": "-1.4%",
-    "sp500": "-0.8%"
+    "sp500": "-0.1%"
   },
   "worldEvents": [
     {
+      "text": "White House restores access to media outlets banned by Trump after judge's order",
+      "hoursAgo": 0,
+      "link": "https://www.bbc.co.uk/news/articles/cqe8ek7608mlo"
+    },
+    {
       "text": "Rogue OpenAI agent 'infiltrated' Australian government website in world first",
-      "hoursAgo": 1,
+      "hoursAgo": 2,
       "link": "https://www.bbc.co.uk/news/articles/c6vgy0333dppo"
     },
     {
-      "text": "AI superpower ambitions take centre stage as Trump and Xi meet",
-      "hoursAgo": 10,
-      "link": "https://www.bbc.co.uk/news/articles/c6gqdgg8w59xo"
+      "text": "Why did an OpenAI system hack Australia's health system - and can it be stopped in the future?",
+      "hoursAgo": 3,
+      "link": "https://www.bbc.co.uk/news/articles/cw24jm9rryy3o"
     },
     {
-      "text": "Iran's president tells Trump it will never 'bend the knee'",
-      "hoursAgo": 14,
-      "link": "https://www.bbc.co.uk/news/articles/cqvgyjy23ggjo"
+      "text": "Poland says fire at Starlink station is sabotage as Denmark warns of rising Russian threat",
+      "hoursAgo": 1,
+      "link": "https://www.bbc.co.uk/news/articles/cmp30r1klk37o"
     },
     {
-      "text": "Ethiopia and Tigray accuse each of launching offensives, fuelling fears of new war",
-      "hoursAgo": 4,
-      "link": "https://www.bbc.co.uk/news/articles/cry8zwwq21pxo"
-    },
-    {
-      "text": "Trump's Board of Peace unveils $2.45bn plan to begin Gaza's reconstruction",
-      "hoursAgo": 11,
-      "link": "https://www.bbc.co.uk/news/articles/cwlyke0mm0x3o"
+      "text": "Ethiopia's army says it has repelled attacks in first comment on fresh fighting",
+      "hoursAgo": 2,
+      "link": "https://www.bbc.co.uk/news/articles/cqevwm09w4xmo"
     }
   ],
   "launches": [
@@ -197,45 +197,45 @@
   ],
   "companyNews": [
     {
+      "title": "Tesla drops big hints ahead of Semi handover event",
+      "link": "https://www.teslarati.com/tesla-drops-big-hints-ahead-semi-handover-event/",
+      "date": "Thu, 24 Sep 2026 15:48",
+      "hoursAgo": 2,
+      "source": "Teslarati"
+    },
+    {
+      "title": "Tesla App now shows you what your Supercharger will look like upon arrival",
+      "link": "https://www.teslarati.com/tesla-app-supercharger-will-look-like-upon-arrival-site-map/",
+      "date": "Thu, 24 Sep 2026 13:36",
+      "hoursAgo": 4,
+      "source": "Teslarati"
+    },
+    {
       "title": "Tesla Optimus Gen 3 shows off a cleaner, factory-ready design in new app discovery",
       "link": "https://www.teslarati.com/tesla-optimus-gen-3-shows-off-a-cleaner-factory-ready-design-in-new-app-discovery/",
       "date": "Wed, 23 Sep 2026 22:04",
-      "hoursAgo": 10,
+      "hoursAgo": 19,
       "source": "Teslarati"
     },
     {
       "title": "Tesla Semi lands the biggest electric truck deal in U.S. history",
       "link": "https://www.teslarati.com/tesla-semi-lands-the-biggest-electric-truck-deal-in-u-s-history/",
       "date": "Wed, 23 Sep 2026 05:17",
-      "hoursAgo": 27,
+      "hoursAgo": 36,
       "source": "Teslarati"
     },
     {
       "title": "Tesla integrates Grok Bot into its vehicles for the ultimate personal assistant",
       "link": "https://www.teslarati.com/tesla-integrates-grok-bot-ultimate-personal-assistant/",
       "date": "Tue, 22 Sep 2026 19:02",
-      "hoursAgo": 37,
+      "hoursAgo": 46,
       "source": "Teslarati"
     },
     {
       "title": "Did Tesla make the perfect car for families? Tesla Model Y L Full Review",
       "link": "https://www.teslarati.com/tesla-model-y-l-perfect-car-families-review-video/",
       "date": "Tue, 22 Sep 2026 16:01",
-      "hoursAgo": 40,
-      "source": "Teslarati"
-    },
-    {
-      "title": "Why automakers keep turning down Elon Musk’s Tesla Full Self-Driving offer",
-      "link": "https://www.teslarati.com/why-automakers-keep-turning-down-elon-musks-tesla-full-self-driving-offer/",
-      "date": "Tue, 22 Sep 2026 04:57",
-      "hoursAgo": 52,
-      "source": "Teslarati"
-    },
-    {
-      "title": "Tesla Roadster is available for order once again following brief hold",
-      "link": "https://www.teslarati.com/tesla-roadster-available-order-once-again-following-brief-hold/",
-      "date": "Mon, 21 Sep 2026 19:09",
-      "hoursAgo": 61,
+      "hoursAgo": 49,
       "source": "Teslarati"
     }
   ],
