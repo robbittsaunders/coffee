@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-24T23:36+02:00",
+  "updatedAt": "2026-09-25T11:23+02:00",
   "stocks": {
     "TSLA": {
       "price": 377.94,
@@ -8,7 +8,16 @@
       "change_1m": 6.52,
       "change_12m": -14.65,
       "change_3y": 53.02,
-      "updated": "2026-09-24T21:35:59.494308"
+      "updated": "2026-09-25T09:23:06.530584"
+    },
+    "NVDA": {
+      "price": 224.58,
+      "change_1d": -0.41,
+      "change_3d": -1.87,
+      "change_1m": -1.38,
+      "change_12m": 27.21,
+      "change_3y": 433.49,
+      "updated": "2026-09-25T09:23:06.530819"
     },
     "MU": {
       "price": 1080.53,
@@ -17,50 +26,50 @@
       "change_1m": 15.52,
       "change_12m": 569.26,
       "change_3y": 1493.18,
-      "updated": "2026-09-24T21:35:59.494618"
+      "updated": "2026-09-25T09:23:06.531009"
     }
   },
   "news": [
     {
+      "title": "SpaceX readies Starship Flight 14 for a historic journey into uncharted territory",
+      "link": "https://www.teslarati.com/spacex-starship-flight-14-launch-ready/",
+      "date": "Fri, 25 Sep 2026 04:35",
+      "hoursAgo": 4,
+      "source": "Teslarati"
+    },
+    {
+      "title": "Google just picked SpaceX for its first step into orbital AI",
+      "link": "https://www.teslarati.com/google-suncatcher-spacex-orbital-ai/",
+      "date": "Thu, 24 Sep 2026 23:21",
+      "hoursAgo": 10,
+      "source": "Teslarati"
+    },
+    {
       "title": "Tesla Cybercab gets initial tie-in to localized, in-house cathode plant",
       "link": "https://www.teslarati.com/tesla-cybercab-initial-tie-in-localized-in-house-cathode-plant/",
       "date": "Thu, 24 Sep 2026 18:51",
-      "hoursAgo": 2,
+      "hoursAgo": 14,
       "source": "Teslarati"
     },
     {
       "title": "Tesla leaks Semi customers ahead of handover event",
       "link": "https://www.teslarati.com/tesla-drops-big-hints-ahead-semi-handover-event/",
       "date": "Thu, 24 Sep 2026 15:48",
-      "hoursAgo": 5,
+      "hoursAgo": 17,
       "source": "Teslarati"
     },
     {
       "title": "Tesla App now shows you what your Supercharger will look like upon arrival",
       "link": "https://www.teslarati.com/tesla-app-supercharger-will-look-like-upon-arrival-site-map/",
       "date": "Thu, 24 Sep 2026 13:36",
-      "hoursAgo": 7,
+      "hoursAgo": 19,
       "source": "Teslarati"
     },
     {
       "title": "Tesla Optimus Gen 3 shows off a cleaner, factory-ready design in new app discovery",
       "link": "https://www.teslarati.com/tesla-optimus-gen-3-shows-off-a-cleaner-factory-ready-design-in-new-app-discovery/",
       "date": "Wed, 23 Sep 2026 22:04",
-      "hoursAgo": 23,
-      "source": "Teslarati"
-    },
-    {
-      "title": "Tesla Semi lands the biggest electric truck deal in U.S. history",
-      "link": "https://www.teslarati.com/tesla-semi-lands-the-biggest-electric-truck-deal-in-u-s-history/",
-      "date": "Wed, 23 Sep 2026 05:17",
-      "hoursAgo": 40,
-      "source": "Teslarati"
-    },
-    {
-      "title": "Tesla integrates Grok Bot into its vehicles for the ultimate personal assistant",
-      "link": "https://www.teslarati.com/tesla-integrates-grok-bot-ultimate-personal-assistant/",
-      "date": "Tue, 22 Sep 2026 19:02",
-      "hoursAgo": 50,
+      "hoursAgo": 35,
       "source": "Teslarati"
     }
   ],
@@ -68,80 +77,80 @@
   "roasts": [],
   "weather": {
     "+1h": {
-      "temp": 16.9,
+      "temp": 14.4,
       "condition": "Overcast",
-      "wind_speed": 1.3,
-      "wind_dir_deg": 196,
-      "cloud": 86,
+      "wind_speed": 7.0,
+      "wind_dir_deg": 359,
+      "cloud": 100,
       "rain": 0.0
     },
     "+3h": {
-      "temp": 16.5,
+      "temp": 13.6,
       "condition": "Overcast",
-      "wind_speed": 0.4,
-      "wind_dir_deg": 297,
-      "cloud": 94,
+      "wind_speed": 2.9,
+      "wind_dir_deg": 349,
+      "cloud": 100,
       "rain": 0.0
     },
     "+6h": {
-      "temp": 15.5,
-      "condition": "Overcast",
-      "wind_speed": 3.1,
-      "wind_dir_deg": 31,
-      "cloud": 82,
-      "rain": 0.0
+      "temp": 14.3,
+      "condition": "Mixed",
+      "wind_speed": 9.2,
+      "wind_dir_deg": 349,
+      "cloud": 100,
+      "rain": 0.1
     },
     "+12h": {
-      "temp": 21.4,
+      "temp": 18.1,
       "condition": "Overcast",
-      "wind_speed": 3.5,
-      "wind_dir_deg": 285,
+      "wind_speed": 7.7,
+      "wind_dir_deg": 327,
       "cloud": 100,
       "rain": 0.0
     },
     "+24h": {
-      "temp": 14.8,
-      "condition": "Overcast",
-      "wind_speed": 6.2,
-      "wind_dir_deg": 343,
-      "cloud": 100,
+      "temp": 15.0,
+      "condition": "Partly cloudy",
+      "wind_speed": 9.7,
+      "wind_dir_deg": 161,
+      "cloud": 74,
       "rain": 0.0
     }
   },
   "keyNumbers": {
-    "usdZar": "16.43",
-    "usdZarWeek": "+1.4%",
+    "usdZar": "16.37",
+    "usdZarWeek": "+1.2%",
     "usdZarLabel": "rand weaker",
-    "btc": "84486",
-    "btcWeek": "+11.7%",
-    "jse": "-1.4%",
+    "btc": "84600",
+    "btcWeek": "+11.1%",
+    "jse": "-0.2%",
     "sp500": "-0.0%"
   },
   "worldEvents": [
     {
-      "text": "Netanyahu defends Israeli military actions in Middle East in UN speech",
-      "hoursAgo": 0,
+      "text": "Trump and Xi exchange warm words at state dinner but little progress on key issues",
+      "hoursAgo": 1,
+      "link": "https://www.bbc.co.uk/news/articles/cxq63dqp93n1o"
+    },
+    {
+      "text": "Xi got Trump's red carpet welcome - but not everything he wanted",
+      "hoursAgo": 5,
+      "link": "https://www.bbc.co.uk/news/articles/cr93e4x7kdjjo"
+    },
+    {
+      "text": "Netanyahu defends Israeli military action as delegates walk out before UN speech",
+      "hoursAgo": 8,
       "link": "https://www.bbc.co.uk/news/articles/c3y0z7kxlegdo"
     },
     {
-      "text": "White House restores access to media outlets banned by Trump after judge's order",
-      "hoursAgo": 3,
+      "text": "Media outlets banned by Trump denied access to White House dinner despite judge's order",
+      "hoursAgo": 8,
       "link": "https://www.bbc.co.uk/news/articles/cqe8ek7608mlo"
     },
     {
-      "text": "Why Australia chose the world's biggest political stage to reveal OpenAI hack",
-      "hoursAgo": 3,
-      "link": "https://www.bbc.co.uk/news/articles/cr3eqk15ld14o"
-    },
-    {
-      "text": "Four civilians killed in Pakistani strikes in Afghanistan, Taliban says",
-      "hoursAgo": 2,
-      "link": "https://www.bbc.co.uk/news/articles/cm86xn0nnw58o"
-    },
-    {
-      "text": "Priest killed and four injured in knife attack at Polish abbey",
-      "hoursAgo": 2,
-      "link": "https://www.bbc.co.uk/news/articles/c607lrvm41l3o"
+      "text": "Hundreds of thousands expected in Paris for Pope's visit",
+      "hoursAgo": 0,
+      "link": "https://www.bbc.co.uk/news/articles/cmq8j904212po"
     }
   ],
   "launches": [
@@ -188,45 +197,45 @@
   ],
   "companyNews": [
     {
+      "title": "SpaceX readies Starship Flight 14 for a historic journey into uncharted territory",
+      "link": "https://www.teslarati.com/spacex-starship-flight-14-launch-ready/",
+      "date": "Fri, 25 Sep 2026 04:35",
+      "hoursAgo": 4,
+      "source": "Teslarati"
+    },
+    {
+      "title": "Google just picked SpaceX for its first step into orbital AI",
+      "link": "https://www.teslarati.com/google-suncatcher-spacex-orbital-ai/",
+      "date": "Thu, 24 Sep 2026 23:21",
+      "hoursAgo": 10,
+      "source": "Teslarati"
+    },
+    {
       "title": "Tesla Cybercab gets initial tie-in to localized, in-house cathode plant",
       "link": "https://www.teslarati.com/tesla-cybercab-initial-tie-in-localized-in-house-cathode-plant/",
       "date": "Thu, 24 Sep 2026 18:51",
-      "hoursAgo": 2,
+      "hoursAgo": 14,
       "source": "Teslarati"
     },
     {
       "title": "Tesla leaks Semi customers ahead of handover event",
       "link": "https://www.teslarati.com/tesla-drops-big-hints-ahead-semi-handover-event/",
       "date": "Thu, 24 Sep 2026 15:48",
-      "hoursAgo": 5,
+      "hoursAgo": 17,
       "source": "Teslarati"
     },
     {
       "title": "Tesla App now shows you what your Supercharger will look like upon arrival",
       "link": "https://www.teslarati.com/tesla-app-supercharger-will-look-like-upon-arrival-site-map/",
       "date": "Thu, 24 Sep 2026 13:36",
-      "hoursAgo": 7,
+      "hoursAgo": 19,
       "source": "Teslarati"
     },
     {
       "title": "Tesla Optimus Gen 3 shows off a cleaner, factory-ready design in new app discovery",
       "link": "https://www.teslarati.com/tesla-optimus-gen-3-shows-off-a-cleaner-factory-ready-design-in-new-app-discovery/",
       "date": "Wed, 23 Sep 2026 22:04",
-      "hoursAgo": 23,
-      "source": "Teslarati"
-    },
-    {
-      "title": "Tesla Semi lands the biggest electric truck deal in U.S. history",
-      "link": "https://www.teslarati.com/tesla-semi-lands-the-biggest-electric-truck-deal-in-u-s-history/",
-      "date": "Wed, 23 Sep 2026 05:17",
-      "hoursAgo": 40,
-      "source": "Teslarati"
-    },
-    {
-      "title": "Tesla integrates Grok Bot into its vehicles for the ultimate personal assistant",
-      "link": "https://www.teslarati.com/tesla-integrates-grok-bot-ultimate-personal-assistant/",
-      "date": "Tue, 22 Sep 2026 19:02",
-      "hoursAgo": 50,
+      "hoursAgo": 35,
       "source": "Teslarati"
     }
   ],
