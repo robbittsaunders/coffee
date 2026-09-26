@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-25T23:40+02:00",
+  "updatedAt": "2026-09-26T11:07+02:00",
   "stocks": {
     "TSLA": {
       "price": 372.11,
@@ -8,7 +8,7 @@
       "change_1m": 6.7,
       "change_12m": -12.11,
       "change_3y": 52.43,
-      "updated": "2026-09-25T21:40:16.643099"
+      "updated": "2026-09-26T09:06:59.123100"
     },
     "NVDA": {
       "price": 225.07,
@@ -17,7 +17,7 @@
       "change_1m": 3.57,
       "change_12m": 26.97,
       "change_3y": 438.62,
-      "updated": "2026-09-25T21:40:16.643298"
+      "updated": "2026-09-26T09:06:59.123192"
     },
     "MU": {
       "price": 1082.28,
@@ -26,50 +26,50 @@
       "change_1m": 16.02,
       "change_12m": 591.21,
       "change_3y": 1510.8,
-      "updated": "2026-09-25T21:40:16.643475"
+      "updated": "2026-09-26T09:06:59.123265"
     }
   },
   "news": [
     {
+      "title": "Tesla’s surprise Roadster video hints the 2017 design is gone",
+      "link": "https://www.teslarati.com/tesla-roadster-lightbar-tease-semi-truck/",
+      "date": "Sat, 26 Sep 2026 03:55",
+      "hoursAgo": 5,
+      "source": "Teslarati"
+    },
+    {
       "title": "Tesla Full Self-Driving release in the EU gets delayed",
       "link": "https://www.teslarati.com/tesla-full-self-driving-release-eu-gets-delayed/",
       "date": "Fri, 25 Sep 2026 18:39",
-      "hoursAgo": 3,
+      "hoursAgo": 14,
       "source": "Teslarati"
     },
     {
       "title": "SpaceX readies Starship Flight 14 for a historic journey into uncharted territory",
       "link": "https://www.teslarati.com/spacex-starship-flight-14-launch-ready/",
       "date": "Fri, 25 Sep 2026 04:35",
-      "hoursAgo": 17,
+      "hoursAgo": 28,
       "source": "Teslarati"
     },
     {
       "title": "Google just picked SpaceX for its first step into orbital AI",
       "link": "https://www.teslarati.com/google-suncatcher-spacex-orbital-ai/",
       "date": "Thu, 24 Sep 2026 23:21",
-      "hoursAgo": 22,
+      "hoursAgo": 33,
       "source": "Teslarati"
     },
     {
       "title": "Tesla Cybercab gets initial tie-in to localized, in-house cathode plant",
       "link": "https://www.teslarati.com/tesla-cybercab-initial-tie-in-localized-in-house-cathode-plant/",
       "date": "Thu, 24 Sep 2026 18:51",
-      "hoursAgo": 26,
+      "hoursAgo": 38,
       "source": "Teslarati"
     },
     {
       "title": "Tesla leaks Semi customers ahead of handover event",
       "link": "https://www.teslarati.com/tesla-drops-big-hints-ahead-semi-handover-event/",
       "date": "Thu, 24 Sep 2026 15:48",
-      "hoursAgo": 29,
-      "source": "Teslarati"
-    },
-    {
-      "title": "Tesla App now shows you what your Supercharger will look like upon arrival",
-      "link": "https://www.teslarati.com/tesla-app-supercharger-will-look-like-upon-arrival-site-map/",
-      "date": "Thu, 24 Sep 2026 13:36",
-      "hoursAgo": 32,
+      "hoursAgo": 41,
       "source": "Teslarati"
     }
   ],
@@ -77,43 +77,43 @@
   "roasts": [],
   "weather": {
     "+1h": {
-      "temp": 14.4,
+      "temp": 15.4,
       "condition": "Overcast",
-      "wind_speed": 7.0,
-      "wind_dir_deg": 359,
+      "wind_speed": 8.2,
+      "wind_dir_deg": 140,
       "cloud": 100,
       "rain": 0.0
     },
     "+3h": {
-      "temp": 13.6,
+      "temp": 15.1,
       "condition": "Overcast",
-      "wind_speed": 2.9,
-      "wind_dir_deg": 349,
+      "wind_speed": 9.8,
+      "wind_dir_deg": 162,
       "cloud": 100,
       "rain": 0.0
     },
     "+6h": {
-      "temp": 14.3,
-      "condition": "Mixed",
-      "wind_speed": 9.2,
-      "wind_dir_deg": 349,
-      "cloud": 100,
-      "rain": 0.1
+      "temp": 15.2,
+      "condition": "Overcast",
+      "wind_speed": 7.9,
+      "wind_dir_deg": 125,
+      "cloud": 98,
+      "rain": 0.0
     },
     "+12h": {
-      "temp": 18.1,
-      "condition": "Overcast",
-      "wind_speed": 9.3,
-      "wind_dir_deg": 319,
-      "cloud": 99,
+      "temp": 21.4,
+      "condition": "Clear",
+      "wind_speed": 10.3,
+      "wind_dir_deg": 167,
+      "cloud": 12,
       "rain": 0.0
     },
     "+24h": {
-      "temp": 15.3,
+      "temp": 15.1,
       "condition": "Overcast",
-      "wind_speed": 8.7,
-      "wind_dir_deg": 135,
-      "cloud": 100,
+      "wind_speed": 17.5,
+      "wind_dir_deg": 163,
+      "cloud": 95,
       "rain": 0.0
     }
   },
@@ -121,43 +121,43 @@
     "usdZar": "16.27",
     "usdZarWeek": "+0.6%",
     "usdZarLabel": "rand weaker",
-    "btc": "83792",
-    "btcWeek": "+10.0%",
+    "btc": "84188",
+    "btcWeek": "+10.2%",
     "jse": "-0.7%",
     "sp500": "+0.5%"
   },
   "worldEvents": [
     {
+      "text": "Iran offers US deal to reopen Strait of Hormuz in seven days",
+      "hoursAgo": 4,
+      "link": "https://www.bbc.co.uk/news/articles/cqgmrr9ekr7ko"
+    },
+    {
+      "text": "OpenAI bots meddled with multiple US government agency sites",
+      "hoursAgo": 6,
+      "link": "https://www.bbc.co.uk/news/articles/cw62jje658dlo"
+    },
+    {
+      "text": "Bangkok roads submerged as flood disaster declared",
+      "hoursAgo": 1,
+      "link": "https://www.bbc.co.uk/news/articles/ck1wxx8n2x3zo"
+    },
+    {
       "text": "Russia targeting 'ordinary life' with attacks on Ukraine's data centres, Zelensky says",
-      "hoursAgo": 0,
+      "hoursAgo": 12,
       "link": "https://www.bbc.co.uk/news/articles/c84gkwgk7d06o"
     },
     {
-      "text": "Special agents' blood and urine test results stolen in FBI hack",
-      "hoursAgo": 7,
-      "link": "https://www.bbc.co.uk/news/articles/cw62me2vlj07o"
-    },
-    {
-      "text": "Pope warns against 'losing humanity' to AI machines",
-      "hoursAgo": 6,
-      "link": "https://www.bbc.co.uk/news/articles/cmq8j904212po"
-    },
-    {
-      "text": "Supreme Court allows Trump to use controversial database to check voter citizenship",
-      "hoursAgo": 2,
-      "link": "https://www.bbc.co.uk/news/articles/ck05rrj3jeylo"
-    },
-    {
-      "text": "Trump's plans for massive arch move ahead",
-      "hoursAgo": 3,
-      "link": "https://www.bbc.co.uk/news/articles/cq0lrr8kxy0lo"
+      "text": "South African white genocide does not exist, new ambassador to US tells BBC",
+      "hoursAgo": 9,
+      "link": "https://www.bbc.co.uk/news/articles/cm2l8qv7zppko"
     }
   ],
   "launches": [
     {
       "name": "Falcon 9 Block 5 | USSF-385",
-      "date": "Saturday 26 September 14h56",
-      "dateISO": "2026-09-26T12:56:13Z",
+      "date": "Saturday 26 September 16h00",
+      "dateISO": "2026-09-26T14:00:54Z",
       "details": "Space Launch Complex 4E - Vandenberg SFB, CA, USA",
       "highlight": false,
       "link": "https://spacelaunchnow.me/launch/falcon-9-block-5-ussf-385"
@@ -197,45 +197,45 @@
   ],
   "companyNews": [
     {
+      "title": "Tesla’s surprise Roadster video hints the 2017 design is gone",
+      "link": "https://www.teslarati.com/tesla-roadster-lightbar-tease-semi-truck/",
+      "date": "Sat, 26 Sep 2026 03:55",
+      "hoursAgo": 5,
+      "source": "Teslarati"
+    },
+    {
       "title": "Tesla Full Self-Driving release in the EU gets delayed",
       "link": "https://www.teslarati.com/tesla-full-self-driving-release-eu-gets-delayed/",
       "date": "Fri, 25 Sep 2026 18:39",
-      "hoursAgo": 3,
+      "hoursAgo": 14,
       "source": "Teslarati"
     },
     {
       "title": "SpaceX readies Starship Flight 14 for a historic journey into uncharted territory",
       "link": "https://www.teslarati.com/spacex-starship-flight-14-launch-ready/",
       "date": "Fri, 25 Sep 2026 04:35",
-      "hoursAgo": 17,
+      "hoursAgo": 28,
       "source": "Teslarati"
     },
     {
       "title": "Google just picked SpaceX for its first step into orbital AI",
       "link": "https://www.teslarati.com/google-suncatcher-spacex-orbital-ai/",
       "date": "Thu, 24 Sep 2026 23:21",
-      "hoursAgo": 22,
+      "hoursAgo": 33,
       "source": "Teslarati"
     },
     {
       "title": "Tesla Cybercab gets initial tie-in to localized, in-house cathode plant",
       "link": "https://www.teslarati.com/tesla-cybercab-initial-tie-in-localized-in-house-cathode-plant/",
       "date": "Thu, 24 Sep 2026 18:51",
-      "hoursAgo": 26,
+      "hoursAgo": 38,
       "source": "Teslarati"
     },
     {
       "title": "Tesla leaks Semi customers ahead of handover event",
       "link": "https://www.teslarati.com/tesla-drops-big-hints-ahead-semi-handover-event/",
       "date": "Thu, 24 Sep 2026 15:48",
-      "hoursAgo": 29,
-      "source": "Teslarati"
-    },
-    {
-      "title": "Tesla App now shows you what your Supercharger will look like upon arrival",
-      "link": "https://www.teslarati.com/tesla-app-supercharger-will-look-like-upon-arrival-site-map/",
-      "date": "Thu, 24 Sep 2026 13:36",
-      "hoursAgo": 32,
+      "hoursAgo": 41,
       "source": "Teslarati"
     }
   ],
