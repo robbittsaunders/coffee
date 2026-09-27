@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-26T11:07+02:00",
+  "updatedAt": "2026-09-27T11:49+02:00",
   "stocks": {
     "TSLA": {
       "price": 372.11,
@@ -8,7 +8,7 @@
       "change_1m": 6.7,
       "change_12m": -12.11,
       "change_3y": 52.43,
-      "updated": "2026-09-26T09:06:59.123100"
+      "updated": "2026-09-27T09:49:26.755163"
     },
     "NVDA": {
       "price": 225.07,
@@ -17,7 +17,7 @@
       "change_1m": 3.57,
       "change_12m": 26.97,
       "change_3y": 438.62,
-      "updated": "2026-09-26T09:06:59.123192"
+      "updated": "2026-09-27T09:49:26.755363"
     },
     "MU": {
       "price": 1082.28,
@@ -26,50 +26,50 @@
       "change_1m": 16.02,
       "change_12m": 591.21,
       "change_3y": 1510.8,
-      "updated": "2026-09-26T09:06:59.123265"
+      "updated": "2026-09-27T09:49:26.755590"
     }
   },
   "news": [
     {
-      "title": "Tesla’s surprise Roadster video hints the 2017 design is gone",
+      "title": "SpaceX completes another secret Pentagon launch, adding to suspected Starshield buildout",
+      "link": "https://www.teslarati.com/spacex-space-force-launch-starshiled-infrastructure/",
+      "date": "Sat, 26 Sep 2026 15:23",
+      "hoursAgo": 18,
+      "source": "Teslarati"
+    },
+    {
+      "title": "Tesla hints at new Roadster design in surprise clip",
       "link": "https://www.teslarati.com/tesla-roadster-lightbar-tease-semi-truck/",
       "date": "Sat, 26 Sep 2026 03:55",
-      "hoursAgo": 5,
+      "hoursAgo": 29,
       "source": "Teslarati"
     },
     {
       "title": "Tesla Full Self-Driving release in the EU gets delayed",
       "link": "https://www.teslarati.com/tesla-full-self-driving-release-eu-gets-delayed/",
       "date": "Fri, 25 Sep 2026 18:39",
-      "hoursAgo": 14,
+      "hoursAgo": 39,
       "source": "Teslarati"
     },
     {
       "title": "SpaceX readies Starship Flight 14 for a historic journey into uncharted territory",
       "link": "https://www.teslarati.com/spacex-starship-flight-14-launch-ready/",
       "date": "Fri, 25 Sep 2026 04:35",
-      "hoursAgo": 28,
+      "hoursAgo": 53,
       "source": "Teslarati"
     },
     {
       "title": "Google just picked SpaceX for its first step into orbital AI",
       "link": "https://www.teslarati.com/google-suncatcher-spacex-orbital-ai/",
       "date": "Thu, 24 Sep 2026 23:21",
-      "hoursAgo": 33,
+      "hoursAgo": 58,
       "source": "Teslarati"
     },
     {
       "title": "Tesla Cybercab gets initial tie-in to localized, in-house cathode plant",
       "link": "https://www.teslarati.com/tesla-cybercab-initial-tie-in-localized-in-house-cathode-plant/",
       "date": "Thu, 24 Sep 2026 18:51",
-      "hoursAgo": 38,
-      "source": "Teslarati"
-    },
-    {
-      "title": "Tesla leaks Semi customers ahead of handover event",
-      "link": "https://www.teslarati.com/tesla-drops-big-hints-ahead-semi-handover-event/",
-      "date": "Thu, 24 Sep 2026 15:48",
-      "hoursAgo": 41,
+      "hoursAgo": 62,
       "source": "Teslarati"
     }
   ],
@@ -77,43 +77,43 @@
   "roasts": [],
   "weather": {
     "+1h": {
-      "temp": 15.4,
-      "condition": "Overcast",
-      "wind_speed": 8.2,
-      "wind_dir_deg": 140,
-      "cloud": 100,
+      "temp": 14.6,
+      "condition": "Mainly clear",
+      "wind_speed": 16.8,
+      "wind_dir_deg": 157,
+      "cloud": 46,
       "rain": 0.0
     },
     "+3h": {
-      "temp": 15.1,
+      "temp": 14.4,
       "condition": "Overcast",
-      "wind_speed": 9.8,
-      "wind_dir_deg": 162,
+      "wind_speed": 21.2,
+      "wind_dir_deg": 160,
       "cloud": 100,
       "rain": 0.0
     },
     "+6h": {
-      "temp": 15.2,
+      "temp": 13.6,
       "condition": "Overcast",
-      "wind_speed": 7.9,
-      "wind_dir_deg": 125,
-      "cloud": 98,
+      "wind_speed": 19.6,
+      "wind_dir_deg": 154,
+      "cloud": 100,
       "rain": 0.0
     },
     "+12h": {
-      "temp": 21.4,
+      "temp": 16.6,
       "condition": "Clear",
-      "wind_speed": 10.3,
-      "wind_dir_deg": 167,
-      "cloud": 12,
+      "wind_speed": 25.0,
+      "wind_dir_deg": 144,
+      "cloud": 4,
       "rain": 0.0
     },
     "+24h": {
-      "temp": 15.1,
-      "condition": "Overcast",
-      "wind_speed": 17.5,
-      "wind_dir_deg": 163,
-      "cloud": 95,
+      "temp": 13.7,
+      "condition": "Clear",
+      "wind_speed": 26.2,
+      "wind_dir_deg": 137,
+      "cloud": 6,
       "rain": 0.0
     }
   },
@@ -121,47 +121,39 @@
     "usdZar": "16.27",
     "usdZarWeek": "+0.6%",
     "usdZarLabel": "rand weaker",
-    "btc": "84188",
-    "btcWeek": "+10.2%",
+    "btc": "84896",
+    "btcWeek": "+4.9%",
     "jse": "-0.7%",
     "sp500": "+0.5%"
   },
   "worldEvents": [
     {
-      "text": "Iran offers US deal to reopen Strait of Hormuz in seven days",
-      "hoursAgo": 4,
-      "link": "https://www.bbc.co.uk/news/articles/cqgmrr9ekr7ko"
+      "text": "Iranian minister says only negotiation can end conflict after Trump rejects Hormuz deal",
+      "hoursAgo": 2,
+      "link": "https://www.bbc.co.uk/news/articles/cmvgyyw2jeego"
     },
     {
-      "text": "OpenAI bots meddled with multiple US government agency sites",
-      "hoursAgo": 6,
-      "link": "https://www.bbc.co.uk/news/articles/cw62jje658dlo"
+      "text": "Killer Christa Pike is to be executed within days - but her defence say she's a victim too",
+      "hoursAgo": 10,
+      "link": "https://www.bbc.co.uk/news/articles/c6pwl9g9ne1lo"
     },
     {
-      "text": "Bangkok roads submerged as flood disaster declared",
+      "text": "Four killed in helicopter crash near Montreal",
+      "hoursAgo": 7,
+      "link": "https://www.bbc.co.uk/news/articles/c3grvv7p81lqo"
+    },
+    {
+      "text": "Two mass shootings in South Africa leave 27 dead",
       "hoursAgo": 1,
-      "link": "https://www.bbc.co.uk/news/articles/ck1wxx8n2x3zo"
+      "link": "https://www.bbc.co.uk/news/articles/ck5ywnp075d1o"
     },
     {
-      "text": "Russia targeting 'ordinary life' with attacks on Ukraine's data centres, Zelensky says",
-      "hoursAgo": 12,
-      "link": "https://www.bbc.co.uk/news/articles/c84gkwgk7d06o"
-    },
-    {
-      "text": "South African white genocide does not exist, new ambassador to US tells BBC",
-      "hoursAgo": 9,
-      "link": "https://www.bbc.co.uk/news/articles/cm2l8qv7zppko"
+      "text": "Pope praises young people's 'energy and commitment' at huge open-air Mass in Paris",
+      "hoursAgo": 14,
+      "link": "https://www.bbc.co.uk/news/articles/cm4gjjwvvlzro"
     }
   ],
   "launches": [
-    {
-      "name": "Falcon 9 Block 5 | USSF-385",
-      "date": "Saturday 26 September 16h00",
-      "dateISO": "2026-09-26T14:00:54Z",
-      "details": "Space Launch Complex 4E - Vandenberg SFB, CA, USA",
-      "highlight": false,
-      "link": "https://spacelaunchnow.me/launch/falcon-9-block-5-ussf-385"
-    },
     {
       "name": "Starship | Starlink Group 31-1 (Starship Flight 14)",
       "date": "Monday 28 September 14h15",
@@ -177,6 +169,14 @@
       "details": "Space Launch Complex 40 - Cape Canaveral SFS, FL, USA",
       "highlight": true,
       "link": "https://spacelaunchnow.me/launch/falcon-9-block-5-crew-13"
+    },
+    {
+      "name": "Falcon 9 Block 5 | Transporter 18 (Dedicated SSO Rideshare)",
+      "date": "Thursday 1 October 20h18",
+      "dateISO": "2026-10-01T18:18:00Z",
+      "details": "Space Launch Complex 4E - Vandenberg SFB, CA, USA",
+      "highlight": false,
+      "link": "https://spacelaunchnow.me/launch/falcon-9-block-5-transporter-18-dedicated-sso-ride"
     },
     {
       "name": "Falcon 9 Block 5 | Starlink Group 15-25",
@@ -197,45 +197,45 @@
   ],
   "companyNews": [
     {
-      "title": "Tesla’s surprise Roadster video hints the 2017 design is gone",
+      "title": "SpaceX completes another secret Pentagon launch, adding to suspected Starshield buildout",
+      "link": "https://www.teslarati.com/spacex-space-force-launch-starshiled-infrastructure/",
+      "date": "Sat, 26 Sep 2026 15:23",
+      "hoursAgo": 18,
+      "source": "Teslarati"
+    },
+    {
+      "title": "Tesla hints at new Roadster design in surprise clip",
       "link": "https://www.teslarati.com/tesla-roadster-lightbar-tease-semi-truck/",
       "date": "Sat, 26 Sep 2026 03:55",
-      "hoursAgo": 5,
+      "hoursAgo": 29,
       "source": "Teslarati"
     },
     {
       "title": "Tesla Full Self-Driving release in the EU gets delayed",
       "link": "https://www.teslarati.com/tesla-full-self-driving-release-eu-gets-delayed/",
       "date": "Fri, 25 Sep 2026 18:39",
-      "hoursAgo": 14,
+      "hoursAgo": 39,
       "source": "Teslarati"
     },
     {
       "title": "SpaceX readies Starship Flight 14 for a historic journey into uncharted territory",
       "link": "https://www.teslarati.com/spacex-starship-flight-14-launch-ready/",
       "date": "Fri, 25 Sep 2026 04:35",
-      "hoursAgo": 28,
+      "hoursAgo": 53,
       "source": "Teslarati"
     },
     {
       "title": "Google just picked SpaceX for its first step into orbital AI",
       "link": "https://www.teslarati.com/google-suncatcher-spacex-orbital-ai/",
       "date": "Thu, 24 Sep 2026 23:21",
-      "hoursAgo": 33,
+      "hoursAgo": 58,
       "source": "Teslarati"
     },
     {
       "title": "Tesla Cybercab gets initial tie-in to localized, in-house cathode plant",
       "link": "https://www.teslarati.com/tesla-cybercab-initial-tie-in-localized-in-house-cathode-plant/",
       "date": "Thu, 24 Sep 2026 18:51",
-      "hoursAgo": 38,
-      "source": "Teslarati"
-    },
-    {
-      "title": "Tesla leaks Semi customers ahead of handover event",
-      "link": "https://www.teslarati.com/tesla-drops-big-hints-ahead-semi-handover-event/",
-      "date": "Thu, 24 Sep 2026 15:48",
-      "hoursAgo": 41,
+      "hoursAgo": 62,
       "source": "Teslarati"
     }
   ],
