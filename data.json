@@ -1,75 +1,75 @@
 {
-  "updatedAt": "2026-09-29T12:24+02:00",
+  "updatedAt": "2026-09-29T20:41+02:00",
   "stocks": {
     "TSLA": {
-      "price": 357.45,
-      "change_1d": -3.94,
-      "change_3d": -5.42,
-      "change_1m": -2.85,
-      "change_12m": -18.84,
-      "change_3y": 42.85,
-      "updated": "2026-09-29T10:24:31.719103"
+      "price": 354.6,
+      "change_1d": -0.8,
+      "change_3d": -4.7,
+      "change_1m": -0.42,
+      "change_12m": -19.99,
+      "change_3y": 41.72,
+      "updated": "2026-09-29T18:41:19.870185"
     },
     "NVDA": {
-      "price": 228.86,
-      "change_1d": 1.68,
-      "change_3d": 1.91,
-      "change_1m": 3.78,
-      "change_12m": 28.74,
-      "change_3y": 427.7,
-      "updated": "2026-09-29T10:24:31.719234"
+      "price": 228.27,
+      "change_1d": -0.26,
+      "change_3d": 1.42,
+      "change_1m": 5.1,
+      "change_12m": 25.83,
+      "change_3y": 426.34,
+      "updated": "2026-09-29T18:41:19.870401"
     },
     "MU": {
-      "price": 1053.98,
-      "change_1d": -2.61,
-      "change_3d": -2.46,
-      "change_1m": 9.94,
-      "change_12m": 571.25,
-      "change_3y": 1466.6,
-      "updated": "2026-09-29T10:24:31.719328"
+      "price": 1072.43,
+      "change_1d": 1.75,
+      "change_3d": -0.91,
+      "change_1m": 14.89,
+      "change_12m": 555.37,
+      "change_3y": 1494.02,
+      "updated": "2026-09-29T18:41:19.870573"
     }
   },
   "news": [
     {
+      "title": "Tesla Roadster’s new patent preps white-knuckle speeds, keeping it grounded",
+      "link": "https://www.teslarati.com/tesla-roadster-new-patent-preps-white-knuckle-speeds-keeping-it-grounded/",
+      "date": "Tue, 29 Sep 2026 15:07",
+      "hoursAgo": 3,
+      "source": "Teslarati"
+    },
+    {
+      "title": "Tesla showrooms picked clean ahead of Q3 end as demand looks strong",
+      "link": "https://www.teslarati.com/tesla-tsla-showrooms-picked-clean-ahead-q3-end-demand-looks-strong/",
+      "date": "Tue, 29 Sep 2026 13:49",
+      "hoursAgo": 4,
+      "source": "Teslarati"
+    },
+    {
       "title": "Watch Tesla’s “guardian angel” FSD feature take over for collision evasion",
       "link": "https://www.teslarati.com/tesla-automatic-collision-evasion/",
       "date": "Mon, 28 Sep 2026 23:44",
-      "hoursAgo": 10,
+      "hoursAgo": 18,
       "source": "Teslarati"
     },
     {
       "title": "Tesla Roadster event gets delayed due to unfavorable weather",
       "link": "https://www.teslarati.com/tesla-roadster-event-gets-delayed-due-unfavorable-weather/",
       "date": "Mon, 28 Sep 2026 19:48",
-      "hoursAgo": 14,
+      "hoursAgo": 22,
       "source": "Teslarati"
     },
     {
       "title": "SpaceX turned a heralding moment for Starship into its greatest",
       "link": "https://www.teslarati.com/starship-14-orbit/",
       "date": "Mon, 28 Sep 2026 18:30",
-      "hoursAgo": 15,
+      "hoursAgo": 24,
       "source": "Teslarati"
     },
     {
       "title": "Tesla Cybercab fleet doubles to well over 100 units",
       "link": "https://www.teslarati.com/tesla-cybercab-fleet-doubles-well-over-100-units/",
       "date": "Mon, 28 Sep 2026 17:34",
-      "hoursAgo": 16,
-      "source": "Teslarati"
-    },
-    {
-      "title": "Tesla has a ‘no human contact’ approach for Semi production",
-      "link": "https://www.teslarati.com/tesla-semi-no-human-contact-approach-production/",
-      "date": "Mon, 28 Sep 2026 14:49",
-      "hoursAgo": 19,
-      "source": "Teslarati"
-    },
-    {
-      "title": "Elon Musk’s AI Grok Bot can now handle banking while your Tesla FSD handles the road",
-      "link": "https://www.teslarati.com/spacexai-supergrok-bot-banking/",
-      "date": "Mon, 28 Sep 2026 02:56",
-      "hoursAgo": 31,
+      "hoursAgo": 25,
       "source": "Teslarati"
     }
   ],
@@ -101,56 +101,56 @@
       "rain": 0.0
     },
     "+12h": {
-      "temp": 25.1,
+      "temp": 26.1,
       "condition": "Clear",
-      "wind_speed": 6.0,
-      "wind_dir_deg": 141,
+      "wind_speed": 5.7,
+      "wind_dir_deg": 131,
       "cloud": 0,
       "rain": 0.0
     },
     "+24h": {
-      "temp": 16.9,
+      "temp": 17.0,
       "condition": "Clear",
-      "wind_speed": 9.0,
+      "wind_speed": 8.4,
       "wind_dir_deg": 113,
       "cloud": 1,
       "rain": 0.0
     }
   },
   "keyNumbers": {
-    "usdZar": "16.42",
-    "usdZarWeek": "+0.9%",
+    "usdZar": "16.34",
+    "usdZarWeek": "+0.5%",
     "usdZarLabel": "rand weaker",
-    "btc": "84095",
-    "btcWeek": "+3.6%",
-    "jse": "+0.1%",
-    "sp500": "-0.8%"
+    "btc": "83632",
+    "btcWeek": "+3.1%",
+    "jse": "+0.3%",
+    "sp500": "-0.0%"
   },
   "worldEvents": [
     {
-      "text": "OpenAI scraps rollout of new model over safety concerns",
+      "text": "Spain announces ban on evictions after protests over 87-year-old woman's removal from flat",
+      "hoursAgo": 2,
+      "link": "https://www.bbc.co.uk/news/articles/cwm2qmjgy93do"
+    },
+    {
+      "text": "'I was lured into a trap': Evan Gershkovich on moment that led to 16 months in Russian jail",
+      "hoursAgo": 5,
+      "link": "https://www.bbc.co.uk/news/articles/ck9qr8jy8ynyo"
+    },
+    {
+      "text": "Israeli settlers attack West Bank village and block Palestinian family's return home",
+      "hoursAgo": 6,
+      "link": "https://www.bbc.co.uk/news/articles/cvlylj41egxgo"
+    },
+    {
+      "text": "Dutch police arrest suspected member of group that claimed FBI hack",
+      "hoursAgo": 3,
+      "link": "https://www.bbc.co.uk/news/articles/cw5ym18znr0ro"
+    },
+    {
+      "text": "First female prime minister named in Morocco after winning elections",
       "hoursAgo": 1,
-      "link": "https://www.bbc.co.uk/news/articles/cm5y5nynl75ko"
-    },
-    {
-      "text": "Evicted Spanish pensioner can move back home, lawyer says",
-      "hoursAgo": 1,
-      "link": "https://www.bbc.co.uk/news/articles/cmkg8qgy9d9lo"
-    },
-    {
-      "text": "Argentina threatens legal action against UK over Falkland Islands oil exploration",
-      "hoursAgo": 6,
-      "link": "https://www.bbc.co.uk/news/articles/cq5yj1835y1wo"
-    },
-    {
-      "text": "New York Times executive fatally shot by elderly in-laws, police say",
-      "hoursAgo": 6,
-      "link": "https://www.bbc.co.uk/news/articles/cred737qdv2no"
-    },
-    {
-      "text": "US ban on Canadian alcohol and dairy comes into effect as trade war drags on",
-      "hoursAgo": 6,
-      "link": "https://www.bbc.co.uk/news/articles/cm1j43y146d2o"
+      "link": "https://www.bbc.co.uk/news/articles/c674kkjllw17o"
     }
   ],
   "launches": [
@@ -197,45 +197,45 @@
   ],
   "companyNews": [
     {
+      "title": "Tesla Roadster’s new patent preps white-knuckle speeds, keeping it grounded",
+      "link": "https://www.teslarati.com/tesla-roadster-new-patent-preps-white-knuckle-speeds-keeping-it-grounded/",
+      "date": "Tue, 29 Sep 2026 15:07",
+      "hoursAgo": 3,
+      "source": "Teslarati"
+    },
+    {
+      "title": "Tesla showrooms picked clean ahead of Q3 end as demand looks strong",
+      "link": "https://www.teslarati.com/tesla-tsla-showrooms-picked-clean-ahead-q3-end-demand-looks-strong/",
+      "date": "Tue, 29 Sep 2026 13:49",
+      "hoursAgo": 4,
+      "source": "Teslarati"
+    },
+    {
       "title": "Watch Tesla’s “guardian angel” FSD feature take over for collision evasion",
       "link": "https://www.teslarati.com/tesla-automatic-collision-evasion/",
       "date": "Mon, 28 Sep 2026 23:44",
-      "hoursAgo": 10,
+      "hoursAgo": 18,
       "source": "Teslarati"
     },
     {
       "title": "Tesla Roadster event gets delayed due to unfavorable weather",
       "link": "https://www.teslarati.com/tesla-roadster-event-gets-delayed-due-unfavorable-weather/",
       "date": "Mon, 28 Sep 2026 19:48",
-      "hoursAgo": 14,
+      "hoursAgo": 22,
       "source": "Teslarati"
     },
     {
       "title": "SpaceX turned a heralding moment for Starship into its greatest",
       "link": "https://www.teslarati.com/starship-14-orbit/",
       "date": "Mon, 28 Sep 2026 18:30",
-      "hoursAgo": 15,
+      "hoursAgo": 24,
       "source": "Teslarati"
     },
     {
       "title": "Tesla Cybercab fleet doubles to well over 100 units",
       "link": "https://www.teslarati.com/tesla-cybercab-fleet-doubles-well-over-100-units/",
       "date": "Mon, 28 Sep 2026 17:34",
-      "hoursAgo": 16,
-      "source": "Teslarati"
-    },
-    {
-      "title": "Tesla has a ‘no human contact’ approach for Semi production",
-      "link": "https://www.teslarati.com/tesla-semi-no-human-contact-approach-production/",
-      "date": "Mon, 28 Sep 2026 14:49",
-      "hoursAgo": 19,
-      "source": "Teslarati"
-    },
-    {
-      "title": "Elon Musk’s AI Grok Bot can now handle banking while your Tesla FSD handles the road",
-      "link": "https://www.teslarati.com/spacexai-supergrok-bot-banking/",
-      "date": "Mon, 28 Sep 2026 02:56",
-      "hoursAgo": 31,
+      "hoursAgo": 25,
       "source": "Teslarati"
     }
   ],
