@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-01T01:04+02:00",
+  "updatedAt": "2026-10-01T12:43+02:00",
   "stocks": {
     "TSLA": {
       "price": 354.81,
@@ -8,7 +8,7 @@
       "change_1m": -0.62,
       "change_12m": -20.22,
       "change_3y": 41.02,
-      "updated": "2026-09-30T23:04:10.305187"
+      "updated": "2026-10-01T10:43:40.506757"
     },
     "NVDA": {
       "price": 228.38,
@@ -17,7 +17,7 @@
       "change_1m": 1.88,
       "change_12m": 22.7,
       "change_3y": 411.5,
-      "updated": "2026-09-30T23:04:10.305291"
+      "updated": "2026-10-01T10:43:40.506934"
     },
     "MU": {
       "price": 1065.11,
@@ -26,50 +26,50 @@
       "change_1m": 11.4,
       "change_12m": 537.59,
       "change_3y": 1484.78,
-      "updated": "2026-09-30T23:04:10.305377"
+      "updated": "2026-10-01T10:43:40.507053"
     }
   },
   "news": [
     {
+      "title": "SpaceX set to launch astronauts and a classified Falcon Heavy mission on the same day",
+      "link": "https://www.teslarati.com/spacex-crew-dragon-falcon-heavy-launch/",
+      "date": "Wed, 30 Sep 2026 23:37",
+      "hoursAgo": 11,
+      "source": "Teslarati"
+    },
+    {
       "title": "Tesla Cybercab and Semi have more in common than you might think",
       "link": "https://www.teslarati.com/tesla-cybercab-semi-more-in-common-than-you-might-think/",
       "date": "Wed, 30 Sep 2026 21:56",
-      "hoursAgo": 1,
+      "hoursAgo": 12,
       "source": "Teslarati"
     },
     {
       "title": "Elon Musk weather update tips Tesla Roadster speculation into Plaid Mode",
       "link": "https://www.teslarati.com/elon-musk-weather-update-tips-tesla-roadster-speculation-plaid-mode/",
       "date": "Wed, 30 Sep 2026 15:21",
-      "hoursAgo": 7,
+      "hoursAgo": 19,
       "source": "Teslarati"
     },
     {
       "title": "Tesla snags $30B in fresh credit lines for expanding its biggest projects",
       "link": "https://www.teslarati.com/tesla-snags-30b-fresh-credit-lines-for-expanding-biggest-projects/",
       "date": "Wed, 30 Sep 2026 14:23",
-      "hoursAgo": 8,
+      "hoursAgo": 20,
       "source": "Teslarati"
     },
     {
       "title": "Elon Musk and Trump are closer than ever, and Tesla could be the big winner",
       "link": "https://www.teslarati.com/why-elon-musk-sat-right-next-to-trump-white-house/",
       "date": "Wed, 30 Sep 2026 04:45",
-      "hoursAgo": 18,
+      "hoursAgo": 29,
       "source": "Teslarati"
     },
     {
       "title": "Tesla Roadster’s new patent preps white-knuckle speeds, keeping it grounded",
       "link": "https://www.teslarati.com/tesla-roadster-new-patent-preps-white-knuckle-speeds-keeping-it-grounded/",
       "date": "Tue, 29 Sep 2026 15:07",
-      "hoursAgo": 31,
-      "source": "Teslarati"
-    },
-    {
-      "title": "Tesla showrooms picked clean ahead of Q3 end as demand looks strong",
-      "link": "https://www.teslarati.com/tesla-tsla-showrooms-picked-clean-ahead-q3-end-demand-looks-strong/",
-      "date": "Tue, 29 Sep 2026 13:49",
-      "hoursAgo": 33,
+      "hoursAgo": 43,
       "source": "Teslarati"
     }
   ],
@@ -77,80 +77,80 @@
   "roasts": [],
   "weather": {
     "+1h": {
-      "temp": 25.0,
+      "temp": 27.0,
       "condition": "Clear",
-      "wind_speed": 7.5,
-      "wind_dir_deg": 24,
-      "cloud": 0,
+      "wind_speed": 14.5,
+      "wind_dir_deg": 32,
+      "cloud": 1,
       "rain": 0.0
     },
     "+3h": {
-      "temp": 24.5,
+      "temp": 23.5,
       "condition": "Mainly clear",
-      "wind_speed": 10.2,
-      "wind_dir_deg": 24,
-      "cloud": 31,
+      "wind_speed": 12.0,
+      "wind_dir_deg": 353,
+      "cloud": 37,
       "rain": 0.0
     },
     "+6h": {
-      "temp": 16.4,
-      "condition": "Partly cloudy",
-      "wind_speed": 15.1,
-      "wind_dir_deg": 335,
-      "cloud": 62,
+      "temp": 14.6,
+      "condition": "Overcast",
+      "wind_speed": 16.6,
+      "wind_dir_deg": 340,
+      "cloud": 100,
       "rain": 0.0
     },
     "+12h": {
-      "temp": 23.2,
+      "temp": 23.3,
       "condition": "Overcast",
-      "wind_speed": 20.8,
-      "wind_dir_deg": 326,
-      "cloud": 86,
+      "wind_speed": 21.8,
+      "wind_dir_deg": 340,
+      "cloud": 89,
       "rain": 0.0
     },
     "+24h": {
-      "temp": 14.5,
+      "temp": 14.4,
       "condition": "Overcast",
-      "wind_speed": 12.1,
-      "wind_dir_deg": 340,
-      "cloud": 100,
+      "wind_speed": 12.5,
+      "wind_dir_deg": 335,
+      "cloud": 90,
       "rain": 0.0
     }
   },
   "keyNumbers": {
-    "usdZar": "16.43",
-    "usdZarWeek": "+1.1%",
+    "usdZar": "16.39",
+    "usdZarWeek": "+0.8%",
     "usdZarLabel": "rand weaker",
-    "btc": "83705",
-    "btcWeek": "-3.3%",
-    "jse": "+0.3%",
+    "btc": "83818",
+    "btcWeek": "-2.7%",
+    "jse": "-0.3%",
     "sp500": "-0.3%"
   },
   "worldEvents": [
     {
+      "text": "US death row inmate survives execution attempt after two lethal injections",
+      "hoursAgo": 0,
+      "link": "https://www.bbc.co.uk/news/articles/cq8r6rjdvlx6o"
+    },
+    {
+      "text": "Too early to say if Iran involved in Dubai-Tel Aviv flight attack, Israeli PM says",
+      "hoursAgo": 0,
+      "link": "https://www.bbc.co.uk/news/articles/cqgmrm7xd8wyo"
+    },
+    {
       "text": "What we know about stabbing on Flydubai flight to Israel",
-      "hoursAgo": 1,
+      "hoursAgo": 8,
       "link": "https://www.bbc.co.uk/news/articles/cqjdv7pmj9dno"
     },
     {
-      "text": "Six smugglers jailed for manslaughter over worst Channel small boats disaster",
-      "hoursAgo": 5,
-      "link": "https://www.bbc.co.uk/news/articles/c6n8m33pn9djo"
+      "text": "Rosenberg: Putin shows no sign of stopping the war as Russia doubles down on Ukraine",
+      "hoursAgo": 11,
+      "link": "https://www.bbc.co.uk/news/articles/cqx2ze420kpyo"
     },
     {
-      "text": "UK-France 'one in, one out' migrant scheme scrapped",
-      "hoursAgo": 5,
-      "link": "https://www.bbc.co.uk/news/articles/c64gvnv4eqylo"
-    },
-    {
-      "text": "Execution of US murderer Christa Pike halted shortly before it was due to happen",
+      "text": "Japan raises permanent residency fee by 20 times",
       "hoursAgo": 7,
-      "link": "https://www.bbc.co.uk/news/articles/cw20vxxn876no"
-    },
-    {
-      "text": "Trekkers helicoptered off mountains as more deadly landslides hit Nepal",
-      "hoursAgo": 1,
-      "link": "https://www.bbc.co.uk/news/articles/c607l4l3vn0eo"
+      "link": "https://www.bbc.co.uk/news/articles/c6y8z8xeg8j1o"
     }
   ],
   "launches": [
@@ -180,8 +180,8 @@
     },
     {
       "name": "Falcon 9 Block 5 | Starlink Group 15-25",
-      "date": "Saturday 10 October 18h00",
-      "dateISO": "2026-10-10T16:00:00Z",
+      "date": "Sunday 11 October 01h00",
+      "dateISO": "2026-10-10T23:00:00Z",
       "details": "Space Launch Complex 4E - Vandenberg SFB, CA, USA",
       "highlight": false,
       "link": "https://spacelaunchnow.me/launch/falcon-9-block-5-starlink-group-15-25"
@@ -197,45 +197,45 @@
   ],
   "companyNews": [
     {
+      "title": "SpaceX set to launch astronauts and a classified Falcon Heavy mission on the same day",
+      "link": "https://www.teslarati.com/spacex-crew-dragon-falcon-heavy-launch/",
+      "date": "Wed, 30 Sep 2026 23:37",
+      "hoursAgo": 11,
+      "source": "Teslarati"
+    },
+    {
       "title": "Tesla Cybercab and Semi have more in common than you might think",
       "link": "https://www.teslarati.com/tesla-cybercab-semi-more-in-common-than-you-might-think/",
       "date": "Wed, 30 Sep 2026 21:56",
-      "hoursAgo": 1,
+      "hoursAgo": 12,
       "source": "Teslarati"
     },
     {
       "title": "Elon Musk weather update tips Tesla Roadster speculation into Plaid Mode",
       "link": "https://www.teslarati.com/elon-musk-weather-update-tips-tesla-roadster-speculation-plaid-mode/",
       "date": "Wed, 30 Sep 2026 15:21",
-      "hoursAgo": 7,
+      "hoursAgo": 19,
       "source": "Teslarati"
     },
     {
       "title": "Tesla snags $30B in fresh credit lines for expanding its biggest projects",
       "link": "https://www.teslarati.com/tesla-snags-30b-fresh-credit-lines-for-expanding-biggest-projects/",
       "date": "Wed, 30 Sep 2026 14:23",
-      "hoursAgo": 8,
+      "hoursAgo": 20,
       "source": "Teslarati"
     },
     {
       "title": "Elon Musk and Trump are closer than ever, and Tesla could be the big winner",
       "link": "https://www.teslarati.com/why-elon-musk-sat-right-next-to-trump-white-house/",
       "date": "Wed, 30 Sep 2026 04:45",
-      "hoursAgo": 18,
+      "hoursAgo": 29,
       "source": "Teslarati"
     },
     {
       "title": "Tesla Roadster’s new patent preps white-knuckle speeds, keeping it grounded",
       "link": "https://www.teslarati.com/tesla-roadster-new-patent-preps-white-knuckle-speeds-keeping-it-grounded/",
       "date": "Tue, 29 Sep 2026 15:07",
-      "hoursAgo": 31,
-      "source": "Teslarati"
-    },
-    {
-      "title": "Tesla showrooms picked clean ahead of Q3 end as demand looks strong",
-      "link": "https://www.teslarati.com/tesla-tsla-showrooms-picked-clean-ahead-q3-end-demand-looks-strong/",
-      "date": "Tue, 29 Sep 2026 13:49",
-      "hoursAgo": 33,
+      "hoursAgo": 43,
       "source": "Teslarati"
     }
   ],
