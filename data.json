@@ -1,32 +1,32 @@
 {
-  "updatedAt": "2026-10-02T20:31+02:00",
+  "updatedAt": "2026-10-03T01:02+02:00",
   "stocks": {
     "TSLA": {
-      "price": 371.34,
-      "change_1d": 4.87,
-      "change_3d": 4.66,
-      "change_1m": 4.87,
-      "change_12m": -14.83,
-      "change_3y": 47.59,
-      "updated": "2026-10-02T18:30:51.957942"
+      "price": 370.59,
+      "change_1d": 4.65,
+      "change_3d": 4.45,
+      "change_1m": 4.66,
+      "change_12m": -15.0,
+      "change_3y": 50.32,
+      "updated": "2026-10-02T23:02:40.364869"
     },
     "NVDA": {
-      "price": 234.51,
-      "change_1d": 1.58,
-      "change_3d": 2.68,
-      "change_1m": 1.91,
-      "change_12m": 24.45,
-      "change_3y": 425.22,
-      "updated": "2026-10-02T18:30:51.958068"
+      "price": 233.95,
+      "change_1d": 1.34,
+      "change_3d": 2.44,
+      "change_1m": 1.67,
+      "change_12m": 24.15,
+      "change_3y": 439.21,
+      "updated": "2026-10-02T23:02:40.365120"
     },
     "MU": {
-      "price": 1074.6,
-      "change_1d": -2.08,
-      "change_3d": 0.89,
-      "change_1m": 5.71,
-      "change_12m": 485.76,
-      "change_3y": 1498.9,
-      "updated": "2026-10-02T18:30:51.958170"
+      "price": 1074.89,
+      "change_1d": -2.05,
+      "change_3d": 0.92,
+      "change_1m": 5.73,
+      "change_12m": 485.91,
+      "change_3y": 1502.39,
+      "updated": "2026-10-02T23:02:40.365300"
     }
   },
   "news": [
@@ -34,42 +34,42 @@
       "title": "Tesla says fixes on Full Self-Driving’s two biggest issues are on the way",
       "link": "https://www.teslarati.com/tesla-says-fixes-full-self-driving-two-biggest-issues-on-the-way/",
       "date": "Fri, 02 Oct 2026 17:42",
-      "hoursAgo": 0,
+      "hoursAgo": 5,
       "source": "Teslarati"
     },
     {
       "title": "SpaceX’s midnight spy satellite launch quietly set a new record",
       "link": "https://www.teslarati.com/spacexs-spy-satellite-launch-quietly-set-a-new-record/",
       "date": "Fri, 02 Oct 2026 17:36",
-      "hoursAgo": 0,
+      "hoursAgo": 5,
       "source": "Teslarati"
     },
     {
       "title": "Tesla deliveries best Wall Street guesses alongside second-best energy quarter",
       "link": "https://www.teslarati.com/tesla-tsla-best-wall-street-best-energy-q3-2026/",
       "date": "Fri, 02 Oct 2026 14:13",
-      "hoursAgo": 4,
+      "hoursAgo": 8,
       "source": "Teslarati"
     },
     {
       "title": "Tesla’s newest feature lets you floor it out of a Supercharger while plugged in",
       "link": "https://www.teslarati.com/tesla-emergency-drive-away-supercharger/",
       "date": "Fri, 02 Oct 2026 06:44",
-      "hoursAgo": 11,
+      "hoursAgo": 16,
       "source": "Teslarati"
     },
     {
       "title": "Why Tesla Roadster unveiling delay might have nothing to do with it flying",
       "link": "https://www.teslarati.com/why-tesla-roadster-unveiling-delay-might-have-nothing-to-do-with-flying/",
       "date": "Thu, 01 Oct 2026 20:43",
-      "hoursAgo": 21,
+      "hoursAgo": 26,
       "source": "Teslarati"
     },
     {
       "title": "SpaceX nails “Lucky 13” astronaut launch, leaning into Tesla tradition and superstition",
       "link": "https://www.teslarati.com/spacex-nails-lucky-13-astronaut-launch-leaning-into-tesla-tradition-and-superstition/",
       "date": "Thu, 01 Oct 2026 18:44",
-      "hoursAgo": 23,
+      "hoursAgo": 28,
       "source": "Teslarati"
     }
   ],
@@ -77,124 +77,165 @@
   "roasts": [],
   "weather": {
     "+1h": {
-      "temp": 14.0,
-      "condition": "Overcast",
-      "wind_speed": 12.1,
-      "wind_dir_deg": 349,
-      "cloud": 100,
+      "temp": 14.1,
+      "condition": "Partly cloudy",
+      "wind_speed": 17.1,
+      "wind_dir_deg": 166,
+      "cloud": 70,
       "rain": 0.0
     },
     "+3h": {
-      "temp": 14.9,
-      "condition": "Mixed",
-      "wind_speed": 14.1,
-      "wind_dir_deg": 335,
-      "cloud": 100,
-      "rain": 0.1
+      "temp": 14.2,
+      "condition": "Mainly clear",
+      "wind_speed": 19.6,
+      "wind_dir_deg": 163,
+      "cloud": 38,
+      "rain": 0.0
     },
     "+6h": {
-      "temp": 14.3,
-      "condition": "Mixed",
-      "wind_speed": 10.4,
-      "wind_dir_deg": 328,
-      "cloud": 100,
-      "rain": 0.1
+      "temp": 14.1,
+      "condition": "Partly cloudy",
+      "wind_speed": 20.6,
+      "wind_dir_deg": 154,
+      "cloud": 55,
+      "rain": 0.0
     },
     "+12h": {
-      "temp": 19.1,
-      "condition": "Overcast",
-      "wind_speed": 8.1,
-      "wind_dir_deg": 267,
-      "cloud": 95,
+      "temp": 18.3,
+      "condition": "Mainly clear",
+      "wind_speed": 29.3,
+      "wind_dir_deg": 141,
+      "cloud": 35,
       "rain": 0.0
     },
     "+24h": {
-      "temp": 14.5,
-      "condition": "Overcast",
-      "wind_speed": 18.0,
-      "wind_dir_deg": 164,
-      "cloud": 85,
+      "temp": 15.3,
+      "condition": "Clear",
+      "wind_speed": 14.3,
+      "wind_dir_deg": 132,
+      "cloud": 6,
       "rain": 0.0
     }
   },
   "keyNumbers": {
-    "usdZar": "16.67",
-    "usdZarWeek": "+2.6%",
+    "usdZar": "16.64",
+    "usdZarWeek": "+2.5%",
     "usdZarLabel": "rand weaker",
-    "btc": "84534",
+    "btc": "84517",
     "btcWeek": "+0.2%",
-    "jse": "+0.6%",
+    "jse": "-0.7%",
     "sp500": "+0.7%"
   },
   "worldEvents": [
     {
+      "text": "G7 to release 100 million barrels of oil and diesel after Trump export ban threat",
+      "hoursAgo": 2,
+      "link": "https://www.bbc.co.uk/news/articles/ck87zg8jnwngo"
+    },
+    {
       "text": "Riot police clash with students as education protests rage in France",
-      "hoursAgo": 0,
+      "hoursAgo": 1,
       "link": "https://www.bbc.co.uk/news/articles/ck3r5dxxwqzpo"
     },
     {
+      "text": "US murderer Christa Pike unconscious and on ventilator after failed execution, lawyers say",
+      "hoursAgo": 2,
+      "link": "https://www.bbc.co.uk/news/articles/c3kgqw7zvz47o"
+    },
+    {
       "text": "Woman at centre of Cornell rape inquiry was 'failed' by officials, says New York governor",
-      "hoursAgo": 0,
+      "hoursAgo": 5,
       "link": "https://www.bbc.co.uk/news/articles/cqvg04718lr9o"
     },
     {
-      "text": "'I was not going to let others die' - pilot of Flydubai flight describes cockpit attack by co-pilot",
-      "hoursAgo": 9,
-      "link": "https://www.bbc.co.uk/news/articles/c639m98gde00o"
-    },
-    {
       "text": "Intensified Russian strikes are tearing Kyiv apart, warns mayor",
-      "hoursAgo": 3,
+      "hoursAgo": 7,
       "link": "https://www.bbc.co.uk/news/articles/c6wyv44y4ywjo"
-    },
-    {
-      "text": "Spanish PM Sánchez loses key housing crisis vote after eviction of woman, 87",
-      "hoursAgo": 3,
-      "link": "https://www.bbc.co.uk/news/articles/c623dlk4y75mo"
     }
   ],
-  "launches": [],
+  "launches": [
+    {
+      "name": "Falcon 9 Block 5 | SDA Tranche 1 Transport Layer A",
+      "date": "Monday 5 October 10h17",
+      "dateISO": "2026-10-05T08:17:00Z",
+      "details": "Space Launch Complex 4E - Vandenberg SFB, CA, USA",
+      "highlight": false,
+      "link": "https://spacelaunchnow.me/launch/falcon-9-block-5-sda-tranche-1-transport-layer-a"
+    },
+    {
+      "name": "Falcon 9 Block 5 | Starlink Group 15-25",
+      "date": "Sunday 11 October 01h00",
+      "dateISO": "2026-10-10T23:00:00Z",
+      "details": "Space Launch Complex 4E - Vandenberg SFB, CA, USA",
+      "highlight": false,
+      "link": "https://spacelaunchnow.me/launch/falcon-9-block-5-starlink-group-15-25"
+    },
+    {
+      "name": "Falcon 9 Block 5 | Dragon CRS-2 SpX-35",
+      "date": "Tuesday 13 October 12h33",
+      "dateISO": "2026-10-13T10:33:44Z",
+      "details": "Space Launch Complex 40 - Cape Canaveral SFS, FL, USA",
+      "highlight": true,
+      "link": "https://spacelaunchnow.me/launch/falcon-9-block-5-dragon-crs-2-spx-35"
+    },
+    {
+      "name": "Falcon 9 Block 5 | Bandwagon 5 (Dedicated Mid-Inclination Rideshare)",
+      "date": "Saturday 31 October (TBD)",
+      "dateISO": "2026-10-31T00:00:00Z",
+      "details": "Space Launch Complex 40 - Cape Canaveral SFS, FL, USA",
+      "highlight": false,
+      "link": "https://spacelaunchnow.me/launch/falcon-9-block-5-bandwagon-5-dedicated-mid-inclina"
+    },
+    {
+      "name": "Falcon 9 Block 5 | Cygnus CRS-2 NG-25",
+      "date": "Thursday 31 December (TBD)",
+      "dateISO": "2026-12-31T00:00:00Z",
+      "details": "Space Launch Complex 40 - Cape Canaveral SFS, FL, USA",
+      "highlight": false,
+      "link": "https://spacelaunchnow.me/launch/falcon-9-block-5-cygnus-crs-2-ng-25"
+    }
+  ],
   "companyNews": [
     {
       "title": "Tesla says fixes on Full Self-Driving’s two biggest issues are on the way",
       "link": "https://www.teslarati.com/tesla-says-fixes-full-self-driving-two-biggest-issues-on-the-way/",
       "date": "Fri, 02 Oct 2026 17:42",
-      "hoursAgo": 0,
+      "hoursAgo": 5,
       "source": "Teslarati"
     },
     {
       "title": "SpaceX’s midnight spy satellite launch quietly set a new record",
       "link": "https://www.teslarati.com/spacexs-spy-satellite-launch-quietly-set-a-new-record/",
       "date": "Fri, 02 Oct 2026 17:36",
-      "hoursAgo": 0,
+      "hoursAgo": 5,
       "source": "Teslarati"
     },
     {
       "title": "Tesla deliveries best Wall Street guesses alongside second-best energy quarter",
       "link": "https://www.teslarati.com/tesla-tsla-best-wall-street-best-energy-q3-2026/",
       "date": "Fri, 02 Oct 2026 14:13",
-      "hoursAgo": 4,
+      "hoursAgo": 8,
       "source": "Teslarati"
     },
     {
       "title": "Tesla’s newest feature lets you floor it out of a Supercharger while plugged in",
       "link": "https://www.teslarati.com/tesla-emergency-drive-away-supercharger/",
       "date": "Fri, 02 Oct 2026 06:44",
-      "hoursAgo": 11,
+      "hoursAgo": 16,
       "source": "Teslarati"
     },
     {
       "title": "Why Tesla Roadster unveiling delay might have nothing to do with it flying",
       "link": "https://www.teslarati.com/why-tesla-roadster-unveiling-delay-might-have-nothing-to-do-with-flying/",
       "date": "Thu, 01 Oct 2026 20:43",
-      "hoursAgo": 21,
+      "hoursAgo": 26,
       "source": "Teslarati"
     },
     {
       "title": "SpaceX nails “Lucky 13” astronaut launch, leaning into Tesla tradition and superstition",
       "link": "https://www.teslarati.com/spacex-nails-lucky-13-astronaut-launch-leaning-into-tesla-tradition-and-superstition/",
       "date": "Thu, 01 Oct 2026 18:44",
-      "hoursAgo": 23,
+      "hoursAgo": 28,
       "source": "Teslarati"
     }
   ],
