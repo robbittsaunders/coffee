@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-06T03:46+02:00",
+  "updatedAt": "2026-10-06T13:01+02:00",
   "stocks": {
     "TSLA": {
       "price": 378.73,
@@ -8,7 +8,7 @@
       "change_1m": 2.87,
       "change_12m": -11.89,
       "change_3y": 45.37,
-      "updated": "2026-10-06T01:46:55.711189"
+      "updated": "2026-10-06T11:00:57.517132"
     },
     "NVDA": {
       "price": 238.9,
@@ -17,7 +17,7 @@
       "change_1m": 5.95,
       "change_12m": 27.64,
       "change_3y": 423.61,
-      "updated": "2026-10-06T01:46:55.711279"
+      "updated": "2026-10-06T11:00:57.517225"
     },
     "MU": {
       "price": 1063.96,
@@ -26,50 +26,50 @@
       "change_1m": 6.37,
       "change_12m": 467.0,
       "change_3y": 1435.25,
-      "updated": "2026-10-06T01:46:55.711349"
+      "updated": "2026-10-06T11:00:57.517298"
     }
   },
   "news": [
     {
+      "title": "SpaceX just locked up a NASA record no other U.S. spacecraft can touch",
+      "link": "https://www.teslarati.com/spacex-just-locked-up-a-nasa-record-no-other-u-s-spacecraft-can-touch/",
+      "date": "Tue, 06 Oct 2026 05:36",
+      "hoursAgo": 5,
+      "source": "Teslarati"
+    },
+    {
       "title": "Elon Musk teases TSMC as potential Terafab partner",
       "link": "https://www.teslarati.com/elon-musk-tsmc-potential-terafab-partner/",
       "date": "Mon, 05 Oct 2026 19:27",
-      "hoursAgo": 6,
+      "hoursAgo": 15,
       "source": "Teslarati"
     },
     {
       "title": "Tesla reveals early Robotaxi charging strategy, showing scrappy DNA",
       "link": "https://www.teslarati.com/tesla-robotaxi-early-charging-strategy-scrappy-dna/",
       "date": "Mon, 05 Oct 2026 16:52",
-      "hoursAgo": 8,
+      "hoursAgo": 18,
       "source": "Teslarati"
     },
     {
       "title": "Tesla Robotaxi expands hours, Musk explains why it’s been a challenge",
       "link": "https://www.teslarati.com/tesla-robotaxi-expands-hours-musk-explains-why-its-been-a-challenge/",
       "date": "Mon, 05 Oct 2026 16:38",
-      "hoursAgo": 9,
+      "hoursAgo": 18,
       "source": "Teslarati"
     },
     {
       "title": "Tesla snags Semi supply deal with major logistics firm",
       "link": "https://www.teslarati.com/tesla-snags-semi-supply-deal-major-logistics-firm/",
       "date": "Mon, 05 Oct 2026 15:32",
-      "hoursAgo": 10,
+      "hoursAgo": 19,
       "source": "Teslarati"
     },
     {
       "title": "Tesla wins over Netflix’s Selling Sunset star, who’s now ditching his Bentley",
       "link": "https://www.teslarati.com/tesla-jason-oppenheim-selling-sunset/",
       "date": "Mon, 05 Oct 2026 05:03",
-      "hoursAgo": 20,
-      "source": "Teslarati"
-    },
-    {
-      "title": "Elon Musk follows Trump’s lead, says a SpaceX name change is coming",
-      "link": "https://www.teslarati.com/elon-musk-follows-trumps-lead-says-a-spacex-name-change-is-coming/",
-      "date": "Sun, 04 Oct 2026 16:41",
-      "hoursAgo": 33,
+      "hoursAgo": 29,
       "source": "Teslarati"
     }
   ],
@@ -85,72 +85,72 @@
       "rain": 0.0
     },
     "+3h": {
-      "temp": 14.5,
+      "temp": 14.4,
       "condition": "Mixed",
-      "wind_speed": 15.4,
-      "wind_dir_deg": 337,
+      "wind_speed": 14.3,
+      "wind_dir_deg": 309,
       "cloud": 100,
-      "rain": 0.7
+      "rain": 1.1
     },
     "+6h": {
-      "temp": 13.4,
+      "temp": 13.2,
       "condition": "Mixed",
-      "wind_speed": 23.5,
-      "wind_dir_deg": 226,
+      "wind_speed": 21.2,
+      "wind_dir_deg": 228,
       "cloud": 100,
-      "rain": 4.0
+      "rain": 2.9
     },
     "+12h": {
-      "temp": 16.4,
+      "temp": 16.6,
       "condition": "Clear",
-      "wind_speed": 16.6,
-      "wind_dir_deg": 220,
-      "cloud": 1,
+      "wind_speed": 16.5,
+      "wind_dir_deg": 219,
+      "cloud": 0,
       "rain": 0.0
     },
     "+24h": {
-      "temp": 12.5,
-      "condition": "Partly cloudy",
-      "wind_speed": 11.1,
-      "wind_dir_deg": 172,
-      "cloud": 60,
+      "temp": 11.4,
+      "condition": "Mainly clear",
+      "wind_speed": 8.5,
+      "wind_dir_deg": 173,
+      "cloud": 23,
       "rain": 0.0
     }
   },
   "keyNumbers": {
-    "usdZar": "16.65",
-    "usdZarWeek": "+3.0%",
+    "usdZar": "16.56",
+    "usdZarWeek": "+2.4%",
     "usdZarLabel": "rand weaker",
-    "btc": "85686",
-    "btcWeek": "+1.5%",
-    "jse": "-0.0%",
+    "btc": "86150",
+    "btcWeek": "+2.0%",
+    "jse": "+0.3%",
     "sp500": "+0.7%"
   },
   "worldEvents": [
     {
       "text": "Trump says 'threat' led US to pull bombers from RAF Fairford",
-      "hoursAgo": 4,
+      "hoursAgo": 3,
       "link": "https://www.bbc.co.uk/news/articles/cwj3413e5m1lo"
     },
     {
-      "text": "France braces for national day of school protests after injuries and mass arrests",
-      "hoursAgo": 4,
-      "link": "https://www.bbc.co.uk/news/articles/cr4g1q1elxnjo"
+      "text": "Fort Hood shooter to be executed by firing squad - a first for US military since World War Two",
+      "hoursAgo": 8,
+      "link": "https://www.bbc.co.uk/news/articles/cq8ezkkkrpy1o"
     },
     {
-      "text": "Flydubai co-pilot planned to crash plane into Tel Aviv airport or building, reports say",
-      "hoursAgo": 14,
-      "link": "https://www.bbc.co.uk/news/articles/cm3691y79xp5o"
+      "text": "'Ghost particles' from space telescope wins physics Nobel",
+      "hoursAgo": 0,
+      "link": "https://www.bbc.co.uk/news/articles/cq203mymlvkeo"
     },
     {
-      "text": "Zelensky condemns 'horrific' Russian strike on boat carrying corn in Black Sea",
-      "hoursAgo": 10,
-      "link": "https://www.bbc.co.uk/news/articles/cr0j0w3p8453o"
+      "text": "Sailors missing after fresh attacks on Black Sea vessels, Bulgaria says",
+      "hoursAgo": 0,
+      "link": "https://www.bbc.co.uk/news/articles/c8ly0v5r602eo"
     },
     {
-      "text": "Spain PM pins hopes on housing crisis to help win snap election",
-      "hoursAgo": 6,
-      "link": "https://www.bbc.co.uk/news/articles/ck5yn81qqde0o"
+      "text": "Saudi Arabia urged to spare man sentenced to death over Facebook post",
+      "hoursAgo": 12,
+      "link": "https://www.bbc.co.uk/news/articles/cq14d438vx24o"
     }
   ],
   "launches": [
@@ -197,45 +197,45 @@
   ],
   "companyNews": [
     {
+      "title": "SpaceX just locked up a NASA record no other U.S. spacecraft can touch",
+      "link": "https://www.teslarati.com/spacex-just-locked-up-a-nasa-record-no-other-u-s-spacecraft-can-touch/",
+      "date": "Tue, 06 Oct 2026 05:36",
+      "hoursAgo": 5,
+      "source": "Teslarati"
+    },
+    {
       "title": "Elon Musk teases TSMC as potential Terafab partner",
       "link": "https://www.teslarati.com/elon-musk-tsmc-potential-terafab-partner/",
       "date": "Mon, 05 Oct 2026 19:27",
-      "hoursAgo": 6,
+      "hoursAgo": 15,
       "source": "Teslarati"
     },
     {
       "title": "Tesla reveals early Robotaxi charging strategy, showing scrappy DNA",
       "link": "https://www.teslarati.com/tesla-robotaxi-early-charging-strategy-scrappy-dna/",
       "date": "Mon, 05 Oct 2026 16:52",
-      "hoursAgo": 8,
+      "hoursAgo": 18,
       "source": "Teslarati"
     },
     {
       "title": "Tesla Robotaxi expands hours, Musk explains why it’s been a challenge",
       "link": "https://www.teslarati.com/tesla-robotaxi-expands-hours-musk-explains-why-its-been-a-challenge/",
       "date": "Mon, 05 Oct 2026 16:38",
-      "hoursAgo": 9,
+      "hoursAgo": 18,
       "source": "Teslarati"
     },
     {
       "title": "Tesla snags Semi supply deal with major logistics firm",
       "link": "https://www.teslarati.com/tesla-snags-semi-supply-deal-major-logistics-firm/",
       "date": "Mon, 05 Oct 2026 15:32",
-      "hoursAgo": 10,
+      "hoursAgo": 19,
       "source": "Teslarati"
     },
     {
       "title": "Tesla wins over Netflix’s Selling Sunset star, who’s now ditching his Bentley",
       "link": "https://www.teslarati.com/tesla-jason-oppenheim-selling-sunset/",
       "date": "Mon, 05 Oct 2026 05:03",
-      "hoursAgo": 20,
-      "source": "Teslarati"
-    },
-    {
-      "title": "Elon Musk follows Trump’s lead, says a SpaceX name change is coming",
-      "link": "https://www.teslarati.com/elon-musk-follows-trumps-lead-says-a-spacex-name-change-is-coming/",
-      "date": "Sun, 04 Oct 2026 16:41",
-      "hoursAgo": 33,
+      "hoursAgo": 29,
       "source": "Teslarati"
     }
   ],
