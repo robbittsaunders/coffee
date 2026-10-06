@@ -1,75 +1,75 @@
 {
-  "updatedAt": "2026-10-05T13:10+02:00",
+  "updatedAt": "2026-10-06T03:46+02:00",
   "stocks": {
     "TSLA": {
-      "price": 370.59,
-      "change_1d": 4.65,
-      "change_3d": 4.45,
-      "change_1m": 4.66,
-      "change_12m": -15.0,
-      "change_3y": 50.32,
-      "updated": "2026-10-05T11:10:55.034531"
+      "price": 378.73,
+      "change_1d": 2.2,
+      "change_3d": 6.95,
+      "change_1m": 2.87,
+      "change_12m": -11.89,
+      "change_3y": 45.37,
+      "updated": "2026-10-06T01:46:55.711189"
     },
     "NVDA": {
-      "price": 233.95,
-      "change_1d": 1.34,
-      "change_3d": 2.44,
-      "change_1m": 1.67,
-      "change_12m": 24.15,
-      "change_3y": 439.21,
-      "updated": "2026-10-05T11:10:55.034758"
+      "price": 238.9,
+      "change_1d": 2.12,
+      "change_3d": 3.48,
+      "change_1m": 5.95,
+      "change_12m": 27.64,
+      "change_3y": 423.61,
+      "updated": "2026-10-06T01:46:55.711279"
     },
     "MU": {
-      "price": 1074.89,
-      "change_1d": -2.05,
-      "change_3d": 0.92,
-      "change_1m": 5.73,
-      "change_12m": 485.91,
-      "change_3y": 1502.39,
-      "updated": "2026-10-05T11:10:55.034942"
+      "price": 1063.96,
+      "change_1d": -1.02,
+      "change_3d": -3.05,
+      "change_1m": 6.37,
+      "change_12m": 467.0,
+      "change_3y": 1435.25,
+      "updated": "2026-10-06T01:46:55.711349"
     }
   },
   "news": [
     {
+      "title": "Elon Musk teases TSMC as potential Terafab partner",
+      "link": "https://www.teslarati.com/elon-musk-tsmc-potential-terafab-partner/",
+      "date": "Mon, 05 Oct 2026 19:27",
+      "hoursAgo": 6,
+      "source": "Teslarati"
+    },
+    {
+      "title": "Tesla reveals early Robotaxi charging strategy, showing scrappy DNA",
+      "link": "https://www.teslarati.com/tesla-robotaxi-early-charging-strategy-scrappy-dna/",
+      "date": "Mon, 05 Oct 2026 16:52",
+      "hoursAgo": 8,
+      "source": "Teslarati"
+    },
+    {
+      "title": "Tesla Robotaxi expands hours, Musk explains why it’s been a challenge",
+      "link": "https://www.teslarati.com/tesla-robotaxi-expands-hours-musk-explains-why-its-been-a-challenge/",
+      "date": "Mon, 05 Oct 2026 16:38",
+      "hoursAgo": 9,
+      "source": "Teslarati"
+    },
+    {
+      "title": "Tesla snags Semi supply deal with major logistics firm",
+      "link": "https://www.teslarati.com/tesla-snags-semi-supply-deal-major-logistics-firm/",
+      "date": "Mon, 05 Oct 2026 15:32",
+      "hoursAgo": 10,
+      "source": "Teslarati"
+    },
+    {
       "title": "Tesla wins over Netflix’s Selling Sunset star, who’s now ditching his Bentley",
       "link": "https://www.teslarati.com/tesla-jason-oppenheim-selling-sunset/",
       "date": "Mon, 05 Oct 2026 05:03",
-      "hoursAgo": 6,
+      "hoursAgo": 20,
       "source": "Teslarati"
     },
     {
       "title": "Elon Musk follows Trump’s lead, says a SpaceX name change is coming",
       "link": "https://www.teslarati.com/elon-musk-follows-trumps-lead-says-a-spacex-name-change-is-coming/",
       "date": "Sun, 04 Oct 2026 16:41",
-      "hoursAgo": 18,
-      "source": "Teslarati"
-    },
-    {
-      "title": "Starlink launches Communities Program for passive income through internet sharing",
-      "link": "https://www.teslarati.com/starlink-launches-communities-program-passive-income-through-internet-sharing/",
-      "date": "Sat, 03 Oct 2026 18:05",
-      "hoursAgo": 41,
-      "source": "Teslarati"
-    },
-    {
-      "title": "Tesla just made its headlights even better through a software update",
-      "link": "https://www.teslarati.com/tesla-headlights-even-better-through-software-update/",
-      "date": "Sat, 03 Oct 2026 17:08",
-      "hoursAgo": 42,
-      "source": "Teslarati"
-    },
-    {
-      "title": "Tesla teases “Halloween Mode” update with Optimus rising from a graveyard",
-      "link": "https://www.teslarati.com/tesla-teases-halloween-mode-update-with-optimus-rising-from-a-graveyard/",
-      "date": "Sat, 03 Oct 2026 06:11",
-      "hoursAgo": 52,
-      "source": "Teslarati"
-    },
-    {
-      "title": "Tesla says fixes on Full Self-Driving’s two biggest issues are on the way",
-      "link": "https://www.teslarati.com/tesla-says-fixes-full-self-driving-two-biggest-issues-on-the-way/",
-      "date": "Fri, 02 Oct 2026 17:42",
-      "hoursAgo": 65,
+      "hoursAgo": 33,
       "source": "Teslarati"
     }
   ],
@@ -77,87 +77,87 @@
   "roasts": [],
   "weather": {
     "+1h": {
-      "temp": 18.1,
-      "condition": "Clear",
-      "wind_speed": 5.2,
-      "wind_dir_deg": 164,
-      "cloud": 0,
+      "temp": 13.8,
+      "condition": "Overcast",
+      "wind_speed": 11.8,
+      "wind_dir_deg": 329,
+      "cloud": 100,
       "rain": 0.0
     },
     "+3h": {
-      "temp": 17.1,
-      "condition": "Clear",
-      "wind_speed": 4.8,
-      "wind_dir_deg": 158,
-      "cloud": 0,
-      "rain": 0.0
+      "temp": 14.5,
+      "condition": "Mixed",
+      "wind_speed": 15.4,
+      "wind_dir_deg": 337,
+      "cloud": 100,
+      "rain": 0.7
     },
     "+6h": {
-      "temp": 15.7,
-      "condition": "Clear",
-      "wind_speed": 2.3,
-      "wind_dir_deg": 151,
-      "cloud": 0,
-      "rain": 0.0
+      "temp": 13.4,
+      "condition": "Mixed",
+      "wind_speed": 23.5,
+      "wind_dir_deg": 226,
+      "cloud": 100,
+      "rain": 4.0
     },
     "+12h": {
-      "temp": 25.4,
+      "temp": 16.4,
       "condition": "Clear",
-      "wind_speed": 8.7,
-      "wind_dir_deg": 274,
-      "cloud": 16,
+      "wind_speed": 16.6,
+      "wind_dir_deg": 220,
+      "cloud": 1,
       "rain": 0.0
     },
     "+24h": {
-      "temp": 14.2,
-      "condition": "Overcast",
-      "wind_speed": 10.1,
-      "wind_dir_deg": 319,
-      "cloud": 90,
+      "temp": 12.5,
+      "condition": "Partly cloudy",
+      "wind_speed": 11.1,
+      "wind_dir_deg": 172,
+      "cloud": 60,
       "rain": 0.0
     }
   },
   "keyNumbers": {
-    "usdZar": "16.66",
-    "usdZarWeek": "+2.7%",
+    "usdZar": "16.65",
+    "usdZarWeek": "+3.0%",
     "usdZarLabel": "rand weaker",
-    "btc": "85935",
-    "btcWeek": "+1.8%",
+    "btc": "85686",
+    "btcWeek": "+1.5%",
     "jse": "-0.0%",
     "sp500": "+0.7%"
   },
   "worldEvents": [
     {
-      "text": "Right-wing Flávio Bolsonaro wins first round of Brazil election",
-      "hoursAgo": 7,
-      "link": "https://www.bbc.co.uk/news/articles/ck1l34ed592no"
+      "text": "Trump says 'threat' led US to pull bombers from RAF Fairford",
+      "hoursAgo": 4,
+      "link": "https://www.bbc.co.uk/news/articles/cwj3413e5m1lo"
     },
     {
-      "text": "Nobel Prize awarded for showing how nerve cells shape feelings",
-      "hoursAgo": 0,
-      "link": "https://www.bbc.co.uk/news/articles/c5ev3ypmzly8o"
+      "text": "France braces for national day of school protests after injuries and mass arrests",
+      "hoursAgo": 4,
+      "link": "https://www.bbc.co.uk/news/articles/cr4g1q1elxnjo"
     },
     {
-      "text": "US air force removes all bombers from British military base RAF Fairford",
-      "hoursAgo": 0,
-      "link": "https://www.bbc.co.uk/news/articles/cmwyve191dlko"
+      "text": "Flydubai co-pilot planned to crash plane into Tel Aviv airport or building, reports say",
+      "hoursAgo": 14,
+      "link": "https://www.bbc.co.uk/news/articles/cm3691y79xp5o"
     },
     {
-      "text": "'Not again': Arrest of US marine for murder reignites protests in Japan's Okinawa",
-      "hoursAgo": 2,
-      "link": "https://www.bbc.co.uk/news/articles/cwgkv70gg1j3o"
+      "text": "Zelensky condemns 'horrific' Russian strike on boat carrying corn in Black Sea",
+      "hoursAgo": 10,
+      "link": "https://www.bbc.co.uk/news/articles/cr0j0w3p8453o"
     },
     {
-      "text": "France closes up to 500 schools Monday over student protests",
+      "text": "Spain PM pins hopes on housing crisis to help win snap election",
       "hoursAgo": 6,
-      "link": "https://www.bbc.co.uk/news/articles/cwkg5n7lm3y5o"
+      "link": "https://www.bbc.co.uk/news/articles/ck5yn81qqde0o"
     }
   ],
   "launches": [
     {
       "name": "Falcon 9 Block 5 | SDA Tranche 1 Transport Layer A",
-      "date": "Tuesday 6 October 10h17",
-      "dateISO": "2026-10-06T08:17:00Z",
+      "date": "Thursday 8 October 09h54",
+      "dateISO": "2026-10-08T07:54:00Z",
       "details": "Space Launch Complex 4E - Vandenberg SFB, CA, USA",
       "highlight": false,
       "link": "https://spacelaunchnow.me/launch/falcon-9-block-5-sda-tranche-1-transport-layer-a"
@@ -179,63 +179,63 @@
       "link": "https://spacelaunchnow.me/launch/falcon-9-block-5-dragon-crs-2-spx-35"
     },
     {
+      "name": "Falcon 9 Block 5 | USSF-xxx (\"TH-2\")",
+      "date": "Friday 16 October 01h44",
+      "dateISO": "2026-10-15T23:44:00Z",
+      "details": "Space Launch Complex 4E - Vandenberg SFB, CA, USA",
+      "highlight": false,
+      "link": "https://spacelaunchnow.me/launch/falcon-9-block-5-ussf-xxx-th-2"
+    },
+    {
       "name": "Falcon 9 Block 5 | Bandwagon 5 (Dedicated Mid-Inclination Rideshare)",
       "date": "Saturday 31 October (TBD)",
       "dateISO": "2026-10-31T00:00:00Z",
       "details": "Space Launch Complex 40 - Cape Canaveral SFS, FL, USA",
       "highlight": false,
       "link": "https://spacelaunchnow.me/launch/falcon-9-block-5-bandwagon-5-dedicated-mid-inclina"
-    },
-    {
-      "name": "Falcon 9 Block 5 | Cygnus CRS-2 NG-25",
-      "date": "Monday 30 November (TBD)",
-      "dateISO": "2026-11-30T00:00:00Z",
-      "details": "Space Launch Complex 40 - Cape Canaveral SFS, FL, USA",
-      "highlight": false,
-      "link": "https://spacelaunchnow.me/launch/falcon-9-block-5-cygnus-crs-2-ng-25"
     }
   ],
   "companyNews": [
     {
+      "title": "Elon Musk teases TSMC as potential Terafab partner",
+      "link": "https://www.teslarati.com/elon-musk-tsmc-potential-terafab-partner/",
+      "date": "Mon, 05 Oct 2026 19:27",
+      "hoursAgo": 6,
+      "source": "Teslarati"
+    },
+    {
+      "title": "Tesla reveals early Robotaxi charging strategy, showing scrappy DNA",
+      "link": "https://www.teslarati.com/tesla-robotaxi-early-charging-strategy-scrappy-dna/",
+      "date": "Mon, 05 Oct 2026 16:52",
+      "hoursAgo": 8,
+      "source": "Teslarati"
+    },
+    {
+      "title": "Tesla Robotaxi expands hours, Musk explains why it’s been a challenge",
+      "link": "https://www.teslarati.com/tesla-robotaxi-expands-hours-musk-explains-why-its-been-a-challenge/",
+      "date": "Mon, 05 Oct 2026 16:38",
+      "hoursAgo": 9,
+      "source": "Teslarati"
+    },
+    {
+      "title": "Tesla snags Semi supply deal with major logistics firm",
+      "link": "https://www.teslarati.com/tesla-snags-semi-supply-deal-major-logistics-firm/",
+      "date": "Mon, 05 Oct 2026 15:32",
+      "hoursAgo": 10,
+      "source": "Teslarati"
+    },
+    {
       "title": "Tesla wins over Netflix’s Selling Sunset star, who’s now ditching his Bentley",
       "link": "https://www.teslarati.com/tesla-jason-oppenheim-selling-sunset/",
       "date": "Mon, 05 Oct 2026 05:03",
-      "hoursAgo": 6,
+      "hoursAgo": 20,
       "source": "Teslarati"
     },
     {
       "title": "Elon Musk follows Trump’s lead, says a SpaceX name change is coming",
       "link": "https://www.teslarati.com/elon-musk-follows-trumps-lead-says-a-spacex-name-change-is-coming/",
       "date": "Sun, 04 Oct 2026 16:41",
-      "hoursAgo": 18,
-      "source": "Teslarati"
-    },
-    {
-      "title": "Starlink launches Communities Program for passive income through internet sharing",
-      "link": "https://www.teslarati.com/starlink-launches-communities-program-passive-income-through-internet-sharing/",
-      "date": "Sat, 03 Oct 2026 18:05",
-      "hoursAgo": 41,
-      "source": "Teslarati"
-    },
-    {
-      "title": "Tesla just made its headlights even better through a software update",
-      "link": "https://www.teslarati.com/tesla-headlights-even-better-through-software-update/",
-      "date": "Sat, 03 Oct 2026 17:08",
-      "hoursAgo": 42,
-      "source": "Teslarati"
-    },
-    {
-      "title": "Tesla teases “Halloween Mode” update with Optimus rising from a graveyard",
-      "link": "https://www.teslarati.com/tesla-teases-halloween-mode-update-with-optimus-rising-from-a-graveyard/",
-      "date": "Sat, 03 Oct 2026 06:11",
-      "hoursAgo": 52,
-      "source": "Teslarati"
-    },
-    {
-      "title": "Tesla says fixes on Full Self-Driving’s two biggest issues are on the way",
-      "link": "https://www.teslarati.com/tesla-says-fixes-full-self-driving-two-biggest-issues-on-the-way/",
-      "date": "Fri, 02 Oct 2026 17:42",
-      "hoursAgo": 65,
+      "hoursAgo": 33,
       "source": "Teslarati"
     }
   ],
