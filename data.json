@@ -1,75 +1,75 @@
 {
-  "updatedAt": "2026-10-06T13:01+02:00",
+  "updatedAt": "2026-10-06T20:56+02:00",
   "stocks": {
     "TSLA": {
-      "price": 378.73,
-      "change_1d": 2.2,
-      "change_3d": 6.95,
-      "change_1m": 2.87,
-      "change_12m": -11.89,
-      "change_3y": 45.37,
-      "updated": "2026-10-06T11:00:57.517132"
+      "price": 380.15,
+      "change_1d": 0.38,
+      "change_3d": 2.58,
+      "change_1m": 3.36,
+      "change_12m": -16.13,
+      "change_3y": 45.92,
+      "updated": "2026-10-06T18:56:39.984171"
     },
     "NVDA": {
-      "price": 238.9,
-      "change_1d": 2.12,
-      "change_3d": 3.48,
-      "change_1m": 5.95,
-      "change_12m": 27.64,
-      "change_3y": 423.61,
-      "updated": "2026-10-06T11:00:57.517225"
+      "price": 240.39,
+      "change_1d": 0.62,
+      "change_3d": 2.75,
+      "change_1m": 7.6,
+      "change_12m": 29.87,
+      "change_3y": 426.87,
+      "updated": "2026-10-06T18:56:39.984331"
     },
     "MU": {
-      "price": 1063.96,
-      "change_1d": -1.02,
-      "change_3d": -3.05,
-      "change_1m": 6.37,
-      "change_12m": 467.0,
-      "change_3y": 1435.25,
-      "updated": "2026-10-06T11:00:57.517298"
+      "price": 1057.69,
+      "change_1d": -0.59,
+      "change_3d": -1.6,
+      "change_1m": 2.91,
+      "change_12m": 454.42,
+      "change_3y": 1426.2,
+      "updated": "2026-10-06T18:56:39.984461"
     }
   },
   "news": [
     {
+      "title": "SpaceX reveals how its 1 Million AI satellite network will work and prevent space collisions",
+      "link": "https://www.teslarati.com/spacex-starmind-space-safety/",
+      "date": "Tue, 06 Oct 2026 18:05",
+      "hoursAgo": 0,
+      "source": "Teslarati"
+    },
+    {
+      "title": "Five things that are keeping Tesla Full Self-Driving supervised",
+      "link": "https://www.teslarati.com/tesla-full-self-driving-five-things-keeping-fsd-supervised/",
+      "date": "Tue, 06 Oct 2026 17:28",
+      "hoursAgo": 1,
+      "source": "Teslarati"
+    },
+    {
       "title": "SpaceX just locked up a NASA record no other U.S. spacecraft can touch",
       "link": "https://www.teslarati.com/spacex-just-locked-up-a-nasa-record-no-other-u-s-spacecraft-can-touch/",
       "date": "Tue, 06 Oct 2026 05:36",
-      "hoursAgo": 5,
+      "hoursAgo": 13,
       "source": "Teslarati"
     },
     {
       "title": "Elon Musk teases TSMC as potential Terafab partner",
       "link": "https://www.teslarati.com/elon-musk-tsmc-potential-terafab-partner/",
       "date": "Mon, 05 Oct 2026 19:27",
-      "hoursAgo": 15,
+      "hoursAgo": 23,
       "source": "Teslarati"
     },
     {
       "title": "Tesla reveals early Robotaxi charging strategy, showing scrappy DNA",
       "link": "https://www.teslarati.com/tesla-robotaxi-early-charging-strategy-scrappy-dna/",
       "date": "Mon, 05 Oct 2026 16:52",
-      "hoursAgo": 18,
+      "hoursAgo": 26,
       "source": "Teslarati"
     },
     {
       "title": "Tesla Robotaxi expands hours, Musk explains why it’s been a challenge",
       "link": "https://www.teslarati.com/tesla-robotaxi-expands-hours-musk-explains-why-its-been-a-challenge/",
       "date": "Mon, 05 Oct 2026 16:38",
-      "hoursAgo": 18,
-      "source": "Teslarati"
-    },
-    {
-      "title": "Tesla snags Semi supply deal with major logistics firm",
-      "link": "https://www.teslarati.com/tesla-snags-semi-supply-deal-major-logistics-firm/",
-      "date": "Mon, 05 Oct 2026 15:32",
-      "hoursAgo": 19,
-      "source": "Teslarati"
-    },
-    {
-      "title": "Tesla wins over Netflix’s Selling Sunset star, who’s now ditching his Bentley",
-      "link": "https://www.teslarati.com/tesla-jason-oppenheim-selling-sunset/",
-      "date": "Mon, 05 Oct 2026 05:03",
-      "hoursAgo": 29,
+      "hoursAgo": 26,
       "source": "Teslarati"
     }
   ],
@@ -101,56 +101,56 @@
       "rain": 2.9
     },
     "+12h": {
-      "temp": 16.6,
+      "temp": 16.7,
       "condition": "Clear",
-      "wind_speed": 16.5,
-      "wind_dir_deg": 219,
+      "wind_speed": 15.7,
+      "wind_dir_deg": 221,
       "cloud": 0,
       "rain": 0.0
     },
     "+24h": {
       "temp": 11.4,
       "condition": "Mainly clear",
-      "wind_speed": 8.5,
-      "wind_dir_deg": 173,
-      "cloud": 23,
+      "wind_speed": 7.8,
+      "wind_dir_deg": 171,
+      "cloud": 25,
       "rain": 0.0
     }
   },
   "keyNumbers": {
-    "usdZar": "16.56",
-    "usdZarWeek": "+2.4%",
+    "usdZar": "16.53",
+    "usdZarWeek": "+2.3%",
     "usdZarLabel": "rand weaker",
-    "btc": "86150",
-    "btcWeek": "+2.0%",
-    "jse": "+0.3%",
+    "btc": "85504",
+    "btcWeek": "+1.2%",
+    "jse": "+0.5%",
     "sp500": "+0.7%"
   },
   "worldEvents": [
     {
-      "text": "Trump says 'threat' led US to pull bombers from RAF Fairford",
-      "hoursAgo": 3,
-      "link": "https://www.bbc.co.uk/news/articles/cwj3413e5m1lo"
-    },
-    {
-      "text": "Fort Hood shooter to be executed by firing squad - a first for US military since World War Two",
+      "text": "Former German spy chief arrested for espionage and treason",
       "hoursAgo": 8,
-      "link": "https://www.bbc.co.uk/news/articles/cq8ezkkkrpy1o"
+      "link": "https://www.bbc.co.uk/news/articles/c58jzyer1kr0o"
     },
     {
-      "text": "'Ghost particles' from space telescope wins physics Nobel",
-      "hoursAgo": 0,
-      "link": "https://www.bbc.co.uk/news/articles/cq203mymlvkeo"
-    },
-    {
-      "text": "Sailors missing after fresh attacks on Black Sea vessels, Bulgaria says",
-      "hoursAgo": 0,
+      "text": "Ship sinks and crew missing after Black Sea drone attack",
+      "hoursAgo": 7,
       "link": "https://www.bbc.co.uk/news/articles/c8ly0v5r602eo"
     },
     {
-      "text": "Saudi Arabia urged to spare man sentenced to death over Facebook post",
-      "hoursAgo": 12,
-      "link": "https://www.bbc.co.uk/news/articles/cq14d438vx24o"
+      "text": "White House defends Trump comment to let Iran 'take out' LA and San Diego",
+      "hoursAgo": 2,
+      "link": "https://www.bbc.co.uk/news/articles/c6r7yn8pknyxo"
+    },
+    {
+      "text": "Lawyer for one of Cornell 7 calls for special prosecutor to be removed over previous comments",
+      "hoursAgo": 0,
+      "link": "https://www.bbc.co.uk/news/articles/c9p8gxygvpg6o"
+    },
+    {
+      "text": "'Ghost particles' from space telescope wins physics Nobel",
+      "hoursAgo": 7,
+      "link": "https://www.bbc.co.uk/news/articles/cq203mymlvkeo"
     }
   ],
   "launches": [
@@ -197,45 +197,45 @@
   ],
   "companyNews": [
     {
+      "title": "SpaceX reveals how its 1 Million AI satellite network will work and prevent space collisions",
+      "link": "https://www.teslarati.com/spacex-starmind-space-safety/",
+      "date": "Tue, 06 Oct 2026 18:05",
+      "hoursAgo": 0,
+      "source": "Teslarati"
+    },
+    {
+      "title": "Five things that are keeping Tesla Full Self-Driving supervised",
+      "link": "https://www.teslarati.com/tesla-full-self-driving-five-things-keeping-fsd-supervised/",
+      "date": "Tue, 06 Oct 2026 17:28",
+      "hoursAgo": 1,
+      "source": "Teslarati"
+    },
+    {
       "title": "SpaceX just locked up a NASA record no other U.S. spacecraft can touch",
       "link": "https://www.teslarati.com/spacex-just-locked-up-a-nasa-record-no-other-u-s-spacecraft-can-touch/",
       "date": "Tue, 06 Oct 2026 05:36",
-      "hoursAgo": 5,
+      "hoursAgo": 13,
       "source": "Teslarati"
     },
     {
       "title": "Elon Musk teases TSMC as potential Terafab partner",
       "link": "https://www.teslarati.com/elon-musk-tsmc-potential-terafab-partner/",
       "date": "Mon, 05 Oct 2026 19:27",
-      "hoursAgo": 15,
+      "hoursAgo": 23,
       "source": "Teslarati"
     },
     {
       "title": "Tesla reveals early Robotaxi charging strategy, showing scrappy DNA",
       "link": "https://www.teslarati.com/tesla-robotaxi-early-charging-strategy-scrappy-dna/",
       "date": "Mon, 05 Oct 2026 16:52",
-      "hoursAgo": 18,
+      "hoursAgo": 26,
       "source": "Teslarati"
     },
     {
       "title": "Tesla Robotaxi expands hours, Musk explains why it’s been a challenge",
       "link": "https://www.teslarati.com/tesla-robotaxi-expands-hours-musk-explains-why-its-been-a-challenge/",
       "date": "Mon, 05 Oct 2026 16:38",
-      "hoursAgo": 18,
-      "source": "Teslarati"
-    },
-    {
-      "title": "Tesla snags Semi supply deal with major logistics firm",
-      "link": "https://www.teslarati.com/tesla-snags-semi-supply-deal-major-logistics-firm/",
-      "date": "Mon, 05 Oct 2026 15:32",
-      "hoursAgo": 19,
-      "source": "Teslarati"
-    },
-    {
-      "title": "Tesla wins over Netflix’s Selling Sunset star, who’s now ditching his Bentley",
-      "link": "https://www.teslarati.com/tesla-jason-oppenheim-selling-sunset/",
-      "date": "Mon, 05 Oct 2026 05:03",
-      "hoursAgo": 29,
+      "hoursAgo": 26,
       "source": "Teslarati"
     }
   ],
