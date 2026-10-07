@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-07T01:06+02:00",
+  "updatedAt": "2026-10-07T12:51+02:00",
   "stocks": {
     "TSLA": {
       "price": 380.68,
@@ -8,7 +8,7 @@
       "change_1m": 3.5,
       "change_12m": -16.01,
       "change_3y": 46.6,
-      "updated": "2026-10-06T23:06:32.140846"
+      "updated": "2026-10-07T10:51:12.149763"
     },
     "NVDA": {
       "price": 239.24,
@@ -17,7 +17,7 @@
       "change_1m": 7.08,
       "change_12m": 29.25,
       "change_3y": 430.02,
-      "updated": "2026-10-06T23:06:32.141039"
+      "updated": "2026-10-07T10:51:12.149957"
     },
     "MU": {
       "price": 1045.56,
@@ -26,50 +26,50 @@
       "change_1m": 1.73,
       "change_12m": 448.06,
       "change_3y": 1419.12,
-      "updated": "2026-10-06T23:06:32.141212"
+      "updated": "2026-10-07T10:51:12.150128"
     }
   },
   "news": [
     {
+      "title": "Tesla Model 3 and Model Y can now do what only Cybertruck could",
+      "link": "https://www.teslarati.com/tesla-model-y-y-powershare/",
+      "date": "Wed, 07 Oct 2026 04:53",
+      "hoursAgo": 5,
+      "source": "Teslarati"
+    },
+    {
       "title": "Tesla ships ‘spooky’ Halloween Mode with creepy and fun features",
       "link": "https://www.teslarati.com/tesla-halloween-mode-launch-creepy-spooky-features/",
       "date": "Tue, 06 Oct 2026 19:52",
-      "hoursAgo": 3,
+      "hoursAgo": 14,
       "source": "Teslarati"
     },
     {
       "title": "SpaceX reveals how its 1 Million AI satellite network will work and prevent space collisions",
       "link": "https://www.teslarati.com/spacex-starmind-space-safety/",
       "date": "Tue, 06 Oct 2026 18:05",
-      "hoursAgo": 5,
+      "hoursAgo": 16,
       "source": "Teslarati"
     },
     {
       "title": "Five things that are keeping Tesla Full Self-Driving supervised",
       "link": "https://www.teslarati.com/tesla-full-self-driving-five-things-keeping-fsd-supervised/",
       "date": "Tue, 06 Oct 2026 17:28",
-      "hoursAgo": 5,
+      "hoursAgo": 17,
       "source": "Teslarati"
     },
     {
       "title": "SpaceX just locked up a NASA record no other U.S. spacecraft can touch",
       "link": "https://www.teslarati.com/spacex-just-locked-up-a-nasa-record-no-other-u-s-spacecraft-can-touch/",
       "date": "Tue, 06 Oct 2026 05:36",
-      "hoursAgo": 17,
+      "hoursAgo": 29,
       "source": "Teslarati"
     },
     {
       "title": "Elon Musk teases TSMC as potential Terafab partner",
       "link": "https://www.teslarati.com/elon-musk-tsmc-potential-terafab-partner/",
       "date": "Mon, 05 Oct 2026 19:27",
-      "hoursAgo": 27,
-      "source": "Teslarati"
-    },
-    {
-      "title": "Tesla reveals early Robotaxi charging strategy, showing scrappy DNA",
-      "link": "https://www.teslarati.com/tesla-robotaxi-early-charging-strategy-scrappy-dna/",
-      "date": "Mon, 05 Oct 2026 16:52",
-      "hoursAgo": 30,
+      "hoursAgo": 39,
       "source": "Teslarati"
     }
   ],
@@ -77,80 +77,80 @@
   "roasts": [],
   "weather": {
     "+1h": {
-      "temp": 11.3,
-      "condition": "Mainly clear",
-      "wind_speed": 6.3,
-      "wind_dir_deg": 178,
-      "cloud": 43,
+      "temp": 10.6,
+      "condition": "Partly cloudy",
+      "wind_speed": 5.8,
+      "wind_dir_deg": 171,
+      "cloud": 73,
       "rain": 0.0
     },
     "+3h": {
-      "temp": 10.2,
-      "condition": "Mainly clear",
-      "wind_speed": 4.8,
-      "wind_dir_deg": 143,
-      "cloud": 28,
+      "temp": 9.9,
+      "condition": "Partly cloudy",
+      "wind_speed": 4.1,
+      "wind_dir_deg": 142,
+      "cloud": 76,
       "rain": 0.0
     },
     "+6h": {
-      "temp": 9.5,
+      "temp": 9.0,
       "condition": "Partly cloudy",
-      "wind_speed": 5.5,
-      "wind_dir_deg": 169,
-      "cloud": 69,
+      "wind_speed": 5.0,
+      "wind_dir_deg": 150,
+      "cloud": 59,
       "rain": 0.0
     },
     "+12h": {
-      "temp": 18.1,
-      "condition": "Mainly clear",
-      "wind_speed": 7.7,
-      "wind_dir_deg": 152,
-      "cloud": 39,
+      "temp": 17.9,
+      "condition": "Clear",
+      "wind_speed": 10.3,
+      "wind_dir_deg": 147,
+      "cloud": 14,
       "rain": 0.0
     },
     "+24h": {
-      "temp": 12.2,
-      "condition": "Mainly clear",
-      "wind_speed": 9.0,
-      "wind_dir_deg": 180,
-      "cloud": 38,
+      "temp": 12.0,
+      "condition": "Clear",
+      "wind_speed": 8.5,
+      "wind_dir_deg": 181,
+      "cloud": 13,
       "rain": 0.0
     }
   },
   "keyNumbers": {
-    "usdZar": "16.53",
-    "usdZarWeek": "+1.0%",
+    "usdZar": "16.68",
+    "usdZarWeek": "+1.9%",
     "usdZarLabel": "rand weaker",
-    "btc": "85487",
-    "btcWeek": "+1.2%",
-    "jse": "-0.0%",
+    "btc": "83792",
+    "btcWeek": "+0.3%",
+    "jse": "-2.3%",
     "sp500": "+0.6%"
   },
   "worldEvents": [
     {
+      "text": "France halts use of stun grenades after boy's hand blown off in student protests",
+      "hoursAgo": 0,
+      "link": "https://www.bbc.co.uk/news/articles/cqzjx7z2r4gko"
+    },
+    {
       "text": "US death row inmate Christa Pike awake and speaking after failed execution, lawyers say",
-      "hoursAgo": 1,
+      "hoursAgo": 0,
       "link": "https://www.bbc.co.uk/news/articles/c8kgezxn54qko"
     },
     {
-      "text": "Tear gas in Paris and Marseille as school protests grow across France",
+      "text": "Residents of kibbutz destroyed in 7 October Hamas-led attacks grapple with how to rebuild",
       "hoursAgo": 5,
-      "link": "https://www.bbc.co.uk/news/articles/c8x23706pvz3o"
+      "link": "https://www.bbc.co.uk/news/articles/cqrmyz4mdn94o"
     },
     {
-      "text": "Former German spy chief arrested for espionage and treason",
-      "hoursAgo": 13,
-      "link": "https://www.bbc.co.uk/news/articles/c58jzyer1kr0o"
+      "text": "Trump to speak to Putin about plague lab worker's death in Russia",
+      "hoursAgo": 0,
+      "link": "https://www.bbc.co.uk/news/articles/cqgm0vrl3xp7o"
     },
     {
-      "text": "Ship sinks and crew missing after Black Sea drone attack",
-      "hoursAgo": 11,
-      "link": "https://www.bbc.co.uk/news/articles/c8ly0v5r602eo"
-    },
-    {
-      "text": "Lawyer for one of Cornell 7 calls for special prosecutor to be removed over previous comments",
-      "hoursAgo": 5,
-      "link": "https://www.bbc.co.uk/news/articles/c9p8gxygvpg6o"
+      "text": "Sri Lanka's ex-first lady arrested over alleged misuse of children's hospital donations",
+      "hoursAgo": 1,
+      "link": "https://www.bbc.co.uk/news/articles/ck0e0n3xzvp4o"
     }
   ],
   "launches": [
@@ -197,45 +197,45 @@
   ],
   "companyNews": [
     {
+      "title": "Tesla Model 3 and Model Y can now do what only Cybertruck could",
+      "link": "https://www.teslarati.com/tesla-model-y-y-powershare/",
+      "date": "Wed, 07 Oct 2026 04:53",
+      "hoursAgo": 5,
+      "source": "Teslarati"
+    },
+    {
       "title": "Tesla ships ‘spooky’ Halloween Mode with creepy and fun features",
       "link": "https://www.teslarati.com/tesla-halloween-mode-launch-creepy-spooky-features/",
       "date": "Tue, 06 Oct 2026 19:52",
-      "hoursAgo": 3,
+      "hoursAgo": 14,
       "source": "Teslarati"
     },
     {
       "title": "SpaceX reveals how its 1 Million AI satellite network will work and prevent space collisions",
       "link": "https://www.teslarati.com/spacex-starmind-space-safety/",
       "date": "Tue, 06 Oct 2026 18:05",
-      "hoursAgo": 5,
+      "hoursAgo": 16,
       "source": "Teslarati"
     },
     {
       "title": "Five things that are keeping Tesla Full Self-Driving supervised",
       "link": "https://www.teslarati.com/tesla-full-self-driving-five-things-keeping-fsd-supervised/",
       "date": "Tue, 06 Oct 2026 17:28",
-      "hoursAgo": 5,
+      "hoursAgo": 17,
       "source": "Teslarati"
     },
     {
       "title": "SpaceX just locked up a NASA record no other U.S. spacecraft can touch",
       "link": "https://www.teslarati.com/spacex-just-locked-up-a-nasa-record-no-other-u-s-spacecraft-can-touch/",
       "date": "Tue, 06 Oct 2026 05:36",
-      "hoursAgo": 17,
+      "hoursAgo": 29,
       "source": "Teslarati"
     },
     {
       "title": "Elon Musk teases TSMC as potential Terafab partner",
       "link": "https://www.teslarati.com/elon-musk-tsmc-potential-terafab-partner/",
       "date": "Mon, 05 Oct 2026 19:27",
-      "hoursAgo": 27,
-      "source": "Teslarati"
-    },
-    {
-      "title": "Tesla reveals early Robotaxi charging strategy, showing scrappy DNA",
-      "link": "https://www.teslarati.com/tesla-robotaxi-early-charging-strategy-scrappy-dna/",
-      "date": "Mon, 05 Oct 2026 16:52",
-      "hoursAgo": 30,
+      "hoursAgo": 39,
       "source": "Teslarati"
     }
   ],
