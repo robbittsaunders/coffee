@@ -1,75 +1,75 @@
 {
-  "updatedAt": "2026-10-07T12:51+02:00",
+  "updatedAt": "2026-10-07T21:23+02:00",
   "stocks": {
     "TSLA": {
-      "price": 380.68,
-      "change_1d": 0.51,
-      "change_3d": 2.72,
-      "change_1m": 3.5,
-      "change_12m": -16.01,
-      "change_3y": 46.6,
-      "updated": "2026-10-07T10:51:12.149763"
+      "price": 377.8,
+      "change_1d": -0.76,
+      "change_3d": -0.25,
+      "change_1m": 3.92,
+      "change_12m": -12.77,
+      "change_3y": 45.49,
+      "updated": "2026-10-07T19:23:28.035907"
     },
     "NVDA": {
-      "price": 239.24,
-      "change_1d": 0.14,
-      "change_3d": 2.26,
-      "change_1m": 7.08,
-      "change_12m": 29.25,
-      "change_3y": 430.02,
-      "updated": "2026-10-07T10:51:12.149957"
+      "price": 237.06,
+      "change_1d": -0.91,
+      "change_3d": -0.77,
+      "change_1m": 8.56,
+      "change_12m": 28.42,
+      "change_3y": 425.19,
+      "updated": "2026-10-07T19:23:28.036112"
     },
     "MU": {
-      "price": 1045.56,
-      "change_1d": -1.73,
-      "change_3d": -2.73,
-      "change_1m": 1.73,
-      "change_12m": 448.06,
-      "change_3y": 1419.12,
-      "updated": "2026-10-07T10:51:12.150128"
+      "price": 1079.77,
+      "change_1d": 3.27,
+      "change_3d": 1.49,
+      "change_1m": 10.47,
+      "change_12m": 482.06,
+      "change_3y": 1468.82,
+      "updated": "2026-10-07T19:23:28.036287"
     }
   },
   "news": [
     {
+      "title": "Tesla FSD changed its mind mid-intersection, and it may have saved a life",
+      "link": "https://www.teslarati.com/tesla-fsd-t-bone-crash-safety/",
+      "date": "Wed, 07 Oct 2026 17:13",
+      "hoursAgo": 2,
+      "source": "Teslarati"
+    },
+    {
       "title": "Tesla Model 3 and Model Y can now do what only Cybertruck could",
       "link": "https://www.teslarati.com/tesla-model-y-y-powershare/",
       "date": "Wed, 07 Oct 2026 04:53",
-      "hoursAgo": 5,
+      "hoursAgo": 14,
       "source": "Teslarati"
     },
     {
       "title": "Tesla ships ‘spooky’ Halloween Mode with creepy and fun features",
       "link": "https://www.teslarati.com/tesla-halloween-mode-launch-creepy-spooky-features/",
       "date": "Tue, 06 Oct 2026 19:52",
-      "hoursAgo": 14,
+      "hoursAgo": 23,
       "source": "Teslarati"
     },
     {
       "title": "SpaceX reveals how its 1 Million AI satellite network will work and prevent space collisions",
       "link": "https://www.teslarati.com/spacex-starmind-space-safety/",
       "date": "Tue, 06 Oct 2026 18:05",
-      "hoursAgo": 16,
+      "hoursAgo": 25,
       "source": "Teslarati"
     },
     {
       "title": "Five things that are keeping Tesla Full Self-Driving supervised",
       "link": "https://www.teslarati.com/tesla-full-self-driving-five-things-keeping-fsd-supervised/",
       "date": "Tue, 06 Oct 2026 17:28",
-      "hoursAgo": 17,
+      "hoursAgo": 25,
       "source": "Teslarati"
     },
     {
       "title": "SpaceX just locked up a NASA record no other U.S. spacecraft can touch",
       "link": "https://www.teslarati.com/spacex-just-locked-up-a-nasa-record-no-other-u-s-spacecraft-can-touch/",
       "date": "Tue, 06 Oct 2026 05:36",
-      "hoursAgo": 29,
-      "source": "Teslarati"
-    },
-    {
-      "title": "Elon Musk teases TSMC as potential Terafab partner",
-      "link": "https://www.teslarati.com/elon-musk-tsmc-potential-terafab-partner/",
-      "date": "Mon, 05 Oct 2026 19:27",
-      "hoursAgo": 39,
+      "hoursAgo": 37,
       "source": "Teslarati"
     }
   ],
@@ -101,46 +101,46 @@
       "rain": 0.0
     },
     "+12h": {
-      "temp": 17.9,
-      "condition": "Clear",
-      "wind_speed": 10.3,
-      "wind_dir_deg": 147,
-      "cloud": 14,
+      "temp": 18.1,
+      "condition": "Mainly clear",
+      "wind_speed": 9.4,
+      "wind_dir_deg": 142,
+      "cloud": 30,
       "rain": 0.0
     },
     "+24h": {
-      "temp": 12.0,
-      "condition": "Clear",
-      "wind_speed": 8.5,
-      "wind_dir_deg": 181,
-      "cloud": 13,
+      "temp": 11.7,
+      "condition": "Mainly clear",
+      "wind_speed": 7.6,
+      "wind_dir_deg": 180,
+      "cloud": 31,
       "rain": 0.0
     }
   },
   "keyNumbers": {
-    "usdZar": "16.68",
-    "usdZarWeek": "+1.9%",
+    "usdZar": "16.64",
+    "usdZarWeek": "+1.7%",
     "usdZarLabel": "rand weaker",
-    "btc": "83792",
-    "btcWeek": "+0.3%",
-    "jse": "-2.3%",
-    "sp500": "+0.6%"
+    "btc": "83440",
+    "btcWeek": "-0.1%",
+    "jse": "-1.6%",
+    "sp500": "-0.3%"
   },
   "worldEvents": [
     {
       "text": "France halts use of stun grenades after boy's hand blown off in student protests",
-      "hoursAgo": 0,
+      "hoursAgo": 1,
       "link": "https://www.bbc.co.uk/news/articles/cqzjx7z2r4gko"
     },
     {
-      "text": "US death row inmate Christa Pike awake and speaking after failed execution, lawyers say",
-      "hoursAgo": 0,
-      "link": "https://www.bbc.co.uk/news/articles/c8kgezxn54qko"
+      "text": "Israelis demand accountability over 7 October failures three years after attacks",
+      "hoursAgo": 3,
+      "link": "https://www.bbc.co.uk/news/articles/c5zjx7xx3487o"
     },
     {
-      "text": "Residents of kibbutz destroyed in 7 October Hamas-led attacks grapple with how to rebuild",
-      "hoursAgo": 5,
-      "link": "https://www.bbc.co.uk/news/articles/cqrmyz4mdn94o"
+      "text": "Canada suspends plans to expand assisted dying to people with mental illness",
+      "hoursAgo": 1,
+      "link": "https://www.bbc.co.uk/news/articles/cqd09g0gj50ko"
     },
     {
       "text": "Trump to speak to Putin about plague lab worker's death in Russia",
@@ -148,9 +148,9 @@
       "link": "https://www.bbc.co.uk/news/articles/cqgm0vrl3xp7o"
     },
     {
-      "text": "Sri Lanka's ex-first lady arrested over alleged misuse of children's hospital donations",
+      "text": "Children killed while they slept as Russian missile kills 19 in block of flats",
       "hoursAgo": 1,
-      "link": "https://www.bbc.co.uk/news/articles/ck0e0n3xzvp4o"
+      "link": "https://www.bbc.co.uk/news/articles/ckr5ym098vdeo"
     }
   ],
   "launches": [
@@ -197,45 +197,45 @@
   ],
   "companyNews": [
     {
+      "title": "Tesla FSD changed its mind mid-intersection, and it may have saved a life",
+      "link": "https://www.teslarati.com/tesla-fsd-t-bone-crash-safety/",
+      "date": "Wed, 07 Oct 2026 17:13",
+      "hoursAgo": 2,
+      "source": "Teslarati"
+    },
+    {
       "title": "Tesla Model 3 and Model Y can now do what only Cybertruck could",
       "link": "https://www.teslarati.com/tesla-model-y-y-powershare/",
       "date": "Wed, 07 Oct 2026 04:53",
-      "hoursAgo": 5,
+      "hoursAgo": 14,
       "source": "Teslarati"
     },
     {
       "title": "Tesla ships ‘spooky’ Halloween Mode with creepy and fun features",
       "link": "https://www.teslarati.com/tesla-halloween-mode-launch-creepy-spooky-features/",
       "date": "Tue, 06 Oct 2026 19:52",
-      "hoursAgo": 14,
+      "hoursAgo": 23,
       "source": "Teslarati"
     },
     {
       "title": "SpaceX reveals how its 1 Million AI satellite network will work and prevent space collisions",
       "link": "https://www.teslarati.com/spacex-starmind-space-safety/",
       "date": "Tue, 06 Oct 2026 18:05",
-      "hoursAgo": 16,
+      "hoursAgo": 25,
       "source": "Teslarati"
     },
     {
       "title": "Five things that are keeping Tesla Full Self-Driving supervised",
       "link": "https://www.teslarati.com/tesla-full-self-driving-five-things-keeping-fsd-supervised/",
       "date": "Tue, 06 Oct 2026 17:28",
-      "hoursAgo": 17,
+      "hoursAgo": 25,
       "source": "Teslarati"
     },
     {
       "title": "SpaceX just locked up a NASA record no other U.S. spacecraft can touch",
       "link": "https://www.teslarati.com/spacex-just-locked-up-a-nasa-record-no-other-u-s-spacecraft-can-touch/",
       "date": "Tue, 06 Oct 2026 05:36",
-      "hoursAgo": 29,
-      "source": "Teslarati"
-    },
-    {
-      "title": "Elon Musk teases TSMC as potential Terafab partner",
-      "link": "https://www.teslarati.com/elon-musk-tsmc-potential-terafab-partner/",
-      "date": "Mon, 05 Oct 2026 19:27",
-      "hoursAgo": 39,
+      "hoursAgo": 37,
       "source": "Teslarati"
     }
   ],
