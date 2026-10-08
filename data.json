@@ -1,75 +1,75 @@
 {
-  "updatedAt": "2026-10-07T21:23+02:00",
+  "updatedAt": "2026-10-08T02:15+02:00",
   "stocks": {
     "TSLA": {
-      "price": 377.8,
-      "change_1d": -0.76,
-      "change_3d": -0.25,
-      "change_1m": 3.92,
-      "change_12m": -12.77,
-      "change_3y": 45.49,
-      "updated": "2026-10-07T19:23:28.035907"
+      "price": 380.68,
+      "change_1d": 0.51,
+      "change_3d": 2.72,
+      "change_1m": 3.5,
+      "change_12m": -16.01,
+      "change_3y": 46.6,
+      "updated": "2026-10-08T00:15:18.063007"
     },
     "NVDA": {
-      "price": 237.06,
-      "change_1d": -0.91,
-      "change_3d": -0.77,
-      "change_1m": 8.56,
-      "change_12m": 28.42,
-      "change_3y": 425.19,
-      "updated": "2026-10-07T19:23:28.036112"
+      "price": 239.24,
+      "change_1d": 0.14,
+      "change_3d": 2.26,
+      "change_1m": 7.08,
+      "change_12m": 29.25,
+      "change_3y": 430.02,
+      "updated": "2026-10-08T00:15:18.063233"
     },
     "MU": {
-      "price": 1079.77,
-      "change_1d": 3.27,
-      "change_3d": 1.49,
-      "change_1m": 10.47,
-      "change_12m": 482.06,
-      "change_3y": 1468.82,
-      "updated": "2026-10-07T19:23:28.036287"
+      "price": 1045.56,
+      "change_1d": -1.73,
+      "change_3d": -2.73,
+      "change_1m": 1.73,
+      "change_12m": 448.06,
+      "change_3y": 1419.12,
+      "updated": "2026-10-08T00:15:18.063410"
     }
   },
   "news": [
     {
+      "title": "Trump to hand Elon Musk a top honor that traces back to JFK",
+      "link": "https://www.teslarati.com/trump-elon-musk-white-house-medal-science/",
+      "date": "Wed, 07 Oct 2026 22:03",
+      "hoursAgo": 2,
+      "source": "Teslarati"
+    },
+    {
       "title": "Tesla FSD changed its mind mid-intersection, and it may have saved a life",
       "link": "https://www.teslarati.com/tesla-fsd-t-bone-crash-safety/",
       "date": "Wed, 07 Oct 2026 17:13",
-      "hoursAgo": 2,
+      "hoursAgo": 7,
       "source": "Teslarati"
     },
     {
       "title": "Tesla Model 3 and Model Y can now do what only Cybertruck could",
       "link": "https://www.teslarati.com/tesla-model-y-y-powershare/",
       "date": "Wed, 07 Oct 2026 04:53",
-      "hoursAgo": 14,
+      "hoursAgo": 19,
       "source": "Teslarati"
     },
     {
       "title": "Tesla ships ‘spooky’ Halloween Mode with creepy and fun features",
       "link": "https://www.teslarati.com/tesla-halloween-mode-launch-creepy-spooky-features/",
       "date": "Tue, 06 Oct 2026 19:52",
-      "hoursAgo": 23,
+      "hoursAgo": 28,
       "source": "Teslarati"
     },
     {
       "title": "SpaceX reveals how its 1 Million AI satellite network will work and prevent space collisions",
       "link": "https://www.teslarati.com/spacex-starmind-space-safety/",
       "date": "Tue, 06 Oct 2026 18:05",
-      "hoursAgo": 25,
+      "hoursAgo": 30,
       "source": "Teslarati"
     },
     {
       "title": "Five things that are keeping Tesla Full Self-Driving supervised",
       "link": "https://www.teslarati.com/tesla-full-self-driving-five-things-keeping-fsd-supervised/",
       "date": "Tue, 06 Oct 2026 17:28",
-      "hoursAgo": 25,
-      "source": "Teslarati"
-    },
-    {
-      "title": "SpaceX just locked up a NASA record no other U.S. spacecraft can touch",
-      "link": "https://www.teslarati.com/spacex-just-locked-up-a-nasa-record-no-other-u-s-spacecraft-can-touch/",
-      "date": "Tue, 06 Oct 2026 05:36",
-      "hoursAgo": 37,
+      "hoursAgo": 30,
       "source": "Teslarati"
     }
   ],
@@ -77,95 +77,95 @@
   "roasts": [],
   "weather": {
     "+1h": {
-      "temp": 10.6,
-      "condition": "Partly cloudy",
-      "wind_speed": 5.8,
-      "wind_dir_deg": 171,
-      "cloud": 73,
+      "temp": 11.5,
+      "condition": "Mainly clear",
+      "wind_speed": 7.5,
+      "wind_dir_deg": 195,
+      "cloud": 33,
       "rain": 0.0
     },
     "+3h": {
-      "temp": 9.9,
+      "temp": 10.5,
       "condition": "Partly cloudy",
-      "wind_speed": 4.1,
-      "wind_dir_deg": 142,
-      "cloud": 76,
+      "wind_speed": 3.9,
+      "wind_dir_deg": 227,
+      "cloud": 71,
       "rain": 0.0
     },
     "+6h": {
-      "temp": 9.0,
-      "condition": "Partly cloudy",
-      "wind_speed": 5.0,
-      "wind_dir_deg": 150,
-      "cloud": 59,
+      "temp": 10.2,
+      "condition": "Overcast",
+      "wind_speed": 1.7,
+      "wind_dir_deg": 198,
+      "cloud": 83,
       "rain": 0.0
     },
     "+12h": {
-      "temp": 18.1,
+      "temp": 17.4,
       "condition": "Mainly clear",
-      "wind_speed": 9.4,
-      "wind_dir_deg": 142,
-      "cloud": 30,
+      "wind_speed": 10.4,
+      "wind_dir_deg": 287,
+      "cloud": 34,
       "rain": 0.0
     },
     "+24h": {
-      "temp": 11.7,
-      "condition": "Mainly clear",
-      "wind_speed": 7.6,
-      "wind_dir_deg": 180,
-      "cloud": 31,
+      "temp": 12.9,
+      "condition": "Overcast",
+      "wind_speed": 8.0,
+      "wind_dir_deg": 352,
+      "cloud": 95,
       "rain": 0.0
     }
   },
   "keyNumbers": {
-    "usdZar": "16.64",
-    "usdZarWeek": "+1.7%",
+    "usdZar": "16.53",
+    "usdZarWeek": "+0.6%",
     "usdZarLabel": "rand weaker",
-    "btc": "83440",
-    "btcWeek": "-0.1%",
-    "jse": "-1.6%",
-    "sp500": "-0.3%"
+    "btc": "83230",
+    "btcWeek": "-0.5%",
+    "jse": "+0.5%",
+    "sp500": "-0.2%"
   },
   "worldEvents": [
     {
-      "text": "France halts use of stun grenades after boy's hand blown off in student protests",
-      "hoursAgo": 1,
-      "link": "https://www.bbc.co.uk/news/articles/cqzjx7z2r4gko"
+      "text": "Spanish pensioner whose eviction sparked nationwide protests dies, union says",
+      "hoursAgo": 0,
+      "link": "https://www.bbc.co.uk/news/articles/c6e3x21ev9wwo"
+    },
+    {
+      "text": "Israelis mourn 7 October attack victims three years after deadly Hamas raid",
+      "hoursAgo": 3,
+      "link": "https://www.bbc.co.uk/news/articles/cwkgj0g30m5jo"
     },
     {
       "text": "Israelis demand accountability over 7 October failures three years after attacks",
-      "hoursAgo": 3,
+      "hoursAgo": 8,
       "link": "https://www.bbc.co.uk/news/articles/c5zjx7xx3487o"
     },
     {
+      "text": "France halts use of stun grenades after boy's hand blown off in student protests",
+      "hoursAgo": 6,
+      "link": "https://www.bbc.co.uk/news/articles/cqzjx7z2r4gko"
+    },
+    {
       "text": "Canada suspends plans to expand assisted dying to people with mental illness",
-      "hoursAgo": 1,
+      "hoursAgo": 4,
       "link": "https://www.bbc.co.uk/news/articles/cqd09g0gj50ko"
-    },
-    {
-      "text": "Trump to speak to Putin about plague lab worker's death in Russia",
-      "hoursAgo": 0,
-      "link": "https://www.bbc.co.uk/news/articles/cqgm0vrl3xp7o"
-    },
-    {
-      "text": "Children killed while they slept as Russian missile kills 19 in block of flats",
-      "hoursAgo": 1,
-      "link": "https://www.bbc.co.uk/news/articles/ckr5ym098vdeo"
     }
   ],
   "launches": [
     {
       "name": "Falcon 9 Block 5 | SDA Tranche 1 Transport Layer A",
-      "date": "Thursday 8 October 09h54",
-      "dateISO": "2026-10-08T07:54:00Z",
+      "date": "Saturday 10 October 09h29",
+      "dateISO": "2026-10-10T07:29:00Z",
       "details": "Space Launch Complex 4E - Vandenberg SFB, CA, USA",
       "highlight": false,
       "link": "https://spacelaunchnow.me/launch/falcon-9-block-5-sda-tranche-1-transport-layer-a"
     },
     {
       "name": "Falcon 9 Block 5 | Starlink Group 15-25",
-      "date": "Sunday 11 October 01h00",
-      "dateISO": "2026-10-10T23:00:00Z",
+      "date": "Monday 12 October 01h00",
+      "dateISO": "2026-10-11T23:00:00Z",
       "details": "Space Launch Complex 4E - Vandenberg SFB, CA, USA",
       "highlight": false,
       "link": "https://spacelaunchnow.me/launch/falcon-9-block-5-starlink-group-15-25"
@@ -197,45 +197,45 @@
   ],
   "companyNews": [
     {
+      "title": "Trump to hand Elon Musk a top honor that traces back to JFK",
+      "link": "https://www.teslarati.com/trump-elon-musk-white-house-medal-science/",
+      "date": "Wed, 07 Oct 2026 22:03",
+      "hoursAgo": 2,
+      "source": "Teslarati"
+    },
+    {
       "title": "Tesla FSD changed its mind mid-intersection, and it may have saved a life",
       "link": "https://www.teslarati.com/tesla-fsd-t-bone-crash-safety/",
       "date": "Wed, 07 Oct 2026 17:13",
-      "hoursAgo": 2,
+      "hoursAgo": 7,
       "source": "Teslarati"
     },
     {
       "title": "Tesla Model 3 and Model Y can now do what only Cybertruck could",
       "link": "https://www.teslarati.com/tesla-model-y-y-powershare/",
       "date": "Wed, 07 Oct 2026 04:53",
-      "hoursAgo": 14,
+      "hoursAgo": 19,
       "source": "Teslarati"
     },
     {
       "title": "Tesla ships ‘spooky’ Halloween Mode with creepy and fun features",
       "link": "https://www.teslarati.com/tesla-halloween-mode-launch-creepy-spooky-features/",
       "date": "Tue, 06 Oct 2026 19:52",
-      "hoursAgo": 23,
+      "hoursAgo": 28,
       "source": "Teslarati"
     },
     {
       "title": "SpaceX reveals how its 1 Million AI satellite network will work and prevent space collisions",
       "link": "https://www.teslarati.com/spacex-starmind-space-safety/",
       "date": "Tue, 06 Oct 2026 18:05",
-      "hoursAgo": 25,
+      "hoursAgo": 30,
       "source": "Teslarati"
     },
     {
       "title": "Five things that are keeping Tesla Full Self-Driving supervised",
       "link": "https://www.teslarati.com/tesla-full-self-driving-five-things-keeping-fsd-supervised/",
       "date": "Tue, 06 Oct 2026 17:28",
-      "hoursAgo": 25,
-      "source": "Teslarati"
-    },
-    {
-      "title": "SpaceX just locked up a NASA record no other U.S. spacecraft can touch",
-      "link": "https://www.teslarati.com/spacex-just-locked-up-a-nasa-record-no-other-u-s-spacecraft-can-touch/",
-      "date": "Tue, 06 Oct 2026 05:36",
-      "hoursAgo": 37,
+      "hoursAgo": 30,
       "source": "Teslarati"
     }
   ],
