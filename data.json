@@ -1,32 +1,23 @@
 {
-  "updatedAt": "2026-10-09T20:51+02:00",
+  "updatedAt": "2026-10-10T01:19+02:00",
   "stocks": {
     "TSLA": {
-      "price": 384.68,
-      "change_1d": 2.58,
-      "change_3d": 1.82,
-      "change_1m": 7.16,
-      "change_12m": -11.68,
-      "change_3y": 48.14,
-      "updated": "2026-10-09T18:51:45.619749"
-    },
-    "NVDA": {
-      "price": 229.85,
-      "change_1d": -0.27,
-      "change_3d": -3.21,
-      "change_1m": 8.95,
-      "change_12m": 19.65,
-      "change_3y": 409.21,
-      "updated": "2026-10-09T18:51:45.619947"
+      "price": 382.7,
+      "change_1d": 2.05,
+      "change_3d": 1.29,
+      "change_1m": 6.61,
+      "change_12m": -12.13,
+      "change_3y": 45.17,
+      "updated": "2026-10-09T23:19:04.328762"
     },
     "MU": {
-      "price": 1031.64,
-      "change_1d": -0.41,
-      "change_3d": -5.18,
-      "change_1m": 11.65,
-      "change_12m": 436.91,
-      "change_3y": 1398.89,
-      "updated": "2026-10-09T18:51:45.620122"
+      "price": 1029.0,
+      "change_1d": -0.66,
+      "change_3d": -5.42,
+      "change_1m": 11.36,
+      "change_12m": 435.54,
+      "change_3y": 1403.93,
+      "updated": "2026-10-09T23:19:04.328934"
     }
   },
   "news": [
@@ -34,42 +25,42 @@
       "title": "Elon Musk’s surprise addition to the X Takeover lineup has fans talking",
       "link": "https://www.teslarati.com/elon-musk-interview-xtakeover-giga-texas-event/",
       "date": "Fri, 09 Oct 2026 16:48",
-      "hoursAgo": 2,
+      "hoursAgo": 6,
       "source": "Teslarati"
     },
     {
       "title": "It’s official: SpaceX takes aim at Verizon, AT&T, and T-Mobile",
       "link": "https://www.teslarati.com/spacex-direc-cell-att-verizon-t-mobile-challenge/",
       "date": "Fri, 09 Oct 2026 04:37",
-      "hoursAgo": 14,
+      "hoursAgo": 18,
       "source": "Teslarati"
     },
     {
       "title": "Trump presents Elon Musk with National Medal of Science, calls him “modern-day Thomas Edison”",
       "link": "https://www.teslarati.com/trump-elon-musk-medal-science/",
       "date": "Thu, 08 Oct 2026 21:30",
-      "hoursAgo": 21,
+      "hoursAgo": 25,
       "source": "Teslarati"
     },
     {
       "title": "Elon Musk’s Boring Company lands a new Middle East deal, and Nashville is about to get faster",
       "link": "https://www.teslarati.com/boring-company-abu-dhabi-elon-musk-nashville-progress/",
       "date": "Thu, 08 Oct 2026 18:26",
-      "hoursAgo": 24,
+      "hoursAgo": 28,
       "source": "Teslarati"
     },
     {
       "title": "SpaceX brings four astronauts home after 8 months in space, and the return was flawless",
       "link": "https://www.teslarati.com/spacex-brings-four-astronauts-home-after-8-months-in-space-and-the-return-was-flawless/",
       "date": "Thu, 08 Oct 2026 16:48",
-      "hoursAgo": 26,
+      "hoursAgo": 30,
       "source": "Teslarati"
     },
     {
       "title": "Elon Musk shuts down talk of TSMC taking over Terafab",
       "link": "https://www.teslarati.com/elon-musk-shuts-down-talk-of-tsmc-taking-over-terafab/",
       "date": "Thu, 08 Oct 2026 04:56",
-      "hoursAgo": 37,
+      "hoursAgo": 42,
       "source": "Teslarati"
     }
   ],
@@ -77,80 +68,80 @@
   "roasts": [],
   "weather": {
     "+1h": {
-      "temp": 12.9,
-      "condition": "Clear",
-      "wind_speed": 10.0,
-      "wind_dir_deg": 352,
-      "cloud": 19,
-      "rain": 0.0
-    },
-    "+3h": {
-      "temp": 12.3,
+      "temp": 14.5,
       "condition": "Overcast",
-      "wind_speed": 10.0,
-      "wind_dir_deg": 353,
+      "wind_speed": 14.9,
+      "wind_dir_deg": 145,
       "cloud": 95,
       "rain": 0.0
     },
-    "+6h": {
-      "temp": 12.6,
+    "+3h": {
+      "temp": 14.2,
       "condition": "Overcast",
-      "wind_speed": 8.9,
-      "wind_dir_deg": 7,
-      "cloud": 100,
+      "wind_speed": 9.2,
+      "wind_dir_deg": 138,
+      "cloud": 80,
+      "rain": 0.0
+    },
+    "+6h": {
+      "temp": 13.1,
+      "condition": "Mainly clear",
+      "wind_speed": 7.1,
+      "wind_dir_deg": 150,
+      "cloud": 41,
       "rain": 0.0
     },
     "+12h": {
-      "temp": 18.2,
-      "condition": "Overcast",
-      "wind_speed": 14.0,
-      "wind_dir_deg": 327,
-      "cloud": 99,
+      "temp": 24.5,
+      "condition": "Clear",
+      "wind_speed": 6.1,
+      "wind_dir_deg": 273,
+      "cloud": 14,
       "rain": 0.0
     },
     "+24h": {
-      "temp": 14.7,
+      "temp": 15.5,
       "condition": "Overcast",
-      "wind_speed": 16.1,
-      "wind_dir_deg": 144,
-      "cloud": 99,
+      "wind_speed": 7.5,
+      "wind_dir_deg": 191,
+      "cloud": 100,
       "rain": 0.0
     }
   },
   "keyNumbers": {
-    "usdZar": "16.63",
-    "usdZarWeek": "+1.8%",
+    "usdZar": "16.50",
+    "usdZarWeek": "+1.0%",
     "usdZarLabel": "rand weaker",
-    "btc": "82486",
-    "btcWeek": "-1.3%",
-    "jse": "+1.3%",
-    "sp500": "+0.7%"
+    "btc": "82609",
+    "btcWeek": "-1.1%",
+    "jse": "+0.0%",
+    "sp500": "+0.6%"
   },
   "worldEvents": [
     {
+      "text": "Trump announces deal for Russian diesel as Zelensky criticises 'gift to Putin'",
+      "hoursAgo": 1,
+      "link": "https://www.bbc.co.uk/news/articles/cm1dwgr666wno"
+    },
+    {
       "text": "US unveils sanctions on ICC in move court condemns as 'assault on rule of law'",
-      "hoursAgo": 0,
+      "hoursAgo": 4,
       "link": "https://www.bbc.co.uk/news/articles/cj20vkkx3rdvo"
     },
     {
-      "text": "Navi Pillay, former UN human rights chief, wins Nobel Peace Prize",
-      "hoursAgo": 1,
-      "link": "https://www.bbc.co.uk/news/articles/cm9wz5kng0x1o"
-    },
-    {
       "text": "JD Vance casts doubt on firing squad execution and says he will not watch it",
-      "hoursAgo": 0,
+      "hoursAgo": 1,
       "link": "https://www.bbc.co.uk/news/articles/ck20r39nl3qzo"
     },
     {
-      "text": "Russian search engine Yandex struggles after Ukrainian strikes on data centres",
+      "text": "Powerful magnitude 7.7 earthquake hits Panama, damaging buildings",
       "hoursAgo": 1,
-      "link": "https://www.bbc.co.uk/news/articles/c68xzqqn4ekro"
+      "link": "https://www.bbc.co.uk/news/articles/c620r39zdp9wo"
     },
     {
-      "text": "Thieves steal 30,000 bottles of wine worth €5m in Italy, reports say",
-      "hoursAgo": 9,
-      "link": "https://www.bbc.co.uk/news/articles/cme3xl8ln2vko"
+      "text": "Russian search engine Yandex struggles after Ukrainian strikes on data centres",
+      "hoursAgo": 6,
+      "link": "https://www.bbc.co.uk/news/articles/c68xzqqn4ekro"
     }
   ],
   "launches": [
@@ -200,42 +191,42 @@
       "title": "Elon Musk’s surprise addition to the X Takeover lineup has fans talking",
       "link": "https://www.teslarati.com/elon-musk-interview-xtakeover-giga-texas-event/",
       "date": "Fri, 09 Oct 2026 16:48",
-      "hoursAgo": 2,
+      "hoursAgo": 6,
       "source": "Teslarati"
     },
     {
       "title": "It’s official: SpaceX takes aim at Verizon, AT&T, and T-Mobile",
       "link": "https://www.teslarati.com/spacex-direc-cell-att-verizon-t-mobile-challenge/",
       "date": "Fri, 09 Oct 2026 04:37",
-      "hoursAgo": 14,
+      "hoursAgo": 18,
       "source": "Teslarati"
     },
     {
       "title": "Trump presents Elon Musk with National Medal of Science, calls him “modern-day Thomas Edison”",
       "link": "https://www.teslarati.com/trump-elon-musk-medal-science/",
       "date": "Thu, 08 Oct 2026 21:30",
-      "hoursAgo": 21,
+      "hoursAgo": 25,
       "source": "Teslarati"
     },
     {
       "title": "Elon Musk’s Boring Company lands a new Middle East deal, and Nashville is about to get faster",
       "link": "https://www.teslarati.com/boring-company-abu-dhabi-elon-musk-nashville-progress/",
       "date": "Thu, 08 Oct 2026 18:26",
-      "hoursAgo": 24,
+      "hoursAgo": 28,
       "source": "Teslarati"
     },
     {
       "title": "SpaceX brings four astronauts home after 8 months in space, and the return was flawless",
       "link": "https://www.teslarati.com/spacex-brings-four-astronauts-home-after-8-months-in-space-and-the-return-was-flawless/",
       "date": "Thu, 08 Oct 2026 16:48",
-      "hoursAgo": 26,
+      "hoursAgo": 30,
       "source": "Teslarati"
     },
     {
       "title": "Elon Musk shuts down talk of TSMC taking over Terafab",
       "link": "https://www.teslarati.com/elon-musk-shuts-down-talk-of-tsmc-taking-over-terafab/",
       "date": "Thu, 08 Oct 2026 04:56",
-      "hoursAgo": 37,
+      "hoursAgo": 42,
       "source": "Teslarati"
     }
   ],
