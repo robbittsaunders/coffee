@@ -1,41 +1,76 @@
 {
-  "updatedAt": "2026-10-14T11:17+02:00",
+  "updatedAt": "2026-10-14T20:03+02:00",
   "stocks": {
     "TSLA": {
-      "price": 375.23,
-      "change_1d": -0.74,
-      "change_3d": -1.95,
-      "change_1m": 4.79,
-      "change_12m": -13.92,
-      "change_3y": 47.77,
-      "updated": "2026-10-14T09:17:34.876977"
+      "price": 364.5,
+      "change_1d": -2.86,
+      "change_3d": -3.58,
+      "change_1m": -0.46,
+      "change_12m": -15.08,
+      "change_3y": 43.55,
+      "updated": "2026-10-14T18:03:23.816226"
     },
     "NVDA": {
-      "price": 228.52,
-      "change_1d": 0.97,
-      "change_3d": -0.33,
-      "change_1m": 6.83,
-      "change_12m": 21.64,
-      "change_3y": 397.24,
-      "updated": "2026-10-14T09:17:34.877165"
+      "price": 220.81,
+      "change_1d": -3.37,
+      "change_3d": -2.43,
+      "change_1m": 0.67,
+      "change_12m": 22.95,
+      "change_3y": 380.46,
+      "updated": "2026-10-14T18:03:23.816428"
     },
     "MU": {
-      "price": 953.19,
-      "change_1d": -3.62,
-      "change_3d": -7.37,
-      "change_1m": 2.88,
-      "change_12m": 394.95,
-      "change_3y": 1292.93,
-      "updated": "2026-10-14T09:17:34.877302"
+      "price": 923.8,
+      "change_1d": -3.08,
+      "change_3d": -6.6,
+      "change_1m": -5.49,
+      "change_12m": 394.34,
+      "change_3y": 1249.98,
+      "updated": "2026-10-14T18:03:23.816601"
     }
   },
   "news": [
     {
-      "title": "New Tesla Roadster: Everything We Know",
-      "link": "https://insideevs.com/reviews/336735/new-tesla-roadster-price-range-specs/",
-      "date": "Mon, 07 Oct 2019 16:23",
-      "hoursAgo": 61528,
-      "source": "InsideEVs"
+      "title": "Ukraine says Starlink is cutting out its military drones as Poland calls out Elon Musk",
+      "link": "https://www.teslarati.com/ukraine-spacex-starlink-military-drones/",
+      "date": "Wed, 14 Oct 2026 16:24",
+      "hoursAgo": 1,
+      "source": "Teslarati"
+    },
+    {
+      "title": "FAA kicks off review of SpaceX’s bid to fly Starship nearly every day",
+      "link": "https://www.teslarati.com/faa-review-spacex-starship-launches/",
+      "date": "Wed, 14 Oct 2026 14:18",
+      "hoursAgo": 3,
+      "source": "Teslarati"
+    },
+    {
+      "title": "Tesla Roadster livestream: everything Tesla has revealed before Thursday night",
+      "link": "https://www.teslarati.com/tesla-roadster-livestream-waco-texas/",
+      "date": "Wed, 14 Oct 2026 05:31",
+      "hoursAgo": 12,
+      "source": "Teslarati"
+    },
+    {
+      "title": "SpaceX just combined Grok, Cursor, and X into one mega plan",
+      "link": "https://www.teslarati.com/spacex-just-combined-grok-cursor-and-x-into-one-mega-plan/",
+      "date": "Tue, 13 Oct 2026 19:44",
+      "hoursAgo": 22,
+      "source": "Teslarati"
+    },
+    {
+      "title": "Taiwan power firm bets big on Tesla Megapacks as AI data center thirst grows",
+      "link": "https://www.teslarati.com/tesla-taiwan-megapack-ai-data-center/",
+      "date": "Tue, 13 Oct 2026 16:33",
+      "hoursAgo": 25,
+      "source": "Teslarati"
+    },
+    {
+      "title": "Tesla Cybercab and Robotaxi’s real advantage won’t be the ride service",
+      "link": "https://www.teslarati.com/tesla-cybercab-robotaxi-grok-bot/",
+      "date": "Tue, 13 Oct 2026 05:29",
+      "hoursAgo": 36,
+      "source": "Teslarati"
     }
   ],
   "tweets": [],
@@ -66,56 +101,56 @@
       "rain": 0.0
     },
     "+12h": {
-      "temp": 16.9,
+      "temp": 17.2,
       "condition": "Overcast",
-      "wind_speed": 19.3,
-      "wind_dir_deg": 318,
-      "cloud": 99,
+      "wind_speed": 18.1,
+      "wind_dir_deg": 317,
+      "cloud": 100,
       "rain": 0.0
     },
     "+24h": {
-      "temp": 14.3,
-      "condition": "Partly cloudy",
-      "wind_speed": 15.7,
-      "wind_dir_deg": 349,
-      "cloud": 73,
+      "temp": 14.8,
+      "condition": "Overcast",
+      "wind_speed": 16.4,
+      "wind_dir_deg": 345,
+      "cloud": 82,
       "rain": 0.0
     }
   },
   "keyNumbers": {
-    "usdZar": "16.54",
-    "usdZarWeek": "+0.8%",
+    "usdZar": "16.61",
+    "usdZarWeek": "+1.2%",
     "usdZarLabel": "rand weaker",
-    "btc": "83355",
-    "btcWeek": "-2.8%",
-    "jse": "-0.1%",
-    "sp500": "-0.0%"
+    "btc": "81519",
+    "btcWeek": "-5.0%",
+    "jse": "-0.8%",
+    "sp500": "-1.3%"
   },
   "worldEvents": [
     {
-      "text": "Russian strikes leave 600,000 without power in Ukraine, Zelensky says",
-      "hoursAgo": 1,
+      "text": "Starlink restrictions in Ukraine war linked to political situation, Zelensky aide says",
+      "hoursAgo": 4,
       "link": "https://www.bbc.co.uk/news/articles/cm2d6e62p49do"
     },
     {
-      "text": "Pope diagnosed with lung cancer but had successful surgery, Vatican says",
-      "hoursAgo": 0,
-      "link": "https://www.bbc.co.uk/news/articles/ck1wvd9dvv22o"
+      "text": "Pope walking and recovering 'as expected' after surgery, doctors say",
+      "hoursAgo": 2,
+      "link": "https://www.bbc.co.uk/news/articles/cwx28r0zvm6lo"
     },
     {
-      "text": "Turkish police raid opposition TV station, halting live broadcasts",
-      "hoursAgo": 0,
-      "link": "https://www.bbc.co.uk/news/articles/crx23y3d970vo"
-    },
-    {
-      "text": "Saudi employee charged with planting recording device in OpenAI office",
-      "hoursAgo": 11,
-      "link": "https://www.bbc.co.uk/news/articles/cwg5jq4vlddzo"
+      "text": "US inflation rises more than expected - here's what is happening with prices",
+      "hoursAgo": 2,
+      "link": "https://www.bbc.co.uk/news/articles/cwy8lx3pg4k2o"
     },
     {
       "text": "Germany puts Ukrainian on trial accused of blowing up Nord Stream pipelines",
-      "hoursAgo": 9,
+      "hoursAgo": 4,
       "link": "https://www.bbc.co.uk/news/articles/cw99zpmnxzmjo"
+    },
+    {
+      "text": "Australia's first-ever Michelin stars go to 11 restaurants in one state",
+      "hoursAgo": 4,
+      "link": "https://www.bbc.co.uk/news/articles/crje5we583qwo"
     }
   ],
   "launches": [
@@ -162,11 +197,46 @@
   ],
   "companyNews": [
     {
-      "title": "New Tesla Roadster: Everything We Know",
-      "link": "https://insideevs.com/reviews/336735/new-tesla-roadster-price-range-specs/",
-      "date": "Mon, 07 Oct 2019 16:23",
-      "hoursAgo": 61528,
-      "source": "InsideEVs"
+      "title": "Ukraine says Starlink is cutting out its military drones as Poland calls out Elon Musk",
+      "link": "https://www.teslarati.com/ukraine-spacex-starlink-military-drones/",
+      "date": "Wed, 14 Oct 2026 16:24",
+      "hoursAgo": 1,
+      "source": "Teslarati"
+    },
+    {
+      "title": "FAA kicks off review of SpaceX’s bid to fly Starship nearly every day",
+      "link": "https://www.teslarati.com/faa-review-spacex-starship-launches/",
+      "date": "Wed, 14 Oct 2026 14:18",
+      "hoursAgo": 3,
+      "source": "Teslarati"
+    },
+    {
+      "title": "Tesla Roadster livestream: everything Tesla has revealed before Thursday night",
+      "link": "https://www.teslarati.com/tesla-roadster-livestream-waco-texas/",
+      "date": "Wed, 14 Oct 2026 05:31",
+      "hoursAgo": 12,
+      "source": "Teslarati"
+    },
+    {
+      "title": "SpaceX just combined Grok, Cursor, and X into one mega plan",
+      "link": "https://www.teslarati.com/spacex-just-combined-grok-cursor-and-x-into-one-mega-plan/",
+      "date": "Tue, 13 Oct 2026 19:44",
+      "hoursAgo": 22,
+      "source": "Teslarati"
+    },
+    {
+      "title": "Taiwan power firm bets big on Tesla Megapacks as AI data center thirst grows",
+      "link": "https://www.teslarati.com/tesla-taiwan-megapack-ai-data-center/",
+      "date": "Tue, 13 Oct 2026 16:33",
+      "hoursAgo": 25,
+      "source": "Teslarati"
+    },
+    {
+      "title": "Tesla Cybercab and Robotaxi’s real advantage won’t be the ride service",
+      "link": "https://www.teslarati.com/tesla-cybercab-robotaxi-grok-bot/",
+      "date": "Tue, 13 Oct 2026 05:29",
+      "hoursAgo": 36,
+      "source": "Teslarati"
     }
   ],
   "calendar": []
