@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-14T01:45+02:00",
+  "updatedAt": "2026-10-14T11:17+02:00",
   "stocks": {
     "TSLA": {
       "price": 375.23,
@@ -8,7 +8,7 @@
       "change_1m": 4.79,
       "change_12m": -13.92,
       "change_3y": 47.77,
-      "updated": "2026-10-13T23:45:38.489904"
+      "updated": "2026-10-14T09:17:34.876977"
     },
     "NVDA": {
       "price": 228.52,
@@ -17,131 +17,105 @@
       "change_1m": 6.83,
       "change_12m": 21.64,
       "change_3y": 397.24,
-      "updated": "2026-10-13T23:45:38.490106"
+      "updated": "2026-10-14T09:17:34.877165"
+    },
+    "MU": {
+      "price": 953.19,
+      "change_1d": -3.62,
+      "change_3d": -7.37,
+      "change_1m": 2.88,
+      "change_12m": 394.95,
+      "change_3y": 1292.93,
+      "updated": "2026-10-14T09:17:34.877302"
     }
   },
   "news": [
     {
-      "title": "SpaceX just combined Grok, Cursor, and X into one mega plan",
-      "link": "https://www.teslarati.com/spacex-just-combined-grok-cursor-and-x-into-one-mega-plan/",
-      "date": "Tue, 13 Oct 2026 19:44",
-      "hoursAgo": 4,
-      "source": "Teslarati"
-    },
-    {
-      "title": "Taiwan power firm bets big on Tesla Megapacks as AI data center thirst grows",
-      "link": "https://www.teslarati.com/tesla-taiwan-megapack-ai-data-center/",
-      "date": "Tue, 13 Oct 2026 16:33",
-      "hoursAgo": 7,
-      "source": "Teslarati"
-    },
-    {
-      "title": "Tesla Cybercab and Robotaxi’s real advantage won’t be the ride service",
-      "link": "https://www.teslarati.com/tesla-cybercab-robotaxi-grok-bot/",
-      "date": "Tue, 13 Oct 2026 05:29",
-      "hoursAgo": 18,
-      "source": "Teslarati"
-    },
-    {
-      "title": "Why Elon Musk’s target date for buying an Optimus robot is harder than it sounds",
-      "link": "https://www.teslarati.com/elon-musk-tesla-optimus-for-sale-timeline/",
-      "date": "Mon, 12 Oct 2026 22:56",
-      "hoursAgo": 24,
-      "source": "Teslarati"
-    },
-    {
-      "title": "Elon Musk drops a Thanksgiving hint about Starship’s biggest test yet",
-      "link": "https://www.teslarati.com/elon-musk-spacex-starship-tower-catch/",
-      "date": "Mon, 12 Oct 2026 17:14",
-      "hoursAgo": 30,
-      "source": "Teslarati"
-    },
-    {
-      "title": "Tesla’s mirrorless Cybercab will give riders a visibility upgrade",
-      "link": "https://www.teslarati.com/tesla-cybercab-passengers-camera-visibility/",
-      "date": "Mon, 12 Oct 2026 05:43",
-      "hoursAgo": 42,
-      "source": "Teslarati"
+      "title": "New Tesla Roadster: Everything We Know",
+      "link": "https://insideevs.com/reviews/336735/new-tesla-roadster-price-range-specs/",
+      "date": "Mon, 07 Oct 2019 16:23",
+      "hoursAgo": 61528,
+      "source": "InsideEVs"
     }
   ],
   "tweets": [],
   "roasts": [],
   "weather": {
     "+1h": {
-      "temp": 11.6,
+      "temp": 11.9,
       "condition": "Overcast",
-      "wind_speed": 4.2,
-      "wind_dir_deg": 187,
-      "cloud": 83,
+      "wind_speed": 5.5,
+      "wind_dir_deg": 193,
+      "cloud": 82,
       "rain": 0.0
     },
     "+3h": {
-      "temp": 11.0,
+      "temp": 10.9,
       "condition": "Overcast",
-      "wind_speed": 3.2,
-      "wind_dir_deg": 223,
-      "cloud": 86,
+      "wind_speed": 2.8,
+      "wind_dir_deg": 243,
+      "cloud": 84,
       "rain": 0.0
     },
     "+6h": {
-      "temp": 10.7,
-      "condition": "Partly cloudy",
-      "wind_speed": 1.5,
-      "wind_dir_deg": 324,
-      "cloud": 74,
+      "temp": 11.0,
+      "condition": "Overcast",
+      "wind_speed": 2.4,
+      "wind_dir_deg": 318,
+      "cloud": 91,
       "rain": 0.0
     },
     "+12h": {
-      "temp": 17.3,
+      "temp": 16.9,
       "condition": "Overcast",
-      "wind_speed": 18.2,
-      "wind_dir_deg": 316,
-      "cloud": 100,
+      "wind_speed": 19.3,
+      "wind_dir_deg": 318,
+      "cloud": 99,
       "rain": 0.0
     },
     "+24h": {
-      "temp": 14.8,
-      "condition": "Overcast",
-      "wind_speed": 16.6,
-      "wind_dir_deg": 350,
-      "cloud": 88,
+      "temp": 14.3,
+      "condition": "Partly cloudy",
+      "wind_speed": 15.7,
+      "wind_dir_deg": 349,
+      "cloud": 73,
       "rain": 0.0
     }
   },
   "keyNumbers": {
-    "usdZar": "16.48",
-    "usdZarWeek": "+0.4%",
+    "usdZar": "16.54",
+    "usdZarWeek": "+0.8%",
     "usdZarLabel": "rand weaker",
-    "btc": "83180",
-    "btcWeek": "-3.8%",
-    "jse": "+0.2%",
+    "btc": "83355",
+    "btcWeek": "-2.8%",
+    "jse": "-0.1%",
     "sp500": "-0.0%"
   },
   "worldEvents": [
     {
+      "text": "Russian strikes leave 600,000 without power in Ukraine, Zelensky says",
+      "hoursAgo": 1,
+      "link": "https://www.bbc.co.uk/news/articles/cm2d6e62p49do"
+    },
+    {
       "text": "Pope diagnosed with lung cancer but had successful surgery, Vatican says",
-      "hoursAgo": 2,
+      "hoursAgo": 0,
       "link": "https://www.bbc.co.uk/news/articles/ck1wvd9dvv22o"
     },
     {
-      "text": "Saudi man charged with planting 'sophisticated' recording device in OpenAI office",
-      "hoursAgo": 2,
+      "text": "Turkish police raid opposition TV station, halting live broadcasts",
+      "hoursAgo": 0,
+      "link": "https://www.bbc.co.uk/news/articles/crx23y3d970vo"
+    },
+    {
+      "text": "Saudi employee charged with planting recording device in OpenAI office",
+      "hoursAgo": 11,
       "link": "https://www.bbc.co.uk/news/articles/cwg5jq4vlddzo"
     },
     {
       "text": "Germany puts Ukrainian on trial accused of blowing up Nord Stream pipelines",
-      "hoursAgo": 0,
+      "hoursAgo": 9,
       "link": "https://www.bbc.co.uk/news/articles/cw99zpmnxzmjo"
-    },
-    {
-      "text": "MI5 chief warns of threats to UK from Russia, Iran and AI",
-      "hoursAgo": 7,
-      "link": "https://www.bbc.co.uk/news/articles/c60rl5vwpk02o"
-    },
-    {
-      "text": "Missiles intercepted near Riyadh after Saudi coalition hits Yemen fuel depot",
-      "hoursAgo": 1,
-      "link": "https://www.bbc.co.uk/news/articles/crx2d60y1py3o"
     }
   ],
   "launches": [
@@ -188,46 +162,11 @@
   ],
   "companyNews": [
     {
-      "title": "SpaceX just combined Grok, Cursor, and X into one mega plan",
-      "link": "https://www.teslarati.com/spacex-just-combined-grok-cursor-and-x-into-one-mega-plan/",
-      "date": "Tue, 13 Oct 2026 19:44",
-      "hoursAgo": 4,
-      "source": "Teslarati"
-    },
-    {
-      "title": "Taiwan power firm bets big on Tesla Megapacks as AI data center thirst grows",
-      "link": "https://www.teslarati.com/tesla-taiwan-megapack-ai-data-center/",
-      "date": "Tue, 13 Oct 2026 16:33",
-      "hoursAgo": 7,
-      "source": "Teslarati"
-    },
-    {
-      "title": "Tesla Cybercab and Robotaxi’s real advantage won’t be the ride service",
-      "link": "https://www.teslarati.com/tesla-cybercab-robotaxi-grok-bot/",
-      "date": "Tue, 13 Oct 2026 05:29",
-      "hoursAgo": 18,
-      "source": "Teslarati"
-    },
-    {
-      "title": "Why Elon Musk’s target date for buying an Optimus robot is harder than it sounds",
-      "link": "https://www.teslarati.com/elon-musk-tesla-optimus-for-sale-timeline/",
-      "date": "Mon, 12 Oct 2026 22:56",
-      "hoursAgo": 24,
-      "source": "Teslarati"
-    },
-    {
-      "title": "Elon Musk drops a Thanksgiving hint about Starship’s biggest test yet",
-      "link": "https://www.teslarati.com/elon-musk-spacex-starship-tower-catch/",
-      "date": "Mon, 12 Oct 2026 17:14",
-      "hoursAgo": 30,
-      "source": "Teslarati"
-    },
-    {
-      "title": "Tesla’s mirrorless Cybercab will give riders a visibility upgrade",
-      "link": "https://www.teslarati.com/tesla-cybercab-passengers-camera-visibility/",
-      "date": "Mon, 12 Oct 2026 05:43",
-      "hoursAgo": 42,
-      "source": "Teslarati"
+      "title": "New Tesla Roadster: Everything We Know",
+      "link": "https://insideevs.com/reviews/336735/new-tesla-roadster-price-range-specs/",
+      "date": "Mon, 07 Oct 2019 16:23",
+      "hoursAgo": 61528,
+      "source": "InsideEVs"
     }
   ],
   "calendar": []
