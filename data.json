@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-15T23:31+02:00",
+  "updatedAt": "2026-10-16T10:45+02:00",
   "stocks": {
     "TSLA": {
       "price": 362.44,
@@ -8,7 +8,7 @@
       "change_1m": -0.5,
       "change_12m": -16.71,
       "change_3y": 42.74,
-      "updated": "2026-10-15T21:30:56.961765"
+      "updated": "2026-10-16T08:45:16.335456"
     },
     "NVDA": {
       "price": 217.23,
@@ -17,7 +17,7 @@
       "change_1m": -2.27,
       "change_12m": 21.09,
       "change_3y": 372.67,
-      "updated": "2026-10-15T21:30:56.961963"
+      "updated": "2026-10-16T08:45:16.335691"
     },
     "MU": {
       "price": 931.24,
@@ -26,50 +26,50 @@
       "change_1m": -8.31,
       "change_12m": 385.72,
       "change_3y": 1261.07,
-      "updated": "2026-10-15T21:30:56.962139"
+      "updated": "2026-10-16T08:45:16.335878"
     }
   },
   "news": [
     {
+      "title": "How Tesla’s Roadster fan system and thrusters are built to dominate the corners",
+      "link": "https://www.teslarati.com/tesla-roadster-downforce-fan-system/",
+      "date": "Fri, 16 Oct 2026 04:04",
+      "hoursAgo": 4,
+      "source": "Teslarati"
+    },
+    {
+      "title": "Tesla Roadster: Three configs, one can fly, 0-60 in 0.8 seconds",
+      "link": "https://www.teslarati.com/tesla-roadster-specs-configurations/",
+      "date": "Fri, 16 Oct 2026 02:04",
+      "hoursAgo": 6,
+      "source": "Teslarati"
+    },
+    {
       "title": "Amazon shuts out Elon Musk’s Grok Bot so he may just build his own rival store",
       "link": "https://www.teslarati.com/elon-musk-grok-bot-amazon-shopping/",
       "date": "Thu, 15 Oct 2026 19:35",
-      "hoursAgo": 1,
+      "hoursAgo": 13,
       "source": "Teslarati"
     },
     {
       "title": "Elon Musk says Tesla’s Roadster demo could be a bang, quite literally",
       "link": "https://www.teslarati.com/elon-musk-tesla-roadster-demo-tease/",
       "date": "Thu, 15 Oct 2026 16:08",
-      "hoursAgo": 5,
+      "hoursAgo": 16,
       "source": "Teslarati"
     },
     {
       "title": "Elon Musk breaks his silence on the Starlink impact to Ukraine drones",
       "link": "https://www.teslarati.com/elon-musk-starshield-vs-starlink-ukraine/",
       "date": "Thu, 15 Oct 2026 04:49",
-      "hoursAgo": 16,
+      "hoursAgo": 27,
       "source": "Teslarati"
     },
     {
       "title": "Tesla opens the Q&A for its biggest earnings call yet",
       "link": "https://www.teslarati.com/tesla-q3-earnings-say-questions/",
       "date": "Wed, 14 Oct 2026 21:04",
-      "hoursAgo": 24,
-      "source": "Teslarati"
-    },
-    {
-      "title": "Ukraine says Starlink is cutting out its military drones as Poland calls out Elon Musk",
-      "link": "https://www.teslarati.com/ukraine-spacex-starlink-military-drones/",
-      "date": "Wed, 14 Oct 2026 16:24",
-      "hoursAgo": 29,
-      "source": "Teslarati"
-    },
-    {
-      "title": "FAA kicks off review of SpaceX’s bid to fly Starship nearly every day",
-      "link": "https://www.teslarati.com/faa-review-spacex-starship-launches/",
-      "date": "Wed, 14 Oct 2026 14:18",
-      "hoursAgo": 31,
+      "hoursAgo": 35,
       "source": "Teslarati"
     }
   ],
@@ -77,91 +77,83 @@
   "roasts": [],
   "weather": {
     "+1h": {
-      "temp": 13.8,
-      "condition": "Overcast",
-      "wind_speed": 17.1,
-      "wind_dir_deg": 352,
-      "cloud": 84,
+      "temp": 14.5,
+      "condition": "Partly cloudy",
+      "wind_speed": 11.0,
+      "wind_dir_deg": 356,
+      "cloud": 61,
       "rain": 0.0
     },
     "+3h": {
-      "temp": 13.6,
-      "condition": "Overcast",
-      "wind_speed": 16.2,
-      "wind_dir_deg": 352,
-      "cloud": 98,
+      "temp": 14.4,
+      "condition": "Clear",
+      "wind_speed": 10.9,
+      "wind_dir_deg": 343,
+      "cloud": 14,
       "rain": 0.0
     },
     "+6h": {
-      "temp": 12.8,
-      "condition": "Mainly clear",
-      "wind_speed": 17.0,
-      "wind_dir_deg": 6,
-      "cloud": 38,
+      "temp": 13.6,
+      "condition": "Clear",
+      "wind_speed": 10.6,
+      "wind_dir_deg": 350,
+      "cloud": 2,
       "rain": 0.0
     },
     "+12h": {
-      "temp": 17.8,
-      "condition": "Mainly clear",
-      "wind_speed": 21.8,
-      "wind_dir_deg": 331,
-      "cloud": 28,
+      "temp": 19.8,
+      "condition": "Overcast",
+      "wind_speed": 16.2,
+      "wind_dir_deg": 315,
+      "cloud": 94,
       "rain": 0.0
     },
     "+24h": {
-      "temp": 14.6,
-      "condition": "Overcast",
-      "wind_speed": 10.6,
-      "wind_dir_deg": 2,
-      "cloud": 85,
-      "rain": 0.0
+      "temp": 16.6,
+      "condition": "Mixed",
+      "wind_speed": 10.3,
+      "wind_dir_deg": 344,
+      "cloud": 100,
+      "rain": 0.3
     }
   },
   "keyNumbers": {
-    "usdZar": "16.50",
-    "usdZarWeek": "-1.2%",
+    "usdZar": "16.42",
+    "usdZarWeek": "-1.4%",
     "usdZarLabel": "rand stronger",
-    "btc": "82219",
-    "btcWeek": "-3.9%",
-    "jse": "+1.5%",
+    "btc": "82220",
+    "btcWeek": "-1.3%",
+    "jse": "+0.3%",
     "sp500": "+0.3%"
   },
   "worldEvents": [
     {
-      "text": "Bus hits train stopped on French side of  Channel Tunnel, with 19 injured",
+      "text": "Children aged 5, 8 and 11 killed in US school shooting before suspect shot by bystander",
+      "hoursAgo": 5,
+      "link": "https://www.bbc.co.uk/news/articles/cm89zp48k4kzo"
+    },
+    {
+      "text": "'It's really hard to believe' - How Oregon primary school shooting unfolded",
       "hoursAgo": 0,
-      "link": "https://www.bbc.co.uk/news/articles/c6wyrnmgzn01o"
+      "link": "https://www.bbc.co.uk/news/videos/cwe8r29mjd05o"
+    },
+    {
+      "text": "Ship attack reports near Hormuz reach record high as oil exports slow",
+      "hoursAgo": 3,
+      "link": "https://www.bbc.co.uk/news/articles/cmde8dpg8g0no"
     },
     {
       "text": "Trump calls off livestream of Fort Hood attacker's execution by firing squad",
-      "hoursAgo": 3,
+      "hoursAgo": 14,
       "link": "https://www.bbc.co.uk/news/articles/crx23qlnj27qo"
     },
     {
       "text": "Russia accuses Ukraine of attacking oil refinery after Zelensky says strikes to resume",
-      "hoursAgo": 4,
+      "hoursAgo": 15,
       "link": "https://www.bbc.co.uk/news/articles/cqwyrnwd9dw1o"
-    },
-    {
-      "text": "Maduro pleads not guilty to new torture-related charges in New York",
-      "hoursAgo": 4,
-      "link": "https://www.bbc.co.uk/news/articles/cqwyrn1l74zro"
-    },
-    {
-      "text": "At least 33 pupils and teacher killed after school roof collapses in Pakistan",
-      "hoursAgo": 6,
-      "link": "https://www.bbc.co.uk/news/articles/cked326llddgo"
     }
   ],
   "launches": [
-    {
-      "name": "Falcon 9 Block 5 | USSF-481",
-      "date": "Friday 16 October 02h01",
-      "dateISO": "2026-10-16T00:01:05Z",
-      "details": "Space Launch Complex 4E - Vandenberg SFB, CA, USA",
-      "highlight": false,
-      "link": "https://spacelaunchnow.me/launch/falcon-9-block-5-ussf-481"
-    },
     {
       "name": "Falcon 9 Block 5 | Bandwagon 5 (Dedicated Mid-Inclination Rideshare)",
       "date": "Monday 19 October 12h30",
@@ -193,49 +185,57 @@
       "details": "Space Launch Complex 40 - Cape Canaveral SFS, FL, USA",
       "highlight": false,
       "link": "https://spacelaunchnow.me/launch/falcon-9-block-5-cygnus-crs-2-ng-25"
+    },
+    {
+      "name": "Falcon 9 Block 5 | SDA Tranche 2 Transport Layer D",
+      "date": "Thursday 31 December (TBD)",
+      "dateISO": "2026-12-31T00:00:00Z",
+      "details": "Unknown Pad - Cape Canaveral SFS, FL, USA",
+      "highlight": false,
+      "link": "https://spacelaunchnow.me/launch/falcon-9-block-5-sda-tranche-2-transport-layer-d"
     }
   ],
   "companyNews": [
     {
+      "title": "How Tesla’s Roadster fan system and thrusters are built to dominate the corners",
+      "link": "https://www.teslarati.com/tesla-roadster-downforce-fan-system/",
+      "date": "Fri, 16 Oct 2026 04:04",
+      "hoursAgo": 4,
+      "source": "Teslarati"
+    },
+    {
+      "title": "Tesla Roadster: Three configs, one can fly, 0-60 in 0.8 seconds",
+      "link": "https://www.teslarati.com/tesla-roadster-specs-configurations/",
+      "date": "Fri, 16 Oct 2026 02:04",
+      "hoursAgo": 6,
+      "source": "Teslarati"
+    },
+    {
       "title": "Amazon shuts out Elon Musk’s Grok Bot so he may just build his own rival store",
       "link": "https://www.teslarati.com/elon-musk-grok-bot-amazon-shopping/",
       "date": "Thu, 15 Oct 2026 19:35",
-      "hoursAgo": 1,
+      "hoursAgo": 13,
       "source": "Teslarati"
     },
     {
       "title": "Elon Musk says Tesla’s Roadster demo could be a bang, quite literally",
       "link": "https://www.teslarati.com/elon-musk-tesla-roadster-demo-tease/",
       "date": "Thu, 15 Oct 2026 16:08",
-      "hoursAgo": 5,
+      "hoursAgo": 16,
       "source": "Teslarati"
     },
     {
       "title": "Elon Musk breaks his silence on the Starlink impact to Ukraine drones",
       "link": "https://www.teslarati.com/elon-musk-starshield-vs-starlink-ukraine/",
       "date": "Thu, 15 Oct 2026 04:49",
-      "hoursAgo": 16,
+      "hoursAgo": 27,
       "source": "Teslarati"
     },
     {
       "title": "Tesla opens the Q&A for its biggest earnings call yet",
       "link": "https://www.teslarati.com/tesla-q3-earnings-say-questions/",
       "date": "Wed, 14 Oct 2026 21:04",
-      "hoursAgo": 24,
-      "source": "Teslarati"
-    },
-    {
-      "title": "Ukraine says Starlink is cutting out its military drones as Poland calls out Elon Musk",
-      "link": "https://www.teslarati.com/ukraine-spacex-starlink-military-drones/",
-      "date": "Wed, 14 Oct 2026 16:24",
-      "hoursAgo": 29,
-      "source": "Teslarati"
-    },
-    {
-      "title": "FAA kicks off review of SpaceX’s bid to fly Starship nearly every day",
-      "link": "https://www.teslarati.com/faa-review-spacex-starship-launches/",
-      "date": "Wed, 14 Oct 2026 14:18",
-      "hoursAgo": 31,
+      "hoursAgo": 35,
       "source": "Teslarati"
     }
   ],
