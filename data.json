@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-17T10:15+02:00",
+  "updatedAt": "2026-10-18T10:33+02:00",
   "stocks": {
     "TSLA": {
       "price": 354.72,
@@ -8,7 +8,7 @@
       "change_1m": -5.48,
       "change_12m": -17.27,
       "change_3y": 39.19,
-      "updated": "2026-10-17T08:15:39.540442"
+      "updated": "2026-10-18T08:32:59.390149"
     },
     "NVDA": {
       "price": 214.13,
@@ -17,7 +17,7 @@
       "change_1m": -5.83,
       "change_12m": 18.06,
       "change_3y": 388.8,
-      "updated": "2026-10-17T08:15:39.540531"
+      "updated": "2026-10-18T08:32:59.390291"
     },
     "MU": {
       "price": 878.84,
@@ -26,50 +26,50 @@
       "change_1m": -15.8,
       "change_12m": 334.42,
       "change_3y": 1185.97,
-      "updated": "2026-10-17T08:15:39.540600"
+      "updated": "2026-10-18T08:32:59.390400"
     }
   },
   "news": [
     {
+      "title": "Tesla Roadster owners to get “Flying Stunt Mode” and looping track access",
+      "link": "https://www.teslarati.com/tesla-roadster-autonomous-stunt-sentient-hot-wheels-loop-track/",
+      "date": "Sat, 17 Oct 2026 22:52",
+      "hoursAgo": 9,
+      "source": "Teslarati"
+    },
+    {
+      "title": "How to use Grok Bot to block spam calls and texts",
+      "link": "https://www.teslarati.com/grok-bot-spam-call-text-scrubber-elon-musk/",
+      "date": "Sat, 17 Oct 2026 15:22",
+      "hoursAgo": 17,
+      "source": "Teslarati"
+    },
+    {
       "title": "Tesla’s flying Roadster just revealed something bigger than the car",
       "link": "https://www.teslarati.com/tesla-spacex-roadster-tech-merger/",
       "date": "Fri, 16 Oct 2026 16:13",
-      "hoursAgo": 16,
+      "hoursAgo": 40,
       "source": "Teslarati"
     },
     {
       "title": "How Tesla’s Roadster fan system and thrusters are built to dominate the corners",
       "link": "https://www.teslarati.com/tesla-roadster-downforce-fan-system/",
       "date": "Fri, 16 Oct 2026 04:04",
-      "hoursAgo": 28,
+      "hoursAgo": 52,
       "source": "Teslarati"
     },
     {
       "title": "Tesla Roadster: Three configs, one can fly, 0-60 in 0.8 seconds",
       "link": "https://www.teslarati.com/tesla-roadster-specs-configurations/",
       "date": "Fri, 16 Oct 2026 02:04",
-      "hoursAgo": 30,
+      "hoursAgo": 54,
       "source": "Teslarati"
     },
     {
       "title": "Amazon shuts out Elon Musk’s Grok Bot so he may just build his own rival store",
       "link": "https://www.teslarati.com/elon-musk-grok-bot-amazon-shopping/",
       "date": "Thu, 15 Oct 2026 19:35",
-      "hoursAgo": 36,
-      "source": "Teslarati"
-    },
-    {
-      "title": "Elon Musk says Tesla’s Roadster demo could be a bang, quite literally",
-      "link": "https://www.teslarati.com/elon-musk-tesla-roadster-demo-tease/",
-      "date": "Thu, 15 Oct 2026 16:08",
-      "hoursAgo": 40,
-      "source": "Teslarati"
-    },
-    {
-      "title": "Elon Musk breaks his silence on the Starlink impact to Ukraine drones",
-      "link": "https://www.teslarati.com/elon-musk-starshield-vs-starlink-ukraine/",
-      "date": "Thu, 15 Oct 2026 04:49",
-      "hoursAgo": 51,
+      "hoursAgo": 60,
       "source": "Teslarati"
     }
   ],
@@ -77,43 +77,43 @@
   "roasts": [],
   "weather": {
     "+1h": {
-      "temp": 16.6,
-      "condition": "Mixed",
-      "wind_speed": 11.0,
-      "wind_dir_deg": 345,
+      "temp": 13.7,
+      "condition": "Overcast",
+      "wind_speed": 14.3,
+      "wind_dir_deg": 161,
       "cloud": 100,
-      "rain": 0.1
+      "rain": 0.0
     },
     "+3h": {
-      "temp": 16.0,
+      "temp": 13.5,
       "condition": "Mixed",
-      "wind_speed": 9.0,
-      "wind_dir_deg": 327,
-      "cloud": 100,
-      "rain": 0.2
-    },
-    "+6h": {
-      "temp": 15.6,
-      "condition": "Mixed",
-      "wind_speed": 6.9,
-      "wind_dir_deg": 200,
-      "cloud": 100,
+      "wind_speed": 13.7,
+      "wind_dir_deg": 158,
+      "cloud": 80,
       "rain": 0.1
     },
+    "+6h": {
+      "temp": 13.2,
+      "condition": "Partly cloudy",
+      "wind_speed": 15.3,
+      "wind_dir_deg": 162,
+      "cloud": 52,
+      "rain": 0.0
+    },
     "+12h": {
-      "temp": 17.0,
+      "temp": 15.6,
       "condition": "Overcast",
-      "wind_speed": 13.8,
-      "wind_dir_deg": 187,
+      "wind_speed": 16.6,
+      "wind_dir_deg": 184,
       "cloud": 100,
       "rain": 0.0
     },
     "+24h": {
-      "temp": 13.8,
-      "condition": "Overcast",
-      "wind_speed": 18.2,
-      "wind_dir_deg": 150,
-      "cloud": 100,
+      "temp": 10.5,
+      "condition": "Clear",
+      "wind_speed": 5.2,
+      "wind_dir_deg": 205,
+      "cloud": 1,
       "rain": 0.0
     }
   },
@@ -121,36 +121,37 @@
     "usdZar": "16.48",
     "usdZarWeek": "-1.1%",
     "usdZarLabel": "rand stronger",
-    "btc": "81618",
-    "btcWeek": "-0.1%",
+    "btc": "81609",
+    "btcWeek": "-1.1%",
     "jse": "+0.7%",
-    "sp500": "-1.1%"
+    "sp500": "-1.1%",
+    "keyEvent": "TSLA earnings in 3 days"
   },
   "worldEvents": [
     {
-      "text": "Trump waives several Russia sanctions as row with Zelensky intensifies",
+      "text": "Violent clashes, looting and buildings ablaze in France as more than 1,200 arrested after protests",
+      "hoursAgo": 2,
+      "link": "https://www.bbc.co.uk/news/articles/c6d937wedj7jo"
+    },
+    {
+      "text": "Photos show luxury boat with 50m pool and water slides near Kim Jong Un's summer retreat",
+      "hoursAgo": 10,
+      "link": "https://www.bbc.co.uk/news/articles/cmy4xnyyg1lyo"
+    },
+    {
+      "text": "A wave of homemade, synthetic drugs sweeps US and deepens crisis",
+      "hoursAgo": 3,
+      "link": "https://www.bbc.co.uk/news/articles/cmx2wvyv5j17o"
+    },
+    {
+      "text": "European diplomats attacked by Israeli settlers in West Bank",
+      "hoursAgo": 8,
+      "link": "https://www.bbc.co.uk/news/articles/c962ydpmjm3zo"
+    },
+    {
+      "text": "Several dead or injured in major fire at Canada military base",
       "hoursAgo": 0,
-      "link": "https://www.bbc.co.uk/news/articles/cxr5yvzv7rp0o"
-    },
-    {
-      "text": "Oregon teacher fought school attacker before armed dad shot suspect 'multiple times'",
-      "hoursAgo": 1,
-      "link": "https://www.bbc.co.uk/news/articles/cv98zw1k8kp3o"
-    },
-    {
-      "text": "Three men jailed for 158 years each for murdering Australian and US surfers in Mexico",
-      "hoursAgo": 5,
-      "link": "https://www.bbc.co.uk/news/articles/c3kgqjkzw29wo"
-    },
-    {
-      "text": "Inside Ukrainian offensive pushing Russia back - with Starlink playing a key role",
-      "hoursAgo": 16,
-      "link": "https://www.bbc.co.uk/news/articles/cvx284w16z1po"
-    },
-    {
-      "text": "Brazil sees record fall in Amazon deforestation as key election looms",
-      "hoursAgo": 5,
-      "link": "https://www.bbc.co.uk/news/articles/cqe8rzg6zl00o"
+      "link": "https://www.bbc.co.uk/news/articles/cr86z0w4lxdxo"
     }
   ],
   "launches": [
@@ -197,45 +198,45 @@
   ],
   "companyNews": [
     {
+      "title": "Tesla Roadster owners to get “Flying Stunt Mode” and looping track access",
+      "link": "https://www.teslarati.com/tesla-roadster-autonomous-stunt-sentient-hot-wheels-loop-track/",
+      "date": "Sat, 17 Oct 2026 22:52",
+      "hoursAgo": 9,
+      "source": "Teslarati"
+    },
+    {
+      "title": "How to use Grok Bot to block spam calls and texts",
+      "link": "https://www.teslarati.com/grok-bot-spam-call-text-scrubber-elon-musk/",
+      "date": "Sat, 17 Oct 2026 15:22",
+      "hoursAgo": 17,
+      "source": "Teslarati"
+    },
+    {
       "title": "Tesla’s flying Roadster just revealed something bigger than the car",
       "link": "https://www.teslarati.com/tesla-spacex-roadster-tech-merger/",
       "date": "Fri, 16 Oct 2026 16:13",
-      "hoursAgo": 16,
+      "hoursAgo": 40,
       "source": "Teslarati"
     },
     {
       "title": "How Tesla’s Roadster fan system and thrusters are built to dominate the corners",
       "link": "https://www.teslarati.com/tesla-roadster-downforce-fan-system/",
       "date": "Fri, 16 Oct 2026 04:04",
-      "hoursAgo": 28,
+      "hoursAgo": 52,
       "source": "Teslarati"
     },
     {
       "title": "Tesla Roadster: Three configs, one can fly, 0-60 in 0.8 seconds",
       "link": "https://www.teslarati.com/tesla-roadster-specs-configurations/",
       "date": "Fri, 16 Oct 2026 02:04",
-      "hoursAgo": 30,
+      "hoursAgo": 54,
       "source": "Teslarati"
     },
     {
       "title": "Amazon shuts out Elon Musk’s Grok Bot so he may just build his own rival store",
       "link": "https://www.teslarati.com/elon-musk-grok-bot-amazon-shopping/",
       "date": "Thu, 15 Oct 2026 19:35",
-      "hoursAgo": 36,
-      "source": "Teslarati"
-    },
-    {
-      "title": "Elon Musk says Tesla’s Roadster demo could be a bang, quite literally",
-      "link": "https://www.teslarati.com/elon-musk-tesla-roadster-demo-tease/",
-      "date": "Thu, 15 Oct 2026 16:08",
-      "hoursAgo": 40,
-      "source": "Teslarati"
-    },
-    {
-      "title": "Elon Musk breaks his silence on the Starlink impact to Ukraine drones",
-      "link": "https://www.teslarati.com/elon-musk-starshield-vs-starlink-ukraine/",
-      "date": "Thu, 15 Oct 2026 04:49",
-      "hoursAgo": 51,
+      "hoursAgo": 60,
       "source": "Teslarati"
     }
   ],
