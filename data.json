@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-18T10:33+02:00",
+  "updatedAt": "2026-10-19T11:35+02:00",
   "stocks": {
     "TSLA": {
       "price": 354.72,
@@ -8,7 +8,7 @@
       "change_1m": -5.48,
       "change_12m": -17.27,
       "change_3y": 39.19,
-      "updated": "2026-10-18T08:32:59.390149"
+      "updated": "2026-10-19T09:35:45.579865"
     },
     "NVDA": {
       "price": 214.13,
@@ -17,7 +17,7 @@
       "change_1m": -5.83,
       "change_12m": 18.06,
       "change_3y": 388.8,
-      "updated": "2026-10-18T08:32:59.390291"
+      "updated": "2026-10-19T09:35:45.580064"
     },
     "MU": {
       "price": 878.84,
@@ -26,50 +26,50 @@
       "change_1m": -15.8,
       "change_12m": 334.42,
       "change_3y": 1185.97,
-      "updated": "2026-10-18T08:32:59.390400"
+      "updated": "2026-10-19T09:35:45.580265"
     }
   },
   "news": [
     {
+      "title": "SpaceX’s biggest earnings test yet lands Tuesday, and Tesla shareholders should be watching",
+      "link": "https://www.teslarati.com/spacex-q3-earnings-preview/",
+      "date": "Mon, 19 Oct 2026 04:34",
+      "hoursAgo": 5,
+      "source": "Teslarati"
+    },
+    {
+      "title": "SpaceX’s Gwynne Shotwell just made a quiet gesture toward Tesla",
+      "link": "https://www.teslarati.com/spacex-tesla-gwynne-shotwell-x-follow/",
+      "date": "Sun, 18 Oct 2026 20:04",
+      "hoursAgo": 13,
+      "source": "Teslarati"
+    },
+    {
       "title": "Tesla Roadster owners to get “Flying Stunt Mode” and looping track access",
       "link": "https://www.teslarati.com/tesla-roadster-autonomous-stunt-sentient-hot-wheels-loop-track/",
       "date": "Sat, 17 Oct 2026 22:52",
-      "hoursAgo": 9,
+      "hoursAgo": 34,
       "source": "Teslarati"
     },
     {
       "title": "How to use Grok Bot to block spam calls and texts",
       "link": "https://www.teslarati.com/grok-bot-spam-call-text-scrubber-elon-musk/",
       "date": "Sat, 17 Oct 2026 15:22",
-      "hoursAgo": 17,
+      "hoursAgo": 42,
       "source": "Teslarati"
     },
     {
       "title": "Tesla’s flying Roadster just revealed something bigger than the car",
       "link": "https://www.teslarati.com/tesla-spacex-roadster-tech-merger/",
       "date": "Fri, 16 Oct 2026 16:13",
-      "hoursAgo": 40,
+      "hoursAgo": 65,
       "source": "Teslarati"
     },
     {
       "title": "How Tesla’s Roadster fan system and thrusters are built to dominate the corners",
       "link": "https://www.teslarati.com/tesla-roadster-downforce-fan-system/",
       "date": "Fri, 16 Oct 2026 04:04",
-      "hoursAgo": 52,
-      "source": "Teslarati"
-    },
-    {
-      "title": "Tesla Roadster: Three configs, one can fly, 0-60 in 0.8 seconds",
-      "link": "https://www.teslarati.com/tesla-roadster-specs-configurations/",
-      "date": "Fri, 16 Oct 2026 02:04",
-      "hoursAgo": 54,
-      "source": "Teslarati"
-    },
-    {
-      "title": "Amazon shuts out Elon Musk’s Grok Bot so he may just build his own rival store",
-      "link": "https://www.teslarati.com/elon-musk-grok-bot-amazon-shopping/",
-      "date": "Thu, 15 Oct 2026 19:35",
-      "hoursAgo": 60,
+      "hoursAgo": 77,
       "source": "Teslarati"
     }
   ],
@@ -77,88 +77,88 @@
   "roasts": [],
   "weather": {
     "+1h": {
-      "temp": 13.7,
-      "condition": "Overcast",
-      "wind_speed": 14.3,
-      "wind_dir_deg": 161,
-      "cloud": 100,
+      "temp": 10.5,
+      "condition": "Clear",
+      "wind_speed": 4.6,
+      "wind_dir_deg": 216,
+      "cloud": 8,
       "rain": 0.0
     },
     "+3h": {
-      "temp": 13.5,
-      "condition": "Mixed",
-      "wind_speed": 13.7,
-      "wind_dir_deg": 158,
-      "cloud": 80,
-      "rain": 0.1
+      "temp": 10.2,
+      "condition": "Mainly clear",
+      "wind_speed": 3.4,
+      "wind_dir_deg": 227,
+      "cloud": 29,
+      "rain": 0.0
     },
     "+6h": {
-      "temp": 13.2,
-      "condition": "Partly cloudy",
-      "wind_speed": 15.3,
-      "wind_dir_deg": 162,
-      "cloud": 52,
+      "temp": 9.6,
+      "condition": "Clear",
+      "wind_speed": 3.4,
+      "wind_dir_deg": 223,
+      "cloud": 13,
       "rain": 0.0
     },
     "+12h": {
-      "temp": 15.6,
-      "condition": "Overcast",
-      "wind_speed": 16.6,
-      "wind_dir_deg": 184,
-      "cloud": 100,
+      "temp": 16.9,
+      "condition": "Mainly clear",
+      "wind_speed": 14.2,
+      "wind_dir_deg": 263,
+      "cloud": 39,
       "rain": 0.0
     },
     "+24h": {
-      "temp": 10.5,
+      "temp": 11.5,
       "condition": "Clear",
-      "wind_speed": 5.2,
-      "wind_dir_deg": 205,
+      "wind_speed": 0.9,
+      "wind_dir_deg": 191,
       "cloud": 1,
       "rain": 0.0
     }
   },
   "keyNumbers": {
-    "usdZar": "16.48",
+    "usdZar": "16.46",
     "usdZarWeek": "-1.1%",
     "usdZarLabel": "rand stronger",
-    "btc": "81609",
-    "btcWeek": "-1.1%",
-    "jse": "+0.7%",
+    "btc": "82960",
+    "btcWeek": "+0.1%",
+    "jse": "-0.8%",
     "sp500": "-1.1%",
-    "keyEvent": "TSLA earnings in 3 days"
+    "keyEvent": "TSLA earnings in 2 days"
   },
   "worldEvents": [
     {
-      "text": "Violent clashes, looting and buildings ablaze in France as more than 1,200 arrested after protests",
-      "hoursAgo": 2,
-      "link": "https://www.bbc.co.uk/news/articles/c6d937wedj7jo"
+      "text": "Katya Adler: France's government under pressure after weekend of widespread violence",
+      "hoursAgo": 1,
+      "link": "https://www.bbc.co.uk/news/articles/crwyd02yz22vo"
     },
     {
-      "text": "Photos show luxury boat with 50m pool and water slides near Kim Jong Un's summer retreat",
+      "text": "Inside the shadowy world of anti-Putin sabotage from within Russia",
+      "hoursAgo": 9,
+      "link": "https://www.bbc.co.uk/news/articles/c6pwgzkj8zzgo"
+    },
+    {
+      "text": "Major fire at Canada military base leaves four dead, dozens injured",
       "hoursAgo": 10,
-      "link": "https://www.bbc.co.uk/news/articles/cmy4xnyyg1lyo"
+      "link": "https://www.bbc.co.uk/news/articles/cxj0ly1m3q81o"
     },
     {
-      "text": "A wave of homemade, synthetic drugs sweeps US and deepens crisis",
+      "text": "Funding shortages force World Food Programme to cut aid to Gaza",
       "hoursAgo": 3,
-      "link": "https://www.bbc.co.uk/news/articles/cmx2wvyv5j17o"
+      "link": "https://www.bbc.co.uk/news/articles/cm79plrvpl4vo"
     },
     {
-      "text": "European diplomats attacked by Israeli settlers in West Bank",
-      "hoursAgo": 8,
-      "link": "https://www.bbc.co.uk/news/articles/c962ydpmjm3zo"
-    },
-    {
-      "text": "Several dead or injured in major fire at Canada military base",
-      "hoursAgo": 0,
-      "link": "https://www.bbc.co.uk/news/articles/cr86z0w4lxdxo"
+      "text": "Kenya pastor accused of ordering parents to starve their children to death faces verdict",
+      "hoursAgo": 5,
+      "link": "https://www.bbc.co.uk/news/articles/ckd6d2l3dz4xo"
     }
   ],
   "launches": [
     {
       "name": "Falcon 9 Block 5 | Bandwagon 5 (Dedicated Mid-Inclination Rideshare)",
-      "date": "Monday 19 October 12h30",
-      "dateISO": "2026-10-19T10:30:00Z",
+      "date": "Tuesday 20 October 12h30",
+      "dateISO": "2026-10-20T10:30:00Z",
       "details": "Space Launch Complex 40 - Cape Canaveral SFS, FL, USA",
       "highlight": false,
       "link": "https://spacelaunchnow.me/launch/falcon-9-block-5-bandwagon-5-dedicated-mid-inclina"
@@ -198,45 +198,45 @@
   ],
   "companyNews": [
     {
+      "title": "SpaceX’s biggest earnings test yet lands Tuesday, and Tesla shareholders should be watching",
+      "link": "https://www.teslarati.com/spacex-q3-earnings-preview/",
+      "date": "Mon, 19 Oct 2026 04:34",
+      "hoursAgo": 5,
+      "source": "Teslarati"
+    },
+    {
+      "title": "SpaceX’s Gwynne Shotwell just made a quiet gesture toward Tesla",
+      "link": "https://www.teslarati.com/spacex-tesla-gwynne-shotwell-x-follow/",
+      "date": "Sun, 18 Oct 2026 20:04",
+      "hoursAgo": 13,
+      "source": "Teslarati"
+    },
+    {
       "title": "Tesla Roadster owners to get “Flying Stunt Mode” and looping track access",
       "link": "https://www.teslarati.com/tesla-roadster-autonomous-stunt-sentient-hot-wheels-loop-track/",
       "date": "Sat, 17 Oct 2026 22:52",
-      "hoursAgo": 9,
+      "hoursAgo": 34,
       "source": "Teslarati"
     },
     {
       "title": "How to use Grok Bot to block spam calls and texts",
       "link": "https://www.teslarati.com/grok-bot-spam-call-text-scrubber-elon-musk/",
       "date": "Sat, 17 Oct 2026 15:22",
-      "hoursAgo": 17,
+      "hoursAgo": 42,
       "source": "Teslarati"
     },
     {
       "title": "Tesla’s flying Roadster just revealed something bigger than the car",
       "link": "https://www.teslarati.com/tesla-spacex-roadster-tech-merger/",
       "date": "Fri, 16 Oct 2026 16:13",
-      "hoursAgo": 40,
+      "hoursAgo": 65,
       "source": "Teslarati"
     },
     {
       "title": "How Tesla’s Roadster fan system and thrusters are built to dominate the corners",
       "link": "https://www.teslarati.com/tesla-roadster-downforce-fan-system/",
       "date": "Fri, 16 Oct 2026 04:04",
-      "hoursAgo": 52,
-      "source": "Teslarati"
-    },
-    {
-      "title": "Tesla Roadster: Three configs, one can fly, 0-60 in 0.8 seconds",
-      "link": "https://www.teslarati.com/tesla-roadster-specs-configurations/",
-      "date": "Fri, 16 Oct 2026 02:04",
-      "hoursAgo": 54,
-      "source": "Teslarati"
-    },
-    {
-      "title": "Amazon shuts out Elon Musk’s Grok Bot so he may just build his own rival store",
-      "link": "https://www.teslarati.com/elon-musk-grok-bot-amazon-shopping/",
-      "date": "Thu, 15 Oct 2026 19:35",
-      "hoursAgo": 60,
+      "hoursAgo": 77,
       "source": "Teslarati"
     }
   ],
