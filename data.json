@@ -1,32 +1,32 @@
 {
-  "updatedAt": "2026-10-19T21:22+02:00",
+  "updatedAt": "2026-10-20T01:47+02:00",
   "stocks": {
     "TSLA": {
-      "price": 368.2,
-      "change_1d": 3.8,
-      "change_3d": 1.59,
-      "change_1m": -2.82,
-      "change_12m": -16.19,
-      "change_3y": 67.28,
-      "updated": "2026-10-19T19:22:18.232326"
+      "price": 368.06,
+      "change_1d": 3.76,
+      "change_3d": 1.55,
+      "change_1m": -2.86,
+      "change_12m": -16.22,
+      "change_3y": 73.62,
+      "updated": "2026-10-19T23:47:10.014211"
     },
     "NVDA": {
-      "price": 217.7,
-      "change_1d": 1.67,
-      "change_3d": 0.22,
-      "change_1m": -4.88,
-      "change_12m": 19.1,
-      "change_3y": 418.63,
-      "updated": "2026-10-19T19:22:18.232467"
+      "price": 217.09,
+      "change_1d": 1.38,
+      "change_3d": -0.06,
+      "change_1m": -5.15,
+      "change_12m": 18.77,
+      "change_3y": 426.1,
+      "updated": "2026-10-19T23:47:10.014317"
     },
     "MU": {
-      "price": 908.98,
-      "change_1d": 3.43,
-      "change_3d": -2.39,
-      "change_1m": -17.06,
-      "change_12m": 349.66,
-      "change_3y": 1259.03,
-      "updated": "2026-10-19T19:22:18.232578"
+      "price": 904.9,
+      "change_1d": 2.97,
+      "change_3d": -2.83,
+      "change_1m": -17.44,
+      "change_12m": 347.64,
+      "change_3y": 1259.17,
+      "updated": "2026-10-19T23:47:10.014390"
     }
   },
   "news": [
@@ -34,42 +34,42 @@
       "title": "Elon Musk will give ‘every kid in America’ a SpaceX share in 2027",
       "link": "https://www.teslarati.com/elon-musk-every-kid-america-spacex-share-2027/",
       "date": "Mon, 19 Oct 2026 17:48",
-      "hoursAgo": 1,
+      "hoursAgo": 5,
       "source": "Teslarati"
     },
     {
       "title": "Elon Musk reveals why Boring Co’s biggest East Coast project never happened",
       "link": "https://www.teslarati.com/elon-musk-reveals-why-boring-cos-biggest-east-coast-project-never-happened/",
       "date": "Mon, 19 Oct 2026 17:13",
-      "hoursAgo": 2,
+      "hoursAgo": 6,
       "source": "Teslarati"
     },
     {
       "title": "Tesla CEO Elon Musk reminds everyone about Roadster’s true meaning",
       "link": "https://www.teslarati.com/tesla-ceo-elon-musk-reminds-everyone-roadster-true-meaning/",
       "date": "Mon, 19 Oct 2026 15:24",
-      "hoursAgo": 3,
+      "hoursAgo": 8,
       "source": "Teslarati"
     },
     {
       "title": "SpaceX’s biggest earnings test yet lands Tuesday, and Tesla shareholders should be watching",
       "link": "https://www.teslarati.com/spacex-q3-earnings-preview/",
       "date": "Mon, 19 Oct 2026 04:34",
-      "hoursAgo": 14,
+      "hoursAgo": 19,
       "source": "Teslarati"
     },
     {
       "title": "SpaceX’s Gwynne Shotwell just made a quiet gesture toward Tesla",
       "link": "https://www.teslarati.com/spacex-tesla-gwynne-shotwell-x-follow/",
       "date": "Sun, 18 Oct 2026 20:04",
-      "hoursAgo": 23,
+      "hoursAgo": 27,
       "source": "Teslarati"
     },
     {
       "title": "Tesla Roadster owners to get “Flying Stunt Mode” and looping track access",
       "link": "https://www.teslarati.com/tesla-roadster-autonomous-stunt-sentient-hot-wheels-loop-track/",
       "date": "Sat, 17 Oct 2026 22:52",
-      "hoursAgo": 44,
+      "hoursAgo": 48,
       "source": "Teslarati"
     }
   ],
@@ -77,81 +77,81 @@
   "roasts": [],
   "weather": {
     "+1h": {
-      "temp": 10.5,
+      "temp": 10.8,
       "condition": "Clear",
-      "wind_speed": 4.6,
-      "wind_dir_deg": 216,
-      "cloud": 8,
+      "wind_speed": 0.2,
+      "wind_dir_deg": 180,
+      "cloud": 4,
       "rain": 0.0
     },
     "+3h": {
-      "temp": 10.2,
-      "condition": "Mainly clear",
-      "wind_speed": 3.4,
-      "wind_dir_deg": 227,
-      "cloud": 29,
+      "temp": 9.8,
+      "condition": "Clear",
+      "wind_speed": 0.2,
+      "wind_dir_deg": 180,
+      "cloud": 2,
       "rain": 0.0
     },
     "+6h": {
-      "temp": 9.6,
-      "condition": "Clear",
-      "wind_speed": 3.4,
-      "wind_dir_deg": 223,
-      "cloud": 13,
+      "temp": 8.6,
+      "condition": "Partly cloudy",
+      "wind_speed": 0.9,
+      "wind_dir_deg": 53,
+      "cloud": 51,
       "rain": 0.0
     },
     "+12h": {
-      "temp": 17.0,
-      "condition": "Partly cloudy",
-      "wind_speed": 13.0,
-      "wind_dir_deg": 260,
-      "cloud": 73,
+      "temp": 16.6,
+      "condition": "Overcast",
+      "wind_speed": 13.7,
+      "wind_dir_deg": 302,
+      "cloud": 100,
       "rain": 0.0
     },
     "+24h": {
-      "temp": 11.5,
-      "condition": "Clear",
-      "wind_speed": 0.6,
-      "wind_dir_deg": 198,
-      "cloud": 0,
-      "rain": 0.0
+      "temp": 14.2,
+      "condition": "Mixed",
+      "wind_speed": 21.6,
+      "wind_dir_deg": 342,
+      "cloud": 100,
+      "rain": 0.3
     }
   },
   "keyNumbers": {
-    "usdZar": "16.51",
-    "usdZarWeek": "-0.8%",
+    "usdZar": "16.42",
+    "usdZarWeek": "-0.7%",
     "usdZarLabel": "rand stronger",
-    "btc": "81794",
-    "btcWeek": "-1.3%",
-    "jse": "-1.7%",
-    "sp500": "+0.6%",
-    "keyEvent": "TSLA earnings in 2 days"
+    "btc": "81960",
+    "btcWeek": "-1.1%",
+    "jse": "+0.7%",
+    "sp500": "+0.4%",
+    "keyEvent": "TSLA earnings tomorrow"
   },
   "worldEvents": [
     {
-      "text": "Australian MP critically injured after being hit by car in apparent attack",
-      "hoursAgo": 5,
-      "link": "https://www.bbc.co.uk/news/articles/cwp9g43g2p07o"
+      "text": "Curfew imposed in parts of central Paris and other cities after rioting across France",
+      "hoursAgo": 2,
+      "link": "https://www.bbc.co.uk/news/articles/cx30ez03djyqo"
     },
     {
       "text": "Ukrainians dying because US restricting intelligence sharing, Zelensky adviser tells BBC",
-      "hoursAgo": 0,
+      "hoursAgo": 2,
       "link": "https://www.bbc.co.uk/news/articles/cmj47yx572z5o"
     },
     {
       "text": "Kenya cult leader who told parents to starve children guilty of 191 murders",
-      "hoursAgo": 2,
+      "hoursAgo": 6,
       "link": "https://www.bbc.co.uk/news/articles/ckd6d2l3dz4xo"
     },
     {
-      "text": "Ex-OpenAI worker accused of planting device had Saudi support says court filing",
-      "hoursAgo": 3,
-      "link": "https://www.bbc.co.uk/news/articles/c6gel2dlyxvyo"
+      "text": "Tennis star Svitolina says emotional toll of Ukraine war led to Monfils separation",
+      "hoursAgo": 2,
+      "link": "https://www.bbc.co.uk/news/articles/ckd7qy12j148o"
     },
     {
-      "text": "Alberta heads to polls to decide whether to hold vote on separation from Canada",
-      "hoursAgo": 5,
-      "link": "https://www.bbc.co.uk/news/articles/cxvgd0ymgzgyo"
+      "text": "Five ways El Niño is affecting the weather around the world",
+      "hoursAgo": 0,
+      "link": "https://www.bbc.co.uk/weather/articles/c6dx07dznpyyo"
     }
   ],
   "launches": [
@@ -165,8 +165,8 @@
     },
     {
       "name": "Falcon 9 Block 5 | Starlink Group 15-15",
-      "date": "Wednesday 21 October 00h14",
-      "dateISO": "2026-10-20T22:14:00Z",
+      "date": "Wednesday 21 October 01h09",
+      "dateISO": "2026-10-20T23:09:23Z",
       "details": "Space Launch Complex 4E - Vandenberg SFB, CA, USA",
       "highlight": false,
       "link": "https://spacelaunchnow.me/launch/falcon-9-block-5-starlink-group-15-15"
@@ -201,42 +201,42 @@
       "title": "Elon Musk will give ‘every kid in America’ a SpaceX share in 2027",
       "link": "https://www.teslarati.com/elon-musk-every-kid-america-spacex-share-2027/",
       "date": "Mon, 19 Oct 2026 17:48",
-      "hoursAgo": 1,
+      "hoursAgo": 5,
       "source": "Teslarati"
     },
     {
       "title": "Elon Musk reveals why Boring Co’s biggest East Coast project never happened",
       "link": "https://www.teslarati.com/elon-musk-reveals-why-boring-cos-biggest-east-coast-project-never-happened/",
       "date": "Mon, 19 Oct 2026 17:13",
-      "hoursAgo": 2,
+      "hoursAgo": 6,
       "source": "Teslarati"
     },
     {
       "title": "Tesla CEO Elon Musk reminds everyone about Roadster’s true meaning",
       "link": "https://www.teslarati.com/tesla-ceo-elon-musk-reminds-everyone-roadster-true-meaning/",
       "date": "Mon, 19 Oct 2026 15:24",
-      "hoursAgo": 3,
+      "hoursAgo": 8,
       "source": "Teslarati"
     },
     {
       "title": "SpaceX’s biggest earnings test yet lands Tuesday, and Tesla shareholders should be watching",
       "link": "https://www.teslarati.com/spacex-q3-earnings-preview/",
       "date": "Mon, 19 Oct 2026 04:34",
-      "hoursAgo": 14,
+      "hoursAgo": 19,
       "source": "Teslarati"
     },
     {
       "title": "SpaceX’s Gwynne Shotwell just made a quiet gesture toward Tesla",
       "link": "https://www.teslarati.com/spacex-tesla-gwynne-shotwell-x-follow/",
       "date": "Sun, 18 Oct 2026 20:04",
-      "hoursAgo": 23,
+      "hoursAgo": 27,
       "source": "Teslarati"
     },
     {
       "title": "Tesla Roadster owners to get “Flying Stunt Mode” and looping track access",
       "link": "https://www.teslarati.com/tesla-roadster-autonomous-stunt-sentient-hot-wheels-loop-track/",
       "date": "Sat, 17 Oct 2026 22:52",
-      "hoursAgo": 44,
+      "hoursAgo": 48,
       "source": "Teslarati"
     }
   ],
