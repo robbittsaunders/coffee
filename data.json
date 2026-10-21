@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-20T23:43+02:00",
+  "updatedAt": "2026-10-21T11:07+02:00",
   "stocks": {
     "TSLA": {
       "price": 373.71,
@@ -8,7 +8,7 @@
       "change_1m": -1.69,
       "change_12m": -16.48,
       "change_3y": 76.21,
-      "updated": "2026-10-20T21:43:05.783769"
+      "updated": "2026-10-21T09:07:17.830549"
     },
     "NVDA": {
       "price": 216.47,
@@ -17,7 +17,7 @@
       "change_1m": -4.01,
       "change_12m": 18.81,
       "change_3y": 405.22,
-      "updated": "2026-10-20T21:43:05.784007"
+      "updated": "2026-10-21T09:07:17.830645"
     },
     "MU": {
       "price": 896.07,
@@ -26,50 +26,50 @@
       "change_1m": -16.39,
       "change_12m": 333.86,
       "change_3y": 1252.75,
-      "updated": "2026-10-20T21:43:05.784195"
+      "updated": "2026-10-21T09:07:17.830717"
     }
   },
   "news": [
     {
+      "title": "SpaceX showcases exactly how it plans to catch Starship next month",
+      "link": "https://www.teslarati.com/spacex-starship-tower-catch-flight-15/",
+      "date": "Wed, 21 Oct 2026 04:44",
+      "hoursAgo": 4,
+      "source": "Teslarati"
+    },
+    {
+      "title": "Elon Musk just confirmed the Tesla and SpaceX merger step everyone was waiting for",
+      "link": "https://www.teslarati.com/elon-musk-tesla-spacex-merger-committee/",
+      "date": "Tue, 20 Oct 2026 23:13",
+      "hoursAgo": 9,
+      "source": "Teslarati"
+    },
+    {
       "title": "SpaceX delivers blockbuster Q3 results as Super Intelligence segment booms",
       "link": "https://www.teslarati.com/spacex-spcx-delivers-blockbuster-q3-results-super-intelligence-booms/",
       "date": "Tue, 20 Oct 2026 20:53",
-      "hoursAgo": 0,
+      "hoursAgo": 12,
       "source": "Teslarati"
     },
     {
       "title": "SpaceX reports its second earnings today: here’s what to expect",
       "link": "https://www.teslarati.com/spacex-spcx-reports-first-earnings-what-to-expect/",
       "date": "Tue, 20 Oct 2026 17:28",
-      "hoursAgo": 4,
+      "hoursAgo": 15,
       "source": "Teslarati"
     },
     {
       "title": "SpaceX just launched its secret Starfall saucer again",
       "link": "https://www.teslarati.com/spacex-starfall-capsule-launch-bandwagon-5/",
       "date": "Tue, 20 Oct 2026 16:10",
-      "hoursAgo": 5,
+      "hoursAgo": 16,
       "source": "Teslarati"
     },
     {
       "title": "The Boring Company’s latest Tesla tunnel truck mod “fits like a glove”",
       "link": "https://www.teslarati.com/boring-company-tesla-truck-freight-container/",
       "date": "Tue, 20 Oct 2026 05:07",
-      "hoursAgo": 16,
-      "source": "Teslarati"
-    },
-    {
-      "title": "Elon Musk will give ‘every kid in America’ a SpaceX share in 2027",
-      "link": "https://www.teslarati.com/elon-musk-every-kid-america-spacex-share-2027/",
-      "date": "Mon, 19 Oct 2026 17:48",
       "hoursAgo": 27,
-      "source": "Teslarati"
-    },
-    {
-      "title": "Elon Musk reveals why Boring Co’s biggest East Coast project never happened",
-      "link": "https://www.teslarati.com/elon-musk-reveals-why-boring-cos-biggest-east-coast-project-never-happened/",
-      "date": "Mon, 19 Oct 2026 17:13",
-      "hoursAgo": 28,
       "source": "Teslarati"
     }
   ],
@@ -77,88 +77,88 @@
   "roasts": [],
   "weather": {
     "+1h": {
-      "temp": 10.8,
-      "condition": "Clear",
-      "wind_speed": 0.7,
-      "wind_dir_deg": 76,
-      "cloud": 16,
-      "rain": 0.0
+      "temp": 13.1,
+      "condition": "Mixed",
+      "wind_speed": 23.7,
+      "wind_dir_deg": 347,
+      "cloud": 100,
+      "rain": 1.1
     },
     "+3h": {
-      "temp": 9.9,
-      "condition": "Clear",
-      "wind_speed": 0.6,
-      "wind_dir_deg": 214,
-      "cloud": 5,
-      "rain": 0.0
+      "temp": 14.2,
+      "condition": "Mixed",
+      "wind_speed": 23.8,
+      "wind_dir_deg": 338,
+      "cloud": 100,
+      "rain": 0.2
     },
     "+6h": {
-      "temp": 8.4,
-      "condition": "Clear",
-      "wind_speed": 2.2,
-      "wind_dir_deg": 24,
-      "cloud": 3,
-      "rain": 0.0
+      "temp": 14.4,
+      "condition": "Mixed",
+      "wind_speed": 22.7,
+      "wind_dir_deg": 340,
+      "cloud": 100,
+      "rain": 0.7
     },
     "+12h": {
-      "temp": 15.1,
-      "condition": "Overcast",
-      "wind_speed": 12.7,
-      "wind_dir_deg": 317,
-      "cloud": 100,
-      "rain": 0.0
+      "temp": 17.0,
+      "condition": "Mixed",
+      "wind_speed": 20.6,
+      "wind_dir_deg": 300,
+      "cloud": 79,
+      "rain": 0.6
     },
     "+24h": {
-      "temp": 13.6,
-      "condition": "Light rain",
-      "wind_speed": 23.4,
-      "wind_dir_deg": 348,
+      "temp": 14.8,
+      "condition": "Mixed",
+      "wind_speed": 11.1,
+      "wind_dir_deg": 313,
       "cloud": 100,
-      "rain": 1.3
+      "rain": 0.1
     }
   },
   "keyNumbers": {
-    "usdZar": "16.37",
-    "usdZarWeek": "-0.9%",
+    "usdZar": "16.43",
+    "usdZarWeek": "-1.2%",
     "usdZarLabel": "rand stronger",
-    "btc": "82787",
-    "btcWeek": "-1.1%",
-    "jse": "+1.3%",
+    "btc": "83228",
+    "btcWeek": "+1.8%",
+    "jse": "-0.4%",
     "sp500": "+0.3%",
-    "keyEvent": "TSLA earnings tomorrow"
+    "keyEvent": "TSLA earnings today"
   },
   "worldEvents": [
     {
-      "text": "Zelensky says US intelligence sharing 'works now' after talks with Trump envoy in Oslo",
+      "text": "Zelensky says intelligence sharing 'works now' as US envoy to meet Putin in Russia",
       "hoursAgo": 0,
       "link": "https://www.bbc.co.uk/news/articles/cq5ynkx3xy11o"
     },
     {
-      "text": "Marseille braces for more unrest after protests give way to 'apocalyptic' disorder",
-      "hoursAgo": 9,
-      "link": "https://www.bbc.co.uk/news/articles/cm5ynkk570pno"
-    },
-    {
-      "text": "Man charged with attack on Australia MP to face court",
-      "hoursAgo": 10,
-      "link": "https://www.bbc.co.uk/news/articles/c678pnn9mpgno"
-    },
-    {
-      "text": "Trump and Zelensky appear at loggerheads despite Oslo optimism",
-      "hoursAgo": 1,
+      "text": "Trump and Zelensky appear at loggerheads despite new optimism",
+      "hoursAgo": 13,
       "link": "https://www.bbc.co.uk/news/articles/ckrey51jrgnro"
     },
     {
-      "text": "'Great result for Canada', says Carney as Alberta votes to reject separatism",
-      "hoursAgo": 4,
-      "link": "https://www.bbc.co.uk/news/articles/cxr5yqqd7nlpo"
+      "text": "Katya Adler: France divided over who to blame for riots and what to learn from them",
+      "hoursAgo": 2,
+      "link": "https://www.bbc.co.uk/news/articles/cq0me4g9p970o"
+    },
+    {
+      "text": "Australian MP loses both legs after alleged car attack, husband says",
+      "hoursAgo": 1,
+      "link": "https://www.bbc.co.uk/news/articles/ckwyqdqxw6d0o"
+    },
+    {
+      "text": "Elon Musk confirms he is considering merging Tesla and SpaceX",
+      "hoursAgo": 0,
+      "link": "https://www.bbc.co.uk/news/articles/cmlyl09xjke4o"
     }
   ],
   "launches": [
     {
       "name": "Falcon 9 Block 5 | Starlink Group 15-15",
-      "date": "Wednesday 21 October 01h10",
-      "dateISO": "2026-10-20T23:10:02Z",
+      "date": "Thursday 22 October 01h02",
+      "dateISO": "2026-10-21T23:02:41Z",
       "details": "Space Launch Complex 4E - Vandenberg SFB, CA, USA",
       "highlight": false,
       "link": "https://spacelaunchnow.me/launch/falcon-9-block-5-starlink-group-15-15"
@@ -198,45 +198,45 @@
   ],
   "companyNews": [
     {
+      "title": "SpaceX showcases exactly how it plans to catch Starship next month",
+      "link": "https://www.teslarati.com/spacex-starship-tower-catch-flight-15/",
+      "date": "Wed, 21 Oct 2026 04:44",
+      "hoursAgo": 4,
+      "source": "Teslarati"
+    },
+    {
+      "title": "Elon Musk just confirmed the Tesla and SpaceX merger step everyone was waiting for",
+      "link": "https://www.teslarati.com/elon-musk-tesla-spacex-merger-committee/",
+      "date": "Tue, 20 Oct 2026 23:13",
+      "hoursAgo": 9,
+      "source": "Teslarati"
+    },
+    {
       "title": "SpaceX delivers blockbuster Q3 results as Super Intelligence segment booms",
       "link": "https://www.teslarati.com/spacex-spcx-delivers-blockbuster-q3-results-super-intelligence-booms/",
       "date": "Tue, 20 Oct 2026 20:53",
-      "hoursAgo": 0,
+      "hoursAgo": 12,
       "source": "Teslarati"
     },
     {
       "title": "SpaceX reports its second earnings today: here’s what to expect",
       "link": "https://www.teslarati.com/spacex-spcx-reports-first-earnings-what-to-expect/",
       "date": "Tue, 20 Oct 2026 17:28",
-      "hoursAgo": 4,
+      "hoursAgo": 15,
       "source": "Teslarati"
     },
     {
       "title": "SpaceX just launched its secret Starfall saucer again",
       "link": "https://www.teslarati.com/spacex-starfall-capsule-launch-bandwagon-5/",
       "date": "Tue, 20 Oct 2026 16:10",
-      "hoursAgo": 5,
+      "hoursAgo": 16,
       "source": "Teslarati"
     },
     {
       "title": "The Boring Company’s latest Tesla tunnel truck mod “fits like a glove”",
       "link": "https://www.teslarati.com/boring-company-tesla-truck-freight-container/",
       "date": "Tue, 20 Oct 2026 05:07",
-      "hoursAgo": 16,
-      "source": "Teslarati"
-    },
-    {
-      "title": "Elon Musk will give ‘every kid in America’ a SpaceX share in 2027",
-      "link": "https://www.teslarati.com/elon-musk-every-kid-america-spacex-share-2027/",
-      "date": "Mon, 19 Oct 2026 17:48",
       "hoursAgo": 27,
-      "source": "Teslarati"
-    },
-    {
-      "title": "Elon Musk reveals why Boring Co’s biggest East Coast project never happened",
-      "link": "https://www.teslarati.com/elon-musk-reveals-why-boring-cos-biggest-east-coast-project-never-happened/",
-      "date": "Mon, 19 Oct 2026 17:13",
-      "hoursAgo": 28,
       "source": "Teslarati"
     }
   ],
