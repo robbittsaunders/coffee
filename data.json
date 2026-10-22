@@ -1,75 +1,66 @@
 {
-  "updatedAt": "2026-10-22T20:02+02:00",
+  "updatedAt": "2026-10-22T23:44+02:00",
   "stocks": {
     "TSLA": {
-      "price": 377.65,
-      "change_1d": -2.28,
-      "change_3d": 1.05,
-      "change_1m": 1.49,
-      "change_12m": -13.97,
-      "change_3y": 78.07,
-      "updated": "2026-10-22T18:02:31.881245"
-    },
-    "NVDA": {
-      "price": 212.07,
-      "change_1d": -4.46,
-      "change_3d": -2.03,
-      "change_1m": -5.77,
-      "change_12m": 17.92,
-      "change_3y": 394.96,
-      "updated": "2026-10-22T18:02:31.881440"
+      "price": 374.58,
+      "change_1d": -3.08,
+      "change_3d": 0.23,
+      "change_1m": 0.66,
+      "change_12m": -14.67,
+      "change_3y": 76.62,
+      "updated": "2026-10-22T21:44:22.739229"
     },
     "MU": {
-      "price": 860.0,
-      "change_1d": -5.87,
-      "change_3d": -4.03,
-      "change_1m": -20.53,
-      "change_12m": 333.81,
-      "change_3y": 1198.29,
-      "updated": "2026-10-22T18:02:31.881615"
+      "price": 856.49,
+      "change_1d": -6.26,
+      "change_3d": -4.42,
+      "change_1m": -20.85,
+      "change_12m": 332.04,
+      "change_3y": 1193.0,
+      "updated": "2026-10-22T21:44:22.739584"
     }
   },
   "news": [
     {
+      "title": "Tesla is building its own maps to fix Navigation issues",
+      "link": "https://www.teslarati.com/tesla-building-its-own-maps-fix-navigation-issues/",
+      "date": "Thu, 22 Oct 2026 21:14",
+      "hoursAgo": 0,
+      "source": "Teslarati"
+    },
+    {
       "title": "Tesla buyers are buying for Full Self-Driving and not for the car, data shows",
       "link": "https://www.teslarati.com/tesla-buyers-buying-full-self-driving-not-for-car-data-shows/",
       "date": "Thu, 22 Oct 2026 17:25",
-      "hoursAgo": 0,
+      "hoursAgo": 4,
       "source": "Teslarati"
     },
     {
       "title": "Tesla Cybercab gets a for sale date at last",
       "link": "https://www.teslarati.com/tesla-cybercab-gets-sale-date-at-last/",
       "date": "Thu, 22 Oct 2026 00:51",
-      "hoursAgo": 17,
+      "hoursAgo": 20,
       "source": "Teslarati"
     },
     {
       "title": "Tesla Q3 2026 Earnings results: in-line revenues, slight beat on EPS",
       "link": "https://www.teslarati.com/tesla-tsla-q3-2026-earnings-results/",
       "date": "Wed, 21 Oct 2026 20:09",
-      "hoursAgo": 21,
+      "hoursAgo": 25,
       "source": "Teslarati"
     },
     {
       "title": "Tesla reports Q3 Earnings today: here’s what to expect",
       "link": "https://www.teslarati.com/tesla-tsla-q3-earnings-2026-what-to-expect/",
       "date": "Wed, 21 Oct 2026 16:56",
-      "hoursAgo": 25,
+      "hoursAgo": 28,
       "source": "Teslarati"
     },
     {
       "title": "SpaceX confirms Starship 15 launch window with massive ambitions",
       "link": "https://www.teslarati.com/spacex-confirms-starship-15-launch-window-massive-ambitions/",
       "date": "Wed, 21 Oct 2026 15:15",
-      "hoursAgo": 26,
-      "source": "Teslarati"
-    },
-    {
-      "title": "SpaceX stock gets a slew of price target boosts after bullish earnings call",
-      "link": "https://www.teslarati.com/spacex-spcx-price-target-boosts-bullish-earnings-call/",
-      "date": "Wed, 21 Oct 2026 13:38",
-      "hoursAgo": 28,
+      "hoursAgo": 30,
       "source": "Teslarati"
     }
   ],
@@ -109,48 +100,48 @@
       "rain": 0.0
     },
     "+24h": {
-      "temp": 12.6,
-      "condition": "Overcast",
-      "wind_speed": 3.1,
-      "wind_dir_deg": 135,
-      "cloud": 98,
+      "temp": 12.8,
+      "condition": "Partly cloudy",
+      "wind_speed": 3.2,
+      "wind_dir_deg": 137,
+      "cloud": 61,
       "rain": 0.0
     }
   },
   "keyNumbers": {
-    "usdZar": "16.39",
-    "usdZarWeek": "-1.2%",
+    "usdZar": "16.48",
+    "usdZarWeek": "-0.7%",
     "usdZarLabel": "rand stronger",
-    "btc": "81018",
-    "btcWeek": "-2.5%",
+    "btc": "81401",
+    "btcWeek": "-2.0%",
     "jse": "-1.0%",
-    "sp500": "-1.5%"
+    "sp500": "-1.2%"
   },
   "worldEvents": [
     {
       "text": "Newborn twins fight for survival as conflict fuels Yemen's hunger crisis",
-      "hoursAgo": 2,
+      "hoursAgo": 5,
       "link": "https://www.bbc.co.uk/news/articles/cr5ynl63v0pyo"
     },
     {
       "text": "Race to update services' computer systems after cyber-security flaw found",
-      "hoursAgo": 0,
+      "hoursAgo": 4,
       "link": "https://www.bbc.co.uk/news/articles/c9j34zgmkxx1o"
     },
     {
       "text": "Trump ordered to answer questions under oath in BBC lawsuit",
-      "hoursAgo": 0,
+      "hoursAgo": 4,
       "link": "https://www.bbc.co.uk/news/articles/cmy0ryjx7741o"
     },
     {
-      "text": "Crowd of 50 beats foreigner to death in South Africa",
-      "hoursAgo": 1,
-      "link": "https://www.bbc.co.uk/news/articles/ck5yn9z3vnego"
+      "text": "Trump says Musk has restored Ukraine's internet access",
+      "hoursAgo": 0,
+      "link": "https://www.bbc.co.uk/news/articles/cq74pjpmx0e8o"
     },
     {
-      "text": "Germany target of 'intensive' espionage, Merz says after suspected Russian spy arrest",
-      "hoursAgo": 0,
-      "link": "https://www.bbc.co.uk/news/articles/cmx28y5e04ggo"
+      "text": "Crowd of 50 beats foreigner to death in South Africa",
+      "hoursAgo": 5,
+      "link": "https://www.bbc.co.uk/news/articles/ck5yn9z3vnego"
     }
   ],
   "launches": [
@@ -197,45 +188,45 @@
   ],
   "companyNews": [
     {
+      "title": "Tesla is building its own maps to fix Navigation issues",
+      "link": "https://www.teslarati.com/tesla-building-its-own-maps-fix-navigation-issues/",
+      "date": "Thu, 22 Oct 2026 21:14",
+      "hoursAgo": 0,
+      "source": "Teslarati"
+    },
+    {
       "title": "Tesla buyers are buying for Full Self-Driving and not for the car, data shows",
       "link": "https://www.teslarati.com/tesla-buyers-buying-full-self-driving-not-for-car-data-shows/",
       "date": "Thu, 22 Oct 2026 17:25",
-      "hoursAgo": 0,
+      "hoursAgo": 4,
       "source": "Teslarati"
     },
     {
       "title": "Tesla Cybercab gets a for sale date at last",
       "link": "https://www.teslarati.com/tesla-cybercab-gets-sale-date-at-last/",
       "date": "Thu, 22 Oct 2026 00:51",
-      "hoursAgo": 17,
+      "hoursAgo": 20,
       "source": "Teslarati"
     },
     {
       "title": "Tesla Q3 2026 Earnings results: in-line revenues, slight beat on EPS",
       "link": "https://www.teslarati.com/tesla-tsla-q3-2026-earnings-results/",
       "date": "Wed, 21 Oct 2026 20:09",
-      "hoursAgo": 21,
+      "hoursAgo": 25,
       "source": "Teslarati"
     },
     {
       "title": "Tesla reports Q3 Earnings today: here’s what to expect",
       "link": "https://www.teslarati.com/tesla-tsla-q3-earnings-2026-what-to-expect/",
       "date": "Wed, 21 Oct 2026 16:56",
-      "hoursAgo": 25,
+      "hoursAgo": 28,
       "source": "Teslarati"
     },
     {
       "title": "SpaceX confirms Starship 15 launch window with massive ambitions",
       "link": "https://www.teslarati.com/spacex-confirms-starship-15-launch-window-massive-ambitions/",
       "date": "Wed, 21 Oct 2026 15:15",
-      "hoursAgo": 26,
-      "source": "Teslarati"
-    },
-    {
-      "title": "SpaceX stock gets a slew of price target boosts after bullish earnings call",
-      "link": "https://www.teslarati.com/spacex-spcx-price-target-boosts-bullish-earnings-call/",
-      "date": "Wed, 21 Oct 2026 13:38",
-      "hoursAgo": 28,
+      "hoursAgo": 30,
       "source": "Teslarati"
     }
   ],
