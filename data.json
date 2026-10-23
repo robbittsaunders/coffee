@@ -1,75 +1,75 @@
 {
-  "updatedAt": "2026-10-23T11:06+02:00",
+  "updatedAt": "2026-10-23T19:54+02:00",
   "stocks": {
     "TSLA": {
-      "price": 374.58,
-      "change_1d": -3.08,
-      "change_3d": 0.23,
-      "change_1m": 0.66,
-      "change_12m": -14.67,
-      "change_3y": 76.62,
-      "updated": "2026-10-23T09:06:22.223629"
+      "price": 371.58,
+      "change_1d": -0.8,
+      "change_3d": -3.85,
+      "change_1m": 3.95,
+      "change_12m": -17.24,
+      "change_3y": 75.21,
+      "updated": "2026-10-23T17:53:57.255271"
     },
     "NVDA": {
-      "price": 212.21,
-      "change_1d": -4.4,
-      "change_3d": -1.97,
-      "change_1m": -5.71,
-      "change_12m": 17.99,
-      "change_3y": 395.27,
-      "updated": "2026-10-23T09:06:22.223829"
+      "price": 211.91,
+      "change_1d": -0.14,
+      "change_3d": -4.53,
+      "change_1m": -7.41,
+      "change_12m": 16.61,
+      "change_3y": 394.57,
+      "updated": "2026-10-23T17:53:57.255377"
     },
     "MU": {
-      "price": 856.49,
-      "change_1d": -6.26,
-      "change_3d": -4.42,
-      "change_1m": -20.85,
-      "change_12m": 332.04,
-      "change_3y": 1193.0,
-      "updated": "2026-10-23T09:06:22.224057"
+      "price": 885.21,
+      "change_1d": 3.35,
+      "change_3d": -3.11,
+      "change_1m": -16.0,
+      "change_12m": 328.72,
+      "change_3y": 1236.35,
+      "updated": "2026-10-23T17:53:57.255463"
     }
   },
   "news": [
     {
+      "title": "Tesla reveals Optimus Academy, where robots teach themselves",
+      "link": "https://www.teslarati.com/tesla-reveals-optimus-academy-where-robots-teach-themselves/",
+      "date": "Fri, 23 Oct 2026 17:11",
+      "hoursAgo": 0,
+      "source": "Teslarati"
+    },
+    {
       "title": "The Starship moon landing number NASA and Elon Musk can’t agree on",
       "link": "https://www.teslarati.com/elon-musk-nasa-starship-moon-landing/",
       "date": "Fri, 23 Oct 2026 03:51",
-      "hoursAgo": 5,
+      "hoursAgo": 14,
       "source": "Teslarati"
     },
     {
       "title": "Tesla’s secretive “Project Crystal Sun” gets a big green light in Texas",
       "link": "https://www.teslarati.com/tesla-project-crystal-sun-texas-approval/",
       "date": "Thu, 22 Oct 2026 22:26",
-      "hoursAgo": 10,
+      "hoursAgo": 19,
       "source": "Teslarati"
     },
     {
       "title": "Tesla is building its own maps to fix Navigation issues",
       "link": "https://www.teslarati.com/tesla-building-its-own-maps-fix-navigation-issues/",
       "date": "Thu, 22 Oct 2026 21:14",
-      "hoursAgo": 11,
+      "hoursAgo": 20,
       "source": "Teslarati"
     },
     {
       "title": "Tesla buyers are buying for Full Self-Driving and not for the car, data shows",
       "link": "https://www.teslarati.com/tesla-buyers-buying-full-self-driving-not-for-car-data-shows/",
       "date": "Thu, 22 Oct 2026 17:25",
-      "hoursAgo": 15,
+      "hoursAgo": 24,
       "source": "Teslarati"
     },
     {
       "title": "Tesla Cybercab gets a for sale date at last",
       "link": "https://www.teslarati.com/tesla-cybercab-gets-sale-date-at-last/",
       "date": "Thu, 22 Oct 2026 00:51",
-      "hoursAgo": 32,
-      "source": "Teslarati"
-    },
-    {
-      "title": "Tesla Q3 2026 Earnings results: in-line revenues, slight beat on EPS",
-      "link": "https://www.teslarati.com/tesla-tsla-q3-2026-earnings-results/",
-      "date": "Wed, 21 Oct 2026 20:09",
-      "hoursAgo": 36,
+      "hoursAgo": 41,
       "source": "Teslarati"
     }
   ],
@@ -101,71 +101,71 @@
       "rain": 0.0
     },
     "+12h": {
-      "temp": 20.5,
-      "condition": "Partly cloudy",
-      "wind_speed": 10.0,
-      "wind_dir_deg": 304,
-      "cloud": 79,
+      "temp": 21.0,
+      "condition": "Mainly clear",
+      "wind_speed": 10.4,
+      "wind_dir_deg": 309,
+      "cloud": 20,
       "rain": 0.0
     },
     "+24h": {
-      "temp": 15.7,
+      "temp": 15.4,
       "condition": "Overcast",
-      "wind_speed": 0.9,
-      "wind_dir_deg": 53,
+      "wind_speed": 0.2,
+      "wind_dir_deg": 90,
       "cloud": 100,
       "rain": 0.0
     }
   },
   "keyNumbers": {
-    "usdZar": "16.57",
-    "usdZarWeek": "+0.4%",
+    "usdZar": "16.59",
+    "usdZarWeek": "+0.5%",
     "usdZarLabel": "rand weaker",
-    "btc": "81682",
-    "btcWeek": "+0.1%",
-    "jse": "-0.3%",
-    "sp500": "-1.2%"
+    "btc": "81498",
+    "btcWeek": "-0.1%",
+    "jse": "-0.5%",
+    "sp500": "-0.4%"
   },
   "worldEvents": [
     {
-      "text": "Hospitals deliberately targeted by Sudan's RSF fighters, BBC finds",
+      "text": "Deadly shooting near Paris investigated as 'crime of terrorism', minister says",
       "hoursAgo": 1,
-      "link": "https://www.bbc.co.uk/news/articles/c54g1kxw4nvvo"
+      "link": "https://www.bbc.co.uk/news/articles/c6ev38dj1g8zo"
     },
     {
-      "text": "Hundreds of flights cancelled as Typhoon Champi shuts Taiwan",
+      "text": "Seven shot dead by gunmen at church funeral in Jordan, officials say",
+      "hoursAgo": 1,
+      "link": "https://www.bbc.co.uk/news/articles/ck87zlpzny15o"
+    },
+    {
+      "text": "Israeli forces begin demolishing Palestinian buildings in Hebron after two Israeli soldiers shot dead",
+      "hoursAgo": 2,
+      "link": "https://www.bbc.co.uk/news/articles/cq4g1p974wxko"
+    },
+    {
+      "text": "White House says Melania Trump brokers truce for Ukraine city 'on brink of disaster'",
       "hoursAgo": 0,
-      "link": "https://www.bbc.co.uk/news/articles/cw98zn304zg7o"
+      "link": "https://www.bbc.co.uk/news/articles/c6vgxkvl4w5eo"
     },
     {
       "text": "Ukraine says Starlink still restricted after Trump says limits lifted",
-      "hoursAgo": 0,
+      "hoursAgo": 1,
       "link": "https://www.bbc.co.uk/news/articles/cq74pjpmx0e8o"
-    },
-    {
-      "text": "Powerful earthquake hits Tibet killing 16 people, reports say",
-      "hoursAgo": 3,
-      "link": "https://www.bbc.co.uk/news/articles/ck5ynd1z6e83o"
-    },
-    {
-      "text": "L'Oreal says weight loss drugs are impacting beauty and skincare sales",
-      "hoursAgo": 10,
-      "link": "https://www.bbc.co.uk/news/articles/cvglwgwpgrlpo"
     }
   ],
   "launches": [
     {
       "name": "Falcon 9 Block 5 | Starlink Group 15-15",
-      "date": "Friday 23 October 23h30",
-      "dateISO": "2026-10-23T21:30:00Z",
+      "date": "Saturday 24 October 00h28",
+      "dateISO": "2026-10-23T22:28:53Z",
       "details": "Space Launch Complex 4E - Vandenberg SFB, CA, USA",
       "highlight": false,
       "link": "https://spacelaunchnow.me/launch/falcon-9-block-5-starlink-group-15-15"
     },
     {
       "name": "Falcon 9 Block 5 | Starlink Group 15-16",
-      "date": "Monday 26 October 07h00",
-      "dateISO": "2026-10-26T05:00:00Z",
+      "date": "Tuesday 27 October 06h45",
+      "dateISO": "2026-10-27T04:45:00Z",
       "details": "Space Launch Complex 4E - Vandenberg SFB, CA, USA",
       "highlight": false,
       "link": "https://spacelaunchnow.me/launch/falcon-9-block-5-starlink-group-15-16"
@@ -197,45 +197,45 @@
   ],
   "companyNews": [
     {
+      "title": "Tesla reveals Optimus Academy, where robots teach themselves",
+      "link": "https://www.teslarati.com/tesla-reveals-optimus-academy-where-robots-teach-themselves/",
+      "date": "Fri, 23 Oct 2026 17:11",
+      "hoursAgo": 0,
+      "source": "Teslarati"
+    },
+    {
       "title": "The Starship moon landing number NASA and Elon Musk can’t agree on",
       "link": "https://www.teslarati.com/elon-musk-nasa-starship-moon-landing/",
       "date": "Fri, 23 Oct 2026 03:51",
-      "hoursAgo": 5,
+      "hoursAgo": 14,
       "source": "Teslarati"
     },
     {
       "title": "Tesla’s secretive “Project Crystal Sun” gets a big green light in Texas",
       "link": "https://www.teslarati.com/tesla-project-crystal-sun-texas-approval/",
       "date": "Thu, 22 Oct 2026 22:26",
-      "hoursAgo": 10,
+      "hoursAgo": 19,
       "source": "Teslarati"
     },
     {
       "title": "Tesla is building its own maps to fix Navigation issues",
       "link": "https://www.teslarati.com/tesla-building-its-own-maps-fix-navigation-issues/",
       "date": "Thu, 22 Oct 2026 21:14",
-      "hoursAgo": 11,
+      "hoursAgo": 20,
       "source": "Teslarati"
     },
     {
       "title": "Tesla buyers are buying for Full Self-Driving and not for the car, data shows",
       "link": "https://www.teslarati.com/tesla-buyers-buying-full-self-driving-not-for-car-data-shows/",
       "date": "Thu, 22 Oct 2026 17:25",
-      "hoursAgo": 15,
+      "hoursAgo": 24,
       "source": "Teslarati"
     },
     {
       "title": "Tesla Cybercab gets a for sale date at last",
       "link": "https://www.teslarati.com/tesla-cybercab-gets-sale-date-at-last/",
       "date": "Thu, 22 Oct 2026 00:51",
-      "hoursAgo": 32,
-      "source": "Teslarati"
-    },
-    {
-      "title": "Tesla Q3 2026 Earnings results: in-line revenues, slight beat on EPS",
-      "link": "https://www.teslarati.com/tesla-tsla-q3-2026-earnings-results/",
-      "date": "Wed, 21 Oct 2026 20:09",
-      "hoursAgo": 36,
+      "hoursAgo": 41,
       "source": "Teslarati"
     }
   ],
