@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-23T23:30+02:00",
+  "updatedAt": "2026-10-24T10:39+02:00",
   "stocks": {
     "TSLA": {
       "price": 372.22,
@@ -8,7 +8,7 @@
       "change_1m": 4.13,
       "change_12m": -17.1,
       "change_3y": 71.91,
-      "updated": "2026-10-23T21:30:25.813425"
+      "updated": "2026-10-24T08:39:25.750372"
     },
     "NVDA": {
       "price": 210.96,
@@ -17,7 +17,7 @@
       "change_1m": -7.82,
       "change_12m": 16.09,
       "change_3y": 384.6,
-      "updated": "2026-10-23T21:30:25.813625"
+      "updated": "2026-10-24T08:39:25.750567"
     },
     "MU": {
       "price": 877.55,
@@ -26,50 +26,50 @@
       "change_1m": -16.73,
       "change_12m": 325.01,
       "change_3y": 1201.63,
-      "updated": "2026-10-23T21:30:25.813795"
+      "updated": "2026-10-24T08:39:25.750789"
     }
   },
   "news": [
     {
+      "title": "Tesla shows what Roadster drivers will see on screen before thruster activation",
+      "link": "https://www.teslarati.com/tesla-roadster-center-display-ui-ux/",
+      "date": "Sat, 24 Oct 2026 05:05",
+      "hoursAgo": 3,
+      "source": "Teslarati"
+    },
+    {
       "title": "Tesla reveals Optimus Academy, where robots teach themselves",
       "link": "https://www.teslarati.com/tesla-reveals-optimus-academy-where-robots-teach-themselves/",
       "date": "Fri, 23 Oct 2026 17:11",
-      "hoursAgo": 4,
+      "hoursAgo": 15,
       "source": "Teslarati"
     },
     {
       "title": "The Starship moon landing number NASA and Elon Musk can’t agree on",
       "link": "https://www.teslarati.com/elon-musk-nasa-starship-moon-landing/",
       "date": "Fri, 23 Oct 2026 03:51",
-      "hoursAgo": 17,
+      "hoursAgo": 28,
       "source": "Teslarati"
     },
     {
       "title": "Tesla’s secretive “Project Crystal Sun” gets a big green light in Texas",
       "link": "https://www.teslarati.com/tesla-project-crystal-sun-texas-approval/",
       "date": "Thu, 22 Oct 2026 22:26",
-      "hoursAgo": 23,
+      "hoursAgo": 34,
       "source": "Teslarati"
     },
     {
       "title": "Tesla is building its own maps to fix Navigation issues",
       "link": "https://www.teslarati.com/tesla-building-its-own-maps-fix-navigation-issues/",
       "date": "Thu, 22 Oct 2026 21:14",
-      "hoursAgo": 24,
+      "hoursAgo": 35,
       "source": "Teslarati"
     },
     {
       "title": "Tesla buyers are buying for Full Self-Driving and not for the car, data shows",
       "link": "https://www.teslarati.com/tesla-buyers-buying-full-self-driving-not-for-car-data-shows/",
       "date": "Thu, 22 Oct 2026 17:25",
-      "hoursAgo": 28,
-      "source": "Teslarati"
-    },
-    {
-      "title": "Tesla Cybercab gets a for sale date at last",
-      "link": "https://www.teslarati.com/tesla-cybercab-gets-sale-date-at-last/",
-      "date": "Thu, 22 Oct 2026 00:51",
-      "hoursAgo": 44,
+      "hoursAgo": 39,
       "source": "Teslarati"
     }
   ],
@@ -77,43 +77,43 @@
   "roasts": [],
   "weather": {
     "+1h": {
-      "temp": 12.2,
-      "condition": "Mainly clear",
-      "wind_speed": 3.1,
-      "wind_dir_deg": 126,
-      "cloud": 43,
+      "temp": 15.9,
+      "condition": "Overcast",
+      "wind_speed": 0.2,
+      "wind_dir_deg": 90,
+      "cloud": 100,
       "rain": 0.0
     },
     "+3h": {
-      "temp": 12.0,
-      "condition": "Partly cloudy",
-      "wind_speed": 3.7,
-      "wind_dir_deg": 133,
-      "cloud": 71,
+      "temp": 16.3,
+      "condition": "Overcast",
+      "wind_speed": 1.5,
+      "wind_dir_deg": 249,
+      "cloud": 100,
       "rain": 0.0
     },
     "+6h": {
-      "temp": 11.7,
-      "condition": "Mainly clear",
-      "wind_speed": 3.0,
-      "wind_dir_deg": 123,
-      "cloud": 40,
+      "temp": 15.8,
+      "condition": "Overcast",
+      "wind_speed": 1.8,
+      "wind_dir_deg": 180,
+      "cloud": 100,
       "rain": 0.0
     },
     "+12h": {
-      "temp": 21.0,
-      "condition": "Mainly clear",
-      "wind_speed": 10.4,
-      "wind_dir_deg": 309,
-      "cloud": 20,
+      "temp": 21.6,
+      "condition": "Clear",
+      "wind_speed": 10.6,
+      "wind_dir_deg": 179,
+      "cloud": 9,
       "rain": 0.0
     },
     "+24h": {
-      "temp": 15.0,
-      "condition": "Overcast",
-      "wind_speed": 0.7,
-      "wind_dir_deg": 90,
-      "cloud": 100,
+      "temp": 15.9,
+      "condition": "Partly cloudy",
+      "wind_speed": 16.1,
+      "wind_dir_deg": 162,
+      "cloud": 54,
       "rain": 0.0
     }
   },
@@ -121,47 +121,39 @@
     "usdZar": "16.58",
     "usdZarWeek": "+0.5%",
     "usdZarLabel": "rand weaker",
-    "btc": "81274",
-    "btcWeek": "-0.4%",
+    "btc": "80594",
+    "btcWeek": "-1.9%",
     "jse": "-0.5%",
     "sp500": "-0.5%"
   },
   "worldEvents": [
     {
-      "text": "Deadly shooting near Paris is a 'racist terrorist attack', Macron says",
-      "hoursAgo": 1,
-      "link": "https://www.bbc.co.uk/news/articles/c6ev38dj1g8zo"
-    },
-    {
-      "text": "Seven shot dead by gunmen at church funeral in Jordan, officials say",
-      "hoursAgo": 1,
-      "link": "https://www.bbc.co.uk/news/articles/ck87zlpzny15o"
-    },
-    {
-      "text": "Freed US citizen was tortured in Russian jail, former Ukrainian prisoners say",
-      "hoursAgo": 1,
-      "link": "https://www.bbc.co.uk/news/articles/cx7vpmn6qzmlo"
-    },
-    {
-      "text": "Israeli forces begin demolishing Palestinian buildings in Hebron after two Israeli soldiers shot dead",
-      "hoursAgo": 5,
-      "link": "https://www.bbc.co.uk/news/articles/cq4g1p974wxko"
-    },
-    {
-      "text": "White House says Melania Trump brokered truce for Ukraine city 'on brink of disaster'",
+      "text": "France prepares for day of protest a week after nationwide riots",
       "hoursAgo": 2,
-      "link": "https://www.bbc.co.uk/news/articles/c6vgxkvl4w5eo"
+      "link": "https://www.bbc.co.uk/news/articles/cj62yv5k0w4yo"
+    },
+    {
+      "text": "Arrest made after fire at Hitler's famed Eagle's Nest retreat",
+      "hoursAgo": 4,
+      "link": "https://www.bbc.co.uk/news/articles/cr93zwjw1k4qo"
+    },
+    {
+      "text": "Father who killed Oregon school gunman describes anguish over children he couldn't save",
+      "hoursAgo": 9,
+      "link": "https://www.bbc.co.uk/news/articles/crgj9ndwvj9jo"
+    },
+    {
+      "text": "Trump administration sues to block certification of upcoming Alaska election",
+      "hoursAgo": 13,
+      "link": "https://www.bbc.co.uk/news/articles/c678pv4krx37o"
+    },
+    {
+      "text": "Student movement takes Serbia's Vučić to the wire in neck-and-neck election",
+      "hoursAgo": 9,
+      "link": "https://www.bbc.co.uk/news/articles/cm1dwz311476o"
     }
   ],
   "launches": [
-    {
-      "name": "Falcon 9 Block 5 | Starlink Group 15-15",
-      "date": "Saturday 24 October 00h28",
-      "dateISO": "2026-10-23T22:28:53Z",
-      "details": "Space Launch Complex 4E - Vandenberg SFB, CA, USA",
-      "highlight": false,
-      "link": "https://spacelaunchnow.me/launch/falcon-9-block-5-starlink-group-15-15"
-    },
     {
       "name": "Falcon 9 Block 5 | Starlink Group 15-16",
       "date": "Tuesday 27 October 06h45",
@@ -169,6 +161,14 @@
       "details": "Space Launch Complex 4E - Vandenberg SFB, CA, USA",
       "highlight": false,
       "link": "https://spacelaunchnow.me/launch/falcon-9-block-5-starlink-group-15-16"
+    },
+    {
+      "name": "Falcon 9 Block 5 | Starlink Group 15-18",
+      "date": "Friday 30 October 06h02",
+      "dateISO": "2026-10-30T04:02:00Z",
+      "details": "Space Launch Complex 4E - Vandenberg SFB, CA, USA",
+      "highlight": false,
+      "link": "https://spacelaunchnow.me/launch/falcon-9-block-5-starlink-group-15-18"
     },
     {
       "name": "Falcon 9 Block 5 | NROL-195",
@@ -197,45 +197,45 @@
   ],
   "companyNews": [
     {
+      "title": "Tesla shows what Roadster drivers will see on screen before thruster activation",
+      "link": "https://www.teslarati.com/tesla-roadster-center-display-ui-ux/",
+      "date": "Sat, 24 Oct 2026 05:05",
+      "hoursAgo": 3,
+      "source": "Teslarati"
+    },
+    {
       "title": "Tesla reveals Optimus Academy, where robots teach themselves",
       "link": "https://www.teslarati.com/tesla-reveals-optimus-academy-where-robots-teach-themselves/",
       "date": "Fri, 23 Oct 2026 17:11",
-      "hoursAgo": 4,
+      "hoursAgo": 15,
       "source": "Teslarati"
     },
     {
       "title": "The Starship moon landing number NASA and Elon Musk can’t agree on",
       "link": "https://www.teslarati.com/elon-musk-nasa-starship-moon-landing/",
       "date": "Fri, 23 Oct 2026 03:51",
-      "hoursAgo": 17,
+      "hoursAgo": 28,
       "source": "Teslarati"
     },
     {
       "title": "Tesla’s secretive “Project Crystal Sun” gets a big green light in Texas",
       "link": "https://www.teslarati.com/tesla-project-crystal-sun-texas-approval/",
       "date": "Thu, 22 Oct 2026 22:26",
-      "hoursAgo": 23,
+      "hoursAgo": 34,
       "source": "Teslarati"
     },
     {
       "title": "Tesla is building its own maps to fix Navigation issues",
       "link": "https://www.teslarati.com/tesla-building-its-own-maps-fix-navigation-issues/",
       "date": "Thu, 22 Oct 2026 21:14",
-      "hoursAgo": 24,
+      "hoursAgo": 35,
       "source": "Teslarati"
     },
     {
       "title": "Tesla buyers are buying for Full Self-Driving and not for the car, data shows",
       "link": "https://www.teslarati.com/tesla-buyers-buying-full-self-driving-not-for-car-data-shows/",
       "date": "Thu, 22 Oct 2026 17:25",
-      "hoursAgo": 28,
-      "source": "Teslarati"
-    },
-    {
-      "title": "Tesla Cybercab gets a for sale date at last",
-      "link": "https://www.teslarati.com/tesla-cybercab-gets-sale-date-at-last/",
-      "date": "Thu, 22 Oct 2026 00:51",
-      "hoursAgo": 44,
+      "hoursAgo": 39,
       "source": "Teslarati"
     }
   ],
