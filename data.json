@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-27T01:56+02:00",
+  "updatedAt": "2026-10-27T11:36+02:00",
   "stocks": {
     "TSLA": {
       "price": 391.62,
@@ -8,7 +8,7 @@
       "change_1m": 10.99,
       "change_12m": -9.71,
       "change_3y": 88.91,
-      "updated": "2026-10-26T23:56:33.053272"
+      "updated": "2026-10-27T09:36:33.933491"
     },
     "NVDA": {
       "price": 216.0,
@@ -17,7 +17,7 @@
       "change_1m": -4.93,
       "change_12m": 16.24,
       "change_3y": 434.93,
-      "updated": "2026-10-26T23:56:33.053469"
+      "updated": "2026-10-27T09:36:33.933589"
     },
     "MU": {
       "price": 903.7,
@@ -26,50 +26,50 @@
       "change_1m": -15.14,
       "change_12m": 313.08,
       "change_3y": 1289.83,
-      "updated": "2026-10-26T23:56:33.053651"
+      "updated": "2026-10-27T09:36:33.933664"
     }
   },
   "news": [
     {
+      "title": "Tesla has a Cybercab problem nobody saw coming",
+      "link": "https://www.teslarati.com/tesla-has-a-cybercab-problem-nobody-saw-coming/",
+      "date": "Tue, 27 Oct 2026 04:49",
+      "hoursAgo": 4,
+      "source": "Teslarati"
+    },
+    {
       "title": "How SpaceX Is raising Raptor’s sea-level thrust while holding engine mass steady",
       "link": "https://www.teslarati.com/spacex-raising-raptor-sea-level-thrust-engine-mass-steady/",
       "date": "Mon, 26 Oct 2026 18:36",
-      "hoursAgo": 5,
+      "hoursAgo": 14,
       "source": "Teslarati"
     },
     {
       "title": "Tesla Assisted Driving expands to tenth EU country",
       "link": "https://www.teslarati.com/tesla-expands-fsd-tad-tenth-eu-country/",
       "date": "Mon, 26 Oct 2026 15:48",
-      "hoursAgo": 8,
+      "hoursAgo": 17,
       "source": "Teslarati"
     },
     {
       "title": "Tesla expands Robotaxi geofence in Houston with an ode to SpaceX merger",
       "link": "https://www.teslarati.com/tesla-expands-robotaxi-geofence-houston-spacex/",
       "date": "Mon, 26 Oct 2026 15:02",
-      "hoursAgo": 8,
+      "hoursAgo": 18,
       "source": "Teslarati"
     },
     {
       "title": "Tesla Cybercabs take over Austin’s F1 weekend",
       "link": "https://www.teslarati.com/tesla-cybercabs-take-over-austins-f1-weekend/",
       "date": "Mon, 26 Oct 2026 05:04",
-      "hoursAgo": 18,
+      "hoursAgo": 28,
       "source": "Teslarati"
     },
     {
       "title": "Tesla makes good on its Cybercab promise in just two weeks",
       "link": "https://www.teslarati.com/tesla-cybercab-rear-view-camera/",
       "date": "Sun, 25 Oct 2026 14:34",
-      "hoursAgo": 33,
-      "source": "Teslarati"
-    },
-    {
-      "title": "Tesla shows what Roadster drivers will see on screen before thruster activation",
-      "link": "https://www.teslarati.com/tesla-roadster-center-display-ui-ux/",
-      "date": "Sat, 24 Oct 2026 05:05",
-      "hoursAgo": 66,
+      "hoursAgo": 43,
       "source": "Teslarati"
     }
   ],
@@ -77,91 +77,83 @@
   "roasts": [],
   "weather": {
     "+1h": {
-      "temp": 14.5,
+      "temp": 14.7,
       "condition": "Clear",
       "wind_speed": 6.9,
-      "wind_dir_deg": 143,
-      "cloud": 6,
-      "rain": 0.0
-    },
-    "+3h": {
-      "temp": 14.0,
-      "condition": "Clear",
-      "wind_speed": 5.2,
-      "wind_dir_deg": 155,
+      "wind_dir_deg": 137,
       "cloud": 0,
       "rain": 0.0
     },
+    "+3h": {
+      "temp": 13.9,
+      "condition": "Clear",
+      "wind_speed": 5.2,
+      "wind_dir_deg": 146,
+      "cloud": 1,
+      "rain": 0.0
+    },
     "+6h": {
-      "temp": 14.4,
-      "condition": "Overcast",
-      "wind_speed": 10.1,
-      "wind_dir_deg": 176,
-      "cloud": 100,
+      "temp": 13.4,
+      "condition": "Mainly clear",
+      "wind_speed": 5.8,
+      "wind_dir_deg": 180,
+      "cloud": 35,
       "rain": 0.0
     },
     "+12h": {
-      "temp": 22.5,
+      "temp": 22.0,
       "condition": "Mainly clear",
-      "wind_speed": 9.5,
-      "wind_dir_deg": 271,
-      "cloud": 30,
+      "wind_speed": 12.6,
+      "wind_dir_deg": 259,
+      "cloud": 41,
       "rain": 0.0
     },
     "+24h": {
-      "temp": 15.6,
-      "condition": "Partly cloudy",
-      "wind_speed": 7.6,
-      "wind_dir_deg": 162,
-      "cloud": 66,
+      "temp": 15.3,
+      "condition": "Overcast",
+      "wind_speed": 7.1,
+      "wind_dir_deg": 150,
+      "cloud": 87,
       "rain": 0.0
     }
   },
   "keyNumbers": {
-    "usdZar": "16.63",
-    "usdZarWeek": "+0.5%",
+    "usdZar": "16.68",
+    "usdZarWeek": "+1.2%",
     "usdZarLabel": "rand weaker",
-    "btc": "79993",
-    "btcWeek": "-1.7%",
-    "jse": "-0.5%",
+    "btc": "79545",
+    "btcWeek": "-3.0%",
+    "jse": "+0.3%",
     "sp500": "+0.7%"
   },
   "worldEvents": [
     {
-      "text": "Lula wins fourth term in dramatic Brazil election comeback",
-      "hoursAgo": 2,
-      "link": "https://www.bbc.co.uk/news/articles/ckm23y3mg1yyo"
+      "text": "Israel heads to polls for pivotal election defined by security and democracy",
+      "hoursAgo": 3,
+      "link": "https://www.bbc.co.uk/news/articles/c3j47l4kdez4o"
     },
     {
-      "text": "Celebrations in Serbia after veteran ruler Vučić loses election to student-led protest movement",
-      "hoursAgo": 9,
-      "link": "https://www.bbc.co.uk/news/articles/cw5yn3xlprpmo"
-    },
-    {
-      "text": "Trump administration illegally fired James Comey's daughter, judge rules",
-      "hoursAgo": 4,
-      "link": "https://www.bbc.co.uk/news/articles/ck78px6glw3lo"
-    },
-    {
-      "text": "Anthropic warns of 'catastrophic risk' to humankind ahead of blockbuster share listing",
+      "text": "Lula's comeback in Brazil dents Trump's ambitions for Latin America",
       "hoursAgo": 7,
-      "link": "https://www.bbc.co.uk/news/articles/cq398p1wd1evo"
+      "link": "https://www.bbc.co.uk/news/articles/cq62yg6rggj0o"
     },
     {
-      "text": "Catholic bishops apologise for 'exploited' Trump meeting",
-      "hoursAgo": 8,
-      "link": "https://www.bbc.co.uk/news/articles/cw8rz1d286v3o"
+      "text": "Truce begins in Ukraine city where residents ate weeds to survive",
+      "hoursAgo": 0,
+      "link": "https://www.bbc.co.uk/news/articles/ck20wjnv3w0jo"
+    },
+    {
+      "text": "Jordan carries out deadly strike in Syria in retaliation for church attack",
+      "hoursAgo": 6,
+      "link": "https://www.bbc.co.uk/news/articles/cq8ezg6dy6xlo"
+    },
+    {
+      "text": "Ex-FBI chief James Comey faces federal charges for third time",
+      "hoursAgo": 7,
+      "link": "https://www.bbc.co.uk/news/articles/ckly0xqjnlwvo"
     }
   ],
   "launches": [
-    {
-      "name": "Falcon 9 Block 5 | Starlink Group 15-16",
-      "date": "Tuesday 27 October 07h46",
-      "dateISO": "2026-10-27T05:46:37Z",
-      "details": "Space Launch Complex 4E - Vandenberg SFB, CA, USA",
-      "highlight": false,
-      "link": "https://spacelaunchnow.me/launch/falcon-9-block-5-starlink-group-15-16"
-    },
     {
       "name": "Falcon 9 Block 5 | Starlink Group 15-18",
       "date": "Friday 30 October 06h02",
@@ -177,6 +169,14 @@
       "details": "Space Launch Complex 4E - Vandenberg SFB, CA, USA",
       "highlight": false,
       "link": "https://spacelaunchnow.me/launch/falcon-9-block-5-ussf-432"
+    },
+    {
+      "name": "Falcon 9 Block 5 | Starlink Group 15-21",
+      "date": "Thursday 5 November 07h14",
+      "dateISO": "2026-11-05T05:14:00Z",
+      "details": "Space Launch Complex 4E - Vandenberg SFB, CA, USA",
+      "highlight": false,
+      "link": "https://spacelaunchnow.me/launch/falcon-9-block-5-starlink-group-15-21"
     },
     {
       "name": "Falcon 9 Block 5 | Cygnus CRS-2 NG-25",
@@ -197,45 +197,45 @@
   ],
   "companyNews": [
     {
+      "title": "Tesla has a Cybercab problem nobody saw coming",
+      "link": "https://www.teslarati.com/tesla-has-a-cybercab-problem-nobody-saw-coming/",
+      "date": "Tue, 27 Oct 2026 04:49",
+      "hoursAgo": 4,
+      "source": "Teslarati"
+    },
+    {
       "title": "How SpaceX Is raising Raptor’s sea-level thrust while holding engine mass steady",
       "link": "https://www.teslarati.com/spacex-raising-raptor-sea-level-thrust-engine-mass-steady/",
       "date": "Mon, 26 Oct 2026 18:36",
-      "hoursAgo": 5,
+      "hoursAgo": 14,
       "source": "Teslarati"
     },
     {
       "title": "Tesla Assisted Driving expands to tenth EU country",
       "link": "https://www.teslarati.com/tesla-expands-fsd-tad-tenth-eu-country/",
       "date": "Mon, 26 Oct 2026 15:48",
-      "hoursAgo": 8,
+      "hoursAgo": 17,
       "source": "Teslarati"
     },
     {
       "title": "Tesla expands Robotaxi geofence in Houston with an ode to SpaceX merger",
       "link": "https://www.teslarati.com/tesla-expands-robotaxi-geofence-houston-spacex/",
       "date": "Mon, 26 Oct 2026 15:02",
-      "hoursAgo": 8,
+      "hoursAgo": 18,
       "source": "Teslarati"
     },
     {
       "title": "Tesla Cybercabs take over Austin’s F1 weekend",
       "link": "https://www.teslarati.com/tesla-cybercabs-take-over-austins-f1-weekend/",
       "date": "Mon, 26 Oct 2026 05:04",
-      "hoursAgo": 18,
+      "hoursAgo": 28,
       "source": "Teslarati"
     },
     {
       "title": "Tesla makes good on its Cybercab promise in just two weeks",
       "link": "https://www.teslarati.com/tesla-cybercab-rear-view-camera/",
       "date": "Sun, 25 Oct 2026 14:34",
-      "hoursAgo": 33,
-      "source": "Teslarati"
-    },
-    {
-      "title": "Tesla shows what Roadster drivers will see on screen before thruster activation",
-      "link": "https://www.teslarati.com/tesla-roadster-center-display-ui-ux/",
-      "date": "Sat, 24 Oct 2026 05:05",
-      "hoursAgo": 66,
+      "hoursAgo": 43,
       "source": "Teslarati"
     }
   ],
