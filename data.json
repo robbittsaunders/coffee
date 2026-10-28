@@ -1,75 +1,75 @@
 {
-  "updatedAt": "2026-10-28T20:55+02:00",
+  "updatedAt": "2026-10-29T01:18+02:00",
   "stocks": {
     "TSLA": {
-      "price": 403.08,
-      "change_1d": -1.08,
-      "change_3d": 2.93,
-      "change_1m": 13.83,
-      "change_12m": -12.48,
-      "change_3y": 104.23,
-      "updated": "2026-10-28T18:55:22.318786"
+      "price": 404.22,
+      "change_1d": -0.8,
+      "change_3d": 3.22,
+      "change_1m": 14.15,
+      "change_12m": -12.23,
+      "change_3y": 104.81,
+      "updated": "2026-10-28T23:18:47.814687"
     },
     "NVDA": {
-      "price": 215.98,
-      "change_1d": -0.9,
-      "change_3d": -0.01,
-      "change_1m": -6.45,
-      "change_12m": 7.69,
-      "change_3y": 426.27,
-      "updated": "2026-10-28T18:55:22.318940"
+      "price": 215.38,
+      "change_1d": -1.17,
+      "change_3d": -0.29,
+      "change_1m": -6.71,
+      "change_12m": 7.39,
+      "change_3y": 424.83,
+      "updated": "2026-10-28T23:18:47.814937"
     },
     "MU": {
-      "price": 978.0,
-      "change_1d": 5.3,
-      "change_3d": 8.22,
-      "change_1m": -10.87,
-      "change_12m": 341.22,
-      "change_3y": 1394.53,
-      "updated": "2026-10-28T18:55:22.319116"
+      "price": 983.23,
+      "change_1d": 5.86,
+      "change_3d": 8.8,
+      "change_1m": -10.39,
+      "change_12m": 343.58,
+      "change_3y": 1402.53,
+      "updated": "2026-10-28T23:18:47.815120"
     }
   },
   "news": [
     {
+      "title": "Verizon, AT&T and T-Mobile are trying to shut Starlink out before FCC vote",
+      "link": "https://www.teslarati.com/spacex-starlink-fcc-vote-verizon-att/",
+      "date": "Wed, 28 Oct 2026 23:13",
+      "hoursAgo": 0,
+      "source": "Teslarati"
+    },
+    {
       "title": "Tesla Semi catches fire in California: what we know",
       "link": "https://www.teslarati.com/tesla-semi-catches-fire-california-what-we-know/",
       "date": "Wed, 28 Oct 2026 17:36",
-      "hoursAgo": 1,
+      "hoursAgo": 5,
       "source": "Teslarati"
     },
     {
       "title": "Tesla’s ‘Emergency Drive Away’ function gets its first use in the real world",
       "link": "https://www.teslarati.com/tesla-emergency-drive-away-function-first-use-real-world/",
       "date": "Wed, 28 Oct 2026 12:34",
-      "hoursAgo": 6,
+      "hoursAgo": 10,
       "source": "Teslarati"
     },
     {
       "title": "Tesla’s Cybercab battery design could make robotaxis even cheaper",
       "link": "https://www.teslarati.com/tesla-cybercab-battery-pack-design-structure/",
       "date": "Wed, 28 Oct 2026 05:15",
-      "hoursAgo": 13,
+      "hoursAgo": 18,
       "source": "Teslarati"
     },
     {
       "title": "Starlink is ‘biggest competitive advantage,’ but it’s temporary, United CEO says",
       "link": "https://www.teslarati.com/starlink-biggest-competitive-advantage-its-temporary-united-ceo-says/",
       "date": "Tue, 27 Oct 2026 15:19",
-      "hoursAgo": 27,
+      "hoursAgo": 31,
       "source": "Teslarati"
     },
     {
       "title": "Tesla Cybercab’s unorthodox paint process explained",
       "link": "https://www.teslarati.com/tesla-cybercab-unorthodox-paint-process-explained/",
       "date": "Tue, 27 Oct 2026 14:42",
-      "hoursAgo": 28,
-      "source": "Teslarati"
-    },
-    {
-      "title": "Tesla has a Cybercab problem nobody saw coming",
-      "link": "https://www.teslarati.com/tesla-has-a-cybercab-problem-nobody-saw-coming/",
-      "date": "Tue, 27 Oct 2026 04:49",
-      "hoursAgo": 38,
+      "hoursAgo": 32,
       "source": "Teslarati"
     }
   ],
@@ -77,165 +77,165 @@
   "roasts": [],
   "weather": {
     "+1h": {
-      "temp": 15.0,
-      "condition": "Overcast",
-      "wind_speed": 5.8,
-      "wind_dir_deg": 158,
-      "cloud": 95,
+      "temp": 17.1,
+      "condition": "Clear",
+      "wind_speed": 10.3,
+      "wind_dir_deg": 140,
+      "cloud": 0,
       "rain": 0.0
     },
     "+3h": {
-      "temp": 14.3,
-      "condition": "Partly cloudy",
-      "wind_speed": 7.8,
-      "wind_dir_deg": 176,
-      "cloud": 54,
+      "temp": 16.2,
+      "condition": "Mainly clear",
+      "wind_speed": 7.0,
+      "wind_dir_deg": 136,
+      "cloud": 24,
       "rain": 0.0
     },
     "+6h": {
-      "temp": 13.5,
-      "condition": "Partly cloudy",
-      "wind_speed": 6.8,
-      "wind_dir_deg": 169,
-      "cloud": 60,
+      "temp": 15.3,
+      "condition": "Clear",
+      "wind_speed": 2.9,
+      "wind_dir_deg": 112,
+      "cloud": 0,
       "rain": 0.0
     },
     "+12h": {
-      "temp": 24.7,
+      "temp": 29.8,
       "condition": "Clear",
-      "wind_speed": 16.9,
-      "wind_dir_deg": 149,
-      "cloud": 2,
+      "wind_speed": 11.6,
+      "wind_dir_deg": 202,
+      "cloud": 0,
       "rain": 0.0
     },
     "+24h": {
-      "temp": 17.8,
+      "temp": 18.4,
       "condition": "Clear",
-      "wind_speed": 15.4,
-      "wind_dir_deg": 146,
+      "wind_speed": 20.2,
+      "wind_dir_deg": 151,
       "cloud": 0,
       "rain": 0.0
     }
   },
   "keyNumbers": {
-    "usdZar": "16.62",
-    "usdZarWeek": "+0.2%",
+    "usdZar": "16.60",
+    "usdZarWeek": "+0.1%",
     "usdZarLabel": "rand weaker",
-    "btc": "80924",
-    "btcWeek": "-1.1%",
-    "jse": "-0.1%",
-    "sp500": "+0.2%"
+    "btc": "81222",
+    "btcWeek": "-0.8%",
+    "jse": "+0.6%",
+    "sp500": "+0.3%"
   },
   "worldEvents": [
     {
-      "text": "Netanyahu's bloc leading Israel election but short of majority, partial results show",
+      "text": "High-speed train crash kills at least 68 people in Spain",
       "hoursAgo": 1,
+      "link": "https://www.bbc.co.uk/news/articles/c6p3g84kjqjlo"
+    },
+    {
+      "text": "Bloodied, dazed and angry - how passengers' rail journey turned to disaster in Spain",
+      "hoursAgo": 1,
+      "link": "https://www.bbc.co.uk/news/articles/cm9qzd47ng98o"
+    },
+    {
+      "text": "Flávio Bolsonaro denies fleeing Brazil after landing in Miami",
+      "hoursAgo": 1,
+      "link": "https://www.bbc.co.uk/news/articles/c6kglwe4lxwzo"
+    },
+    {
+      "text": "Netanyahu's bloc leading Israel election but short of majority, partial results show",
+      "hoursAgo": 2,
       "link": "https://www.bbc.co.uk/news/articles/cmdx3knq1xexo"
     },
     {
       "text": "How could Israel break election deadlock? Here are four scenarios",
-      "hoursAgo": 4,
+      "hoursAgo": 8,
       "link": "https://www.bbc.co.uk/news/articles/cm62y46d97wwo"
-    },
-    {
-      "text": "Luxury cruise passengers stranded in Cambodia due to soaring fuel costs",
-      "hoursAgo": 8,
-      "link": "https://www.bbc.co.uk/news/articles/cwj342k62exyo"
-    },
-    {
-      "text": "Serbian shot dead after attacking officer outside Israeli embassy, minister says",
-      "hoursAgo": 8,
-      "link": "https://www.bbc.co.uk/news/articles/ck5ynj4eeyj2o"
-    },
-    {
-      "text": "Tanzania celebrates first natural gas discovery in more than 10 years",
-      "hoursAgo": 8,
-      "link": "https://www.bbc.co.uk/news/articles/c5m2dry2xwwvo"
     }
   ],
   "launches": [
     {
       "name": "Falcon 9 Block 5 | Starlink Group 15-18",
-      "date": "Friday 30 October 06h02",
-      "dateISO": "2026-10-30T04:02:00Z",
+      "date": "Saturday 31 October 05h48",
+      "dateISO": "2026-10-31T03:48:00Z",
       "details": "Space Launch Complex 4E - Vandenberg SFB, CA, USA",
       "highlight": false,
       "link": "https://spacelaunchnow.me/launch/falcon-9-block-5-starlink-group-15-18"
     },
     {
       "name": "Falcon 9 Block 5 | USSF-432",
-      "date": "Monday 2 November 03h56",
-      "dateISO": "2026-11-02T01:56:00Z",
+      "date": "Tuesday 3 November 03h42",
+      "dateISO": "2026-11-03T01:42:00Z",
       "details": "Space Launch Complex 4E - Vandenberg SFB, CA, USA",
       "highlight": false,
       "link": "https://spacelaunchnow.me/launch/falcon-9-block-5-ussf-432"
     },
     {
       "name": "Falcon 9 Block 5 | Starlink Group 15-21",
-      "date": "Thursday 5 November 04h35",
-      "dateISO": "2026-11-05T02:35:00Z",
+      "date": "Friday 6 November 04h21",
+      "dateISO": "2026-11-06T02:21:00Z",
       "details": "Space Launch Complex 4E - Vandenberg SFB, CA, USA",
       "highlight": false,
       "link": "https://spacelaunchnow.me/launch/falcon-9-block-5-starlink-group-15-21"
     },
     {
-      "name": "Falcon 9 Block 5 | Cygnus CRS-2 NG-25",
-      "date": "Monday 30 November (TBD)",
-      "dateISO": "2026-11-30T00:00:00Z",
-      "details": "Space Launch Complex 40 - Cape Canaveral SFS, FL, USA",
-      "highlight": false,
-      "link": "https://spacelaunchnow.me/launch/falcon-9-block-5-cygnus-crs-2-ng-25"
-    },
-    {
-      "name": "Falcon 9 Block 5 | NROL-195",
-      "date": "Monday 30 November (TBD)",
-      "dateISO": "2026-11-30T00:00:00Z",
+      "name": "Falcon 9 Block 5 | USSF-xxx (\"R-5\")",
+      "date": "Tuesday 10 November 05h03",
+      "dateISO": "2026-11-10T03:03:00Z",
       "details": "Space Launch Complex 4E - Vandenberg SFB, CA, USA",
       "highlight": false,
-      "link": "https://spacelaunchnow.me/launch/falcon-9-block-5-nrol-195"
+      "link": "https://spacelaunchnow.me/launch/falcon-9-block-5-ussf-xxx-r-5"
+    },
+    {
+      "name": "Starship | Flight 15",
+      "date": "Monday 30 November (TBD)",
+      "dateISO": "2026-11-30T00:00:00Z",
+      "details": "Orbital Launch Pad 2 - SpaceX Starbase, TX, USA",
+      "highlight": true,
+      "link": "https://spacelaunchnow.me/launch/starship-flight-15"
     }
   ],
   "companyNews": [
     {
+      "title": "Verizon, AT&T and T-Mobile are trying to shut Starlink out before FCC vote",
+      "link": "https://www.teslarati.com/spacex-starlink-fcc-vote-verizon-att/",
+      "date": "Wed, 28 Oct 2026 23:13",
+      "hoursAgo": 0,
+      "source": "Teslarati"
+    },
+    {
       "title": "Tesla Semi catches fire in California: what we know",
       "link": "https://www.teslarati.com/tesla-semi-catches-fire-california-what-we-know/",
       "date": "Wed, 28 Oct 2026 17:36",
-      "hoursAgo": 1,
+      "hoursAgo": 5,
       "source": "Teslarati"
     },
     {
       "title": "Tesla’s ‘Emergency Drive Away’ function gets its first use in the real world",
       "link": "https://www.teslarati.com/tesla-emergency-drive-away-function-first-use-real-world/",
       "date": "Wed, 28 Oct 2026 12:34",
-      "hoursAgo": 6,
+      "hoursAgo": 10,
       "source": "Teslarati"
     },
     {
       "title": "Tesla’s Cybercab battery design could make robotaxis even cheaper",
       "link": "https://www.teslarati.com/tesla-cybercab-battery-pack-design-structure/",
       "date": "Wed, 28 Oct 2026 05:15",
-      "hoursAgo": 13,
+      "hoursAgo": 18,
       "source": "Teslarati"
     },
     {
       "title": "Starlink is ‘biggest competitive advantage,’ but it’s temporary, United CEO says",
       "link": "https://www.teslarati.com/starlink-biggest-competitive-advantage-its-temporary-united-ceo-says/",
       "date": "Tue, 27 Oct 2026 15:19",
-      "hoursAgo": 27,
+      "hoursAgo": 31,
       "source": "Teslarati"
     },
     {
       "title": "Tesla Cybercab’s unorthodox paint process explained",
       "link": "https://www.teslarati.com/tesla-cybercab-unorthodox-paint-process-explained/",
       "date": "Tue, 27 Oct 2026 14:42",
-      "hoursAgo": 28,
-      "source": "Teslarati"
-    },
-    {
-      "title": "Tesla has a Cybercab problem nobody saw coming",
-      "link": "https://www.teslarati.com/tesla-has-a-cybercab-problem-nobody-saw-coming/",
-      "date": "Tue, 27 Oct 2026 04:49",
-      "hoursAgo": 38,
+      "hoursAgo": 32,
       "source": "Teslarati"
     }
   ],
