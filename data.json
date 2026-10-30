@@ -1,32 +1,32 @@
 {
-  "updatedAt": "2026-10-30T20:40+02:00",
+  "updatedAt": "2026-10-31T01:01+02:00",
   "stocks": {
     "TSLA": {
-      "price": 395.23,
-      "change_1d": -2.0,
-      "change_3d": -2.22,
-      "change_1m": 4.36,
-      "change_12m": -10.2,
-      "change_3y": 100.26,
-      "updated": "2026-10-30T18:40:10.471420"
+      "price": 399.81,
+      "change_1d": -0.87,
+      "change_3d": -1.09,
+      "change_1m": 5.57,
+      "change_12m": -9.15,
+      "change_3y": 99.07,
+      "updated": "2026-10-30T23:01:56.031951"
     },
     "NVDA": {
-      "price": 201.61,
-      "change_1d": -5.64,
-      "change_3d": -6.39,
-      "change_1m": -15.61,
-      "change_12m": -0.39,
-      "change_3y": 391.27,
-      "updated": "2026-10-30T18:40:10.471616"
+      "price": 204.64,
+      "change_1d": -4.22,
+      "change_3d": -4.99,
+      "change_1m": -14.34,
+      "change_12m": 1.1,
+      "change_3y": 403.31,
+      "updated": "2026-10-30T23:01:56.032230"
     },
     "MU": {
-      "price": 864.35,
-      "change_1d": -7.48,
-      "change_3d": -12.09,
-      "change_1m": -18.75,
-      "change_12m": 286.29,
-      "change_3y": 1220.86,
-      "updated": "2026-10-30T18:40:10.471789"
+      "price": 884.74,
+      "change_1d": -5.3,
+      "change_3d": -10.02,
+      "change_1m": -16.83,
+      "change_12m": 295.4,
+      "change_3y": 1235.84,
+      "updated": "2026-10-30T23:01:56.032472"
     }
   },
   "news": [
@@ -34,42 +34,42 @@
       "title": "Tesla Full Self-Driving becomes main pillar of new Referral Program",
       "link": "https://www.teslarati.com/tesla-full-self-driving-becomes-main-pillar-new-referral-program/",
       "date": "Fri, 30 Oct 2026 14:42",
-      "hoursAgo": 3,
+      "hoursAgo": 8,
       "source": "Teslarati"
     },
     {
       "title": "Tesla made napping in a Robotaxi easier with its latest update",
       "link": "https://www.teslarati.com/tesla-robotaxi-sleeping-nap-quiet-mode/",
       "date": "Fri, 30 Oct 2026 03:44",
-      "hoursAgo": 14,
+      "hoursAgo": 19,
       "source": "Teslarati"
     },
     {
       "title": "FCC green lights SpaceX’s move to a showdown with Verizon and AT&T",
       "link": "https://www.teslarati.com/fcc-green-light-spacex-starlink-mobile-competitor-verizon-att/",
       "date": "Thu, 29 Oct 2026 16:29",
-      "hoursAgo": 26,
+      "hoursAgo": 30,
       "source": "Teslarati"
     },
     {
       "title": "Tesla’s Roadster appearance at SpaceX has merger watchers talking",
       "link": "https://www.teslarati.com/tesla-roadster-spacex-hq-display/",
       "date": "Thu, 29 Oct 2026 04:56",
-      "hoursAgo": 37,
+      "hoursAgo": 42,
       "source": "Teslarati"
     },
     {
       "title": "Verizon, AT&T and T-Mobile are trying to shut Starlink out before FCC vote",
       "link": "https://www.teslarati.com/spacex-starlink-fcc-vote-verizon-att/",
       "date": "Wed, 28 Oct 2026 23:13",
-      "hoursAgo": 43,
+      "hoursAgo": 47,
       "source": "Teslarati"
     },
     {
       "title": "Tesla Semi catches fire in California: what we know",
       "link": "https://www.teslarati.com/tesla-semi-catches-fire-california-what-we-know/",
       "date": "Wed, 28 Oct 2026 17:36",
-      "hoursAgo": 49,
+      "hoursAgo": 53,
       "source": "Teslarati"
     }
   ],
@@ -77,56 +77,61 @@
   "roasts": [],
   "weather": {
     "+1h": {
-      "temp": 18.8,
-      "condition": "Clear",
-      "wind_speed": 16.3,
-      "wind_dir_deg": 145,
-      "cloud": 0,
+      "temp": 17.8,
+      "condition": "Overcast",
+      "wind_speed": 17.2,
+      "wind_dir_deg": 167,
+      "cloud": 100,
       "rain": 0.0
     },
     "+3h": {
-      "temp": 18.1,
-      "condition": "Clear",
-      "wind_speed": 21.7,
-      "wind_dir_deg": 152,
-      "cloud": 0,
+      "temp": 18.0,
+      "condition": "Overcast",
+      "wind_speed": 16.3,
+      "wind_dir_deg": 164,
+      "cloud": 100,
       "rain": 0.0
     },
     "+6h": {
-      "temp": 17.9,
-      "condition": "Clear",
-      "wind_speed": 22.6,
-      "wind_dir_deg": 152,
-      "cloud": 19,
+      "temp": 17.6,
+      "condition": "Overcast",
+      "wind_speed": 16.2,
+      "wind_dir_deg": 156,
+      "cloud": 100,
       "rain": 0.0
     },
     "+12h": {
-      "temp": 24.8,
-      "condition": "Partly cloudy",
-      "wind_speed": 21.3,
-      "wind_dir_deg": 164,
-      "cloud": 75,
+      "temp": 24.3,
+      "condition": "Overcast",
+      "wind_speed": 15.7,
+      "wind_dir_deg": 183,
+      "cloud": 91,
       "rain": 0.0
     },
     "+24h": {
-      "temp": 18.3,
-      "condition": "Overcast",
-      "wind_speed": 16.9,
-      "wind_dir_deg": 164,
-      "cloud": 100,
+      "temp": 17.0,
+      "condition": "Partly cloudy",
+      "wind_speed": 13.4,
+      "wind_dir_deg": 172,
+      "cloud": 63,
       "rain": 0.0
     }
   },
   "keyNumbers": {
-    "usdZar": "16.73",
-    "usdZarWeek": "+1.7%",
+    "usdZar": "16.71",
+    "usdZarWeek": "+1.5%",
     "usdZarLabel": "rand weaker",
-    "btc": "76655",
-    "btcWeek": "-8.8%",
-    "jse": "-2.2%",
-    "sp500": "-2.3%"
+    "btc": "76792",
+    "btcWeek": "-8.6%",
+    "jse": "+0.3%",
+    "sp500": "-1.8%"
   },
   "worldEvents": [
+    {
+      "text": "US approves sale of 500 Patriot missiles to Ukraine",
+      "hoursAgo": 0,
+      "link": "https://www.bbc.co.uk/news/articles/c3vgxznlx7jzo"
+    },
     {
       "text": "Crypto giant Binance attempting to recover $6.3bn stolen in hack linked to North Korea",
       "hoursAgo": 1,
@@ -134,23 +139,18 @@
     },
     {
       "text": "US inmate Christa Pike says she woke up 'confused and in pain' after failed execution",
-      "hoursAgo": 1,
+      "hoursAgo": 5,
       "link": "https://www.bbc.co.uk/news/articles/ck62ydn7dj9eo"
     },
     {
       "text": "Hundreds evacuated from Russian-occupied Oleshky during rare Ukraine ceasefire",
-      "hoursAgo": 2,
+      "hoursAgo": 6,
       "link": "https://www.bbc.co.uk/news/articles/c60me298k1yeo"
     },
     {
-      "text": "Prominent Russian newspaper shuts down under pressure from authorities",
-      "hoursAgo": 7,
-      "link": "https://www.bbc.co.uk/news/articles/cmewepdr109do"
-    },
-    {
-      "text": "Spain transport minister says he won't resign over high-speed rail disaster",
-      "hoursAgo": 3,
-      "link": "https://www.bbc.co.uk/news/articles/c6zxj2e5qlxxo"
+      "text": "Police deployed during stand-off over control of top Poland court",
+      "hoursAgo": 2,
+      "link": "https://www.bbc.co.uk/news/articles/crz9824d5e88o"
     }
   ],
   "launches": [
@@ -200,42 +200,42 @@
       "title": "Tesla Full Self-Driving becomes main pillar of new Referral Program",
       "link": "https://www.teslarati.com/tesla-full-self-driving-becomes-main-pillar-new-referral-program/",
       "date": "Fri, 30 Oct 2026 14:42",
-      "hoursAgo": 3,
+      "hoursAgo": 8,
       "source": "Teslarati"
     },
     {
       "title": "Tesla made napping in a Robotaxi easier with its latest update",
       "link": "https://www.teslarati.com/tesla-robotaxi-sleeping-nap-quiet-mode/",
       "date": "Fri, 30 Oct 2026 03:44",
-      "hoursAgo": 14,
+      "hoursAgo": 19,
       "source": "Teslarati"
     },
     {
       "title": "FCC green lights SpaceX’s move to a showdown with Verizon and AT&T",
       "link": "https://www.teslarati.com/fcc-green-light-spacex-starlink-mobile-competitor-verizon-att/",
       "date": "Thu, 29 Oct 2026 16:29",
-      "hoursAgo": 26,
+      "hoursAgo": 30,
       "source": "Teslarati"
     },
     {
       "title": "Tesla’s Roadster appearance at SpaceX has merger watchers talking",
       "link": "https://www.teslarati.com/tesla-roadster-spacex-hq-display/",
       "date": "Thu, 29 Oct 2026 04:56",
-      "hoursAgo": 37,
+      "hoursAgo": 42,
       "source": "Teslarati"
     },
     {
       "title": "Verizon, AT&T and T-Mobile are trying to shut Starlink out before FCC vote",
       "link": "https://www.teslarati.com/spacex-starlink-fcc-vote-verizon-att/",
       "date": "Wed, 28 Oct 2026 23:13",
-      "hoursAgo": 43,
+      "hoursAgo": 47,
       "source": "Teslarati"
     },
     {
       "title": "Tesla Semi catches fire in California: what we know",
       "link": "https://www.teslarati.com/tesla-semi-catches-fire-california-what-we-know/",
       "date": "Wed, 28 Oct 2026 17:36",
-      "hoursAgo": 49,
+      "hoursAgo": 53,
       "source": "Teslarati"
     }
   ],
