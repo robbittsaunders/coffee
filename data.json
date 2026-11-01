@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-31T12:11+02:00",
+  "updatedAt": "2026-11-01T13:01+02:00",
   "stocks": {
     "TSLA": {
       "price": 399.81,
@@ -8,7 +8,7 @@
       "change_1m": 5.57,
       "change_12m": -9.15,
       "change_3y": 99.07,
-      "updated": "2026-10-31T10:11:49.368198"
+      "updated": "2026-11-01T11:01:47.346546"
     },
     "NVDA": {
       "price": 204.64,
@@ -17,7 +17,7 @@
       "change_1m": -14.34,
       "change_12m": 1.1,
       "change_3y": 403.31,
-      "updated": "2026-10-31T10:11:49.368326"
+      "updated": "2026-11-01T11:01:47.346778"
     },
     "MU": {
       "price": 884.74,
@@ -26,7 +26,7 @@
       "change_1m": -16.83,
       "change_12m": 295.4,
       "change_3y": 1235.84,
-      "updated": "2026-10-31T10:11:49.368428"
+      "updated": "2026-11-01T11:01:47.346964"
     }
   },
   "news": [
@@ -34,42 +34,42 @@
       "title": "SpaceX President to gift Trump Accounts her SpaceX stock",
       "link": "https://www.teslarati.com/spacexs-gwynne-shotwell-stocks-trump-accounts/",
       "date": "Sat, 31 Oct 2026 04:28",
-      "hoursAgo": 5,
+      "hoursAgo": 30,
       "source": "Teslarati"
     },
     {
       "title": "Tesla Full Self-Driving becomes main pillar of new Referral Program",
       "link": "https://www.teslarati.com/tesla-full-self-driving-becomes-main-pillar-new-referral-program/",
       "date": "Fri, 30 Oct 2026 14:42",
-      "hoursAgo": 19,
+      "hoursAgo": 44,
       "source": "Teslarati"
     },
     {
       "title": "Tesla made napping in a Robotaxi easier with its latest update",
       "link": "https://www.teslarati.com/tesla-robotaxi-sleeping-nap-quiet-mode/",
       "date": "Fri, 30 Oct 2026 03:44",
-      "hoursAgo": 30,
+      "hoursAgo": 55,
       "source": "Teslarati"
     },
     {
       "title": "FCC green lights SpaceX’s move to a showdown with Verizon and AT&T",
       "link": "https://www.teslarati.com/fcc-green-light-spacex-starlink-mobile-competitor-verizon-att/",
       "date": "Thu, 29 Oct 2026 16:29",
-      "hoursAgo": 41,
+      "hoursAgo": 66,
       "source": "Teslarati"
     },
     {
       "title": "Tesla’s Roadster appearance at SpaceX has merger watchers talking",
       "link": "https://www.teslarati.com/tesla-roadster-spacex-hq-display/",
       "date": "Thu, 29 Oct 2026 04:56",
-      "hoursAgo": 53,
+      "hoursAgo": 78,
       "source": "Teslarati"
     },
     {
       "title": "Verizon, AT&T and T-Mobile are trying to shut Starlink out before FCC vote",
       "link": "https://www.teslarati.com/spacex-starlink-fcc-vote-verizon-att/",
       "date": "Wed, 28 Oct 2026 23:13",
-      "hoursAgo": 58,
+      "hoursAgo": 83,
       "source": "Teslarati"
     }
   ],
@@ -77,43 +77,43 @@
   "roasts": [],
   "weather": {
     "+1h": {
-      "temp": 18.1,
+      "temp": 17.0,
+      "condition": "Mixed",
+      "wind_speed": 13.1,
+      "wind_dir_deg": 187,
+      "cloud": 100,
+      "rain": 0.1
+    },
+    "+3h": {
+      "temp": 17.4,
       "condition": "Overcast",
-      "wind_speed": 16.9,
-      "wind_dir_deg": 168,
+      "wind_speed": 11.5,
+      "wind_dir_deg": 184,
       "cloud": 100,
       "rain": 0.0
     },
-    "+3h": {
-      "temp": 17.9,
-      "condition": "Overcast",
-      "wind_speed": 17.2,
-      "wind_dir_deg": 165,
-      "cloud": 99,
-      "rain": 0.0
-    },
     "+6h": {
-      "temp": 17.4,
+      "temp": 17.0,
       "condition": "Overcast",
-      "wind_speed": 15.6,
-      "wind_dir_deg": 158,
+      "wind_speed": 10.7,
+      "wind_dir_deg": 172,
       "cloud": 100,
       "rain": 0.0
     },
     "+12h": {
-      "temp": 24.6,
+      "temp": 22.2,
       "condition": "Overcast",
-      "wind_speed": 14.6,
-      "wind_dir_deg": 190,
-      "cloud": 95,
+      "wind_speed": 16.9,
+      "wind_dir_deg": 156,
+      "cloud": 98,
       "rain": 0.0
     },
     "+24h": {
-      "temp": 16.9,
-      "condition": "Partly cloudy",
-      "wind_speed": 12.9,
-      "wind_dir_deg": 172,
-      "cloud": 63,
+      "temp": 16.2,
+      "condition": "Overcast",
+      "wind_speed": 20.5,
+      "wind_dir_deg": 155,
+      "cloud": 94,
       "rain": 0.0
     }
   },
@@ -121,36 +121,36 @@
     "usdZar": "16.71",
     "usdZarWeek": "+1.5%",
     "usdZarLabel": "rand weaker",
-    "btc": "77308",
-    "btcWeek": "-4.9%",
+    "btc": "77892",
+    "btcWeek": "-3.9%",
     "jse": "-2.2%",
     "sp500": "-1.8%"
   },
   "worldEvents": [
     {
-      "text": "US approves sale of 500 Patriot missiles to Ukraine",
-      "hoursAgo": 9,
-      "link": "https://www.bbc.co.uk/news/articles/c3vgxznlx7jzo"
+      "text": "Shops looted as German cost of living protests turn violent",
+      "hoursAgo": 2,
+      "link": "https://www.bbc.co.uk/news/articles/cqj34gnd3n30o"
     },
     {
-      "text": "Crypto giant Binance attempting to recover $6.3bn stolen in hack linked to North Korea",
-      "hoursAgo": 12,
-      "link": "https://www.bbc.co.uk/news/articles/cwe8lp7zy07zo"
+      "text": "'We came back from hell', say Ukrainians after years in Russia-occupied front-line city",
+      "hoursAgo": 15,
+      "link": "https://www.bbc.co.uk/news/articles/cqglw3k7djp1o"
     },
     {
-      "text": "Why North Korea's 'elite' hackers are the prime suspect in major Binance hack",
-      "hoursAgo": 7,
-      "link": "https://www.bbc.co.uk/news/articles/ck9dz3v7z7v3o"
+      "text": "Ukrainian evacuees reunite with family after years trapped in Russia-occupied city",
+      "hoursAgo": 17,
+      "link": "https://www.bbc.co.uk/news/articles/cqx2818elrnzo"
     },
     {
-      "text": "Police deployed during stand-off over control of top Poland court",
-      "hoursAgo": 9,
-      "link": "https://www.bbc.co.uk/news/articles/crz9824d5e88o"
+      "text": "Judge dismisses Trump's lawsuit against Wall Street Journal over Epstein birthday book",
+      "hoursAgo": 10,
+      "link": "https://www.bbc.co.uk/news/articles/cwr5yj2lj9myo"
     },
     {
-      "text": "Spain train disaster clouds Sánchez chances of re-election",
-      "hoursAgo": 4,
-      "link": "https://www.bbc.co.uk/news/articles/cmeweppr990qo"
+      "text": "Crypto firm Binance covers 90% of losses after $6.3bn hack",
+      "hoursAgo": 1,
+      "link": "https://www.bbc.co.uk/news/articles/ckpdg3ql4169o"
     }
   ],
   "launches": [
@@ -200,42 +200,42 @@
       "title": "SpaceX President to gift Trump Accounts her SpaceX stock",
       "link": "https://www.teslarati.com/spacexs-gwynne-shotwell-stocks-trump-accounts/",
       "date": "Sat, 31 Oct 2026 04:28",
-      "hoursAgo": 5,
+      "hoursAgo": 30,
       "source": "Teslarati"
     },
     {
       "title": "Tesla Full Self-Driving becomes main pillar of new Referral Program",
       "link": "https://www.teslarati.com/tesla-full-self-driving-becomes-main-pillar-new-referral-program/",
       "date": "Fri, 30 Oct 2026 14:42",
-      "hoursAgo": 19,
+      "hoursAgo": 44,
       "source": "Teslarati"
     },
     {
       "title": "Tesla made napping in a Robotaxi easier with its latest update",
       "link": "https://www.teslarati.com/tesla-robotaxi-sleeping-nap-quiet-mode/",
       "date": "Fri, 30 Oct 2026 03:44",
-      "hoursAgo": 30,
+      "hoursAgo": 55,
       "source": "Teslarati"
     },
     {
       "title": "FCC green lights SpaceX’s move to a showdown with Verizon and AT&T",
       "link": "https://www.teslarati.com/fcc-green-light-spacex-starlink-mobile-competitor-verizon-att/",
       "date": "Thu, 29 Oct 2026 16:29",
-      "hoursAgo": 41,
+      "hoursAgo": 66,
       "source": "Teslarati"
     },
     {
       "title": "Tesla’s Roadster appearance at SpaceX has merger watchers talking",
       "link": "https://www.teslarati.com/tesla-roadster-spacex-hq-display/",
       "date": "Thu, 29 Oct 2026 04:56",
-      "hoursAgo": 53,
+      "hoursAgo": 78,
       "source": "Teslarati"
     },
     {
       "title": "Verizon, AT&T and T-Mobile are trying to shut Starlink out before FCC vote",
       "link": "https://www.teslarati.com/spacex-starlink-fcc-vote-verizon-att/",
       "date": "Wed, 28 Oct 2026 23:13",
-      "hoursAgo": 58,
+      "hoursAgo": 83,
       "source": "Teslarati"
     }
   ],
