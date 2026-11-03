@@ -1,75 +1,75 @@
 {
-  "updatedAt": "2026-11-03T13:37+02:00",
+  "updatedAt": "2026-11-03T22:09+02:00",
   "stocks": {
     "TSLA": {
-      "price": 403.82,
-      "change_1d": 1.0,
-      "change_3d": 0.13,
-      "change_1m": 6.08,
-      "change_12m": -11.55,
-      "change_3y": 83.59,
-      "updated": "2026-11-03T11:37:47.131013"
+      "price": 398.25,
+      "change_1d": -1.38,
+      "change_3d": -0.39,
+      "change_1m": 5.41,
+      "change_12m": -14.97,
+      "change_3y": 81.06,
+      "updated": "2026-11-03T20:09:19.088436"
     },
     "NVDA": {
-      "price": 202.06,
-      "change_1d": -1.26,
-      "change_3d": -5.43,
-      "change_1m": -15.54,
-      "change_12m": 0.03,
-      "change_3y": 350.31,
-      "updated": "2026-11-03T11:37:47.131212"
+      "price": 206.89,
+      "change_1d": 2.39,
+      "change_3d": 1.1,
+      "change_1m": -12.88,
+      "change_12m": 0.24,
+      "change_3y": 361.08,
+      "updated": "2026-11-03T20:09:19.088596"
     },
     "MU": {
-      "price": 833.59,
-      "change_1d": -5.78,
-      "change_3d": -10.78,
-      "change_1m": -20.26,
-      "change_12m": 272.94,
-      "change_3y": 1059.6,
-      "updated": "2026-11-03T11:37:47.131390"
+      "price": 851.0,
+      "change_1d": 2.09,
+      "change_3d": -3.81,
+      "change_1m": -21.77,
+      "change_12m": 263.0,
+      "change_3y": 1083.81,
+      "updated": "2026-11-03T20:09:19.088703"
     }
   },
   "news": [
     {
+      "title": "Tesla Full Self-Driving gets hit with some adjustments in Europe",
+      "link": "https://www.teslarati.com/tesla-full-self-driving-gets-hit-with-some-adjustments-europe/",
+      "date": "Tue, 03 Nov 2026 19:46",
+      "hoursAgo": 0,
+      "source": "Teslarati"
+    },
+    {
+      "title": "Tesla shows off Roadster ‘kickflip’ over vehicle lineup in crazy new POV video",
+      "link": "https://www.teslarati.com/tesla-shows-off-roadster-kickflip-new-pov-video/",
+      "date": "Tue, 03 Nov 2026 19:22",
+      "hoursAgo": 0,
+      "source": "Teslarati"
+    },
+    {
       "title": "SpaceX’s Starfall just went from secret to storefront",
       "link": "https://www.teslarati.com/spacexs-starfall-just-went-from-secret-to-storefront/",
       "date": "Tue, 03 Nov 2026 06:18",
-      "hoursAgo": 5,
+      "hoursAgo": 13,
       "source": "Teslarati"
     },
     {
       "title": "Grok Bot users hit with weekly limits early, Elon Musk explains what happened",
       "link": "https://www.teslarati.com/grok-bot-users-hit-weekly-limits-early-elon-musk-explains-what-happened/",
       "date": "Mon, 02 Nov 2026 21:16",
-      "hoursAgo": 14,
+      "hoursAgo": 22,
       "source": "Teslarati"
     },
     {
       "title": "Tesla owners who tap Emergency Drive Away for fun are in for a surprise",
       "link": "https://www.teslarati.com/tesla-emergency-drive-away-service-cost/",
       "date": "Mon, 02 Nov 2026 05:36",
-      "hoursAgo": 30,
+      "hoursAgo": 38,
       "source": "Teslarati"
     },
     {
       "title": "Elon Musk calls Earth’s data centers “peanuts” next to what SpaceX is planning in orbit",
       "link": "https://www.teslarati.com/elon-musk-calls-earths-data-centers-peanuts-next-to-what-spacex-is-planning-in-orbit/",
       "date": "Sun, 01 Nov 2026 18:31",
-      "hoursAgo": 41,
-      "source": "Teslarati"
-    },
-    {
-      "title": "SpaceX President to gift Trump Accounts her SpaceX stock",
-      "link": "https://www.teslarati.com/spacexs-gwynne-shotwell-stocks-trump-accounts/",
-      "date": "Sat, 31 Oct 2026 04:28",
-      "hoursAgo": 79,
-      "source": "Teslarati"
-    },
-    {
-      "title": "Tesla Full Self-Driving becomes main pillar of new Referral Program",
-      "link": "https://www.teslarati.com/tesla-full-self-driving-becomes-main-pillar-new-referral-program/",
-      "date": "Fri, 30 Oct 2026 14:42",
-      "hoursAgo": 92,
+      "hoursAgo": 49,
       "source": "Teslarati"
     }
   ],
@@ -102,55 +102,55 @@
     },
     "+12h": {
       "temp": 25.4,
-      "condition": "Partly cloudy",
-      "wind_speed": 8.7,
-      "wind_dir_deg": 288,
-      "cloud": 73,
+      "condition": "Overcast",
+      "wind_speed": 9.1,
+      "wind_dir_deg": 279,
+      "cloud": 80,
       "rain": 0.0
     },
     "+24h": {
-      "temp": 18.0,
+      "temp": 17.7,
       "condition": "Overcast",
-      "wind_speed": 10.2,
-      "wind_dir_deg": 143,
-      "cloud": 88,
+      "wind_speed": 8.4,
+      "wind_dir_deg": 140,
+      "cloud": 96,
       "rain": 0.0
     }
   },
   "keyNumbers": {
-    "usdZar": "16.66",
-    "usdZarWeek": "+1.6%",
+    "usdZar": "16.62",
+    "usdZarWeek": "+1.4%",
     "usdZarLabel": "rand weaker",
-    "btc": "76947",
-    "btcWeek": "-3.8%",
-    "jse": "-0.8%",
-    "sp500": "-0.5%"
+    "btc": "77648",
+    "btcWeek": "-3.0%",
+    "jse": "-0.2%",
+    "sp500": "+0.3%"
   },
   "worldEvents": [
     {
-      "text": "US strikes Iranian island ahead of midterm elections",
-      "hoursAgo": 0,
-      "link": "https://www.bbc.co.uk/news/articles/cx240mrm3g8vo"
-    },
-    {
-      "text": "Supreme Court rejects Trump's request to stop California counting disputed votes",
-      "hoursAgo": 8,
-      "link": "https://www.bbc.co.uk/news/articles/cm5ynekkn5qko"
-    },
-    {
-      "text": "Russian bombing kills 29 people at Ukraine aid centre, Kyiv says",
-      "hoursAgo": 4,
-      "link": "https://www.bbc.co.uk/news/articles/cjy56dndlyz0o"
+      "text": "Seven flights across Europe targeted by suspected bomb threats",
+      "hoursAgo": 2,
+      "link": "https://www.bbc.co.uk/news/articles/c6x2wd4v04eeo"
     },
     {
       "text": "Tenerife striker De Miguel dies after on-field collision",
-      "hoursAgo": 2,
+      "hoursAgo": 11,
       "link": "https://www.bbc.co.uk/sport/football/articles/ck62yvz046pjo"
     },
     {
-      "text": "Jet may have broken apart before Florida crash, officials say, as family named among victims",
-      "hoursAgo": 1,
-      "link": "https://www.bbc.co.uk/news/articles/cm9wz01dx8xro"
+      "text": "Binance says fake job interviews used as part of $6.3bn crypto hack",
+      "hoursAgo": 3,
+      "link": "https://www.bbc.co.uk/news/articles/ck5ynwz9gy67o"
+    },
+    {
+      "text": "Death toll rises in Ukraine after Russia attacks aid centre, hospice and hospital",
+      "hoursAgo": 3,
+      "link": "https://www.bbc.co.uk/news/articles/c65ynez5y599o"
+    },
+    {
+      "text": "Libya's top religious authority rules against wearing Nike clothes",
+      "hoursAgo": 5,
+      "link": "https://www.bbc.co.uk/news/articles/c5djv0p0re2no"
     }
   ],
   "launches": [
@@ -164,19 +164,19 @@
     },
     {
       "name": "Falcon 9 Block 5 | USSF-xxx (\"R-5\")",
-      "date": "Monday 9 November 05h17",
-      "dateISO": "2026-11-09T03:17:00Z",
+      "date": "Tuesday 10 November 05h03",
+      "dateISO": "2026-11-10T03:03:00Z",
       "details": "Space Launch Complex 4E - Vandenberg SFB, CA, USA",
       "highlight": false,
       "link": "https://spacelaunchnow.me/launch/falcon-9-block-5-ussf-xxx-r-5"
     },
     {
-      "name": "Falcon 9 Block 5 | Cygnus CRS-2 NG-25",
-      "date": "Sunday 29 November 17h49",
-      "dateISO": "2026-11-29T15:49:00Z",
-      "details": "Space Launch Complex 40 - Cape Canaveral SFS, FL, USA",
+      "name": "Falcon 9 Block 5 | USSF-xxx (\"R-6\")",
+      "date": "Friday 13 November 06h23",
+      "dateISO": "2026-11-13T04:23:00Z",
+      "details": "Space Launch Complex 4E - Vandenberg SFB, CA, USA",
       "highlight": false,
-      "link": "https://spacelaunchnow.me/launch/falcon-9-block-5-cygnus-crs-2-ng-25"
+      "link": "https://spacelaunchnow.me/launch/falcon-9-block-5-ussf-xxx-r-6"
     },
     {
       "name": "Starship | Flight 15",
@@ -197,45 +197,45 @@
   ],
   "companyNews": [
     {
+      "title": "Tesla Full Self-Driving gets hit with some adjustments in Europe",
+      "link": "https://www.teslarati.com/tesla-full-self-driving-gets-hit-with-some-adjustments-europe/",
+      "date": "Tue, 03 Nov 2026 19:46",
+      "hoursAgo": 0,
+      "source": "Teslarati"
+    },
+    {
+      "title": "Tesla shows off Roadster ‘kickflip’ over vehicle lineup in crazy new POV video",
+      "link": "https://www.teslarati.com/tesla-shows-off-roadster-kickflip-new-pov-video/",
+      "date": "Tue, 03 Nov 2026 19:22",
+      "hoursAgo": 0,
+      "source": "Teslarati"
+    },
+    {
       "title": "SpaceX’s Starfall just went from secret to storefront",
       "link": "https://www.teslarati.com/spacexs-starfall-just-went-from-secret-to-storefront/",
       "date": "Tue, 03 Nov 2026 06:18",
-      "hoursAgo": 5,
+      "hoursAgo": 13,
       "source": "Teslarati"
     },
     {
       "title": "Grok Bot users hit with weekly limits early, Elon Musk explains what happened",
       "link": "https://www.teslarati.com/grok-bot-users-hit-weekly-limits-early-elon-musk-explains-what-happened/",
       "date": "Mon, 02 Nov 2026 21:16",
-      "hoursAgo": 14,
+      "hoursAgo": 22,
       "source": "Teslarati"
     },
     {
       "title": "Tesla owners who tap Emergency Drive Away for fun are in for a surprise",
       "link": "https://www.teslarati.com/tesla-emergency-drive-away-service-cost/",
       "date": "Mon, 02 Nov 2026 05:36",
-      "hoursAgo": 30,
+      "hoursAgo": 38,
       "source": "Teslarati"
     },
     {
       "title": "Elon Musk calls Earth’s data centers “peanuts” next to what SpaceX is planning in orbit",
       "link": "https://www.teslarati.com/elon-musk-calls-earths-data-centers-peanuts-next-to-what-spacex-is-planning-in-orbit/",
       "date": "Sun, 01 Nov 2026 18:31",
-      "hoursAgo": 41,
-      "source": "Teslarati"
-    },
-    {
-      "title": "SpaceX President to gift Trump Accounts her SpaceX stock",
-      "link": "https://www.teslarati.com/spacexs-gwynne-shotwell-stocks-trump-accounts/",
-      "date": "Sat, 31 Oct 2026 04:28",
-      "hoursAgo": 79,
-      "source": "Teslarati"
-    },
-    {
-      "title": "Tesla Full Self-Driving becomes main pillar of new Referral Program",
-      "link": "https://www.teslarati.com/tesla-full-self-driving-becomes-main-pillar-new-referral-program/",
-      "date": "Fri, 30 Oct 2026 14:42",
-      "hoursAgo": 92,
+      "hoursAgo": 49,
       "source": "Teslarati"
     }
   ],
