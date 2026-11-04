@@ -1,75 +1,75 @@
 {
-  "updatedAt": "2026-11-04T13:51+02:00",
+  "updatedAt": "2026-11-04T22:27+02:00",
   "stocks": {
     "TSLA": {
-      "price": 398.5,
-      "change_1d": -1.32,
-      "change_3d": -0.33,
-      "change_1m": 5.48,
-      "change_12m": -14.92,
-      "change_3y": 81.74,
-      "updated": "2026-11-04T11:51:33.602256"
+      "price": 385.97,
+      "change_1d": -3.14,
+      "change_3d": -4.42,
+      "change_1m": 2.93,
+      "change_12m": -13.12,
+      "change_3y": 76.02,
+      "updated": "2026-11-04T20:27:28.142112"
     },
     "NVDA": {
-      "price": 206.69,
-      "change_1d": 2.29,
-      "change_3d": 1.0,
-      "change_1m": -12.96,
-      "change_12m": 0.15,
-      "change_3y": 353.12,
-      "updated": "2026-11-04T11:51:33.602388"
+      "price": 202.16,
+      "change_1d": -2.19,
+      "change_3d": 0.05,
+      "change_1m": -12.29,
+      "change_12m": 1.99,
+      "change_3y": 343.2,
+      "updated": "2026-11-04T20:27:28.142222"
     },
     "MU": {
-      "price": 855.1,
-      "change_1d": 2.58,
-      "change_3d": -3.35,
-      "change_1m": -21.39,
-      "change_12m": 264.75,
-      "change_3y": 1083.97,
-      "updated": "2026-11-04T11:51:33.602489"
+      "price": 795.59,
+      "change_1d": -6.96,
+      "change_3d": -4.56,
+      "change_1m": -23.18,
+      "change_12m": 265.31,
+      "change_3y": 1001.57,
+      "updated": "2026-11-04T20:27:28.142311"
     }
   },
   "news": [
     {
+      "title": "Musk’s Tesla and SpaceX decline after Democratic Midterm sweep",
+      "link": "https://www.teslarati.com/musk-tesla-tsla-spacex-spcx-decline-after-democratic-midterm-sweep/",
+      "date": "Wed, 04 Nov 2026 18:49",
+      "hoursAgo": 1,
+      "source": "Teslarati"
+    },
+    {
+      "title": "Tesla registrations in Germany nearly quadruple in October",
+      "link": "https://www.teslarati.com/tesla-registrations-germany-nearly-quadruple-october/",
+      "date": "Wed, 04 Nov 2026 17:47",
+      "hoursAgo": 2,
+      "source": "Teslarati"
+    },
+    {
+      "title": "Elon Musk hilariously comments on Midterm election results",
+      "link": "https://www.teslarati.com/elon-musk-hilariously-comments-on-midterm-election-results/",
+      "date": "Wed, 04 Nov 2026 17:26",
+      "hoursAgo": 3,
+      "source": "Teslarati"
+    },
+    {
+      "title": "SpaceX moves to challenge AT&T, Verizon with Qualcomm-powered 5G",
+      "link": "https://www.teslarati.com/spacex-moves-challenge-att-verizon-qualcomm-powered-5g/",
+      "date": "Wed, 04 Nov 2026 16:05",
+      "hoursAgo": 4,
+      "source": "Teslarati"
+    },
+    {
       "title": "Elon Musk’s Grok Bot is picking up the phone now, and the first calls are wild",
       "link": "https://www.teslarati.com/elon-musks-grok-bot-is-picking-up-the-phone-now-and-the-first-calls-are-wild/",
       "date": "Wed, 04 Nov 2026 06:09",
-      "hoursAgo": 5,
+      "hoursAgo": 14,
       "source": "Teslarati"
     },
     {
       "title": "Tesla Full Self-Driving gets hit with some adjustments in Europe",
       "link": "https://www.teslarati.com/tesla-full-self-driving-gets-hit-with-some-adjustments-europe/",
       "date": "Tue, 03 Nov 2026 19:46",
-      "hoursAgo": 16,
-      "source": "Teslarati"
-    },
-    {
-      "title": "Tesla shows off Roadster ‘kickflip’ over vehicle lineup in crazy new POV video",
-      "link": "https://www.teslarati.com/tesla-shows-off-roadster-kickflip-new-pov-video/",
-      "date": "Tue, 03 Nov 2026 19:22",
-      "hoursAgo": 16,
-      "source": "Teslarati"
-    },
-    {
-      "title": "SpaceX’s Starfall just went from secret to storefront",
-      "link": "https://www.teslarati.com/spacexs-starfall-just-went-from-secret-to-storefront/",
-      "date": "Tue, 03 Nov 2026 06:18",
-      "hoursAgo": 29,
-      "source": "Teslarati"
-    },
-    {
-      "title": "Grok Bot users hit with weekly limits early, Elon Musk explains what happened",
-      "link": "https://www.teslarati.com/grok-bot-users-hit-weekly-limits-early-elon-musk-explains-what-happened/",
-      "date": "Mon, 02 Nov 2026 21:16",
-      "hoursAgo": 38,
-      "source": "Teslarati"
-    },
-    {
-      "title": "Tesla owners who tap Emergency Drive Away for fun are in for a surprise",
-      "link": "https://www.teslarati.com/tesla-emergency-drive-away-service-cost/",
-      "date": "Mon, 02 Nov 2026 05:36",
-      "hoursAgo": 54,
+      "hoursAgo": 24,
       "source": "Teslarati"
     }
   ],
@@ -101,56 +101,56 @@
       "rain": 0.0
     },
     "+12h": {
-      "temp": 28.9,
+      "temp": 29.1,
       "condition": "Overcast",
-      "wind_speed": 8.1,
-      "wind_dir_deg": 302,
+      "wind_speed": 9.2,
+      "wind_dir_deg": 317,
       "cloud": 100,
       "rain": 0.0
     },
     "+24h": {
-      "temp": 19.7,
+      "temp": 19.8,
       "condition": "Overcast",
-      "wind_speed": 5.6,
-      "wind_dir_deg": 151,
-      "cloud": 100,
+      "wind_speed": 4.1,
+      "wind_dir_deg": 165,
+      "cloud": 99,
       "rain": 0.0
     }
   },
   "keyNumbers": {
-    "usdZar": "16.45",
-    "usdZarWeek": "+0.5%",
+    "usdZar": "16.41",
+    "usdZarWeek": "+0.2%",
     "usdZarLabel": "rand weaker",
-    "btc": "78526",
-    "btcWeek": "-1.9%",
+    "btc": "80109",
+    "btcWeek": "+0.1%",
     "jse": "-0.2%",
-    "sp500": "+0.4%"
+    "sp500": "+1.8%"
   },
   "worldEvents": [
     {
-      "text": "South Carolina elects Democratic senator for first time in almost three decades",
-      "hoursAgo": 4,
-      "link": "https://www.bbc.co.uk/news/articles/cjy56z440nl9o"
-    },
-    {
-      "text": "James Talarico becomes first Democrat to win Texas Senate seat since 1988",
+      "text": "'This is a disaster': Angry Republicans blame Trump for midterms defeat",
       "hoursAgo": 6,
-      "link": "https://www.bbc.co.uk/news/articles/c6n8dnn09jg7o"
+      "link": "https://www.bbc.co.uk/news/articles/c6x29rr8djy3o"
     },
     {
-      "text": "Florida Republicans fend off Democrats as state elects first black governor",
+      "text": "US midterm results a 'victory' for Canadians hopeful of tariff relief",
+      "hoursAgo": 2,
+      "link": "https://www.bbc.co.uk/news/articles/cqev3mw3e0kdo"
+    },
+    {
+      "text": "Ukraine says bodycam video shows deadly Russian double-tap bombing",
+      "hoursAgo": 0,
+      "link": "https://www.bbc.co.uk/news/articles/c98rz6penv86o"
+    },
+    {
+      "text": "French blood storage impacted by freezer hacks as theories swirl about culprits",
       "hoursAgo": 4,
-      "link": "https://www.bbc.co.uk/news/articles/c9146d88pl32o"
+      "link": "https://www.bbc.co.uk/news/articles/c8vgxyvz6y9ro"
     },
     {
-      "text": "Iran's chief negotiator says Americans voted 'no to war'",
-      "hoursAgo": 1,
-      "link": "https://www.bbc.co.uk/news/articles/c6d934npl9y8o"
-    },
-    {
-      "text": "Delhi air quality worsens ahead of Diwali as firework restrictions enter force",
-      "hoursAgo": 4,
-      "link": "https://www.bbc.co.uk/news/articles/c699z8792n7ro"
+      "text": "'Most difficult days of my life' for keeper Owono",
+      "hoursAgo": 3,
+      "link": "https://www.bbc.co.uk/sport/football/articles/c6zxjz40l280o"
     }
   ],
   "launches": [
@@ -197,45 +197,45 @@
   ],
   "companyNews": [
     {
+      "title": "Musk’s Tesla and SpaceX decline after Democratic Midterm sweep",
+      "link": "https://www.teslarati.com/musk-tesla-tsla-spacex-spcx-decline-after-democratic-midterm-sweep/",
+      "date": "Wed, 04 Nov 2026 18:49",
+      "hoursAgo": 1,
+      "source": "Teslarati"
+    },
+    {
+      "title": "Tesla registrations in Germany nearly quadruple in October",
+      "link": "https://www.teslarati.com/tesla-registrations-germany-nearly-quadruple-october/",
+      "date": "Wed, 04 Nov 2026 17:47",
+      "hoursAgo": 2,
+      "source": "Teslarati"
+    },
+    {
+      "title": "Elon Musk hilariously comments on Midterm election results",
+      "link": "https://www.teslarati.com/elon-musk-hilariously-comments-on-midterm-election-results/",
+      "date": "Wed, 04 Nov 2026 17:26",
+      "hoursAgo": 3,
+      "source": "Teslarati"
+    },
+    {
+      "title": "SpaceX moves to challenge AT&T, Verizon with Qualcomm-powered 5G",
+      "link": "https://www.teslarati.com/spacex-moves-challenge-att-verizon-qualcomm-powered-5g/",
+      "date": "Wed, 04 Nov 2026 16:05",
+      "hoursAgo": 4,
+      "source": "Teslarati"
+    },
+    {
       "title": "Elon Musk’s Grok Bot is picking up the phone now, and the first calls are wild",
       "link": "https://www.teslarati.com/elon-musks-grok-bot-is-picking-up-the-phone-now-and-the-first-calls-are-wild/",
       "date": "Wed, 04 Nov 2026 06:09",
-      "hoursAgo": 5,
+      "hoursAgo": 14,
       "source": "Teslarati"
     },
     {
       "title": "Tesla Full Self-Driving gets hit with some adjustments in Europe",
       "link": "https://www.teslarati.com/tesla-full-self-driving-gets-hit-with-some-adjustments-europe/",
       "date": "Tue, 03 Nov 2026 19:46",
-      "hoursAgo": 16,
-      "source": "Teslarati"
-    },
-    {
-      "title": "Tesla shows off Roadster ‘kickflip’ over vehicle lineup in crazy new POV video",
-      "link": "https://www.teslarati.com/tesla-shows-off-roadster-kickflip-new-pov-video/",
-      "date": "Tue, 03 Nov 2026 19:22",
-      "hoursAgo": 16,
-      "source": "Teslarati"
-    },
-    {
-      "title": "SpaceX’s Starfall just went from secret to storefront",
-      "link": "https://www.teslarati.com/spacexs-starfall-just-went-from-secret-to-storefront/",
-      "date": "Tue, 03 Nov 2026 06:18",
-      "hoursAgo": 29,
-      "source": "Teslarati"
-    },
-    {
-      "title": "Grok Bot users hit with weekly limits early, Elon Musk explains what happened",
-      "link": "https://www.teslarati.com/grok-bot-users-hit-weekly-limits-early-elon-musk-explains-what-happened/",
-      "date": "Mon, 02 Nov 2026 21:16",
-      "hoursAgo": 38,
-      "source": "Teslarati"
-    },
-    {
-      "title": "Tesla owners who tap Emergency Drive Away for fun are in for a surprise",
-      "link": "https://www.teslarati.com/tesla-emergency-drive-away-service-cost/",
-      "date": "Mon, 02 Nov 2026 05:36",
-      "hoursAgo": 54,
+      "hoursAgo": 24,
       "source": "Teslarati"
     }
   ],
