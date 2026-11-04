@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-04T02:40+02:00",
+  "updatedAt": "2026-11-04T13:51+02:00",
   "stocks": {
     "TSLA": {
       "price": 398.5,
@@ -8,7 +8,7 @@
       "change_1m": 5.48,
       "change_12m": -14.92,
       "change_3y": 81.74,
-      "updated": "2026-11-04T00:40:32.896459"
+      "updated": "2026-11-04T11:51:33.602256"
     },
     "NVDA": {
       "price": 206.69,
@@ -17,7 +17,7 @@
       "change_1m": -12.96,
       "change_12m": 0.15,
       "change_3y": 353.12,
-      "updated": "2026-11-04T00:40:32.896652"
+      "updated": "2026-11-04T11:51:33.602388"
     },
     "MU": {
       "price": 855.1,
@@ -26,49 +26,49 @@
       "change_1m": -21.39,
       "change_12m": 264.75,
       "change_3y": 1083.97,
-      "updated": "2026-11-04T00:40:32.896820"
+      "updated": "2026-11-04T11:51:33.602489"
     }
   },
   "news": [
     {
+      "title": "Elon Musk’s Grok Bot is picking up the phone now, and the first calls are wild",
+      "link": "https://www.teslarati.com/elon-musks-grok-bot-is-picking-up-the-phone-now-and-the-first-calls-are-wild/",
+      "date": "Wed, 04 Nov 2026 06:09",
+      "hoursAgo": 5,
+      "source": "Teslarati"
+    },
+    {
       "title": "Tesla Full Self-Driving gets hit with some adjustments in Europe",
       "link": "https://www.teslarati.com/tesla-full-self-driving-gets-hit-with-some-adjustments-europe/",
       "date": "Tue, 03 Nov 2026 19:46",
-      "hoursAgo": 4,
+      "hoursAgo": 16,
       "source": "Teslarati"
     },
     {
       "title": "Tesla shows off Roadster ‘kickflip’ over vehicle lineup in crazy new POV video",
       "link": "https://www.teslarati.com/tesla-shows-off-roadster-kickflip-new-pov-video/",
       "date": "Tue, 03 Nov 2026 19:22",
-      "hoursAgo": 5,
+      "hoursAgo": 16,
       "source": "Teslarati"
     },
     {
       "title": "SpaceX’s Starfall just went from secret to storefront",
       "link": "https://www.teslarati.com/spacexs-starfall-just-went-from-secret-to-storefront/",
       "date": "Tue, 03 Nov 2026 06:18",
-      "hoursAgo": 18,
+      "hoursAgo": 29,
       "source": "Teslarati"
     },
     {
       "title": "Grok Bot users hit with weekly limits early, Elon Musk explains what happened",
       "link": "https://www.teslarati.com/grok-bot-users-hit-weekly-limits-early-elon-musk-explains-what-happened/",
       "date": "Mon, 02 Nov 2026 21:16",
-      "hoursAgo": 27,
+      "hoursAgo": 38,
       "source": "Teslarati"
     },
     {
       "title": "Tesla owners who tap Emergency Drive Away for fun are in for a surprise",
       "link": "https://www.teslarati.com/tesla-emergency-drive-away-service-cost/",
       "date": "Mon, 02 Nov 2026 05:36",
-      "hoursAgo": 43,
-      "source": "Teslarati"
-    },
-    {
-      "title": "Elon Musk calls Earth’s data centers “peanuts” next to what SpaceX is planning in orbit",
-      "link": "https://www.teslarati.com/elon-musk-calls-earths-data-centers-peanuts-next-to-what-spacex-is-planning-in-orbit/",
-      "date": "Sun, 01 Nov 2026 18:31",
       "hoursAgo": 54,
       "source": "Teslarati"
     }
@@ -85,72 +85,72 @@
       "rain": 0.0
     },
     "+3h": {
-      "temp": 17.7,
-      "condition": "Partly cloudy",
-      "wind_speed": 7.4,
-      "wind_dir_deg": 129,
-      "cloud": 73,
+      "temp": 17.8,
+      "condition": "Mainly clear",
+      "wind_speed": 7.7,
+      "wind_dir_deg": 131,
+      "cloud": 29,
       "rain": 0.0
     },
     "+6h": {
-      "temp": 17.7,
+      "temp": 17.3,
       "condition": "Partly cloudy",
-      "wind_speed": 0.4,
-      "wind_dir_deg": 90,
-      "cloud": 74,
+      "wind_speed": 2.0,
+      "wind_dir_deg": 95,
+      "cloud": 53,
       "rain": 0.0
     },
     "+12h": {
-      "temp": 29.7,
+      "temp": 28.9,
       "condition": "Overcast",
-      "wind_speed": 8.3,
-      "wind_dir_deg": 300,
+      "wind_speed": 8.1,
+      "wind_dir_deg": 302,
       "cloud": 100,
       "rain": 0.0
     },
     "+24h": {
-      "temp": 20.1,
+      "temp": 19.7,
       "condition": "Overcast",
-      "wind_speed": 5.2,
-      "wind_dir_deg": 155,
-      "cloud": 98,
+      "wind_speed": 5.6,
+      "wind_dir_deg": 151,
+      "cloud": 100,
       "rain": 0.0
     }
   },
   "keyNumbers": {
-    "usdZar": "16.61",
-    "usdZarWeek": "+1.5%",
+    "usdZar": "16.45",
+    "usdZarWeek": "+0.5%",
     "usdZarLabel": "rand weaker",
-    "btc": "76860",
-    "btcWeek": "-3.9%",
-    "jse": "+1.8%",
+    "btc": "78526",
+    "btcWeek": "-1.9%",
+    "jse": "-0.2%",
     "sp500": "+0.4%"
   },
   "worldEvents": [
     {
-      "text": "Spanish transport minister resigns days after deadly train crash",
+      "text": "South Carolina elects Democratic senator for first time in almost three decades",
+      "hoursAgo": 4,
+      "link": "https://www.bbc.co.uk/news/articles/cjy56z440nl9o"
+    },
+    {
+      "text": "James Talarico becomes first Democrat to win Texas Senate seat since 1988",
+      "hoursAgo": 6,
+      "link": "https://www.bbc.co.uk/news/articles/c6n8dnn09jg7o"
+    },
+    {
+      "text": "Florida Republicans fend off Democrats as state elects first black governor",
+      "hoursAgo": 4,
+      "link": "https://www.bbc.co.uk/news/articles/c9146d88pl32o"
+    },
+    {
+      "text": "Iran's chief negotiator says Americans voted 'no to war'",
       "hoursAgo": 1,
-      "link": "https://www.bbc.co.uk/news/articles/c6wydqd4yxdyo"
+      "link": "https://www.bbc.co.uk/news/articles/c6d934npl9y8o"
     },
     {
-      "text": "Seven flights across Europe targeted by suspected bomb threats",
-      "hoursAgo": 3,
-      "link": "https://www.bbc.co.uk/news/articles/c6x2wd4v04eeo"
-    },
-    {
-      "text": "Binance says fake job interviews used as part of $6.3bn crypto hack",
-      "hoursAgo": 8,
-      "link": "https://www.bbc.co.uk/news/articles/ck5ynwz9gy67o"
-    },
-    {
-      "text": "NTSB says crucial plane parts found three miles from Florida crash site",
-      "hoursAgo": 2,
-      "link": "https://www.bbc.co.uk/news/articles/c9e8lk5dpj7no"
-    },
-    {
-      "text": "Libya's top religious authority rules against wearing Nike clothes",
-      "hoursAgo": 9,
-      "link": "https://www.bbc.co.uk/news/articles/c5djv0p0re2no"
+      "text": "Delhi air quality worsens ahead of Diwali as firework restrictions enter force",
+      "hoursAgo": 4,
+      "link": "https://www.bbc.co.uk/news/articles/c699z8792n7ro"
     }
   ],
   "launches": [
@@ -197,44 +197,44 @@
   ],
   "companyNews": [
     {
+      "title": "Elon Musk’s Grok Bot is picking up the phone now, and the first calls are wild",
+      "link": "https://www.teslarati.com/elon-musks-grok-bot-is-picking-up-the-phone-now-and-the-first-calls-are-wild/",
+      "date": "Wed, 04 Nov 2026 06:09",
+      "hoursAgo": 5,
+      "source": "Teslarati"
+    },
+    {
       "title": "Tesla Full Self-Driving gets hit with some adjustments in Europe",
       "link": "https://www.teslarati.com/tesla-full-self-driving-gets-hit-with-some-adjustments-europe/",
       "date": "Tue, 03 Nov 2026 19:46",
-      "hoursAgo": 4,
+      "hoursAgo": 16,
       "source": "Teslarati"
     },
     {
       "title": "Tesla shows off Roadster ‘kickflip’ over vehicle lineup in crazy new POV video",
       "link": "https://www.teslarati.com/tesla-shows-off-roadster-kickflip-new-pov-video/",
       "date": "Tue, 03 Nov 2026 19:22",
-      "hoursAgo": 5,
+      "hoursAgo": 16,
       "source": "Teslarati"
     },
     {
       "title": "SpaceX’s Starfall just went from secret to storefront",
       "link": "https://www.teslarati.com/spacexs-starfall-just-went-from-secret-to-storefront/",
       "date": "Tue, 03 Nov 2026 06:18",
-      "hoursAgo": 18,
+      "hoursAgo": 29,
       "source": "Teslarati"
     },
     {
       "title": "Grok Bot users hit with weekly limits early, Elon Musk explains what happened",
       "link": "https://www.teslarati.com/grok-bot-users-hit-weekly-limits-early-elon-musk-explains-what-happened/",
       "date": "Mon, 02 Nov 2026 21:16",
-      "hoursAgo": 27,
+      "hoursAgo": 38,
       "source": "Teslarati"
     },
     {
       "title": "Tesla owners who tap Emergency Drive Away for fun are in for a surprise",
       "link": "https://www.teslarati.com/tesla-emergency-drive-away-service-cost/",
       "date": "Mon, 02 Nov 2026 05:36",
-      "hoursAgo": 43,
-      "source": "Teslarati"
-    },
-    {
-      "title": "Elon Musk calls Earth’s data centers “peanuts” next to what SpaceX is planning in orbit",
-      "link": "https://www.teslarati.com/elon-musk-calls-earths-data-centers-peanuts-next-to-what-spacex-is-planning-in-orbit/",
-      "date": "Sun, 01 Nov 2026 18:31",
       "hoursAgo": 54,
       "source": "Teslarati"
     }
