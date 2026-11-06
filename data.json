@@ -1,66 +1,75 @@
 {
-  "updatedAt": "2026-11-06T03:37+02:00",
+  "updatedAt": "2026-11-06T13:49+02:00",
   "stocks": {
+    "TSLA": {
+      "price": 343.69,
+      "change_1d": -10.77,
+      "change_3d": -13.75,
+      "change_1m": -10.19,
+      "change_12m": -25.62,
+      "change_3y": 56.74,
+      "updated": "2026-11-06T11:49:00.975226"
+    },
     "NVDA": {
-      "price": 200.13,
-      "change_1d": -3.17,
-      "change_3d": -0.96,
-      "change_1m": -13.17,
-      "change_12m": 0.97,
-      "change_3y": 338.74,
-      "updated": "2026-11-06T01:37:22.474266"
+      "price": 181.6,
+      "change_1d": -9.26,
+      "change_3d": -12.14,
+      "change_1m": -20.8,
+      "change_12m": -6.75,
+      "change_3y": 298.12,
+      "updated": "2026-11-06T11:49:00.975356"
     },
     "MU": {
-      "price": 795.23,
-      "change_1d": -7.0,
-      "change_3d": -4.6,
-      "change_1m": -23.22,
-      "change_12m": 265.15,
-      "change_3y": 1001.08,
-      "updated": "2026-11-06T01:37:22.474458"
+      "price": 656.39,
+      "change_1d": -17.46,
+      "change_3d": -23.24,
+      "change_1m": -36.2,
+      "change_12m": 176.69,
+      "change_3y": 808.84,
+      "updated": "2026-11-06T11:49:00.975444"
     }
   },
   "news": [
     {
+      "title": "SpaceX’s next Starship flight set to make history on Friday the 13th",
+      "link": "https://www.teslarati.com/spacex-starship-catch-nov-13/",
+      "date": "Fri, 06 Nov 2026 06:59",
+      "hoursAgo": 4,
+      "source": "Teslarati"
+    },
+    {
       "title": "EVgo taps Tesla Superchargers for mass charging expansion",
       "link": "https://www.teslarati.com/evgo-taps-tesla-superchargers-mass-charging-expansion/",
       "date": "Thu, 05 Nov 2026 17:15",
-      "hoursAgo": 8,
+      "hoursAgo": 18,
       "source": "Teslarati"
     },
     {
       "title": "Tesla Giga Texas reportedly moves to 24/7 production",
       "link": "https://www.teslarati.com/tesla-giga-texas-reportedly-moves-24-7-production/",
       "date": "Thu, 05 Nov 2026 15:39",
-      "hoursAgo": 9,
+      "hoursAgo": 20,
       "source": "Teslarati"
     },
     {
       "title": "Tesla opens new “Cybaer” Engineering Center in Berlin",
       "link": "https://www.teslarati.com/tesla-berlin-btec-engineering-center/",
       "date": "Thu, 05 Nov 2026 10:06",
-      "hoursAgo": 15,
+      "hoursAgo": 25,
       "source": "Teslarati"
     },
     {
       "title": "Musk’s Tesla and SpaceX decline after Democratic Midterm sweep",
       "link": "https://www.teslarati.com/musk-tesla-tsla-spacex-spcx-decline-after-democratic-midterm-sweep/",
       "date": "Wed, 04 Nov 2026 18:49",
-      "hoursAgo": 30,
+      "hoursAgo": 40,
       "source": "Teslarati"
     },
     {
       "title": "Tesla registrations in Germany nearly quadruple in October",
       "link": "https://www.teslarati.com/tesla-registrations-germany-nearly-quadruple-october/",
       "date": "Wed, 04 Nov 2026 17:47",
-      "hoursAgo": 31,
-      "source": "Teslarati"
-    },
-    {
-      "title": "Elon Musk hilariously comments on Midterm election results",
-      "link": "https://www.teslarati.com/elon-musk-hilariously-comments-on-midterm-election-results/",
-      "date": "Wed, 04 Nov 2026 17:26",
-      "hoursAgo": 32,
+      "hoursAgo": 42,
       "source": "Teslarati"
     }
   ],
@@ -76,72 +85,72 @@
       "rain": 0.0
     },
     "+3h": {
-      "temp": 15.6,
+      "temp": 16.1,
       "condition": "Mixed",
-      "wind_speed": 14.4,
-      "wind_dir_deg": 290,
+      "wind_speed": 12.9,
+      "wind_dir_deg": 300,
       "cloud": 99,
-      "rain": 0.4
+      "rain": 0.1
     },
     "+6h": {
-      "temp": 15.4,
+      "temp": 15.8,
       "condition": "Mixed",
-      "wind_speed": 11.0,
-      "wind_dir_deg": 291,
-      "cloud": 98,
-      "rain": 0.3
+      "wind_speed": 13.6,
+      "wind_dir_deg": 287,
+      "cloud": 100,
+      "rain": 0.2
     },
     "+12h": {
-      "temp": 18.3,
+      "temp": 19.1,
       "condition": "Mixed",
-      "wind_speed": 16.9,
-      "wind_dir_deg": 256,
-      "cloud": 41,
-      "rain": 0.1
+      "wind_speed": 19.0,
+      "wind_dir_deg": 260,
+      "cloud": 86,
+      "rain": 0.2
     },
     "+24h": {
       "temp": 14.4,
-      "condition": "Mixed",
-      "wind_speed": 10.1,
+      "condition": "Partly cloudy",
+      "wind_speed": 8.5,
       "wind_dir_deg": 197,
-      "cloud": 91,
-      "rain": 0.1
+      "cloud": 73,
+      "rain": 0.0
     }
   },
   "keyNumbers": {
-    "usdZar": "16.50",
-    "usdZarWeek": "-0.8%",
+    "usdZar": "16.53",
+    "usdZarWeek": "-0.6%",
     "usdZarLabel": "rand stronger",
-    "btc": "76037",
+    "btc": "76048",
     "btcWeek": "-6.4%",
-    "jse": "-0.2%",
+    "jse": "-0.5%",
     "sp500": "-4.4%"
   },
   "worldEvents": [
     {
-      "text": "Major tech stocks plunge as US midterms add to fears of AI slowdown",
-      "hoursAgo": 0,
-      "link": "https://www.bbc.co.uk/news/articles/cmn04705rd8jo"
+      "text": "White House denies Hegseth and Rubio to leave jobs after Republican election losses",
+      "hoursAgo": 9,
+      "link": "https://www.bbc.co.uk/news/articles/cqg7xxg4jdv5o"
     },
     {
-      "text": "Democratic socialist defeats incumbent Karen Bass in Los Angeles mayor's race",
+      "text": "Trump signs order to preserve Oval Office as national monument",
+      "hoursAgo": 2,
+      "link": "https://www.bbc.co.uk/news/articles/cmy0eeg101djo"
+    },
+    {
+      "text": "Two dead after bus crashes in France, officials say",
       "hoursAgo": 0,
-      "link": "https://www.bbc.co.uk/news/articles/c6e3xxwk3k11o"
+      "link": "https://www.bbc.co.uk/news/articles/cmly00l4p3lwo"
     },
     {
       "text": "Pope begins lengthy trip to Latin America weeks after lung cancer surgery",
-      "hoursAgo": 1,
+      "hoursAgo": 11,
       "link": "https://www.bbc.co.uk/news/articles/cqn06j0y61k6o"
     },
     {
-      "text": "Hoax bomb threats target European airlines and airports for second time in a week",
-      "hoursAgo": 7,
-      "link": "https://www.bbc.co.uk/news/articles/cmpqg08nz3pqo"
-    },
-    {
-      "text": "California governor commutes sentences for state's 548 death row inmates",
-      "hoursAgo": 2,
-      "link": "https://www.bbc.co.uk/news/articles/cqrkyyd2j8mvo"
+      "text": "Major construction ongoing near Iran missile bases, satellite images suggest",
+      "hoursAgo": 4,
+      "link": "https://www.bbc.co.uk/news/articles/ckjrwx1r2d5ro"
     }
   ],
   "launches": [
@@ -188,45 +197,45 @@
   ],
   "companyNews": [
     {
+      "title": "SpaceX’s next Starship flight set to make history on Friday the 13th",
+      "link": "https://www.teslarati.com/spacex-starship-catch-nov-13/",
+      "date": "Fri, 06 Nov 2026 06:59",
+      "hoursAgo": 4,
+      "source": "Teslarati"
+    },
+    {
       "title": "EVgo taps Tesla Superchargers for mass charging expansion",
       "link": "https://www.teslarati.com/evgo-taps-tesla-superchargers-mass-charging-expansion/",
       "date": "Thu, 05 Nov 2026 17:15",
-      "hoursAgo": 8,
+      "hoursAgo": 18,
       "source": "Teslarati"
     },
     {
       "title": "Tesla Giga Texas reportedly moves to 24/7 production",
       "link": "https://www.teslarati.com/tesla-giga-texas-reportedly-moves-24-7-production/",
       "date": "Thu, 05 Nov 2026 15:39",
-      "hoursAgo": 9,
+      "hoursAgo": 20,
       "source": "Teslarati"
     },
     {
       "title": "Tesla opens new “Cybaer” Engineering Center in Berlin",
       "link": "https://www.teslarati.com/tesla-berlin-btec-engineering-center/",
       "date": "Thu, 05 Nov 2026 10:06",
-      "hoursAgo": 15,
+      "hoursAgo": 25,
       "source": "Teslarati"
     },
     {
       "title": "Musk’s Tesla and SpaceX decline after Democratic Midterm sweep",
       "link": "https://www.teslarati.com/musk-tesla-tsla-spacex-spcx-decline-after-democratic-midterm-sweep/",
       "date": "Wed, 04 Nov 2026 18:49",
-      "hoursAgo": 30,
+      "hoursAgo": 40,
       "source": "Teslarati"
     },
     {
       "title": "Tesla registrations in Germany nearly quadruple in October",
       "link": "https://www.teslarati.com/tesla-registrations-germany-nearly-quadruple-october/",
       "date": "Wed, 04 Nov 2026 17:47",
-      "hoursAgo": 31,
-      "source": "Teslarati"
-    },
-    {
-      "title": "Elon Musk hilariously comments on Midterm election results",
-      "link": "https://www.teslarati.com/elon-musk-hilariously-comments-on-midterm-election-results/",
-      "date": "Wed, 04 Nov 2026 17:26",
-      "hoursAgo": 32,
+      "hoursAgo": 42,
       "source": "Teslarati"
     }
   ],
