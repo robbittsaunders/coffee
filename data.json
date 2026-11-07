@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-07T02:09+02:00",
+  "updatedAt": "2026-11-07T12:52+02:00",
   "stocks": {
     "TSLA": {
       "price": 358.22,
@@ -8,7 +8,7 @@
       "change_1m": -5.24,
       "change_12m": -19.67,
       "change_3y": 61.23,
-      "updated": "2026-11-07T00:08:57.553045"
+      "updated": "2026-11-07T10:52:46.855337"
     },
     "NVDA": {
       "price": 186.64,
@@ -17,7 +17,7 @@
       "change_1m": -17.53,
       "change_12m": -0.53,
       "change_3y": 307.35,
-      "updated": "2026-11-07T00:08:57.553239"
+      "updated": "2026-11-07T10:52:46.855460"
     },
     "MU": {
       "price": 690.0,
@@ -26,7 +26,7 @@
       "change_1m": -30.22,
       "change_12m": 189.84,
       "change_3y": 856.95,
-      "updated": "2026-11-07T00:08:57.553408"
+      "updated": "2026-11-07T10:52:46.855562"
     }
   },
   "news": [
@@ -34,42 +34,42 @@
       "title": "Tesla is ending Cybertruck production",
       "link": "https://www.teslarati.com/tesla-is-ending-cybertruck-production/",
       "date": "Fri, 06 Nov 2026 13:46",
-      "hoursAgo": 10,
+      "hoursAgo": 21,
       "source": "Teslarati"
     },
     {
       "title": "SpaceX’s next Starship flight set to make history on Friday the 13th",
       "link": "https://www.teslarati.com/spacex-starship-catch-nov-13/",
       "date": "Fri, 06 Nov 2026 06:59",
-      "hoursAgo": 17,
+      "hoursAgo": 27,
       "source": "Teslarati"
     },
     {
       "title": "EVgo taps Tesla Superchargers for mass charging expansion",
       "link": "https://www.teslarati.com/evgo-taps-tesla-superchargers-mass-charging-expansion/",
       "date": "Thu, 05 Nov 2026 17:15",
-      "hoursAgo": 30,
+      "hoursAgo": 41,
       "source": "Teslarati"
     },
     {
       "title": "Tesla Giga Texas reportedly moves to 24/7 production",
       "link": "https://www.teslarati.com/tesla-giga-texas-reportedly-moves-24-7-production/",
       "date": "Thu, 05 Nov 2026 15:39",
-      "hoursAgo": 32,
+      "hoursAgo": 43,
       "source": "Teslarati"
     },
     {
       "title": "Tesla opens new “Cybaer” Engineering Center in Berlin",
       "link": "https://www.teslarati.com/tesla-berlin-btec-engineering-center/",
       "date": "Thu, 05 Nov 2026 10:06",
-      "hoursAgo": 38,
+      "hoursAgo": 48,
       "source": "Teslarati"
     },
     {
       "title": "Musk’s Tesla and SpaceX decline after Democratic Midterm sweep",
       "link": "https://www.teslarati.com/musk-tesla-tsla-spacex-spcx-decline-after-democratic-midterm-sweep/",
       "date": "Wed, 04 Nov 2026 18:49",
-      "hoursAgo": 53,
+      "hoursAgo": 64,
       "source": "Teslarati"
     }
   ],
@@ -77,43 +77,43 @@
   "roasts": [],
   "weather": {
     "+1h": {
-      "temp": 14.0,
-      "condition": "Clear",
-      "wind_speed": 8.5,
-      "wind_dir_deg": 208,
-      "cloud": 3,
+      "temp": 14.8,
+      "condition": "Mainly clear",
+      "wind_speed": 9.3,
+      "wind_dir_deg": 212,
+      "cloud": 22,
       "rain": 0.0
     },
     "+3h": {
-      "temp": 12.6,
-      "condition": "Partly cloudy",
-      "wind_speed": 3.5,
-      "wind_dir_deg": 242,
-      "cloud": 50,
+      "temp": 12.9,
+      "condition": "Mainly clear",
+      "wind_speed": 3.9,
+      "wind_dir_deg": 223,
+      "cloud": 36,
       "rain": 0.0
     },
     "+6h": {
-      "temp": 12.4,
-      "condition": "Mainly clear",
-      "wind_speed": 9.4,
-      "wind_dir_deg": 183,
-      "cloud": 42,
+      "temp": 13.2,
+      "condition": "Overcast",
+      "wind_speed": 7.2,
+      "wind_dir_deg": 205,
+      "cloud": 81,
       "rain": 0.0
     },
     "+12h": {
-      "temp": 18.3,
+      "temp": 18.4,
       "condition": "Mixed",
-      "wind_speed": 15.5,
-      "wind_dir_deg": 157,
-      "cloud": 39,
+      "wind_speed": 15.0,
+      "wind_dir_deg": 160,
+      "cloud": 84,
       "rain": 0.1
     },
     "+24h": {
-      "temp": 14.7,
+      "temp": 14.6,
       "condition": "Clear",
-      "wind_speed": 25.5,
-      "wind_dir_deg": 132,
-      "cloud": 2,
+      "wind_speed": 24.4,
+      "wind_dir_deg": 133,
+      "cloud": 3,
       "rain": 0.0
     }
   },
@@ -121,47 +121,39 @@
     "usdZar": "16.52",
     "usdZarWeek": "-0.7%",
     "usdZarLabel": "rand stronger",
-    "btc": "75812",
+    "btc": "75856",
     "btcWeek": "-2.5%",
-    "jse": "+3.7%",
+    "jse": "-0.5%",
     "sp500": "+0.3%"
   },
   "worldEvents": [
     {
-      "text": "AI stocks climb after trillions wiped from market values",
+      "text": "With Stephen Miller pick, Trump readies for a battle",
+      "hoursAgo": 11,
+      "link": "https://www.bbc.co.uk/news/articles/crp3gg2z171go"
+    },
+    {
+      "text": "Paraguay's president impeached and under house arrest after bank collapse",
       "hoursAgo": 3,
+      "link": "https://www.bbc.co.uk/news/articles/c68jzzvjgdy9o"
+    },
+    {
+      "text": "Pope in 'pretty good health' as he starts Latin America tour",
+      "hoursAgo": 3,
+      "link": "https://www.bbc.co.uk/news/articles/c60e0001ve9wo"
+    },
+    {
+      "text": "AI stocks climb after trillions wiped from market values",
+      "hoursAgo": 13,
       "link": "https://www.bbc.co.uk/news/articles/c35ynnpzdq51o"
     },
     {
-      "text": "Four midterms takeaways for 2028 White House race",
-      "hoursAgo": 7,
-      "link": "https://www.bbc.co.uk/news/articles/cq1m41n3v7mmo"
-    },
-    {
-      "text": "Two dead after bus crashes in France, officials say",
-      "hoursAgo": 8,
-      "link": "https://www.bbc.co.uk/news/articles/cmly00l4p3lwo"
-    },
-    {
       "text": "New wave of bomb threats hit European airlines",
-      "hoursAgo": 8,
+      "hoursAgo": 19,
       "link": "https://www.bbc.co.uk/news/articles/cq62yy064vjpo"
-    },
-    {
-      "text": "Kenyan doomsday cult leader given life sentence for murdering 191 people",
-      "hoursAgo": 9,
-      "link": "https://www.bbc.co.uk/news/articles/cm5yne5984l0o"
     }
   ],
   "launches": [
-    {
-      "name": "Falcon 9 Block 5 | USSF-432",
-      "date": "Saturday 7 November 02h48",
-      "dateISO": "2026-11-07T00:48:42Z",
-      "details": "Space Launch Complex 4E - Vandenberg SFB, CA, USA",
-      "highlight": false,
-      "link": "https://spacelaunchnow.me/launch/falcon-9-block-5-ussf-432"
-    },
     {
       "name": "Falcon 9 Block 5 | USSF-627",
       "date": "Tuesday 10 November 05h03",
@@ -187,6 +179,14 @@
       "link": "https://spacelaunchnow.me/launch/falcon-9-block-5-ussf-317"
     },
     {
+      "name": "Falcon 9 Block 5 | Cygnus CRS-2 NG-25",
+      "date": "Sunday 29 November 17h49",
+      "dateISO": "2026-11-29T15:49:00Z",
+      "details": "Space Launch Complex 40 - Cape Canaveral SFS, FL, USA",
+      "highlight": false,
+      "link": "https://spacelaunchnow.me/launch/falcon-9-block-5-cygnus-crs-2-ng-25"
+    },
+    {
       "name": "Falcon 9 Block 5 | Starlink Group 15-21",
       "date": "Monday 30 November (TBD)",
       "dateISO": "2026-11-30T00:00:00Z",
@@ -200,42 +200,42 @@
       "title": "Tesla is ending Cybertruck production",
       "link": "https://www.teslarati.com/tesla-is-ending-cybertruck-production/",
       "date": "Fri, 06 Nov 2026 13:46",
-      "hoursAgo": 10,
+      "hoursAgo": 21,
       "source": "Teslarati"
     },
     {
       "title": "SpaceX’s next Starship flight set to make history on Friday the 13th",
       "link": "https://www.teslarati.com/spacex-starship-catch-nov-13/",
       "date": "Fri, 06 Nov 2026 06:59",
-      "hoursAgo": 17,
+      "hoursAgo": 27,
       "source": "Teslarati"
     },
     {
       "title": "EVgo taps Tesla Superchargers for mass charging expansion",
       "link": "https://www.teslarati.com/evgo-taps-tesla-superchargers-mass-charging-expansion/",
       "date": "Thu, 05 Nov 2026 17:15",
-      "hoursAgo": 30,
+      "hoursAgo": 41,
       "source": "Teslarati"
     },
     {
       "title": "Tesla Giga Texas reportedly moves to 24/7 production",
       "link": "https://www.teslarati.com/tesla-giga-texas-reportedly-moves-24-7-production/",
       "date": "Thu, 05 Nov 2026 15:39",
-      "hoursAgo": 32,
+      "hoursAgo": 43,
       "source": "Teslarati"
     },
     {
       "title": "Tesla opens new “Cybaer” Engineering Center in Berlin",
       "link": "https://www.teslarati.com/tesla-berlin-btec-engineering-center/",
       "date": "Thu, 05 Nov 2026 10:06",
-      "hoursAgo": 38,
+      "hoursAgo": 48,
       "source": "Teslarati"
     },
     {
       "title": "Musk’s Tesla and SpaceX decline after Democratic Midterm sweep",
       "link": "https://www.teslarati.com/musk-tesla-tsla-spacex-spcx-decline-after-democratic-midterm-sweep/",
       "date": "Wed, 04 Nov 2026 18:49",
-      "hoursAgo": 53,
+      "hoursAgo": 64,
       "source": "Teslarati"
     }
   ],
