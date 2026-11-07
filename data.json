@@ -1,23 +1,32 @@
 {
-  "updatedAt": "2026-11-06T21:58+02:00",
+  "updatedAt": "2026-11-07T02:09+02:00",
   "stocks": {
+    "TSLA": {
+      "price": 358.22,
+      "change_1d": 4.23,
+      "change_3d": -7.0,
+      "change_1m": -5.24,
+      "change_12m": -19.67,
+      "change_3y": 61.23,
+      "updated": "2026-11-07T00:08:57.553045"
+    },
     "NVDA": {
-      "price": 188.29,
-      "change_1d": 3.68,
-      "change_3d": -5.92,
-      "change_1m": -16.81,
-      "change_12m": 0.35,
-      "change_3y": 312.77,
-      "updated": "2026-11-06T19:58:49.881718"
+      "price": 186.64,
+      "change_1d": 2.78,
+      "change_3d": -6.74,
+      "change_1m": -17.53,
+      "change_12m": -0.53,
+      "change_3y": 307.35,
+      "updated": "2026-11-07T00:08:57.553239"
     },
     "MU": {
-      "price": 693.02,
-      "change_1d": 5.58,
-      "change_3d": -12.85,
-      "change_1m": -29.92,
-      "change_12m": 191.11,
-      "change_3y": 859.56,
-      "updated": "2026-11-06T19:58:49.881842"
+      "price": 690.0,
+      "change_1d": 5.12,
+      "change_3d": -13.23,
+      "change_1m": -30.22,
+      "change_12m": 189.84,
+      "change_3y": 856.95,
+      "updated": "2026-11-07T00:08:57.553408"
     }
   },
   "news": [
@@ -25,42 +34,42 @@
       "title": "Tesla is ending Cybertruck production",
       "link": "https://www.teslarati.com/tesla-is-ending-cybertruck-production/",
       "date": "Fri, 06 Nov 2026 13:46",
-      "hoursAgo": 6,
+      "hoursAgo": 10,
       "source": "Teslarati"
     },
     {
       "title": "SpaceX’s next Starship flight set to make history on Friday the 13th",
       "link": "https://www.teslarati.com/spacex-starship-catch-nov-13/",
       "date": "Fri, 06 Nov 2026 06:59",
-      "hoursAgo": 12,
+      "hoursAgo": 17,
       "source": "Teslarati"
     },
     {
       "title": "EVgo taps Tesla Superchargers for mass charging expansion",
       "link": "https://www.teslarati.com/evgo-taps-tesla-superchargers-mass-charging-expansion/",
       "date": "Thu, 05 Nov 2026 17:15",
-      "hoursAgo": 26,
+      "hoursAgo": 30,
       "source": "Teslarati"
     },
     {
       "title": "Tesla Giga Texas reportedly moves to 24/7 production",
       "link": "https://www.teslarati.com/tesla-giga-texas-reportedly-moves-24-7-production/",
       "date": "Thu, 05 Nov 2026 15:39",
-      "hoursAgo": 28,
+      "hoursAgo": 32,
       "source": "Teslarati"
     },
     {
       "title": "Tesla opens new “Cybaer” Engineering Center in Berlin",
       "link": "https://www.teslarati.com/tesla-berlin-btec-engineering-center/",
       "date": "Thu, 05 Nov 2026 10:06",
-      "hoursAgo": 33,
+      "hoursAgo": 38,
       "source": "Teslarati"
     },
     {
       "title": "Musk’s Tesla and SpaceX decline after Democratic Midterm sweep",
       "link": "https://www.teslarati.com/musk-tesla-tsla-spacex-spcx-decline-after-democratic-midterm-sweep/",
       "date": "Wed, 04 Nov 2026 18:49",
-      "hoursAgo": 49,
+      "hoursAgo": 53,
       "source": "Teslarati"
     }
   ],
@@ -68,79 +77,79 @@
   "roasts": [],
   "weather": {
     "+1h": {
-      "temp": 16.1,
-      "condition": "Overcast",
-      "wind_speed": 14.9,
-      "wind_dir_deg": 297,
-      "cloud": 86,
+      "temp": 14.0,
+      "condition": "Clear",
+      "wind_speed": 8.5,
+      "wind_dir_deg": 208,
+      "cloud": 3,
       "rain": 0.0
     },
     "+3h": {
-      "temp": 16.1,
-      "condition": "Mixed",
-      "wind_speed": 12.9,
-      "wind_dir_deg": 300,
-      "cloud": 99,
-      "rain": 0.1
+      "temp": 12.6,
+      "condition": "Partly cloudy",
+      "wind_speed": 3.5,
+      "wind_dir_deg": 242,
+      "cloud": 50,
+      "rain": 0.0
     },
     "+6h": {
-      "temp": 15.8,
-      "condition": "Mixed",
-      "wind_speed": 13.6,
-      "wind_dir_deg": 287,
-      "cloud": 100,
-      "rain": 0.2
+      "temp": 12.4,
+      "condition": "Mainly clear",
+      "wind_speed": 9.4,
+      "wind_dir_deg": 183,
+      "cloud": 42,
+      "rain": 0.0
     },
     "+12h": {
-      "temp": 19.1,
+      "temp": 18.3,
       "condition": "Mixed",
-      "wind_speed": 19.2,
-      "wind_dir_deg": 263,
-      "cloud": 45,
+      "wind_speed": 15.5,
+      "wind_dir_deg": 157,
+      "cloud": 39,
       "rain": 0.1
     },
     "+24h": {
-      "temp": 15.1,
-      "condition": "Mainly clear",
-      "wind_speed": 9.2,
-      "wind_dir_deg": 206,
-      "cloud": 45,
+      "temp": 14.7,
+      "condition": "Clear",
+      "wind_speed": 25.5,
+      "wind_dir_deg": 132,
+      "cloud": 2,
       "rain": 0.0
     }
   },
   "keyNumbers": {
-    "usdZar": "16.54",
-    "usdZarWeek": "-0.5%",
+    "usdZar": "16.52",
+    "usdZarWeek": "-0.7%",
     "usdZarLabel": "rand stronger",
-    "btc": "75750",
-    "btcWeek": "-6.8%",
-    "jse": "-0.5%",
-    "sp500": "+0.6%"
+    "btc": "75812",
+    "btcWeek": "-2.5%",
+    "jse": "+3.7%",
+    "sp500": "+0.3%"
   },
   "worldEvents": [
     {
       "text": "AI stocks climb after trillions wiped from market values",
-      "hoursAgo": 0,
+      "hoursAgo": 3,
       "link": "https://www.bbc.co.uk/news/articles/c35ynnpzdq51o"
     },
     {
       "text": "Four midterms takeaways for 2028 White House race",
-      "hoursAgo": 3,
+      "hoursAgo": 7,
       "link": "https://www.bbc.co.uk/news/articles/cq1m41n3v7mmo"
     },
     {
       "text": "Two dead after bus crashes in France, officials say",
-      "hoursAgo": 4,
+      "hoursAgo": 8,
       "link": "https://www.bbc.co.uk/news/articles/cmly00l4p3lwo"
     },
     {
       "text": "New wave of bomb threats hit European airlines",
-      "hoursAgo": 4,
+      "hoursAgo": 8,
       "link": "https://www.bbc.co.uk/news/articles/cq62yy064vjpo"
     },
     {
       "text": "Kenyan doomsday cult leader given life sentence for murdering 191 people",
-      "hoursAgo": 5,
+      "hoursAgo": 9,
       "link": "https://www.bbc.co.uk/news/articles/cm5yne5984l0o"
     }
   ],
@@ -191,42 +200,42 @@
       "title": "Tesla is ending Cybertruck production",
       "link": "https://www.teslarati.com/tesla-is-ending-cybertruck-production/",
       "date": "Fri, 06 Nov 2026 13:46",
-      "hoursAgo": 6,
+      "hoursAgo": 10,
       "source": "Teslarati"
     },
     {
       "title": "SpaceX’s next Starship flight set to make history on Friday the 13th",
       "link": "https://www.teslarati.com/spacex-starship-catch-nov-13/",
       "date": "Fri, 06 Nov 2026 06:59",
-      "hoursAgo": 12,
+      "hoursAgo": 17,
       "source": "Teslarati"
     },
     {
       "title": "EVgo taps Tesla Superchargers for mass charging expansion",
       "link": "https://www.teslarati.com/evgo-taps-tesla-superchargers-mass-charging-expansion/",
       "date": "Thu, 05 Nov 2026 17:15",
-      "hoursAgo": 26,
+      "hoursAgo": 30,
       "source": "Teslarati"
     },
     {
       "title": "Tesla Giga Texas reportedly moves to 24/7 production",
       "link": "https://www.teslarati.com/tesla-giga-texas-reportedly-moves-24-7-production/",
       "date": "Thu, 05 Nov 2026 15:39",
-      "hoursAgo": 28,
+      "hoursAgo": 32,
       "source": "Teslarati"
     },
     {
       "title": "Tesla opens new “Cybaer” Engineering Center in Berlin",
       "link": "https://www.teslarati.com/tesla-berlin-btec-engineering-center/",
       "date": "Thu, 05 Nov 2026 10:06",
-      "hoursAgo": 33,
+      "hoursAgo": 38,
       "source": "Teslarati"
     },
     {
       "title": "Musk’s Tesla and SpaceX decline after Democratic Midterm sweep",
       "link": "https://www.teslarati.com/musk-tesla-tsla-spacex-spcx-decline-after-democratic-midterm-sweep/",
       "date": "Wed, 04 Nov 2026 18:49",
-      "hoursAgo": 49,
+      "hoursAgo": 53,
       "source": "Teslarati"
     }
   ],
