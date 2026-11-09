@@ -1,75 +1,75 @@
 {
-  "updatedAt": "2026-11-09T14:31+02:00",
+  "updatedAt": "2026-11-10T01:01+02:00",
   "stocks": {
     "TSLA": {
-      "price": 358.22,
-      "change_1d": 4.23,
-      "change_3d": -7.0,
-      "change_1m": -5.24,
-      "change_12m": -19.67,
-      "change_3y": 61.23,
-      "updated": "2026-11-09T12:31:40.040132"
+      "price": 378.05,
+      "change_1d": 5.54,
+      "change_3d": 10.0,
+      "change_1m": 0.75,
+      "change_12m": -11.98,
+      "change_3y": 76.12,
+      "updated": "2026-11-09T23:01:31.496085"
     },
     "NVDA": {
-      "price": 186.64,
-      "change_1d": 2.78,
-      "change_3d": -6.74,
-      "change_1m": -17.53,
-      "change_12m": -0.53,
-      "change_3y": 307.35,
-      "updated": "2026-11-09T12:31:40.040319"
+      "price": 178.67,
+      "change_1d": -4.27,
+      "change_3d": -1.61,
+      "change_1m": -21.81,
+      "change_12m": -4.81,
+      "change_3y": 270.75,
+      "updated": "2026-11-09T23:01:31.496275"
     },
     "MU": {
-      "price": 690.0,
-      "change_1d": 5.12,
-      "change_3d": -13.23,
-      "change_1m": -30.22,
-      "change_12m": 189.84,
-      "change_3y": 856.95,
-      "updated": "2026-11-09T12:31:40.040486"
+      "price": 733.15,
+      "change_1d": 6.25,
+      "change_3d": 11.69,
+      "change_1m": -23.07,
+      "change_12m": 208.5,
+      "change_3y": 882.25,
+      "updated": "2026-11-09T23:01:31.496441"
     }
   },
   "news": [
     {
+      "title": "Tesla Robotaxi enters its newest city, reaching San Antonio",
+      "link": "https://www.teslarati.com/tesla-robotaxi-enters-newest-city-san-antonio/",
+      "date": "Mon, 09 Nov 2026 20:27",
+      "hoursAgo": 2,
+      "source": "Teslarati"
+    },
+    {
+      "title": "Tesla begins groundworks on $10B ‘Project Crystal Sun’ in Texas",
+      "link": "https://www.teslarati.com/tesla-begins-10b-project-solar-panel-manufacturing-project/",
+      "date": "Mon, 09 Nov 2026 17:21",
+      "hoursAgo": 5,
+      "source": "Teslarati"
+    },
+    {
+      "title": "Elon Musk keeps justifying Tesla Cybertruck’s cancelation, but it’s confusing",
+      "link": "https://www.teslarati.com/elon-musk-keeps-justifying-tesla-cybertruck-cancelation-confusing/",
+      "date": "Mon, 09 Nov 2026 16:19",
+      "hoursAgo": 6,
+      "source": "Teslarati"
+    },
+    {
       "title": "SpaceX’s Anthropic deal has a catch, and Elon Musk just addressed it",
       "link": "https://www.teslarati.com/spacexs-anthropic-deal-has-a-catch-and-elon-musk-just-addressed-it/",
       "date": "Mon, 09 Nov 2026 07:22",
-      "hoursAgo": 5,
+      "hoursAgo": 15,
       "source": "Teslarati"
     },
     {
       "title": "Elon Musk spotlights the Starlink rescue that got through where no cell tower could",
       "link": "https://www.teslarati.com/elon-musk-spotlights-the-starlink-rescue-that-got-through-where-no-cell-tower-could/",
       "date": "Sun, 08 Nov 2026 20:20",
-      "hoursAgo": 16,
+      "hoursAgo": 26,
       "source": "Teslarati"
     },
     {
       "title": "SpaceX will perform Starship double catch attempt with Flight 15",
       "link": "https://www.teslarati.com/spacex-perform-starship-double-catch-attempt-flight-15/",
       "date": "Sun, 08 Nov 2026 15:26",
-      "hoursAgo": 21,
-      "source": "Teslarati"
-    },
-    {
-      "title": "Tesla Cybercab is set to get some massive improvements",
-      "link": "https://www.teslarati.com/tesla-cybercab-set-some-massive-improvements/",
-      "date": "Sun, 08 Nov 2026 14:45",
-      "hoursAgo": 21,
-      "source": "Teslarati"
-    },
-    {
-      "title": "Tesla Robotaxi app update now tells riders if Cybercab is the better choice",
-      "link": "https://www.teslarati.com/tesla-robotaxi-app-cybercab-vs-model-y/",
-      "date": "Sat, 07 Nov 2026 18:27",
-      "hoursAgo": 42,
-      "source": "Teslarati"
-    },
-    {
-      "title": "Tesla is ending Cybertruck production",
-      "link": "https://www.teslarati.com/tesla-is-ending-cybertruck-production/",
-      "date": "Fri, 06 Nov 2026 13:46",
-      "hoursAgo": 70,
+      "hoursAgo": 31,
       "source": "Teslarati"
     }
   ],
@@ -77,165 +77,124 @@
   "roasts": [],
   "weather": {
     "+1h": {
-      "temp": 16.9,
+      "temp": 17.5,
       "condition": "Clear",
-      "wind_speed": 9.1,
-      "wind_dir_deg": 131,
-      "cloud": 0,
-      "rain": 0.0
-    },
-    "+3h": {
-      "temp": 16.0,
-      "condition": "Clear",
-      "wind_speed": 7.5,
-      "wind_dir_deg": 123,
-      "cloud": 0,
-      "rain": 0.0
-    },
-    "+6h": {
-      "temp": 17.7,
-      "condition": "Clear",
-      "wind_speed": 1.1,
-      "wind_dir_deg": 90,
+      "wind_speed": 17.6,
+      "wind_dir_deg": 154,
       "cloud": 1,
       "rain": 0.0
     },
+    "+3h": {
+      "temp": 17.0,
+      "condition": "Mainly clear",
+      "wind_speed": 15.3,
+      "wind_dir_deg": 146,
+      "cloud": 49,
+      "rain": 0.0
+    },
+    "+6h": {
+      "temp": 16.2,
+      "condition": "Partly cloudy",
+      "wind_speed": 11.9,
+      "wind_dir_deg": 170,
+      "cloud": 57,
+      "rain": 0.0
+    },
     "+12h": {
-      "temp": 29.8,
-      "condition": "Fog",
-      "wind_speed": 8.8,
-      "wind_dir_deg": 251,
-      "cloud": 13,
+      "temp": 29.6,
+      "condition": "Mainly clear",
+      "wind_speed": 10.5,
+      "wind_dir_deg": 211,
+      "cloud": 32,
       "rain": 0.0
     },
     "+24h": {
-      "temp": 17.6,
+      "temp": 18.3,
       "condition": "Partly cloudy",
-      "wind_speed": 17.8,
-      "wind_dir_deg": 164,
-      "cloud": 59,
+      "wind_speed": 5.0,
+      "wind_dir_deg": 195,
+      "cloud": 55,
       "rain": 0.0
     }
   },
   "keyNumbers": {
-    "usdZar": "16.48",
-    "usdZarWeek": "-0.9%",
+    "usdZar": "16.38",
+    "usdZarWeek": "-1.5%",
     "usdZarLabel": "rand stronger",
-    "btc": "74795",
-    "btcWeek": "-3.4%",
-    "jse": "+1.0%",
-    "sp500": "+0.3%"
+    "btc": "75161",
+    "btcWeek": "-2.9%",
+    "jse": "-0.5%",
+    "sp500": "+2.3%"
   },
   "worldEvents": [
     {
-      "text": "Krakow shooting suspect has died in hospital, police say",
+      "text": "France accuses Iran of supermarket fridge hacking",
+      "hoursAgo": 2,
+      "link": "https://www.bbc.co.uk/news/articles/cmg474vk6dyqo"
+    },
+    {
+      "text": "Trump says FBI investigating Nvidia boss's affair with alleged Chinese spy",
       "hoursAgo": 0,
-      "link": "https://www.bbc.co.uk/news/articles/c6y434dw8319o"
+      "link": "https://www.bbc.co.uk/news/articles/cqg7x7dpvym8o"
     },
     {
-      "text": "Inside the French drug gangs recruiting children to kill",
-      "hoursAgo": 6,
-      "link": "https://www.bbc.co.uk/news/articles/cq62y01r2313o"
-    },
-    {
-      "text": "Trump says he was 'kidding' about Dana White press secretary offer",
+      "text": "Nvidia shares tumble over investigation into Huang's affair with alleged Chinese spy",
       "hoursAgo": 3,
-      "link": "https://www.bbc.co.uk/news/articles/ck0j0j87959eo"
+      "link": "https://www.bbc.co.uk/news/articles/c6zxjx01vyleo"
     },
     {
-      "text": "At least 34 dead after Europe-bound migrant boat sinks off Senegal",
-      "hoursAgo": 1,
-      "link": "https://www.bbc.co.uk/news/articles/cv2d6dpge65go"
+      "text": "Turkey steel factory blast kills at least 17 people",
+      "hoursAgo": 2,
+      "link": "https://www.bbc.co.uk/news/articles/cq2d6d5z9y5jo"
     },
     {
-      "text": "Pope delivers veiled rebuke of Milei's austerity measures",
-      "hoursAgo": 7,
-      "link": "https://www.bbc.co.uk/news/articles/ckj0l082jqzvo"
+      "text": "Judge denies motion to dismiss Lindsay Clancy's murder case",
+      "hoursAgo": 0,
+      "link": "https://www.bbc.co.uk/news/articles/ck1l3le7q29vo"
     }
   ],
-  "launches": [
-    {
-      "name": "Falcon 9 Block 5 | USSF-627",
-      "date": "Tuesday 10 November 05h03",
-      "dateISO": "2026-11-10T03:03:00Z",
-      "details": "Space Launch Complex 4E - Vandenberg SFB, CA, USA",
-      "highlight": false,
-      "link": "https://spacelaunchnow.me/launch/falcon-9-block-5-ussf-627"
-    },
-    {
-      "name": "Falcon 9 Block 5 | USSF-317",
-      "date": "Friday 13 November 06h23",
-      "dateISO": "2026-11-13T04:23:00Z",
-      "details": "Space Launch Complex 4E - Vandenberg SFB, CA, USA",
-      "highlight": false,
-      "link": "https://spacelaunchnow.me/launch/falcon-9-block-5-ussf-317"
-    },
-    {
-      "name": "Starship | Starlink Group 31-2 (Starship Flight 15)",
-      "date": "Saturday 14 November 00h45",
-      "dateISO": "2026-11-13T22:45:00Z",
-      "details": "Orbital Launch Pad 2 - SpaceX Starbase, TX, USA",
-      "highlight": true,
-      "link": "https://spacelaunchnow.me/launch/starship-starlink-group-31-2-starship-flight-15"
-    },
-    {
-      "name": "Falcon 9 Block 5 | Cygnus CRS-2 NG-25",
-      "date": "Sunday 29 November 17h49",
-      "dateISO": "2026-11-29T15:49:00Z",
-      "details": "Space Launch Complex 40 - Cape Canaveral SFS, FL, USA",
-      "highlight": false,
-      "link": "https://spacelaunchnow.me/launch/falcon-9-block-5-cygnus-crs-2-ng-25"
-    },
-    {
-      "name": "Falcon 9 Block 5 | Starlink Group 15-21",
-      "date": "Monday 30 November (TBD)",
-      "dateISO": "2026-11-30T00:00:00Z",
-      "details": "Space Launch Complex 4E - Vandenberg SFB, CA, USA",
-      "highlight": false,
-      "link": "https://spacelaunchnow.me/launch/falcon-9-block-5-starlink-group-15-21"
-    }
-  ],
+  "launches": [],
   "companyNews": [
+    {
+      "title": "Tesla Robotaxi enters its newest city, reaching San Antonio",
+      "link": "https://www.teslarati.com/tesla-robotaxi-enters-newest-city-san-antonio/",
+      "date": "Mon, 09 Nov 2026 20:27",
+      "hoursAgo": 2,
+      "source": "Teslarati"
+    },
+    {
+      "title": "Tesla begins groundworks on $10B ‘Project Crystal Sun’ in Texas",
+      "link": "https://www.teslarati.com/tesla-begins-10b-project-solar-panel-manufacturing-project/",
+      "date": "Mon, 09 Nov 2026 17:21",
+      "hoursAgo": 5,
+      "source": "Teslarati"
+    },
+    {
+      "title": "Elon Musk keeps justifying Tesla Cybertruck’s cancelation, but it’s confusing",
+      "link": "https://www.teslarati.com/elon-musk-keeps-justifying-tesla-cybertruck-cancelation-confusing/",
+      "date": "Mon, 09 Nov 2026 16:19",
+      "hoursAgo": 6,
+      "source": "Teslarati"
+    },
     {
       "title": "SpaceX’s Anthropic deal has a catch, and Elon Musk just addressed it",
       "link": "https://www.teslarati.com/spacexs-anthropic-deal-has-a-catch-and-elon-musk-just-addressed-it/",
       "date": "Mon, 09 Nov 2026 07:22",
-      "hoursAgo": 5,
+      "hoursAgo": 15,
       "source": "Teslarati"
     },
     {
       "title": "Elon Musk spotlights the Starlink rescue that got through where no cell tower could",
       "link": "https://www.teslarati.com/elon-musk-spotlights-the-starlink-rescue-that-got-through-where-no-cell-tower-could/",
       "date": "Sun, 08 Nov 2026 20:20",
-      "hoursAgo": 16,
+      "hoursAgo": 26,
       "source": "Teslarati"
     },
     {
       "title": "SpaceX will perform Starship double catch attempt with Flight 15",
       "link": "https://www.teslarati.com/spacex-perform-starship-double-catch-attempt-flight-15/",
       "date": "Sun, 08 Nov 2026 15:26",
-      "hoursAgo": 21,
-      "source": "Teslarati"
-    },
-    {
-      "title": "Tesla Cybercab is set to get some massive improvements",
-      "link": "https://www.teslarati.com/tesla-cybercab-set-some-massive-improvements/",
-      "date": "Sun, 08 Nov 2026 14:45",
-      "hoursAgo": 21,
-      "source": "Teslarati"
-    },
-    {
-      "title": "Tesla Robotaxi app update now tells riders if Cybercab is the better choice",
-      "link": "https://www.teslarati.com/tesla-robotaxi-app-cybercab-vs-model-y/",
-      "date": "Sat, 07 Nov 2026 18:27",
-      "hoursAgo": 42,
-      "source": "Teslarati"
-    },
-    {
-      "title": "Tesla is ending Cybertruck production",
-      "link": "https://www.teslarati.com/tesla-is-ending-cybertruck-production/",
-      "date": "Fri, 06 Nov 2026 13:46",
-      "hoursAgo": 70,
+      "hoursAgo": 31,
       "source": "Teslarati"
     }
   ],
