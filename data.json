@@ -1,163 +1,122 @@
 {
-  "updatedAt": "2026-11-11T13:40+02:00",
+  "updatedAt": "2026-11-11T22:14+02:00",
   "stocks": {
     "TSLA": {
-      "price": 379.78,
-      "change_1d": 0.46,
-      "change_3d": 6.02,
-      "change_1m": 3.44,
-      "change_12m": -14.7,
-      "change_3y": 69.76,
-      "updated": "2026-11-11T11:40:47.882557"
+      "price": 391.19,
+      "change_1d": 3.0,
+      "change_3d": 3.48,
+      "change_1m": 7.93,
+      "change_12m": -11.02,
+      "change_3y": 74.86,
+      "updated": "2026-11-11T20:14:07.806468"
     },
     "NVDA": {
-      "price": 168.89,
-      "change_1d": -5.47,
-      "change_3d": -9.51,
-      "change_1m": -23.68,
-      "change_12m": -14.95,
-      "change_3y": 248.4,
-      "updated": "2026-11-11T11:40:47.882772"
+      "price": 175.03,
+      "change_1d": 3.64,
+      "change_3d": -2.04,
+      "change_1m": -19.43,
+      "change_12m": -9.17,
+      "change_3y": 261.07,
+      "updated": "2026-11-11T20:14:07.806588"
     },
     "MU": {
-      "price": 725.11,
-      "change_1d": -1.1,
-      "change_3d": 5.09,
-      "change_1m": -20.68,
-      "change_12m": 186.59,
-      "change_3y": 879.02,
-      "updated": "2026-11-11T11:40:47.882978"
+      "price": 816.06,
+      "change_1d": 12.54,
+      "change_3d": 11.31,
+      "change_1m": -12.37,
+      "change_12m": 238.84,
+      "change_3y": 1001.81,
+      "updated": "2026-11-11T20:14:07.806687"
     }
   },
   "news": [
     {
+      "title": "SpaceX’s $24B Starbase supercomputer plan slipped past a key roadblock",
+      "link": "https://www.teslarati.com/spacexs-24b-starbase-supercomputer-plan-slipped-past-a-key-roadblock/",
+      "date": "Wed, 11 Nov 2026 20:05",
+      "hoursAgo": 0,
+      "source": "Teslarati"
+    },
+    {
+      "title": "Tesla extends Cybertruck production as Musk concedes ‘sentimentality’",
+      "link": "https://www.teslarati.com/tesla-extends-cybertruck-production-slightly-handle-order-log/",
+      "date": "Wed, 11 Nov 2026 17:52",
+      "hoursAgo": 2,
+      "source": "Teslarati"
+    },
+    {
+      "title": "Tesla overtakes Waymo in Texas as Robotaxi fleet performs shock flip",
+      "link": "https://www.teslarati.com/tesla-overtakes-waymo-texas-robotaxi-fleet-performs-shock-flip/",
+      "date": "Wed, 11 Nov 2026 17:05",
+      "hoursAgo": 3,
+      "source": "Teslarati"
+    },
+    {
       "title": "SpaceX just cleared a key FCC hurdle in its fight with Verizon and AT&T",
       "link": "https://www.teslarati.com/spacex-fcc-verizon-att-approved/",
       "date": "Wed, 11 Nov 2026 08:16",
-      "hoursAgo": 3,
+      "hoursAgo": 11,
       "source": "Teslarati"
     },
     {
       "title": "Tesla upfitter offers to keep Cybertruck alive",
       "link": "https://www.teslarati.com/tesla-upfitter-offers-keep-cybertruck-alive/",
       "date": "Wed, 11 Nov 2026 00:21",
-      "hoursAgo": 11,
+      "hoursAgo": 19,
       "source": "Teslarati"
     },
     {
       "title": "Elon Musk says Tesla Cybercab future is ‘obvious to anyone with eyes and a brain’",
       "link": "https://www.teslarati.com/elon-musk-says-tesla-cybercab-future-obvious-to-anyone-with-eyes-and-a-brain/",
       "date": "Tue, 10 Nov 2026 19:48",
-      "hoursAgo": 15,
-      "source": "Teslarati"
-    },
-    {
-      "title": "Tesla slims Cybertruck offerings to only its most expensive trim",
-      "link": "https://www.teslarati.com/tesla-slims-cybertruck-offerings-most-expensive-trim/",
-      "date": "Tue, 10 Nov 2026 16:25",
-      "hoursAgo": 19,
-      "source": "Teslarati"
-    },
-    {
-      "title": "Tesla exec hints at a wild fix for Robotaxi’s biggest weather problem",
-      "link": "https://www.teslarati.com/tesla-lars-moravy-robotaxi-laser-windshield/",
-      "date": "Tue, 10 Nov 2026 03:12",
-      "hoursAgo": 32,
-      "source": "Teslarati"
-    },
-    {
-      "title": "Tesla Robotaxi enters its newest city, reaching San Antonio",
-      "link": "https://www.teslarati.com/tesla-robotaxi-enters-newest-city-san-antonio/",
-      "date": "Mon, 09 Nov 2026 20:27",
-      "hoursAgo": 39,
+      "hoursAgo": 24,
       "source": "Teslarati"
     }
   ],
   "tweets": [],
   "roasts": [],
-  "weather": {
-    "+1h": {
-      "temp": 17.1,
-      "condition": "Partly cloudy",
-      "wind_speed": 2.0,
-      "wind_dir_deg": 175,
-      "cloud": 62,
-      "rain": 0.0
-    },
-    "+3h": {
-      "temp": 16.3,
-      "condition": "Clear",
-      "wind_speed": 3.6,
-      "wind_dir_deg": 225,
-      "cloud": 9,
-      "rain": 0.0
-    },
-    "+6h": {
-      "temp": 15.5,
-      "condition": "Mainly clear",
-      "wind_speed": 3.1,
-      "wind_dir_deg": 242,
-      "cloud": 45,
-      "rain": 0.0
-    },
-    "+12h": {
-      "temp": 22.5,
-      "condition": "Overcast",
-      "wind_speed": 12.1,
-      "wind_dir_deg": 291,
-      "cloud": 100,
-      "rain": 0.0
-    },
-    "+24h": {
-      "temp": 16.8,
-      "condition": "Clear",
-      "wind_speed": 14.8,
-      "wind_dir_deg": 159,
-      "cloud": 18,
-      "rain": 0.0
-    }
-  },
+  "weather": {},
   "keyNumbers": {
-    "usdZar": "16.55",
-    "usdZarWeek": "-0.4%",
+    "usdZar": "16.59",
+    "usdZarWeek": "-0.1%",
     "usdZarLabel": "rand stronger",
-    "btc": "73957",
-    "btcWeek": "-3.5%",
-    "jse": "-0.4%",
-    "sp500": "-0.4%"
+    "btc": "74536",
+    "btcWeek": "-2.8%",
+    "jse": "-1.1%",
+    "sp500": "+1.4%"
   },
   "worldEvents": [
     {
-      "text": "Three Iran-backed suspects plotted attacks including RAF Fairford incident, US says",
-      "hoursAgo": 10,
-      "link": "https://www.bbc.co.uk/news/articles/c3rryrryk59zo"
+      "text": "Clashes in Barcelona as thousands join Spain general strike",
+      "hoursAgo": 0,
+      "link": "https://www.bbc.co.uk/news/articles/cwvg25nypmrvo"
     },
     {
-      "text": "US House blocks bid to impeach Defence Secretary Pete Hegseth, for now",
+      "text": "Russia-Ukraine talks turn to post-war security but end without breakthrough",
+      "hoursAgo": 2,
+      "link": "https://www.bbc.co.uk/news/articles/ck792we7zrz4o"
+    },
+    {
+      "text": "US Treasury Secretary Scott Bessent relocated after alleged Iranian threats",
+      "hoursAgo": 3,
+      "link": "https://www.bbc.co.uk/news/articles/cqr7gr0010r2o"
+    },
+    {
+      "text": "Schools in Italy, Scotland and Northern Ireland hit by threats in suspected bomb hoax",
       "hoursAgo": 1,
-      "link": "https://www.bbc.co.uk/news/articles/cxly4y5jzl0qo"
+      "link": "https://www.bbc.co.uk/news/articles/cwz0k79pr8z2o"
     },
     {
-      "text": "Meghan's father Thomas Markle back in federal custody after allegedly removing ankle monitor",
-      "hoursAgo": 8,
-      "link": "https://www.bbc.co.uk/news/articles/c9j3433zy4vro"
-    },
-    {
-      "text": "Vinícius Jr sends message to Sudan boy who received prosthetic legs after BBC report sparks appeal",
-      "hoursAgo": 11,
-      "link": "https://www.bbc.co.uk/news/articles/cqm26mmpp2p1o"
-    },
-    {
-      "text": "Headquarters of Haitian gang destroyed, El Salvador's president says",
-      "hoursAgo": 8,
-      "link": "https://www.bbc.co.uk/news/articles/cmvg2xdwnwezo"
+      "text": "Indonesia's vice president resigns amid signs ruling alliance is fraying",
+      "hoursAgo": 3,
+      "link": "https://www.bbc.co.uk/news/articles/cmvgxgz87qqro"
     }
   ],
   "launches": [
     {
       "name": "Falcon 9 Block 5 | USSF-627",
-      "date": "Thursday 12 November 04h35",
-      "dateISO": "2026-11-12T02:35:00Z",
+      "date": "Thursday 12 November 04h36",
+      "dateISO": "2026-11-12T02:36:18Z",
       "details": "Space Launch Complex 4E - Vandenberg SFB, CA, USA",
       "highlight": false,
       "link": "https://spacelaunchnow.me/launch/falcon-9-block-5-ussf-627"
@@ -197,45 +156,45 @@
   ],
   "companyNews": [
     {
+      "title": "SpaceX’s $24B Starbase supercomputer plan slipped past a key roadblock",
+      "link": "https://www.teslarati.com/spacexs-24b-starbase-supercomputer-plan-slipped-past-a-key-roadblock/",
+      "date": "Wed, 11 Nov 2026 20:05",
+      "hoursAgo": 0,
+      "source": "Teslarati"
+    },
+    {
+      "title": "Tesla extends Cybertruck production as Musk concedes ‘sentimentality’",
+      "link": "https://www.teslarati.com/tesla-extends-cybertruck-production-slightly-handle-order-log/",
+      "date": "Wed, 11 Nov 2026 17:52",
+      "hoursAgo": 2,
+      "source": "Teslarati"
+    },
+    {
+      "title": "Tesla overtakes Waymo in Texas as Robotaxi fleet performs shock flip",
+      "link": "https://www.teslarati.com/tesla-overtakes-waymo-texas-robotaxi-fleet-performs-shock-flip/",
+      "date": "Wed, 11 Nov 2026 17:05",
+      "hoursAgo": 3,
+      "source": "Teslarati"
+    },
+    {
       "title": "SpaceX just cleared a key FCC hurdle in its fight with Verizon and AT&T",
       "link": "https://www.teslarati.com/spacex-fcc-verizon-att-approved/",
       "date": "Wed, 11 Nov 2026 08:16",
-      "hoursAgo": 3,
+      "hoursAgo": 11,
       "source": "Teslarati"
     },
     {
       "title": "Tesla upfitter offers to keep Cybertruck alive",
       "link": "https://www.teslarati.com/tesla-upfitter-offers-keep-cybertruck-alive/",
       "date": "Wed, 11 Nov 2026 00:21",
-      "hoursAgo": 11,
+      "hoursAgo": 19,
       "source": "Teslarati"
     },
     {
       "title": "Elon Musk says Tesla Cybercab future is ‘obvious to anyone with eyes and a brain’",
       "link": "https://www.teslarati.com/elon-musk-says-tesla-cybercab-future-obvious-to-anyone-with-eyes-and-a-brain/",
       "date": "Tue, 10 Nov 2026 19:48",
-      "hoursAgo": 15,
-      "source": "Teslarati"
-    },
-    {
-      "title": "Tesla slims Cybertruck offerings to only its most expensive trim",
-      "link": "https://www.teslarati.com/tesla-slims-cybertruck-offerings-most-expensive-trim/",
-      "date": "Tue, 10 Nov 2026 16:25",
-      "hoursAgo": 19,
-      "source": "Teslarati"
-    },
-    {
-      "title": "Tesla exec hints at a wild fix for Robotaxi’s biggest weather problem",
-      "link": "https://www.teslarati.com/tesla-lars-moravy-robotaxi-laser-windshield/",
-      "date": "Tue, 10 Nov 2026 03:12",
-      "hoursAgo": 32,
-      "source": "Teslarati"
-    },
-    {
-      "title": "Tesla Robotaxi enters its newest city, reaching San Antonio",
-      "link": "https://www.teslarati.com/tesla-robotaxi-enters-newest-city-san-antonio/",
-      "date": "Mon, 09 Nov 2026 20:27",
-      "hoursAgo": 39,
+      "hoursAgo": 24,
       "source": "Teslarati"
     }
   ],
