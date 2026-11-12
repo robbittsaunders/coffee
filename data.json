@@ -1,74 +1,74 @@
 {
-  "updatedAt": "2026-11-12T14:11+02:00",
+  "updatedAt": "2026-11-12T22:55+02:00",
   "stocks": {
     "TSLA": {
-      "price": 390.84,
-      "change_1d": 2.91,
-      "change_3d": 3.38,
-      "change_1m": 7.84,
-      "change_12m": -11.1,
-      "change_3y": 74.71,
-      "updated": "2026-11-12T12:11:06.841422"
+      "price": 396.58,
+      "change_1d": 1.47,
+      "change_3d": 4.42,
+      "change_1m": 11.8,
+      "change_12m": -7.9,
+      "change_3y": 77.27,
+      "updated": "2026-11-12T20:55:17.242807"
     },
     "NVDA": {
-      "price": 173.73,
-      "change_1d": 2.87,
-      "change_3d": -2.76,
-      "change_1m": -20.02,
-      "change_12m": -9.84,
-      "change_3y": 258.39,
-      "updated": "2026-11-12T12:11:06.841576"
+      "price": 165.26,
+      "change_1d": -4.88,
+      "change_3d": -2.15,
+      "change_1m": -22.82,
+      "change_12m": -14.52,
+      "change_3y": 240.92,
+      "updated": "2026-11-12T20:55:17.242976"
     },
     "MU": {
-      "price": 811.3,
-      "change_1d": 11.89,
-      "change_3d": 10.66,
-      "change_1m": -12.88,
-      "change_12m": 236.87,
-      "change_3y": 995.39,
-      "updated": "2026-11-12T12:11:06.841703"
+      "price": 793.74,
+      "change_1d": -2.16,
+      "change_3d": 9.47,
+      "change_1m": -9.68,
+      "change_12m": 224.48,
+      "change_3y": 971.68,
+      "updated": "2026-11-12T20:55:17.243113"
     }
   },
   "news": [
     {
+      "title": "SpaceX hid behind another name in the Arizona desert, and now it’s going big",
+      "link": "https://www.teslarati.com/spacex-arizona-supercomputer-tombstone/",
+      "date": "Thu, 12 Nov 2026 18:08",
+      "hoursAgo": 2,
+      "source": "Teslarati"
+    },
+    {
       "title": "Nvidia’s board meets on Jensen Huang, and Elon Musk already has an answer",
       "link": "https://www.teslarati.com/nvidias-board-meets-on-jensen-huang-and-elon-musk-already-has-an-answer/",
       "date": "Thu, 12 Nov 2026 05:51",
-      "hoursAgo": 6,
+      "hoursAgo": 15,
       "source": "Teslarati"
     },
     {
       "title": "Starlink Mini 2 arrives with one feature for true off-grid connectivity",
       "link": "https://www.teslarati.com/starlink-mini-2-arrives-one-feature-true-off-grid-connectivity/",
       "date": "Wed, 11 Nov 2026 21:13",
-      "hoursAgo": 14,
+      "hoursAgo": 23,
       "source": "Teslarati"
     },
     {
       "title": "SpaceX’s $24B Starbase supercomputer plan slipped past a key roadblock",
       "link": "https://www.teslarati.com/spacexs-24b-starbase-supercomputer-plan-slipped-past-a-key-roadblock/",
       "date": "Wed, 11 Nov 2026 20:05",
-      "hoursAgo": 16,
+      "hoursAgo": 24,
       "source": "Teslarati"
     },
     {
       "title": "Tesla extends Cybertruck production as Musk concedes ‘sentimentality’",
       "link": "https://www.teslarati.com/tesla-extends-cybertruck-production-slightly-handle-order-log/",
       "date": "Wed, 11 Nov 2026 17:52",
-      "hoursAgo": 18,
+      "hoursAgo": 27,
       "source": "Teslarati"
     },
     {
       "title": "Tesla overtakes Waymo in Texas as Robotaxi fleet performs shock flip",
       "link": "https://www.teslarati.com/tesla-overtakes-waymo-texas-robotaxi-fleet-performs-shock-flip/",
       "date": "Wed, 11 Nov 2026 17:05",
-      "hoursAgo": 19,
-      "source": "Teslarati"
-    },
-    {
-      "title": "SpaceX just cleared a key FCC hurdle in its fight with Verizon and AT&T",
-      "link": "https://www.teslarati.com/spacex-fcc-verizon-att-approved/",
-      "date": "Wed, 11 Nov 2026 08:16",
       "hoursAgo": 27,
       "source": "Teslarati"
     }
@@ -101,56 +101,56 @@
       "rain": 0.0
     },
     "+12h": {
-      "temp": 23.2,
+      "temp": 23.7,
       "condition": "Clear",
-      "wind_speed": 18.4,
-      "wind_dir_deg": 162,
-      "cloud": 3,
+      "wind_speed": 18.6,
+      "wind_dir_deg": 160,
+      "cloud": 1,
       "rain": 0.0
     },
     "+24h": {
       "temp": 16.8,
       "condition": "Partly cloudy",
-      "wind_speed": 14.3,
-      "wind_dir_deg": 168,
-      "cloud": 77,
+      "wind_speed": 14.7,
+      "wind_dir_deg": 165,
+      "cloud": 58,
       "rain": 0.0
     }
   },
   "keyNumbers": {
-    "usdZar": "16.66",
-    "usdZarWeek": "+0.3%",
+    "usdZar": "16.77",
+    "usdZarWeek": "+1.0%",
     "usdZarLabel": "rand weaker",
-    "btc": "72798",
-    "btcWeek": "-5.9%",
-    "jse": "+0.0%",
-    "sp500": "+1.3%"
+    "btc": "71407",
+    "btcWeek": "-7.7%",
+    "jse": "-0.5%",
+    "sp500": "-0.4%"
   },
   "worldEvents": [
     {
-      "text": "'No light, no water, no heat': Ukrainians struggle with blackouts as Russia hits power grid",
-      "hoursAgo": 4,
-      "link": "https://www.bbc.co.uk/news/articles/cr1ewpd95d21o"
+      "text": "US envoys head to meet Zelensky after talks with Putin in Moscow",
+      "hoursAgo": 0,
+      "link": "https://www.bbc.co.uk/news/articles/cwrkgmymk55zo"
     },
     {
-      "text": "New York building collapse kills at least four people",
+      "text": "Russian warship hit by Ukrainian drone in Gulf of Finland",
       "hoursAgo": 0,
-      "link": "https://www.bbc.co.uk/news/articles/c8zx964glvwxo"
+      "link": "https://www.bbc.co.uk/news/articles/cmn0d33zz34zo"
+    },
+    {
+      "text": "Suspected bomb hoax threats force fresh evacuations of Italian schools",
+      "hoursAgo": 1,
+      "link": "https://www.bbc.co.uk/news/articles/cr894w453e90o"
     },
     {
       "text": "Democrat Scott Colom makes history as Mississippi's first black senator since 19th Century",
-      "hoursAgo": 2,
+      "hoursAgo": 7,
       "link": "https://www.bbc.co.uk/news/articles/cw7vppyr80eeo"
     },
     {
-      "text": "Israeli strike on Gaza hospital kills six Palestinians, health ministry says",
-      "hoursAgo": 0,
-      "link": "https://www.bbc.co.uk/news/articles/ckzd9p7e4eqeo"
-    },
-    {
-      "text": "US envoys arrive in Moscow for Ukraine talks with Vladimir Putin",
+      "text": "Hegseth awards medal to war memorial guard who reprimanded him and group",
       "hoursAgo": 2,
-      "link": "https://www.bbc.co.uk/news/articles/cwrkgmymk55zo"
+      "link": "https://www.bbc.co.uk/news/articles/cmvg2r3dq7xno"
     }
   ],
   "launches": [
@@ -179,12 +179,12 @@
       "link": "https://spacelaunchnow.me/launch/falcon-9-block-5-ussf-266"
     },
     {
-      "name": "Falcon 9 Block 5 | Cygnus CRS-2 NG-25",
-      "date": "Sunday 29 November 17h49",
-      "dateISO": "2026-11-29T15:49:00Z",
-      "details": "Space Launch Complex 40 - Cape Canaveral SFS, FL, USA",
+      "name": "Falcon 9 Block 5 | NROL-136",
+      "date": "Saturday 21 November 14h30",
+      "dateISO": "2026-11-21T12:30:00Z",
+      "details": "Space Launch Complex 4E - Vandenberg SFB, CA, USA",
       "highlight": false,
-      "link": "https://spacelaunchnow.me/launch/falcon-9-block-5-cygnus-crs-2-ng-25"
+      "link": "https://spacelaunchnow.me/launch/falcon-9-block-5-nrol-136"
     },
     {
       "name": "Falcon 9 Block 5 | Starlink Group 15-21",
@@ -197,44 +197,44 @@
   ],
   "companyNews": [
     {
+      "title": "SpaceX hid behind another name in the Arizona desert, and now it’s going big",
+      "link": "https://www.teslarati.com/spacex-arizona-supercomputer-tombstone/",
+      "date": "Thu, 12 Nov 2026 18:08",
+      "hoursAgo": 2,
+      "source": "Teslarati"
+    },
+    {
       "title": "Nvidia’s board meets on Jensen Huang, and Elon Musk already has an answer",
       "link": "https://www.teslarati.com/nvidias-board-meets-on-jensen-huang-and-elon-musk-already-has-an-answer/",
       "date": "Thu, 12 Nov 2026 05:51",
-      "hoursAgo": 6,
+      "hoursAgo": 15,
       "source": "Teslarati"
     },
     {
       "title": "Starlink Mini 2 arrives with one feature for true off-grid connectivity",
       "link": "https://www.teslarati.com/starlink-mini-2-arrives-one-feature-true-off-grid-connectivity/",
       "date": "Wed, 11 Nov 2026 21:13",
-      "hoursAgo": 14,
+      "hoursAgo": 23,
       "source": "Teslarati"
     },
     {
       "title": "SpaceX’s $24B Starbase supercomputer plan slipped past a key roadblock",
       "link": "https://www.teslarati.com/spacexs-24b-starbase-supercomputer-plan-slipped-past-a-key-roadblock/",
       "date": "Wed, 11 Nov 2026 20:05",
-      "hoursAgo": 16,
+      "hoursAgo": 24,
       "source": "Teslarati"
     },
     {
       "title": "Tesla extends Cybertruck production as Musk concedes ‘sentimentality’",
       "link": "https://www.teslarati.com/tesla-extends-cybertruck-production-slightly-handle-order-log/",
       "date": "Wed, 11 Nov 2026 17:52",
-      "hoursAgo": 18,
+      "hoursAgo": 27,
       "source": "Teslarati"
     },
     {
       "title": "Tesla overtakes Waymo in Texas as Robotaxi fleet performs shock flip",
       "link": "https://www.teslarati.com/tesla-overtakes-waymo-texas-robotaxi-fleet-performs-shock-flip/",
       "date": "Wed, 11 Nov 2026 17:05",
-      "hoursAgo": 19,
-      "source": "Teslarati"
-    },
-    {
-      "title": "SpaceX just cleared a key FCC hurdle in its fight with Verizon and AT&T",
-      "link": "https://www.teslarati.com/spacex-fcc-verizon-att-approved/",
-      "date": "Wed, 11 Nov 2026 08:16",
       "hoursAgo": 27,
       "source": "Teslarati"
     }
