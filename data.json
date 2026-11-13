@@ -1,75 +1,75 @@
 {
-  "updatedAt": "2026-11-13T13:51+02:00",
+  "updatedAt": "2026-11-13T22:31+02:00",
   "stocks": {
     "TSLA": {
-      "price": 397.45,
-      "change_1d": 1.69,
-      "change_3d": 4.65,
-      "change_1m": 12.05,
-      "change_12m": -7.7,
-      "change_3y": 77.66,
-      "updated": "2026-11-13T11:51:55.205183"
+      "price": 390.01,
+      "change_1d": -1.87,
+      "change_3d": -0.21,
+      "change_1m": 5.96,
+      "change_12m": -2.98,
+      "change_3y": 74.34,
+      "updated": "2026-11-13T20:31:10.175619"
     },
     "NVDA": {
-      "price": 166.19,
-      "change_1d": -4.34,
-      "change_3d": -1.6,
-      "change_1m": -22.39,
-      "change_12m": -14.04,
-      "change_3y": 242.83,
-      "updated": "2026-11-13T11:51:55.205304"
+      "price": 162.12,
+      "change_1d": -2.45,
+      "change_3d": -6.68,
+      "change_1m": -25.32,
+      "change_12m": -13.03,
+      "change_3y": 234.43,
+      "updated": "2026-11-13T20:31:10.175738"
     },
     "MU": {
-      "price": 798.44,
-      "change_1d": -1.59,
-      "change_3d": 10.11,
-      "change_1m": -9.15,
-      "change_12m": 226.4,
-      "change_3y": 978.02,
-      "updated": "2026-11-13T11:51:55.205404"
+      "price": 770.33,
+      "change_1d": -3.52,
+      "change_3d": -5.05,
+      "change_1m": -14.87,
+      "change_12m": 225.47,
+      "change_3y": 940.07,
+      "updated": "2026-11-13T20:31:10.175838"
     }
   },
   "news": [
     {
+      "title": "SpaceX Starship Flight 15: How to watch the double catch attempt",
+      "link": "https://www.teslarati.com/spacex-starship-flight-15-how-to-watch-the-double-catch-attempt/",
+      "date": "Fri, 13 Nov 2026 18:07",
+      "hoursAgo": 2,
+      "source": "Teslarati"
+    },
+    {
+      "title": "Tesla trims Model Y offerings as All-Wheel-Drive gets the axe",
+      "link": "https://www.teslarati.com/tesla-trims-model-y-offerings-all-wheel-drive-gets-axe/",
+      "date": "Fri, 13 Nov 2026 15:29",
+      "hoursAgo": 5,
+      "source": "Teslarati"
+    },
+    {
+      "title": "SpaceX Starship is going for a catch that could change spaceflight forever",
+      "link": "https://www.teslarati.com/spacex-starship-flight-15-double-catch/",
+      "date": "Fri, 13 Nov 2026 15:13",
+      "hoursAgo": 5,
+      "source": "Teslarati"
+    },
+    {
       "title": "Tesla and SpaceX merger talks hit a new stage, and one hurdle remains",
       "link": "https://www.teslarati.com/tesla-spacex-merger-timeline/",
       "date": "Fri, 13 Nov 2026 05:53",
-      "hoursAgo": 5,
+      "hoursAgo": 14,
       "source": "Teslarati"
     },
     {
       "title": "SpaceX hid behind another name in the Arizona desert, and now it’s going big",
       "link": "https://www.teslarati.com/spacex-arizona-supercomputer-tombstone/",
       "date": "Thu, 12 Nov 2026 18:08",
-      "hoursAgo": 17,
+      "hoursAgo": 26,
       "source": "Teslarati"
     },
     {
       "title": "Nvidia’s board meets on Jensen Huang, and Elon Musk already has an answer",
       "link": "https://www.teslarati.com/nvidias-board-meets-on-jensen-huang-and-elon-musk-already-has-an-answer/",
       "date": "Thu, 12 Nov 2026 05:51",
-      "hoursAgo": 29,
-      "source": "Teslarati"
-    },
-    {
-      "title": "Starlink Mini 2 arrives with one feature for true off-grid connectivity",
-      "link": "https://www.teslarati.com/starlink-mini-2-arrives-one-feature-true-off-grid-connectivity/",
-      "date": "Wed, 11 Nov 2026 21:13",
       "hoursAgo": 38,
-      "source": "Teslarati"
-    },
-    {
-      "title": "SpaceX’s $24B Starbase supercomputer plan slipped past a key roadblock",
-      "link": "https://www.teslarati.com/spacexs-24b-starbase-supercomputer-plan-slipped-past-a-key-roadblock/",
-      "date": "Wed, 11 Nov 2026 20:05",
-      "hoursAgo": 39,
-      "source": "Teslarati"
-    },
-    {
-      "title": "Tesla extends Cybertruck production as Musk concedes ‘sentimentality’",
-      "link": "https://www.teslarati.com/tesla-extends-cybertruck-production-slightly-handle-order-log/",
-      "date": "Wed, 11 Nov 2026 17:52",
-      "hoursAgo": 41,
       "source": "Teslarati"
     }
   ],
@@ -101,56 +101,56 @@
       "rain": 0.0
     },
     "+12h": {
-      "temp": 21.1,
+      "temp": 22.1,
       "condition": "Mixed",
-      "wind_speed": 16.3,
-      "wind_dir_deg": 191,
+      "wind_speed": 17.3,
+      "wind_dir_deg": 182,
       "cloud": 100,
       "rain": 0.2
     },
     "+24h": {
-      "temp": 17.2,
+      "temp": 17.6,
       "condition": "Clear",
-      "wind_speed": 23.5,
-      "wind_dir_deg": 144,
-      "cloud": 2,
+      "wind_speed": 24.2,
+      "wind_dir_deg": 146,
+      "cloud": 1,
       "rain": 0.0
     }
   },
   "keyNumbers": {
-    "usdZar": "16.90",
-    "usdZarWeek": "+1.3%",
+    "usdZar": "16.92",
+    "usdZarWeek": "+1.4%",
     "usdZarLabel": "rand weaker",
-    "btc": "69272",
-    "btcWeek": "-13.8%",
+    "btc": "68869",
+    "btcWeek": "-14.3%",
     "jse": "-0.4%",
-    "sp500": "-0.4%"
+    "sp500": "-0.6%"
   },
   "worldEvents": [
     {
-      "text": "What we know about the global Microsoft outage",
-      "hoursAgo": 0,
+      "text": "Why is Microsoft's outage lasting so long and will emails be lost?",
+      "hoursAgo": 1,
       "link": "https://www.bbc.co.uk/news/articles/cwvg238zrnm5o"
     },
     {
-      "text": "Watch: How Microsoft services went down around the world",
+      "text": "Watch: How a server outage took down Microsoft Teams and Outlook",
+      "hoursAgo": 8,
+      "link": "https://www.bbc.co.uk/news/videos/cqzjr903n01po"
+    },
+    {
+      "text": "Rosenberg: Uncompromising Putin ups demands for peace with Ukraine",
+      "hoursAgo": 3,
+      "link": "https://www.bbc.co.uk/news/articles/cq39glwprknjo"
+    },
+    {
+      "text": "Nvidia scandal fallout widens as Trump's treasury secretary blames cabinet colleague",
+      "hoursAgo": 0,
+      "link": "https://www.bbc.co.uk/news/articles/cqvg2d1eg7zro"
+    },
+    {
+      "text": "German spies handed new powers to tackle 'hybrid threats' from abroad",
       "hoursAgo": 4,
-      "link": "https://www.bbc.co.uk/news/videos/cwm2591k27e2o"
-    },
-    {
-      "text": "Ex-Nvidia CEO Jensen Huang summoned to testify before Congress about affair with alleged Chinese spy",
-      "hoursAgo": 7,
-      "link": "https://www.bbc.co.uk/news/articles/cmq5vd1wdgz6o"
-    },
-    {
-      "text": "Zelensky welcomes US bringing Europe into Russia-Ukraine peace talks",
-      "hoursAgo": 9,
-      "link": "https://www.bbc.co.uk/news/articles/ckn80j9jv3jxo"
-    },
-    {
-      "text": "North Korean hackers used fake video calls in $400m crypto hack, says FBI",
-      "hoursAgo": 9,
-      "link": "https://www.bbc.co.uk/news/articles/cqdj1ellpd70o"
+      "link": "https://www.bbc.co.uk/news/articles/c6jre3z03w4go"
     }
   ],
   "launches": [
@@ -171,20 +171,20 @@
       "link": "https://spacelaunchnow.me/launch/falcon-9-block-5-ussf-317"
     },
     {
-      "name": "Falcon 9 Block 5 | USSF-266",
-      "date": "Wednesday 18 November 18h49",
-      "dateISO": "2026-11-18T16:49:00Z",
-      "details": "Space Launch Complex 4E - Vandenberg SFB, CA, USA",
-      "highlight": false,
-      "link": "https://spacelaunchnow.me/launch/falcon-9-block-5-ussf-266"
-    },
-    {
       "name": "Falcon 9 Block 5 | NROL-136",
       "date": "Saturday 21 November 14h30",
       "dateISO": "2026-11-21T12:30:00Z",
       "details": "Space Launch Complex 4E - Vandenberg SFB, CA, USA",
       "highlight": false,
       "link": "https://spacelaunchnow.me/launch/falcon-9-block-5-nrol-136"
+    },
+    {
+      "name": "Falcon 9 Block 5 | USSF-266",
+      "date": "Monday 23 November 18h04",
+      "dateISO": "2026-11-23T16:04:00Z",
+      "details": "Space Launch Complex 4E - Vandenberg SFB, CA, USA",
+      "highlight": false,
+      "link": "https://spacelaunchnow.me/launch/falcon-9-block-5-ussf-266"
     },
     {
       "name": "Falcon 9 Block 5 | Starlink Group 15-21",
@@ -197,45 +197,45 @@
   ],
   "companyNews": [
     {
+      "title": "SpaceX Starship Flight 15: How to watch the double catch attempt",
+      "link": "https://www.teslarati.com/spacex-starship-flight-15-how-to-watch-the-double-catch-attempt/",
+      "date": "Fri, 13 Nov 2026 18:07",
+      "hoursAgo": 2,
+      "source": "Teslarati"
+    },
+    {
+      "title": "Tesla trims Model Y offerings as All-Wheel-Drive gets the axe",
+      "link": "https://www.teslarati.com/tesla-trims-model-y-offerings-all-wheel-drive-gets-axe/",
+      "date": "Fri, 13 Nov 2026 15:29",
+      "hoursAgo": 5,
+      "source": "Teslarati"
+    },
+    {
+      "title": "SpaceX Starship is going for a catch that could change spaceflight forever",
+      "link": "https://www.teslarati.com/spacex-starship-flight-15-double-catch/",
+      "date": "Fri, 13 Nov 2026 15:13",
+      "hoursAgo": 5,
+      "source": "Teslarati"
+    },
+    {
       "title": "Tesla and SpaceX merger talks hit a new stage, and one hurdle remains",
       "link": "https://www.teslarati.com/tesla-spacex-merger-timeline/",
       "date": "Fri, 13 Nov 2026 05:53",
-      "hoursAgo": 5,
+      "hoursAgo": 14,
       "source": "Teslarati"
     },
     {
       "title": "SpaceX hid behind another name in the Arizona desert, and now it’s going big",
       "link": "https://www.teslarati.com/spacex-arizona-supercomputer-tombstone/",
       "date": "Thu, 12 Nov 2026 18:08",
-      "hoursAgo": 17,
+      "hoursAgo": 26,
       "source": "Teslarati"
     },
     {
       "title": "Nvidia’s board meets on Jensen Huang, and Elon Musk already has an answer",
       "link": "https://www.teslarati.com/nvidias-board-meets-on-jensen-huang-and-elon-musk-already-has-an-answer/",
       "date": "Thu, 12 Nov 2026 05:51",
-      "hoursAgo": 29,
-      "source": "Teslarati"
-    },
-    {
-      "title": "Starlink Mini 2 arrives with one feature for true off-grid connectivity",
-      "link": "https://www.teslarati.com/starlink-mini-2-arrives-one-feature-true-off-grid-connectivity/",
-      "date": "Wed, 11 Nov 2026 21:13",
       "hoursAgo": 38,
-      "source": "Teslarati"
-    },
-    {
-      "title": "SpaceX’s $24B Starbase supercomputer plan slipped past a key roadblock",
-      "link": "https://www.teslarati.com/spacexs-24b-starbase-supercomputer-plan-slipped-past-a-key-roadblock/",
-      "date": "Wed, 11 Nov 2026 20:05",
-      "hoursAgo": 39,
-      "source": "Teslarati"
-    },
-    {
-      "title": "Tesla extends Cybertruck production as Musk concedes ‘sentimentality’",
-      "link": "https://www.teslarati.com/tesla-extends-cybertruck-production-slightly-handle-order-log/",
-      "date": "Wed, 11 Nov 2026 17:52",
-      "hoursAgo": 41,
       "source": "Teslarati"
     }
   ],
