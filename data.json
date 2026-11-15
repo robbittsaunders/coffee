@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-14T13:12+02:00",
+  "updatedAt": "2026-11-15T13:45+02:00",
   "stocks": {
     "TSLA": {
       "price": 390.22,
@@ -8,7 +8,7 @@
       "change_1m": 6.02,
       "change_12m": -2.93,
       "change_3y": 64.37,
-      "updated": "2026-11-14T11:12:46.607804"
+      "updated": "2026-11-15T11:45:26.473513"
     },
     "NVDA": {
       "price": 162.85,
@@ -17,7 +17,7 @@
       "change_1m": -24.99,
       "change_12m": -12.64,
       "change_3y": 228.94,
-      "updated": "2026-11-14T11:12:46.608037"
+      "updated": "2026-11-15T11:45:26.473662"
     },
     "MU": {
       "price": 778.31,
@@ -26,50 +26,50 @@
       "change_1m": -13.99,
       "change_12m": 228.84,
       "change_3y": 918.3,
-      "updated": "2026-11-14T11:12:46.608212"
+      "updated": "2026-11-15T11:45:26.473782"
     }
   },
   "news": [
     {
+      "title": "SpaceX makes history, catching Starship from orbit for the first time",
+      "link": "https://www.teslarati.com/spacex-catches-starship-first/",
+      "date": "Sat, 14 Nov 2026 21:40",
+      "hoursAgo": 14,
+      "source": "Teslarati"
+    },
+    {
+      "title": "Tesla Cybercab ownership will come with plenty of strings attached",
+      "link": "https://www.teslarati.com/tesla-cybercab-arrives-steep-ownership-fine-print/",
+      "date": "Sat, 14 Nov 2026 13:32",
+      "hoursAgo": 22,
+      "source": "Teslarati"
+    },
+    {
       "title": "Tesla Cybercab goes on sale for $29,990, slated for December deliveries",
       "link": "https://www.teslarati.com/tesla-cybercab-29990-december-deliveries/",
       "date": "Fri, 13 Nov 2026 23:46",
-      "hoursAgo": 11,
+      "hoursAgo": 35,
       "source": "Teslarati"
     },
     {
       "title": "SpaceX Starship Flight 15: How to watch the double catch attempt",
       "link": "https://www.teslarati.com/spacex-starship-flight-15-how-to-watch-the-double-catch-attempt/",
       "date": "Fri, 13 Nov 2026 18:07",
-      "hoursAgo": 17,
+      "hoursAgo": 41,
       "source": "Teslarati"
     },
     {
       "title": "Tesla trims Model Y offerings as All-Wheel-Drive gets the axe",
       "link": "https://www.teslarati.com/tesla-trims-model-y-offerings-all-wheel-drive-gets-axe/",
       "date": "Fri, 13 Nov 2026 15:29",
-      "hoursAgo": 19,
+      "hoursAgo": 44,
       "source": "Teslarati"
     },
     {
       "title": "SpaceX Starship is going for a catch that could change spaceflight forever",
       "link": "https://www.teslarati.com/spacex-starship-flight-15-double-catch/",
       "date": "Fri, 13 Nov 2026 15:13",
-      "hoursAgo": 19,
-      "source": "Teslarati"
-    },
-    {
-      "title": "Tesla and SpaceX merger talks hit a new stage, and one hurdle remains",
-      "link": "https://www.teslarati.com/tesla-spacex-merger-timeline/",
-      "date": "Fri, 13 Nov 2026 05:53",
-      "hoursAgo": 29,
-      "source": "Teslarati"
-    },
-    {
-      "title": "SpaceX hid behind another name in the Arizona desert, and now it’s going big",
-      "link": "https://www.teslarati.com/spacex-arizona-supercomputer-tombstone/",
-      "date": "Thu, 12 Nov 2026 18:08",
-      "hoursAgo": 41,
+      "hoursAgo": 44,
       "source": "Teslarati"
     }
   ],
@@ -77,43 +77,43 @@
   "roasts": [],
   "weather": {
     "+1h": {
-      "temp": 17.3,
+      "temp": 17.0,
       "condition": "Clear",
-      "wind_speed": 25.6,
+      "wind_speed": 19.1,
+      "wind_dir_deg": 141,
+      "cloud": 3,
+      "rain": 0.0
+    },
+    "+3h": {
+      "temp": 16.9,
+      "condition": "Overcast",
+      "wind_speed": 20.4,
+      "wind_dir_deg": 139,
+      "cloud": 98,
+      "rain": 0.0
+    },
+    "+6h": {
+      "temp": 16.3,
+      "condition": "Clear",
+      "wind_speed": 13.1,
       "wind_dir_deg": 148,
       "cloud": 0,
       "rain": 0.0
     },
-    "+3h": {
-      "temp": 17.2,
-      "condition": "Clear",
-      "wind_speed": 25.3,
-      "wind_dir_deg": 142,
-      "cloud": 2,
-      "rain": 0.0
-    },
-    "+6h": {
-      "temp": 16.4,
-      "condition": "Mainly clear",
-      "wind_speed": 24.4,
-      "wind_dir_deg": 145,
-      "cloud": 35,
-      "rain": 0.0
-    },
     "+12h": {
-      "temp": 24.0,
+      "temp": 23.9,
       "condition": "Clear",
-      "wind_speed": 25.3,
-      "wind_dir_deg": 149,
+      "wind_speed": 22.7,
+      "wind_dir_deg": 153,
       "cloud": 0,
       "rain": 0.0
     },
     "+24h": {
-      "temp": 17.6,
-      "condition": "Partly cloudy",
-      "wind_speed": 25.6,
-      "wind_dir_deg": 139,
-      "cloud": 69,
+      "temp": 17.2,
+      "condition": "Clear",
+      "wind_speed": 23.9,
+      "wind_dir_deg": 148,
+      "cloud": 3,
       "rain": 0.0
     }
   },
@@ -121,36 +121,36 @@
     "usdZar": "16.92",
     "usdZarWeek": "+1.4%",
     "usdZarLabel": "rand weaker",
-    "btc": "67225",
-    "btcWeek": "-11.5%",
+    "btc": "65462",
+    "btcWeek": "-13.6%",
     "jse": "-0.4%",
     "sp500": "-0.4%"
   },
   "worldEvents": [
     {
-      "text": "What we know about the ground stop and what to do if you're affected",
-      "hoursAgo": 3,
-      "link": "https://www.bbc.co.uk/news/articles/cqx2wyvyr3zzo"
-    },
-    {
       "text": "US has floated Ukraine ceding Donbas for Nato membership, Zelensky says",
-      "hoursAgo": 0,
+      "hoursAgo": 13,
       "link": "https://www.bbc.co.uk/news/articles/cwvg2l312ylqo"
     },
     {
-      "text": "Trump, Putin and Xi plan historic joint meeting in China next week, White House says",
-      "hoursAgo": 5,
-      "link": "https://www.bbc.co.uk/news/articles/ckz74jzpy18do"
+      "text": "Copper wire upgrade behind US flight suspension, transport secretary says",
+      "hoursAgo": 4,
+      "link": "https://www.bbc.co.uk/news/articles/c6wy9lynq4qno"
     },
     {
-      "text": "'Miracle on Mississippi' - All passengers rescued after New Orleans cruise ship collision",
-      "hoursAgo": 11,
-      "link": "https://www.bbc.co.uk/news/articles/cw20xmy0m5yyo"
+      "text": "Judge temporarily blocks Trump from closing Washington DC golf course for renovation",
+      "hoursAgo": 8,
+      "link": "https://www.bbc.co.uk/news/articles/c6j9mn7l14y0o"
     },
     {
-      "text": "Setback for SpaceX Starship rocket's double-catch test",
-      "hoursAgo": 11,
-      "link": "https://www.bbc.co.uk/news/articles/ckregdgnl0xpo"
+      "text": "Fifth Canadian soldier dies from injuries caused by large fire at military base",
+      "hoursAgo": 2,
+      "link": "https://www.bbc.co.uk/news/articles/cmrlgn4x2xw8o"
+    },
+    {
+      "text": "Three men sentenced to death in Jordan over fatal church mass shooting",
+      "hoursAgo": 0,
+      "link": "https://www.bbc.co.uk/news/articles/c3rrg9xgqlwpo"
     }
   ],
   "launches": [
@@ -197,45 +197,45 @@
   ],
   "companyNews": [
     {
+      "title": "SpaceX makes history, catching Starship from orbit for the first time",
+      "link": "https://www.teslarati.com/spacex-catches-starship-first/",
+      "date": "Sat, 14 Nov 2026 21:40",
+      "hoursAgo": 14,
+      "source": "Teslarati"
+    },
+    {
+      "title": "Tesla Cybercab ownership will come with plenty of strings attached",
+      "link": "https://www.teslarati.com/tesla-cybercab-arrives-steep-ownership-fine-print/",
+      "date": "Sat, 14 Nov 2026 13:32",
+      "hoursAgo": 22,
+      "source": "Teslarati"
+    },
+    {
       "title": "Tesla Cybercab goes on sale for $29,990, slated for December deliveries",
       "link": "https://www.teslarati.com/tesla-cybercab-29990-december-deliveries/",
       "date": "Fri, 13 Nov 2026 23:46",
-      "hoursAgo": 11,
+      "hoursAgo": 35,
       "source": "Teslarati"
     },
     {
       "title": "SpaceX Starship Flight 15: How to watch the double catch attempt",
       "link": "https://www.teslarati.com/spacex-starship-flight-15-how-to-watch-the-double-catch-attempt/",
       "date": "Fri, 13 Nov 2026 18:07",
-      "hoursAgo": 17,
+      "hoursAgo": 41,
       "source": "Teslarati"
     },
     {
       "title": "Tesla trims Model Y offerings as All-Wheel-Drive gets the axe",
       "link": "https://www.teslarati.com/tesla-trims-model-y-offerings-all-wheel-drive-gets-axe/",
       "date": "Fri, 13 Nov 2026 15:29",
-      "hoursAgo": 19,
+      "hoursAgo": 44,
       "source": "Teslarati"
     },
     {
       "title": "SpaceX Starship is going for a catch that could change spaceflight forever",
       "link": "https://www.teslarati.com/spacex-starship-flight-15-double-catch/",
       "date": "Fri, 13 Nov 2026 15:13",
-      "hoursAgo": 19,
-      "source": "Teslarati"
-    },
-    {
-      "title": "Tesla and SpaceX merger talks hit a new stage, and one hurdle remains",
-      "link": "https://www.teslarati.com/tesla-spacex-merger-timeline/",
-      "date": "Fri, 13 Nov 2026 05:53",
-      "hoursAgo": 29,
-      "source": "Teslarati"
-    },
-    {
-      "title": "SpaceX hid behind another name in the Arizona desert, and now it’s going big",
-      "link": "https://www.teslarati.com/spacex-arizona-supercomputer-tombstone/",
-      "date": "Thu, 12 Nov 2026 18:08",
-      "hoursAgo": 41,
+      "hoursAgo": 44,
       "source": "Teslarati"
     }
   ],
