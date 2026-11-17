@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-17T00:56+02:00",
+  "updatedAt": "2026-11-17T14:46+02:00",
   "stocks": {
     "TSLA": {
       "price": 379.74,
@@ -8,7 +8,7 @@
       "change_1m": 1.61,
       "change_12m": -6.09,
       "change_3y": 62.07,
-      "updated": "2026-11-16T22:56:02.080369"
+      "updated": "2026-11-17T12:46:11.152347"
     },
     "NVDA": {
       "price": 156.14,
@@ -17,7 +17,7 @@
       "change_1m": -27.87,
       "change_12m": -17.7,
       "change_3y": 217.67,
-      "updated": "2026-11-16T22:56:02.080488"
+      "updated": "2026-11-17T12:46:11.152529"
     },
     "MU": {
       "price": 719.02,
@@ -26,131 +26,124 @@
       "change_1m": -19.76,
       "change_12m": 191.63,
       "change_3y": 836.0,
-      "updated": "2026-11-16T22:56:02.080589"
+      "updated": "2026-11-17T12:46:11.152739"
     }
   },
   "news": [
     {
-      "title": "Tesla makes €3 billion Cybercab bet at Giga Berlin",
-      "link": "https://www.teslarati.com/tesla-makes-e3-billion-cybercab-bet-giga-berlin/",
-      "date": "Mon, 16 Nov 2026 16:31",
-      "hoursAgo": 6,
-      "source": "Teslarati"
+      "title": "Tesla Keeps Killing Cars. Now It Wants To Build Cybercabs In Germany",
+      "link": "https://insideevs.com/news/815634/tesla-german-factory-expansion-cybercab/",
+      "date": "Mon, 16 Nov 2026 18:32",
+      "hoursAgo": 18,
+      "source": "InsideEVs"
     },
     {
-      "title": "Elon Musk is already planning a bigger Starship, and the Moon may be why",
-      "link": "https://www.teslarati.com/elon-musk-spacex-starship-v4-moon/",
-      "date": "Mon, 16 Nov 2026 06:12",
-      "hoursAgo": 16,
-      "source": "Teslarati"
+      "title": "Tesla Model 3 Maintenance Guide: What Needs Servicing And What Doesn't",
+      "link": "https://insideevs.com/news/814818/tesla-model-3-maintenance-guide/",
+      "date": "Mon, 16 Nov 2026 16:26",
+      "hoursAgo": 20,
+      "source": "InsideEVs"
     },
     {
-      "title": "MKBHD just ordered the Tesla Cybercab with his hair on the line",
-      "link": "https://www.teslarati.com/mkbhd-tesla-cybercab-bet/",
-      "date": "Sun, 15 Nov 2026 17:25",
-      "hoursAgo": 29,
-      "source": "Teslarati"
+      "title": "I Tried Mercedes' Answer To Tesla FSD. Here's How It Went",
+      "link": "https://insideevs.com/reviews/815471/mercedes-drive-assist-pro-review/",
+      "date": "Mon, 16 Nov 2026 14:00",
+      "hoursAgo": 22,
+      "source": "InsideEVs"
     },
     {
-      "title": "SpaceX makes history, catching Starship from orbit for the first time",
-      "link": "https://www.teslarati.com/spacex-catches-starship-first/",
-      "date": "Sat, 14 Nov 2026 21:40",
-      "hoursAgo": 49,
-      "source": "Teslarati"
+      "title": "Starship Flight 15: Booster diverts to ocean, but Ship 42 makes history",
+      "link": "https://www.nasaspaceflight.com/2026/11/starship-flight-15-spacex-history/",
+      "date": "Fri, 13 Nov 2026 04:24",
+      "hoursAgo": 104,
+      "source": "NASASpaceflight"
     },
     {
-      "title": "Tesla Cybercab ownership will come with plenty of strings attached",
-      "link": "https://www.teslarati.com/tesla-cybercab-arrives-steep-ownership-fine-print/",
-      "date": "Sat, 14 Nov 2026 13:32",
-      "hoursAgo": 57,
-      "source": "Teslarati"
-    },
-    {
-      "title": "Tesla Cybercab goes on sale for $29,990, slated for December deliveries",
-      "link": "https://www.teslarati.com/tesla-cybercab-29990-december-deliveries/",
-      "date": "Fri, 13 Nov 2026 23:46",
-      "hoursAgo": 71,
-      "source": "Teslarati"
+      "title": "Launch Preview: Starship, Vulcan, and Electron launches scheduled for busy week",
+      "link": "https://www.nasaspaceflight.com/2026/11/launch-preview-11092026/",
+      "date": "Mon, 09 Nov 2026 22:37",
+      "hoursAgo": 182,
+      "source": "NASASpaceflight"
     }
   ],
   "tweets": [],
   "roasts": [],
   "weather": {
     "+1h": {
-      "temp": 16.9,
+      "temp": 16.8,
       "condition": "Clear",
-      "wind_speed": 29.1,
+      "wind_speed": 29.5,
       "wind_dir_deg": 135,
       "cloud": 5,
       "rain": 0.0
     },
     "+3h": {
-      "temp": 16.5,
+      "temp": 16.6,
       "condition": "Clear",
       "wind_speed": 25.5,
-      "wind_dir_deg": 135,
-      "cloud": 5,
+      "wind_dir_deg": 139,
+      "cloud": 1,
       "rain": 0.0
     },
     "+6h": {
-      "temp": 16.2,
+      "temp": 16.3,
       "condition": "Clear",
-      "wind_speed": 21.0,
-      "wind_dir_deg": 137,
-      "cloud": 9,
+      "wind_speed": 23.7,
+      "wind_dir_deg": 141,
+      "cloud": 2,
       "rain": 0.0
     },
     "+12h": {
-      "temp": 30.6,
+      "temp": 30.3,
       "condition": "Clear",
-      "wind_speed": 11.4,
-      "wind_dir_deg": 142,
-      "cloud": 0,
+      "wind_speed": 12.0,
+      "wind_dir_deg": 137,
+      "cloud": 2,
       "rain": 0.0
     },
     "+24h": {
-      "temp": 18.0,
+      "temp": 18.4,
       "condition": "Clear",
-      "wind_speed": 13.9,
-      "wind_dir_deg": 134,
-      "cloud": 1,
+      "wind_speed": 14.6,
+      "wind_dir_deg": 135,
+      "cloud": 0,
       "rain": 0.0
     }
   },
   "keyNumbers": {
-    "usdZar": "16.96",
-    "usdZarWeek": "+2.1%",
+    "usdZar": "16.92",
+    "usdZarWeek": "+2.0%",
     "usdZarLabel": "rand weaker",
-    "btc": "65342",
-    "btcWeek": "-13.7%",
-    "jse": "-0.4%",
+    "btc": "64893",
+    "btcWeek": "-13.0%",
+    "jse": "-0.7%",
     "sp500": "-1.9%"
   },
   "worldEvents": [
     {
-      "text": "Five EU countries announce migrant deportation centre in Rwanda",
+      "text": "Putin's Crimea bridge partly collapses as Zelensky hails 'unprecedented' attack by Ukraine",
+      "hoursAgo": 2,
+      "link": "https://www.bbc.co.uk/news/articles/cw772jk4rvmxo"
+    },
+    {
+      "text": "Ukraine accuses Russia of targeting rescue operation after 'double-tap' strike kills 72",
       "hoursAgo": 6,
-      "link": "https://www.bbc.co.uk/news/articles/cw987343352go"
+      "link": "https://www.bbc.co.uk/news/articles/c30rk8x5g80qo"
     },
     {
-      "text": "Houthi rebel advance in Yemen may further destabilise global economy",
+      "text": "Nvidia partner Megaspeed being investigated by US government over chip exports",
       "hoursAgo": 1,
-      "link": "https://www.bbc.co.uk/news/articles/cmy97qperq9eo"
+      "link": "https://www.bbc.co.uk/news/articles/cmn504nq5033o"
     },
     {
-      "text": "Nvidia dismisses 'Bring Jensen Back' campaign as Trump backs effort to reinstate ex CEO",
-      "hoursAgo": 0,
-      "link": "https://www.bbc.co.uk/news/articles/cry49plv8v3go"
+      "text": "Indian woman gang-raped while pregnant in 2002 'heartbroken' after two perpetrators bailed",
+      "hoursAgo": 3,
+      "link": "https://www.bbc.co.uk/news/articles/cr868wd2qg18o"
     },
     {
-      "text": "Landmark Crimea bridge hit as Russia reports biggest Ukrainian drone attack of war",
-      "hoursAgo": 7,
-      "link": "https://www.bbc.co.uk/news/articles/ckx27v6dpjz0o"
-    },
-    {
-      "text": "When will we see Robert Pattinson as Bond in cinemas?",
-      "hoursAgo": 5,
-      "link": "https://www.bbc.co.uk/news/videos/cmd91xjd9zk2o"
+      "text": "Imran Khan seeks urgent medical care fearing he 'may not return alive'",
+      "hoursAgo": 11,
+      "link": "https://www.bbc.co.uk/news/articles/cr894xq5yeyko"
     }
   ],
   "launches": [
@@ -197,46 +190,39 @@
   ],
   "companyNews": [
     {
-      "title": "Tesla makes €3 billion Cybercab bet at Giga Berlin",
-      "link": "https://www.teslarati.com/tesla-makes-e3-billion-cybercab-bet-giga-berlin/",
-      "date": "Mon, 16 Nov 2026 16:31",
-      "hoursAgo": 6,
-      "source": "Teslarati"
+      "title": "Tesla Keeps Killing Cars. Now It Wants To Build Cybercabs In Germany",
+      "link": "https://insideevs.com/news/815634/tesla-german-factory-expansion-cybercab/",
+      "date": "Mon, 16 Nov 2026 18:32",
+      "hoursAgo": 18,
+      "source": "InsideEVs"
     },
     {
-      "title": "Elon Musk is already planning a bigger Starship, and the Moon may be why",
-      "link": "https://www.teslarati.com/elon-musk-spacex-starship-v4-moon/",
-      "date": "Mon, 16 Nov 2026 06:12",
-      "hoursAgo": 16,
-      "source": "Teslarati"
+      "title": "Tesla Model 3 Maintenance Guide: What Needs Servicing And What Doesn't",
+      "link": "https://insideevs.com/news/814818/tesla-model-3-maintenance-guide/",
+      "date": "Mon, 16 Nov 2026 16:26",
+      "hoursAgo": 20,
+      "source": "InsideEVs"
     },
     {
-      "title": "MKBHD just ordered the Tesla Cybercab with his hair on the line",
-      "link": "https://www.teslarati.com/mkbhd-tesla-cybercab-bet/",
-      "date": "Sun, 15 Nov 2026 17:25",
-      "hoursAgo": 29,
-      "source": "Teslarati"
+      "title": "I Tried Mercedes' Answer To Tesla FSD. Here's How It Went",
+      "link": "https://insideevs.com/reviews/815471/mercedes-drive-assist-pro-review/",
+      "date": "Mon, 16 Nov 2026 14:00",
+      "hoursAgo": 22,
+      "source": "InsideEVs"
     },
     {
-      "title": "SpaceX makes history, catching Starship from orbit for the first time",
-      "link": "https://www.teslarati.com/spacex-catches-starship-first/",
-      "date": "Sat, 14 Nov 2026 21:40",
-      "hoursAgo": 49,
-      "source": "Teslarati"
+      "title": "Starship Flight 15: Booster diverts to ocean, but Ship 42 makes history",
+      "link": "https://www.nasaspaceflight.com/2026/11/starship-flight-15-spacex-history/",
+      "date": "Fri, 13 Nov 2026 04:24",
+      "hoursAgo": 104,
+      "source": "NASASpaceflight"
     },
     {
-      "title": "Tesla Cybercab ownership will come with plenty of strings attached",
-      "link": "https://www.teslarati.com/tesla-cybercab-arrives-steep-ownership-fine-print/",
-      "date": "Sat, 14 Nov 2026 13:32",
-      "hoursAgo": 57,
-      "source": "Teslarati"
-    },
-    {
-      "title": "Tesla Cybercab goes on sale for $29,990, slated for December deliveries",
-      "link": "https://www.teslarati.com/tesla-cybercab-29990-december-deliveries/",
-      "date": "Fri, 13 Nov 2026 23:46",
-      "hoursAgo": 71,
-      "source": "Teslarati"
+      "title": "Launch Preview: Starship, Vulcan, and Electron launches scheduled for busy week",
+      "link": "https://www.nasaspaceflight.com/2026/11/launch-preview-11092026/",
+      "date": "Mon, 09 Nov 2026 22:37",
+      "hoursAgo": 182,
+      "source": "NASASpaceflight"
     }
   ],
   "calendar": []
