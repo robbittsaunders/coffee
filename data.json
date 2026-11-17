@@ -1,156 +1,122 @@
 {
-  "updatedAt": "2026-11-17T14:46+02:00",
+  "updatedAt": "2026-11-17T23:49+02:00",
   "stocks": {
     "TSLA": {
-      "price": 379.74,
-      "change_1d": -2.69,
-      "change_3d": -4.46,
-      "change_1m": 1.61,
-      "change_12m": -6.09,
-      "change_3y": 62.07,
-      "updated": "2026-11-17T12:46:11.152347"
+      "price": 380.11,
+      "change_1d": 0.1,
+      "change_3d": -2.59,
+      "change_1m": -1.65,
+      "change_12m": -7.05,
+      "change_3y": 61.34,
+      "updated": "2026-11-17T21:49:27.063906"
     },
     "NVDA": {
-      "price": 156.14,
-      "change_1d": -4.12,
-      "change_3d": -6.05,
-      "change_1m": -27.87,
-      "change_12m": -17.7,
-      "change_3y": 217.67,
-      "updated": "2026-11-17T12:46:11.152529"
+      "price": 155.46,
+      "change_1d": -0.44,
+      "change_3d": -4.54,
+      "change_1m": -29.96,
+      "change_12m": -16.49,
+      "change_3y": 209.32,
+      "updated": "2026-11-17T21:49:27.064091"
     },
     "MU": {
-      "price": 719.02,
-      "change_1d": -7.62,
-      "change_3d": -9.95,
-      "change_1m": -19.76,
-      "change_12m": 191.63,
-      "change_3y": 836.0,
-      "updated": "2026-11-17T12:46:11.152739"
+      "price": 712.42,
+      "change_1d": -0.92,
+      "change_3d": -8.47,
+      "change_1m": -22.03,
+      "change_12m": 194.78,
+      "change_3y": 814.9,
+      "updated": "2026-11-17T21:49:27.064252"
     }
   },
   "news": [
     {
-      "title": "Tesla Keeps Killing Cars. Now It Wants To Build Cybercabs In Germany",
-      "link": "https://insideevs.com/news/815634/tesla-german-factory-expansion-cybercab/",
-      "date": "Mon, 16 Nov 2026 18:32",
-      "hoursAgo": 18,
-      "source": "InsideEVs"
+      "title": "Tesla changes vehicle computers from ‘AI’ to ‘SI,’ reflecting President Trump change",
+      "link": "https://www.teslarati.com/tesla-changes-vehicle-computers-from-ai-to-si-reflecting-president-trump-change/",
+      "date": "Tue, 17 Nov 2026 19:50",
+      "hoursAgo": 1,
+      "source": "Teslarati"
     },
     {
-      "title": "Tesla Model 3 Maintenance Guide: What Needs Servicing And What Doesn't",
-      "link": "https://insideevs.com/news/814818/tesla-model-3-maintenance-guide/",
-      "date": "Mon, 16 Nov 2026 16:26",
-      "hoursAgo": 20,
-      "source": "InsideEVs"
+      "title": "Tesla just doubled its Miami Robotaxi geofence",
+      "link": "https://www.teslarati.com/tesla-doubled-miami-robotaxi-geofence/",
+      "date": "Tue, 17 Nov 2026 18:12",
+      "hoursAgo": 3,
+      "source": "Teslarati"
     },
     {
-      "title": "I Tried Mercedes' Answer To Tesla FSD. Here's How It Went",
-      "link": "https://insideevs.com/reviews/815471/mercedes-drive-assist-pro-review/",
-      "date": "Mon, 16 Nov 2026 14:00",
-      "hoursAgo": 22,
-      "source": "InsideEVs"
+      "title": "Tesla tuner pleading to save Cybertruck also wants to build CyberSUV",
+      "link": "https://www.teslarati.com/tesla-tuner-pleading-save-cybertruck-wants-cybersuv/",
+      "date": "Tue, 17 Nov 2026 16:04",
+      "hoursAgo": 5,
+      "source": "Teslarati"
     },
     {
-      "title": "Starship Flight 15: Booster diverts to ocean, but Ship 42 makes history",
-      "link": "https://www.nasaspaceflight.com/2026/11/starship-flight-15-spacex-history/",
-      "date": "Fri, 13 Nov 2026 04:24",
-      "hoursAgo": 104,
-      "source": "NASASpaceflight"
+      "title": "Your Tesla could be in the Robotaxi fleet next month, Elon Musk claims",
+      "link": "https://www.teslarati.com/tesla-may-test-customer-owned-robotaxis-early-next-month-musk-says/",
+      "date": "Tue, 17 Nov 2026 00:04",
+      "hoursAgo": 21,
+      "source": "Teslarati"
     },
     {
-      "title": "Launch Preview: Starship, Vulcan, and Electron launches scheduled for busy week",
-      "link": "https://www.nasaspaceflight.com/2026/11/launch-preview-11092026/",
-      "date": "Mon, 09 Nov 2026 22:37",
-      "hoursAgo": 182,
-      "source": "NASASpaceflight"
+      "title": "FAA turned down free Starlink offer before nationwide ground stop, Elon Musk says",
+      "link": "https://www.teslarati.com/faa-turned-down-free-starlink-offer-before-nationwide-ground-stop-elon-musk-says/",
+      "date": "Mon, 16 Nov 2026 23:53",
+      "hoursAgo": 21,
+      "source": "Teslarati"
+    },
+    {
+      "title": "Tesla makes $3.3 billion Cybercab bet at Giga Berlin",
+      "link": "https://www.teslarati.com/tesla-makes-e3-billion-cybercab-bet-giga-berlin/",
+      "date": "Mon, 16 Nov 2026 16:31",
+      "hoursAgo": 29,
+      "source": "Teslarati"
     }
   ],
   "tweets": [],
   "roasts": [],
-  "weather": {
-    "+1h": {
-      "temp": 16.8,
-      "condition": "Clear",
-      "wind_speed": 29.5,
-      "wind_dir_deg": 135,
-      "cloud": 5,
-      "rain": 0.0
-    },
-    "+3h": {
-      "temp": 16.6,
-      "condition": "Clear",
-      "wind_speed": 25.5,
-      "wind_dir_deg": 139,
-      "cloud": 1,
-      "rain": 0.0
-    },
-    "+6h": {
-      "temp": 16.3,
-      "condition": "Clear",
-      "wind_speed": 23.7,
-      "wind_dir_deg": 141,
-      "cloud": 2,
-      "rain": 0.0
-    },
-    "+12h": {
-      "temp": 30.3,
-      "condition": "Clear",
-      "wind_speed": 12.0,
-      "wind_dir_deg": 137,
-      "cloud": 2,
-      "rain": 0.0
-    },
-    "+24h": {
-      "temp": 18.4,
-      "condition": "Clear",
-      "wind_speed": 14.6,
-      "wind_dir_deg": 135,
-      "cloud": 0,
-      "rain": 0.0
-    }
-  },
+  "weather": {},
   "keyNumbers": {
     "usdZar": "16.92",
     "usdZarWeek": "+2.0%",
     "usdZarLabel": "rand weaker",
-    "btc": "64893",
-    "btcWeek": "-13.0%",
-    "jse": "-0.7%",
-    "sp500": "-1.9%"
+    "btc": "64278",
+    "btcWeek": "-13.8%",
+    "jse": "-0.8%",
+    "sp500": "-1.0%"
   },
   "worldEvents": [
     {
-      "text": "Putin's Crimea bridge partly collapses as Zelensky hails 'unprecedented' attack by Ukraine",
-      "hoursAgo": 2,
+      "text": "Putin's Crimean Bridge partly collapses as Zelensky hails 'unprecedented' attack by Ukraine",
+      "hoursAgo": 0,
       "link": "https://www.bbc.co.uk/news/articles/cw772jk4rvmxo"
     },
     {
-      "text": "Ukraine accuses Russia of targeting rescue operation after 'double-tap' strike kills 72",
+      "text": "How the attack on Crimean Bridge unfolded",
       "hoursAgo": 6,
-      "link": "https://www.bbc.co.uk/news/articles/c30rk8x5g80qo"
+      "link": "https://www.bbc.co.uk/news/articles/crz9dgz28zwdo"
     },
     {
-      "text": "Nvidia partner Megaspeed being investigated by US government over chip exports",
-      "hoursAgo": 1,
-      "link": "https://www.bbc.co.uk/news/articles/cmn504nq5033o"
-    },
-    {
-      "text": "Indian woman gang-raped while pregnant in 2002 'heartbroken' after two perpetrators bailed",
+      "text": "Jensen Huang says he would be 'honoured' to return as Nvidia CEO if board asked him",
       "hoursAgo": 3,
-      "link": "https://www.bbc.co.uk/news/articles/cr868wd2qg18o"
+      "link": "https://www.bbc.co.uk/news/articles/cwx2en2vrxmdo"
     },
     {
-      "text": "Imran Khan seeks urgent medical care fearing he 'may not return alive'",
-      "hoursAgo": 11,
-      "link": "https://www.bbc.co.uk/news/articles/cr894xq5yeyko"
+      "text": "'It was really scary': Mother describes sheltering during Russia strikes on Kyiv bridge",
+      "hoursAgo": 4,
+      "link": "https://www.bbc.co.uk/news/articles/cq7825234lgmo"
+    },
+    {
+      "text": "Russian military plane crashes killing all 19 on board",
+      "hoursAgo": 0,
+      "link": "https://www.bbc.co.uk/news/articles/cw8085rykkmgo"
     }
   ],
   "launches": [
     {
       "name": "Falcon 9 Block 5 | USSF-317",
-      "date": "Thursday 19 November 05h00",
-      "dateISO": "2026-11-19T03:00:00Z",
+      "date": "Friday 20 November 04h46",
+      "dateISO": "2026-11-20T02:46:00Z",
       "details": "Space Launch Complex 4E - Vandenberg SFB, CA, USA",
       "highlight": false,
       "link": "https://spacelaunchnow.me/launch/falcon-9-block-5-ussf-317"
@@ -190,39 +156,46 @@
   ],
   "companyNews": [
     {
-      "title": "Tesla Keeps Killing Cars. Now It Wants To Build Cybercabs In Germany",
-      "link": "https://insideevs.com/news/815634/tesla-german-factory-expansion-cybercab/",
-      "date": "Mon, 16 Nov 2026 18:32",
-      "hoursAgo": 18,
-      "source": "InsideEVs"
+      "title": "Tesla changes vehicle computers from ‘AI’ to ‘SI,’ reflecting President Trump change",
+      "link": "https://www.teslarati.com/tesla-changes-vehicle-computers-from-ai-to-si-reflecting-president-trump-change/",
+      "date": "Tue, 17 Nov 2026 19:50",
+      "hoursAgo": 1,
+      "source": "Teslarati"
     },
     {
-      "title": "Tesla Model 3 Maintenance Guide: What Needs Servicing And What Doesn't",
-      "link": "https://insideevs.com/news/814818/tesla-model-3-maintenance-guide/",
-      "date": "Mon, 16 Nov 2026 16:26",
-      "hoursAgo": 20,
-      "source": "InsideEVs"
+      "title": "Tesla just doubled its Miami Robotaxi geofence",
+      "link": "https://www.teslarati.com/tesla-doubled-miami-robotaxi-geofence/",
+      "date": "Tue, 17 Nov 2026 18:12",
+      "hoursAgo": 3,
+      "source": "Teslarati"
     },
     {
-      "title": "I Tried Mercedes' Answer To Tesla FSD. Here's How It Went",
-      "link": "https://insideevs.com/reviews/815471/mercedes-drive-assist-pro-review/",
-      "date": "Mon, 16 Nov 2026 14:00",
-      "hoursAgo": 22,
-      "source": "InsideEVs"
+      "title": "Tesla tuner pleading to save Cybertruck also wants to build CyberSUV",
+      "link": "https://www.teslarati.com/tesla-tuner-pleading-save-cybertruck-wants-cybersuv/",
+      "date": "Tue, 17 Nov 2026 16:04",
+      "hoursAgo": 5,
+      "source": "Teslarati"
     },
     {
-      "title": "Starship Flight 15: Booster diverts to ocean, but Ship 42 makes history",
-      "link": "https://www.nasaspaceflight.com/2026/11/starship-flight-15-spacex-history/",
-      "date": "Fri, 13 Nov 2026 04:24",
-      "hoursAgo": 104,
-      "source": "NASASpaceflight"
+      "title": "Your Tesla could be in the Robotaxi fleet next month, Elon Musk claims",
+      "link": "https://www.teslarati.com/tesla-may-test-customer-owned-robotaxis-early-next-month-musk-says/",
+      "date": "Tue, 17 Nov 2026 00:04",
+      "hoursAgo": 21,
+      "source": "Teslarati"
     },
     {
-      "title": "Launch Preview: Starship, Vulcan, and Electron launches scheduled for busy week",
-      "link": "https://www.nasaspaceflight.com/2026/11/launch-preview-11092026/",
-      "date": "Mon, 09 Nov 2026 22:37",
-      "hoursAgo": 182,
-      "source": "NASASpaceflight"
+      "title": "FAA turned down free Starlink offer before nationwide ground stop, Elon Musk says",
+      "link": "https://www.teslarati.com/faa-turned-down-free-starlink-offer-before-nationwide-ground-stop-elon-musk-says/",
+      "date": "Mon, 16 Nov 2026 23:53",
+      "hoursAgo": 21,
+      "source": "Teslarati"
+    },
+    {
+      "title": "Tesla makes $3.3 billion Cybercab bet at Giga Berlin",
+      "link": "https://www.teslarati.com/tesla-makes-e3-billion-cybercab-bet-giga-berlin/",
+      "date": "Mon, 16 Nov 2026 16:31",
+      "hoursAgo": 29,
+      "source": "Teslarati"
     }
   ],
   "calendar": []
