@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-17T23:49+02:00",
+  "updatedAt": "2026-11-18T14:39+02:00",
   "stocks": {
     "TSLA": {
       "price": 380.11,
@@ -8,7 +8,7 @@
       "change_1m": -1.65,
       "change_12m": -7.05,
       "change_3y": 61.34,
-      "updated": "2026-11-17T21:49:27.063906"
+      "updated": "2026-11-18T12:39:33.013271"
     },
     "NVDA": {
       "price": 155.46,
@@ -17,7 +17,7 @@
       "change_1m": -29.96,
       "change_12m": -16.49,
       "change_3y": 209.32,
-      "updated": "2026-11-17T21:49:27.064091"
+      "updated": "2026-11-18T12:39:33.013417"
     },
     "MU": {
       "price": 712.42,
@@ -26,50 +26,50 @@
       "change_1m": -22.03,
       "change_12m": 194.78,
       "change_3y": 814.9,
-      "updated": "2026-11-17T21:49:27.064252"
+      "updated": "2026-11-18T12:39:33.013532"
     }
   },
   "news": [
     {
+      "title": "Tesla’s Powercore could change how data centers get power",
+      "link": "https://www.teslarati.com/tesla-powercore-data-center-solid-state-voltage-transformer/",
+      "date": "Wed, 18 Nov 2026 06:42",
+      "hoursAgo": 5,
+      "source": "Teslarati"
+    },
+    {
       "title": "Tesla changes vehicle computers from ‘AI’ to ‘SI,’ reflecting President Trump change",
       "link": "https://www.teslarati.com/tesla-changes-vehicle-computers-from-ai-to-si-reflecting-president-trump-change/",
       "date": "Tue, 17 Nov 2026 19:50",
-      "hoursAgo": 1,
+      "hoursAgo": 16,
       "source": "Teslarati"
     },
     {
       "title": "Tesla just doubled its Miami Robotaxi geofence",
       "link": "https://www.teslarati.com/tesla-doubled-miami-robotaxi-geofence/",
       "date": "Tue, 17 Nov 2026 18:12",
-      "hoursAgo": 3,
+      "hoursAgo": 18,
       "source": "Teslarati"
     },
     {
       "title": "Tesla tuner pleading to save Cybertruck also wants to build CyberSUV",
       "link": "https://www.teslarati.com/tesla-tuner-pleading-save-cybertruck-wants-cybersuv/",
       "date": "Tue, 17 Nov 2026 16:04",
-      "hoursAgo": 5,
+      "hoursAgo": 20,
       "source": "Teslarati"
     },
     {
       "title": "Your Tesla could be in the Robotaxi fleet next month, Elon Musk claims",
       "link": "https://www.teslarati.com/tesla-may-test-customer-owned-robotaxis-early-next-month-musk-says/",
       "date": "Tue, 17 Nov 2026 00:04",
-      "hoursAgo": 21,
+      "hoursAgo": 36,
       "source": "Teslarati"
     },
     {
       "title": "FAA turned down free Starlink offer before nationwide ground stop, Elon Musk says",
       "link": "https://www.teslarati.com/faa-turned-down-free-starlink-offer-before-nationwide-ground-stop-elon-musk-says/",
       "date": "Mon, 16 Nov 2026 23:53",
-      "hoursAgo": 21,
-      "source": "Teslarati"
-    },
-    {
-      "title": "Tesla makes $3.3 billion Cybercab bet at Giga Berlin",
-      "link": "https://www.teslarati.com/tesla-makes-e3-billion-cybercab-bet-giga-berlin/",
-      "date": "Mon, 16 Nov 2026 16:31",
-      "hoursAgo": 29,
+      "hoursAgo": 36,
       "source": "Teslarati"
     }
   ],
@@ -77,39 +77,39 @@
   "roasts": [],
   "weather": {},
   "keyNumbers": {
-    "usdZar": "16.92",
-    "usdZarWeek": "+2.0%",
+    "usdZar": "17.18",
+    "usdZarWeek": "+4.8%",
     "usdZarLabel": "rand weaker",
-    "btc": "64278",
-    "btcWeek": "-13.8%",
-    "jse": "-0.8%",
+    "btc": "64064",
+    "btcWeek": "-14.8%",
+    "jse": "-3.0%",
     "sp500": "-1.0%"
   },
   "worldEvents": [
     {
+      "text": "As Trump and Xi meet, China's AI dreams face an unexpected hurdle: the Nvidia spy scandal",
+      "hoursAgo": 13,
+      "link": "https://www.bbc.co.uk/news/articles/c5vg23g92rj4o"
+    },
+    {
+      "text": "Nvidia says it won't reinstate Huang as it reports soaring sales",
+      "hoursAgo": 11,
+      "link": "https://www.bbc.co.uk/news/articles/cm2kl50vkwkdo"
+    },
+    {
+      "text": "Rubio says US not 'under systemic attack' after series of tech outages",
+      "hoursAgo": 7,
+      "link": "https://www.bbc.co.uk/news/articles/crkgvxxwpwz2o"
+    },
+    {
+      "text": "Democrats win Alaska Senate race two weeks after midterms counting began",
+      "hoursAgo": 2,
+      "link": "https://www.bbc.co.uk/news/articles/cqev3v2ygzlvo"
+    },
+    {
       "text": "Putin's Crimean Bridge partly collapses as Zelensky hails 'unprecedented' attack by Ukraine",
-      "hoursAgo": 0,
+      "hoursAgo": 15,
       "link": "https://www.bbc.co.uk/news/articles/cw772jk4rvmxo"
-    },
-    {
-      "text": "How the attack on Crimean Bridge unfolded",
-      "hoursAgo": 6,
-      "link": "https://www.bbc.co.uk/news/articles/crz9dgz28zwdo"
-    },
-    {
-      "text": "Jensen Huang says he would be 'honoured' to return as Nvidia CEO if board asked him",
-      "hoursAgo": 3,
-      "link": "https://www.bbc.co.uk/news/articles/cwx2en2vrxmdo"
-    },
-    {
-      "text": "'It was really scary': Mother describes sheltering during Russia strikes on Kyiv bridge",
-      "hoursAgo": 4,
-      "link": "https://www.bbc.co.uk/news/articles/cq7825234lgmo"
-    },
-    {
-      "text": "Russian military plane crashes killing all 19 on board",
-      "hoursAgo": 0,
-      "link": "https://www.bbc.co.uk/news/articles/cw8085rykkmgo"
     }
   ],
   "launches": [
@@ -156,45 +156,45 @@
   ],
   "companyNews": [
     {
+      "title": "Tesla’s Powercore could change how data centers get power",
+      "link": "https://www.teslarati.com/tesla-powercore-data-center-solid-state-voltage-transformer/",
+      "date": "Wed, 18 Nov 2026 06:42",
+      "hoursAgo": 5,
+      "source": "Teslarati"
+    },
+    {
       "title": "Tesla changes vehicle computers from ‘AI’ to ‘SI,’ reflecting President Trump change",
       "link": "https://www.teslarati.com/tesla-changes-vehicle-computers-from-ai-to-si-reflecting-president-trump-change/",
       "date": "Tue, 17 Nov 2026 19:50",
-      "hoursAgo": 1,
+      "hoursAgo": 16,
       "source": "Teslarati"
     },
     {
       "title": "Tesla just doubled its Miami Robotaxi geofence",
       "link": "https://www.teslarati.com/tesla-doubled-miami-robotaxi-geofence/",
       "date": "Tue, 17 Nov 2026 18:12",
-      "hoursAgo": 3,
+      "hoursAgo": 18,
       "source": "Teslarati"
     },
     {
       "title": "Tesla tuner pleading to save Cybertruck also wants to build CyberSUV",
       "link": "https://www.teslarati.com/tesla-tuner-pleading-save-cybertruck-wants-cybersuv/",
       "date": "Tue, 17 Nov 2026 16:04",
-      "hoursAgo": 5,
+      "hoursAgo": 20,
       "source": "Teslarati"
     },
     {
       "title": "Your Tesla could be in the Robotaxi fleet next month, Elon Musk claims",
       "link": "https://www.teslarati.com/tesla-may-test-customer-owned-robotaxis-early-next-month-musk-says/",
       "date": "Tue, 17 Nov 2026 00:04",
-      "hoursAgo": 21,
+      "hoursAgo": 36,
       "source": "Teslarati"
     },
     {
       "title": "FAA turned down free Starlink offer before nationwide ground stop, Elon Musk says",
       "link": "https://www.teslarati.com/faa-turned-down-free-starlink-offer-before-nationwide-ground-stop-elon-musk-says/",
       "date": "Mon, 16 Nov 2026 23:53",
-      "hoursAgo": 21,
-      "source": "Teslarati"
-    },
-    {
-      "title": "Tesla makes $3.3 billion Cybercab bet at Giga Berlin",
-      "link": "https://www.teslarati.com/tesla-makes-e3-billion-cybercab-bet-giga-berlin/",
-      "date": "Mon, 16 Nov 2026 16:31",
-      "hoursAgo": 29,
+      "hoursAgo": 36,
       "source": "Teslarati"
     }
   ],
