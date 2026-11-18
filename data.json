@@ -1,115 +1,147 @@
 {
-  "updatedAt": "2026-11-18T14:39+02:00",
+  "updatedAt": "2026-11-18T23:28+02:00",
   "stocks": {
     "TSLA": {
-      "price": 380.11,
-      "change_1d": 0.1,
-      "change_3d": -2.59,
-      "change_1m": -1.65,
-      "change_12m": -7.05,
-      "change_3y": 61.34,
-      "updated": "2026-11-18T12:39:33.013271"
+      "price": 383.72,
+      "change_1d": 0.95,
+      "change_3d": 1.05,
+      "change_1m": 2.44,
+      "change_12m": -4.37,
+      "change_3y": 62.87,
+      "updated": "2026-11-18T21:28:09.217423"
     },
     "NVDA": {
-      "price": 155.46,
-      "change_1d": -0.44,
-      "change_3d": -4.54,
-      "change_1m": -29.96,
-      "change_12m": -16.49,
-      "change_3y": 209.32,
-      "updated": "2026-11-18T12:39:33.013417"
-    },
-    "MU": {
-      "price": 712.42,
-      "change_1d": -0.92,
-      "change_3d": -8.47,
-      "change_1m": -22.03,
-      "change_12m": 194.78,
-      "change_3y": 814.9,
-      "updated": "2026-11-18T12:39:33.013532"
+      "price": 150.96,
+      "change_1d": -2.89,
+      "change_3d": -3.32,
+      "change_1m": -28.86,
+      "change_12m": -16.56,
+      "change_3y": 200.36,
+      "updated": "2026-11-18T21:28:09.217555"
     }
   },
   "news": [
     {
+      "title": "Tesla Robotaxi takes over for Uber credits and loaners at Service locations",
+      "link": "https://www.teslarati.com/tesla-robotaxi-takes-over-uber-credits-loaners-service/",
+      "date": "Wed, 18 Nov 2026 20:03",
+      "hoursAgo": 1,
+      "source": "Teslarati"
+    },
+    {
+      "title": "Sean Duffy fires back at Elon Musk over free Starlink",
+      "link": "https://www.teslarati.com/sean-duffy-elon-musk-free-starlink/",
+      "date": "Wed, 18 Nov 2026 17:06",
+      "hoursAgo": 4,
+      "source": "Teslarati"
+    },
+    {
+      "title": "Tesla gears up Cybercab with Starlink for public debut, but with notable changes",
+      "link": "https://www.teslarati.com/tesla-gears-up-cybercab-starlink-for-public-debut-notable-changes/",
+      "date": "Wed, 18 Nov 2026 16:30",
+      "hoursAgo": 4,
+      "source": "Teslarati"
+    },
+    {
       "title": "Tesla’s Powercore could change how data centers get power",
       "link": "https://www.teslarati.com/tesla-powercore-data-center-solid-state-voltage-transformer/",
       "date": "Wed, 18 Nov 2026 06:42",
-      "hoursAgo": 5,
+      "hoursAgo": 14,
       "source": "Teslarati"
     },
     {
       "title": "Tesla changes vehicle computers from ‘AI’ to ‘SI,’ reflecting President Trump change",
       "link": "https://www.teslarati.com/tesla-changes-vehicle-computers-from-ai-to-si-reflecting-president-trump-change/",
       "date": "Tue, 17 Nov 2026 19:50",
-      "hoursAgo": 16,
+      "hoursAgo": 25,
       "source": "Teslarati"
     },
     {
       "title": "Tesla just doubled its Miami Robotaxi geofence",
       "link": "https://www.teslarati.com/tesla-doubled-miami-robotaxi-geofence/",
       "date": "Tue, 17 Nov 2026 18:12",
-      "hoursAgo": 18,
-      "source": "Teslarati"
-    },
-    {
-      "title": "Tesla tuner pleading to save Cybertruck also wants to build CyberSUV",
-      "link": "https://www.teslarati.com/tesla-tuner-pleading-save-cybertruck-wants-cybersuv/",
-      "date": "Tue, 17 Nov 2026 16:04",
-      "hoursAgo": 20,
-      "source": "Teslarati"
-    },
-    {
-      "title": "Your Tesla could be in the Robotaxi fleet next month, Elon Musk claims",
-      "link": "https://www.teslarati.com/tesla-may-test-customer-owned-robotaxis-early-next-month-musk-says/",
-      "date": "Tue, 17 Nov 2026 00:04",
-      "hoursAgo": 36,
-      "source": "Teslarati"
-    },
-    {
-      "title": "FAA turned down free Starlink offer before nationwide ground stop, Elon Musk says",
-      "link": "https://www.teslarati.com/faa-turned-down-free-starlink-offer-before-nationwide-ground-stop-elon-musk-says/",
-      "date": "Mon, 16 Nov 2026 23:53",
-      "hoursAgo": 36,
+      "hoursAgo": 27,
       "source": "Teslarati"
     }
   ],
   "tweets": [],
   "roasts": [],
-  "weather": {},
+  "weather": {
+    "+1h": {
+      "temp": 17.4,
+      "condition": "Clear",
+      "wind_speed": 12.4,
+      "wind_dir_deg": 132,
+      "cloud": 0,
+      "rain": 0.0
+    },
+    "+3h": {
+      "temp": 16.6,
+      "condition": "Clear",
+      "wind_speed": 12.2,
+      "wind_dir_deg": 134,
+      "cloud": 0,
+      "rain": 0.0
+    },
+    "+6h": {
+      "temp": 15.4,
+      "condition": "Clear",
+      "wind_speed": 6.8,
+      "wind_dir_deg": 130,
+      "cloud": 0,
+      "rain": 0.0
+    },
+    "+12h": {
+      "temp": 34.7,
+      "condition": "Clear",
+      "wind_speed": 8.3,
+      "wind_dir_deg": 286,
+      "cloud": 0,
+      "rain": 0.0
+    },
+    "+24h": {
+      "temp": 18.8,
+      "condition": "Clear",
+      "wind_speed": 10.7,
+      "wind_dir_deg": 168,
+      "cloud": 0,
+      "rain": 0.0
+    }
+  },
   "keyNumbers": {
-    "usdZar": "17.18",
-    "usdZarWeek": "+4.8%",
+    "usdZar": "17.28",
+    "usdZarWeek": "+5.3%",
     "usdZarLabel": "rand weaker",
-    "btc": "64064",
-    "btcWeek": "-14.8%",
-    "jse": "-3.0%",
-    "sp500": "-1.0%"
+    "btc": "62386",
+    "btcWeek": "-17.1%",
+    "jse": "-3.7%",
+    "sp500": "-0.2%"
   },
   "worldEvents": [
     {
-      "text": "As Trump and Xi meet, China's AI dreams face an unexpected hurdle: the Nvidia spy scandal",
-      "hoursAgo": 13,
-      "link": "https://www.bbc.co.uk/news/articles/c5vg23g92rj4o"
+      "text": "Inside the old gas pipeline where Ukraine is fighting an underground war with Russia",
+      "hoursAgo": 4,
+      "link": "https://www.bbc.co.uk/news/videos/c8p3vw4q6nzzo"
     },
     {
-      "text": "Nvidia says it won't reinstate Huang as it reports soaring sales",
-      "hoursAgo": 11,
-      "link": "https://www.bbc.co.uk/news/articles/cm2kl50vkwkdo"
+      "text": "'The drones don't fly here' - BBC reports from Ukraine's new front line",
+      "hoursAgo": 4,
+      "link": "https://www.bbc.co.uk/news/articles/c32l507ev4v4o"
     },
     {
-      "text": "Rubio says US not 'under systemic attack' after series of tech outages",
-      "hoursAgo": 7,
-      "link": "https://www.bbc.co.uk/news/articles/crkgvxxwpwz2o"
+      "text": "Trump shakes hands with Putin and Xi ahead of historic talks in China",
+      "hoursAgo": 5,
+      "link": "https://www.bbc.co.uk/news/articles/ck9d75x5wwwwo"
     },
     {
-      "text": "Democrats win Alaska Senate race two weeks after midterms counting began",
-      "hoursAgo": 2,
-      "link": "https://www.bbc.co.uk/news/articles/cqev3v2ygzlvo"
+      "text": "Israeli military launches rare ground operation in Gaza beyond Yellow Line",
+      "hoursAgo": 1,
+      "link": "https://www.bbc.co.uk/news/articles/cw8r7510degno"
     },
     {
-      "text": "Putin's Crimean Bridge partly collapses as Zelensky hails 'unprecedented' attack by Ukraine",
-      "hoursAgo": 15,
-      "link": "https://www.bbc.co.uk/news/articles/cw772jk4rvmxo"
+      "text": "William and Kate meet PM Modi as they wrap up India tour",
+      "hoursAgo": 1,
+      "link": "https://www.bbc.co.uk/news/articles/cq62ped2ypy4o"
     }
   ],
   "launches": [
@@ -138,12 +170,12 @@
       "link": "https://spacelaunchnow.me/launch/falcon-9-block-5-ussf-266"
     },
     {
-      "name": "Falcon 9 Block 5 | Cygnus CRS-2 NG-25",
-      "date": "Sunday 29 November 17h47",
-      "dateISO": "2026-11-29T15:47:00Z",
-      "details": "Space Launch Complex 40 - Cape Canaveral SFS, FL, USA",
+      "name": "Falcon 9 Block 5 | USSF-380",
+      "date": "Saturday 28 November 06h53",
+      "dateISO": "2026-11-28T04:53:00Z",
+      "details": "Space Launch Complex 4E - Vandenberg SFB, CA, USA",
       "highlight": false,
-      "link": "https://spacelaunchnow.me/launch/falcon-9-block-5-cygnus-crs-2-ng-25"
+      "link": "https://spacelaunchnow.me/launch/falcon-9-block-5-ussf-380"
     },
     {
       "name": "Falcon 9 Block 5 | Starlink Group 15-21",
@@ -156,45 +188,45 @@
   ],
   "companyNews": [
     {
+      "title": "Tesla Robotaxi takes over for Uber credits and loaners at Service locations",
+      "link": "https://www.teslarati.com/tesla-robotaxi-takes-over-uber-credits-loaners-service/",
+      "date": "Wed, 18 Nov 2026 20:03",
+      "hoursAgo": 1,
+      "source": "Teslarati"
+    },
+    {
+      "title": "Sean Duffy fires back at Elon Musk over free Starlink",
+      "link": "https://www.teslarati.com/sean-duffy-elon-musk-free-starlink/",
+      "date": "Wed, 18 Nov 2026 17:06",
+      "hoursAgo": 4,
+      "source": "Teslarati"
+    },
+    {
+      "title": "Tesla gears up Cybercab with Starlink for public debut, but with notable changes",
+      "link": "https://www.teslarati.com/tesla-gears-up-cybercab-starlink-for-public-debut-notable-changes/",
+      "date": "Wed, 18 Nov 2026 16:30",
+      "hoursAgo": 4,
+      "source": "Teslarati"
+    },
+    {
       "title": "Tesla’s Powercore could change how data centers get power",
       "link": "https://www.teslarati.com/tesla-powercore-data-center-solid-state-voltage-transformer/",
       "date": "Wed, 18 Nov 2026 06:42",
-      "hoursAgo": 5,
+      "hoursAgo": 14,
       "source": "Teslarati"
     },
     {
       "title": "Tesla changes vehicle computers from ‘AI’ to ‘SI,’ reflecting President Trump change",
       "link": "https://www.teslarati.com/tesla-changes-vehicle-computers-from-ai-to-si-reflecting-president-trump-change/",
       "date": "Tue, 17 Nov 2026 19:50",
-      "hoursAgo": 16,
+      "hoursAgo": 25,
       "source": "Teslarati"
     },
     {
       "title": "Tesla just doubled its Miami Robotaxi geofence",
       "link": "https://www.teslarati.com/tesla-doubled-miami-robotaxi-geofence/",
       "date": "Tue, 17 Nov 2026 18:12",
-      "hoursAgo": 18,
-      "source": "Teslarati"
-    },
-    {
-      "title": "Tesla tuner pleading to save Cybertruck also wants to build CyberSUV",
-      "link": "https://www.teslarati.com/tesla-tuner-pleading-save-cybertruck-wants-cybersuv/",
-      "date": "Tue, 17 Nov 2026 16:04",
-      "hoursAgo": 20,
-      "source": "Teslarati"
-    },
-    {
-      "title": "Your Tesla could be in the Robotaxi fleet next month, Elon Musk claims",
-      "link": "https://www.teslarati.com/tesla-may-test-customer-owned-robotaxis-early-next-month-musk-says/",
-      "date": "Tue, 17 Nov 2026 00:04",
-      "hoursAgo": 36,
-      "source": "Teslarati"
-    },
-    {
-      "title": "FAA turned down free Starlink offer before nationwide ground stop, Elon Musk says",
-      "link": "https://www.teslarati.com/faa-turned-down-free-starlink-offer-before-nationwide-ground-stop-elon-musk-says/",
-      "date": "Mon, 16 Nov 2026 23:53",
-      "hoursAgo": 36,
+      "hoursAgo": 27,
       "source": "Teslarati"
     }
   ],
