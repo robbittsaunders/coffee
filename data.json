@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-18T23:28+02:00",
+  "updatedAt": "2026-11-19T14:30+02:00",
   "stocks": {
     "TSLA": {
       "price": 383.72,
@@ -8,59 +8,59 @@
       "change_1m": 2.44,
       "change_12m": -4.37,
       "change_3y": 62.87,
-      "updated": "2026-11-18T21:28:09.217423"
+      "updated": "2026-11-19T12:30:04.836171"
     },
-    "NVDA": {
-      "price": 150.96,
-      "change_1d": -2.89,
-      "change_3d": -3.32,
-      "change_1m": -28.86,
-      "change_12m": -16.56,
-      "change_3y": 200.36,
-      "updated": "2026-11-18T21:28:09.217555"
+    "MU": {
+      "price": 705.27,
+      "change_1d": -1.0,
+      "change_3d": -1.91,
+      "change_1m": -17.66,
+      "change_12m": 209.0,
+      "change_3y": 805.72,
+      "updated": "2026-11-19T12:30:04.836341"
     }
   },
   "news": [
     {
+      "title": "Tesla’s Cybercab fleet just had its biggest day ever",
+      "link": "https://www.teslarati.com/teslas-cybercab-fleet-just-had-its-biggest-day-ever/",
+      "date": "Thu, 19 Nov 2026 05:54",
+      "hoursAgo": 6,
+      "source": "Teslarati"
+    },
+    {
       "title": "Tesla Robotaxi takes over for Uber credits and loaners at Service locations",
       "link": "https://www.teslarati.com/tesla-robotaxi-takes-over-uber-credits-loaners-service/",
       "date": "Wed, 18 Nov 2026 20:03",
-      "hoursAgo": 1,
+      "hoursAgo": 16,
       "source": "Teslarati"
     },
     {
       "title": "Sean Duffy fires back at Elon Musk over free Starlink",
       "link": "https://www.teslarati.com/sean-duffy-elon-musk-free-starlink/",
       "date": "Wed, 18 Nov 2026 17:06",
-      "hoursAgo": 4,
+      "hoursAgo": 19,
       "source": "Teslarati"
     },
     {
       "title": "Tesla gears up Cybercab with Starlink for public debut, but with notable changes",
       "link": "https://www.teslarati.com/tesla-gears-up-cybercab-starlink-for-public-debut-notable-changes/",
       "date": "Wed, 18 Nov 2026 16:30",
-      "hoursAgo": 4,
+      "hoursAgo": 19,
       "source": "Teslarati"
     },
     {
       "title": "Tesla’s Powercore could change how data centers get power",
       "link": "https://www.teslarati.com/tesla-powercore-data-center-solid-state-voltage-transformer/",
       "date": "Wed, 18 Nov 2026 06:42",
-      "hoursAgo": 14,
+      "hoursAgo": 29,
       "source": "Teslarati"
     },
     {
       "title": "Tesla changes vehicle computers from ‘AI’ to ‘SI,’ reflecting President Trump change",
       "link": "https://www.teslarati.com/tesla-changes-vehicle-computers-from-ai-to-si-reflecting-president-trump-change/",
       "date": "Tue, 17 Nov 2026 19:50",
-      "hoursAgo": 25,
-      "source": "Teslarati"
-    },
-    {
-      "title": "Tesla just doubled its Miami Robotaxi geofence",
-      "link": "https://www.teslarati.com/tesla-doubled-miami-robotaxi-geofence/",
-      "date": "Tue, 17 Nov 2026 18:12",
-      "hoursAgo": 27,
+      "hoursAgo": 40,
       "source": "Teslarati"
     }
   ],
@@ -68,87 +68,87 @@
   "roasts": [],
   "weather": {
     "+1h": {
-      "temp": 17.4,
+      "temp": 18.3,
       "condition": "Clear",
-      "wind_speed": 12.4,
-      "wind_dir_deg": 132,
+      "wind_speed": 11.4,
+      "wind_dir_deg": 162,
       "cloud": 0,
       "rain": 0.0
     },
     "+3h": {
-      "temp": 16.6,
-      "condition": "Clear",
-      "wind_speed": 12.2,
-      "wind_dir_deg": 134,
-      "cloud": 0,
+      "temp": 17.6,
+      "condition": "Overcast",
+      "wind_speed": 10.2,
+      "wind_dir_deg": 163,
+      "cloud": 100,
       "rain": 0.0
     },
     "+6h": {
-      "temp": 15.4,
-      "condition": "Clear",
-      "wind_speed": 6.8,
-      "wind_dir_deg": 130,
-      "cloud": 0,
+      "temp": 17.3,
+      "condition": "Fog",
+      "wind_speed": 8.0,
+      "wind_dir_deg": 174,
+      "cloud": 100,
       "rain": 0.0
     },
     "+12h": {
-      "temp": 34.7,
+      "temp": 24.5,
       "condition": "Clear",
-      "wind_speed": 8.3,
-      "wind_dir_deg": 286,
-      "cloud": 0,
+      "wind_speed": 13.8,
+      "wind_dir_deg": 252,
+      "cloud": 1,
       "rain": 0.0
     },
     "+24h": {
-      "temp": 18.8,
-      "condition": "Clear",
-      "wind_speed": 10.7,
-      "wind_dir_deg": 168,
-      "cloud": 0,
+      "temp": 18.0,
+      "condition": "Mainly clear",
+      "wind_speed": 8.3,
+      "wind_dir_deg": 169,
+      "cloud": 22,
       "rain": 0.0
     }
   },
   "keyNumbers": {
-    "usdZar": "17.28",
-    "usdZarWeek": "+5.3%",
+    "usdZar": "17.24",
+    "usdZarWeek": "+4.6%",
     "usdZarLabel": "rand weaker",
-    "btc": "62386",
-    "btcWeek": "-17.1%",
-    "jse": "-3.7%",
+    "btc": "63648",
+    "btcWeek": "-13.7%",
+    "jse": "-0.4%",
     "sp500": "-0.2%"
   },
   "worldEvents": [
     {
-      "text": "Inside the old gas pipeline where Ukraine is fighting an underground war with Russia",
-      "hoursAgo": 4,
-      "link": "https://www.bbc.co.uk/news/videos/c8p3vw4q6nzzo"
+      "text": "This is a remarkable diplomatic moment for China's Xi - but it comes with pitfalls",
+      "hoursAgo": 7,
+      "link": "https://www.bbc.co.uk/news/articles/cr9d75we51j1o"
     },
     {
-      "text": "'The drones don't fly here' - BBC reports from Ukraine's new front line",
-      "hoursAgo": 4,
-      "link": "https://www.bbc.co.uk/news/articles/c32l507ev4v4o"
+      "text": "Dozens missing after boat carrying 100 migrants sinks off Senegal's coast",
+      "hoursAgo": 3,
+      "link": "https://www.bbc.co.uk/news/articles/c58j484089ewo"
     },
     {
-      "text": "Trump shakes hands with Putin and Xi ahead of historic talks in China",
-      "hoursAgo": 5,
-      "link": "https://www.bbc.co.uk/news/articles/ck9d75x5wwwwo"
-    },
-    {
-      "text": "Israeli military launches rare ground operation in Gaza beyond Yellow Line",
+      "text": "Anthropic raises $81bn in record-breaking stock market debut",
       "hoursAgo": 1,
-      "link": "https://www.bbc.co.uk/news/articles/cw8r7510degno"
+      "link": "https://www.bbc.co.uk/news/articles/c6742m39xgzxo"
     },
     {
-      "text": "William and Kate meet PM Modi as they wrap up India tour",
-      "hoursAgo": 1,
-      "link": "https://www.bbc.co.uk/news/articles/cq62ped2ypy4o"
+      "text": "Van Gogh painting sells for record $190.4m after row over its Nazi history",
+      "hoursAgo": 11,
+      "link": "https://www.bbc.co.uk/news/articles/c5dj1dkwzvzwo"
+    },
+    {
+      "text": "Crimean Bridge attacked again, Russia says",
+      "hoursAgo": 4,
+      "link": "https://www.bbc.co.uk/news/articles/cm879dqn3e1jo"
     }
   ],
   "launches": [
     {
       "name": "Falcon 9 Block 5 | USSF-317",
-      "date": "Friday 20 November 04h46",
-      "dateISO": "2026-11-20T02:46:00Z",
+      "date": "Friday 20 November 06h28",
+      "dateISO": "2026-11-20T04:28:55Z",
       "details": "Space Launch Complex 4E - Vandenberg SFB, CA, USA",
       "highlight": false,
       "link": "https://spacelaunchnow.me/launch/falcon-9-block-5-ussf-317"
@@ -188,45 +188,45 @@
   ],
   "companyNews": [
     {
+      "title": "Tesla’s Cybercab fleet just had its biggest day ever",
+      "link": "https://www.teslarati.com/teslas-cybercab-fleet-just-had-its-biggest-day-ever/",
+      "date": "Thu, 19 Nov 2026 05:54",
+      "hoursAgo": 6,
+      "source": "Teslarati"
+    },
+    {
       "title": "Tesla Robotaxi takes over for Uber credits and loaners at Service locations",
       "link": "https://www.teslarati.com/tesla-robotaxi-takes-over-uber-credits-loaners-service/",
       "date": "Wed, 18 Nov 2026 20:03",
-      "hoursAgo": 1,
+      "hoursAgo": 16,
       "source": "Teslarati"
     },
     {
       "title": "Sean Duffy fires back at Elon Musk over free Starlink",
       "link": "https://www.teslarati.com/sean-duffy-elon-musk-free-starlink/",
       "date": "Wed, 18 Nov 2026 17:06",
-      "hoursAgo": 4,
+      "hoursAgo": 19,
       "source": "Teslarati"
     },
     {
       "title": "Tesla gears up Cybercab with Starlink for public debut, but with notable changes",
       "link": "https://www.teslarati.com/tesla-gears-up-cybercab-starlink-for-public-debut-notable-changes/",
       "date": "Wed, 18 Nov 2026 16:30",
-      "hoursAgo": 4,
+      "hoursAgo": 19,
       "source": "Teslarati"
     },
     {
       "title": "Tesla’s Powercore could change how data centers get power",
       "link": "https://www.teslarati.com/tesla-powercore-data-center-solid-state-voltage-transformer/",
       "date": "Wed, 18 Nov 2026 06:42",
-      "hoursAgo": 14,
+      "hoursAgo": 29,
       "source": "Teslarati"
     },
     {
       "title": "Tesla changes vehicle computers from ‘AI’ to ‘SI,’ reflecting President Trump change",
       "link": "https://www.teslarati.com/tesla-changes-vehicle-computers-from-ai-to-si-reflecting-president-trump-change/",
       "date": "Tue, 17 Nov 2026 19:50",
-      "hoursAgo": 25,
-      "source": "Teslarati"
-    },
-    {
-      "title": "Tesla just doubled its Miami Robotaxi geofence",
-      "link": "https://www.teslarati.com/tesla-doubled-miami-robotaxi-geofence/",
-      "date": "Tue, 17 Nov 2026 18:12",
-      "hoursAgo": 27,
+      "hoursAgo": 40,
       "source": "Teslarati"
     }
   ],
