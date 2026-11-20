@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-19T23:39+02:00",
+  "updatedAt": "2026-11-20T14:30+02:00",
   "stocks": {
     "TSLA": {
       "price": 374.41,
@@ -8,7 +8,7 @@
       "change_1m": 0.59,
       "change_12m": -7.32,
       "change_3y": 58.92,
-      "updated": "2026-11-19T21:39:25.989679"
+      "updated": "2026-11-20T12:30:14.990755"
     },
     "NVDA": {
       "price": 145.98,
@@ -17,7 +17,7 @@
       "change_1m": -30.8,
       "change_12m": -21.55,
       "change_3y": 190.46,
-      "updated": "2026-11-19T21:39:25.989838"
+      "updated": "2026-11-20T12:30:14.990943"
     },
     "MU": {
       "price": 690.44,
@@ -26,50 +26,50 @@
       "change_1m": -21.32,
       "change_12m": 205.96,
       "change_3y": 786.67,
-      "updated": "2026-11-19T21:39:25.989979"
+      "updated": "2026-11-20T12:30:14.991109"
     }
   },
   "news": [
     {
+      "title": "Elon Musk reveals Tesla’s next vehicle without a steering wheel",
+      "link": "https://www.teslarati.com/elon-musk-tesla-model-yl-no-steering-wheel-robotaxi/",
+      "date": "Fri, 20 Nov 2026 05:38",
+      "hoursAgo": 6,
+      "source": "Teslarati"
+    },
+    {
       "title": "Elon Musk makes surprise stop at Giga Shanghai with a message for Tesla’s China team",
       "link": "https://www.teslarati.com/elon-musk-makes-surprise-stop-at-giga-shanghai-with-a-message-for-teslas-china-team/",
       "date": "Thu, 19 Nov 2026 19:12",
-      "hoursAgo": 2,
+      "hoursAgo": 17,
       "source": "Teslarati"
     },
     {
       "title": "Tesla Cybercab without steering wheel and pedals expands public rides to Dallas",
       "link": "https://www.teslarati.com/tesla-cybercab-without-steering-wheel-pedals-expands-public-rides-dallas/",
       "date": "Thu, 19 Nov 2026 18:06",
-      "hoursAgo": 3,
+      "hoursAgo": 18,
       "source": "Teslarati"
     },
     {
       "title": "Tesla’s Cybercab fleet just had its biggest day ever",
       "link": "https://www.teslarati.com/teslas-cybercab-fleet-just-had-its-biggest-day-ever/",
       "date": "Thu, 19 Nov 2026 05:54",
-      "hoursAgo": 15,
+      "hoursAgo": 30,
       "source": "Teslarati"
     },
     {
       "title": "Tesla Robotaxi takes over for Uber credits and loaners at Service locations",
       "link": "https://www.teslarati.com/tesla-robotaxi-takes-over-uber-credits-loaners-service/",
       "date": "Wed, 18 Nov 2026 20:03",
-      "hoursAgo": 25,
+      "hoursAgo": 40,
       "source": "Teslarati"
     },
     {
       "title": "Sean Duffy fires back at Elon Musk over free Starlink",
       "link": "https://www.teslarati.com/sean-duffy-elon-musk-free-starlink/",
       "date": "Wed, 18 Nov 2026 17:06",
-      "hoursAgo": 28,
-      "source": "Teslarati"
-    },
-    {
-      "title": "Tesla gears up Cybercab with Starlink for public debut, but with notable changes",
-      "link": "https://www.teslarati.com/tesla-gears-up-cybercab-starlink-for-public-debut-notable-changes/",
-      "date": "Wed, 18 Nov 2026 16:30",
-      "hoursAgo": 29,
+      "hoursAgo": 43,
       "source": "Teslarati"
     }
   ],
@@ -77,87 +77,87 @@
   "roasts": [],
   "weather": {
     "+1h": {
-      "temp": 18.3,
+      "temp": 17.5,
       "condition": "Clear",
-      "wind_speed": 11.4,
+      "wind_speed": 11.9,
+      "wind_dir_deg": 174,
+      "cloud": 16,
+      "rain": 0.0
+    },
+    "+3h": {
+      "temp": 16.3,
+      "condition": "Clear",
+      "wind_speed": 11.0,
+      "wind_dir_deg": 179,
+      "cloud": 1,
+      "rain": 0.0
+    },
+    "+6h": {
+      "temp": 15.6,
+      "condition": "Clear",
+      "wind_speed": 11.6,
       "wind_dir_deg": 162,
       "cloud": 0,
       "rain": 0.0
     },
-    "+3h": {
-      "temp": 17.6,
-      "condition": "Overcast",
-      "wind_speed": 10.2,
-      "wind_dir_deg": 163,
-      "cloud": 100,
-      "rain": 0.0
-    },
-    "+6h": {
-      "temp": 17.3,
-      "condition": "Fog",
-      "wind_speed": 8.0,
-      "wind_dir_deg": 174,
-      "cloud": 100,
-      "rain": 0.0
-    },
     "+12h": {
-      "temp": 23.8,
+      "temp": 23.5,
       "condition": "Clear",
-      "wind_speed": 14.3,
-      "wind_dir_deg": 265,
+      "wind_speed": 12.6,
+      "wind_dir_deg": 183,
       "cloud": 0,
       "rain": 0.0
     },
     "+24h": {
-      "temp": 18.2,
-      "condition": "Mainly clear",
-      "wind_speed": 11.8,
-      "wind_dir_deg": 172,
-      "cloud": 38,
+      "temp": 16.1,
+      "condition": "Partly cloudy",
+      "wind_speed": 7.1,
+      "wind_dir_deg": 210,
+      "cloud": 70,
       "rain": 0.0
     }
   },
   "keyNumbers": {
-    "usdZar": "17.50",
-    "usdZarWeek": "+6.2%",
+    "usdZar": "17.47",
+    "usdZarWeek": "+5.7%",
     "usdZarLabel": "rand weaker",
-    "btc": "61521",
-    "btcWeek": "-16.5%",
-    "jse": "-0.3%",
+    "btc": "61517",
+    "btcWeek": "-16.8%",
+    "jse": "-1.3%",
     "sp500": "-2.0%"
   },
   "worldEvents": [
     {
-      "text": "Myanmar committed genocide against Rohingya minority, top UN court rules",
-      "hoursAgo": 1,
-      "link": "https://www.bbc.co.uk/news/articles/c804wzp20ddvo"
-    },
-    {
-      "text": "Trump, Putin and Xi release 'peace declaration' after historic meeting",
-      "hoursAgo": 4,
-      "link": "https://www.bbc.co.uk/news/articles/c623j4ln97x7o"
-    },
-    {
-      "text": "Europe ready for talks with Russia on ending war in Ukraine, leaders say",
-      "hoursAgo": 0,
-      "link": "https://www.bbc.co.uk/news/articles/ckzd9nln5e6go"
-    },
-    {
-      "text": "Dozens missing after boat carrying migrants sinks off Senegal's coast",
+      "text": "UK and EU to agree youth mobility scheme, BBC understands",
       "hoursAgo": 5,
-      "link": "https://www.bbc.co.uk/news/articles/c58j484089ewo"
+      "link": "https://www.bbc.co.uk/news/articles/c623j4kpg94go"
     },
     {
-      "text": "Putin vows 'far more painful' response to Ukraine's strikes on Crimean Bridge",
-      "hoursAgo": 8,
-      "link": "https://www.bbc.co.uk/news/articles/cm879dqn3e1jo"
+      "text": "Three Kyiv bridges hit during major Russian missile attack",
+      "hoursAgo": 0,
+      "link": "https://www.bbc.co.uk/news/articles/c6x29gn4pdn9o"
+    },
+    {
+      "text": "'I tell my son it's just fireworks': Life inside Yemeni city besieged by Houthis",
+      "hoursAgo": 12,
+      "link": "https://www.bbc.co.uk/news/articles/cx7v2d8q879eo"
+    },
+    {
+      "text": "Nearly 600 women killed in South Africa within three months",
+      "hoursAgo": 1,
+      "link": "https://www.bbc.co.uk/news/articles/c69vwyjp0339o"
+    },
+    {
+      "text": "White House removes cyber-security chief after series of tech outages",
+      "hoursAgo": 2,
+      "link": "https://www.bbc.co.uk/news/articles/cwz0k3nn5p5mo"
     }
   ],
   "launches": [
     {
       "name": "Falcon 9 Block 5 | USSF-317",
-      "date": "Friday 20 November 06h32",
-      "dateISO": "2026-11-20T04:32:55Z",
+      "date": "Saturday 21 November 04h32",
+      "dateISO": "2026-11-21T02:32:00Z",
       "details": "Space Launch Complex 4E - Vandenberg SFB, CA, USA",
       "highlight": false,
       "link": "https://spacelaunchnow.me/launch/falcon-9-block-5-ussf-317"
@@ -197,45 +197,45 @@
   ],
   "companyNews": [
     {
+      "title": "Elon Musk reveals Tesla’s next vehicle without a steering wheel",
+      "link": "https://www.teslarati.com/elon-musk-tesla-model-yl-no-steering-wheel-robotaxi/",
+      "date": "Fri, 20 Nov 2026 05:38",
+      "hoursAgo": 6,
+      "source": "Teslarati"
+    },
+    {
       "title": "Elon Musk makes surprise stop at Giga Shanghai with a message for Tesla’s China team",
       "link": "https://www.teslarati.com/elon-musk-makes-surprise-stop-at-giga-shanghai-with-a-message-for-teslas-china-team/",
       "date": "Thu, 19 Nov 2026 19:12",
-      "hoursAgo": 2,
+      "hoursAgo": 17,
       "source": "Teslarati"
     },
     {
       "title": "Tesla Cybercab without steering wheel and pedals expands public rides to Dallas",
       "link": "https://www.teslarati.com/tesla-cybercab-without-steering-wheel-pedals-expands-public-rides-dallas/",
       "date": "Thu, 19 Nov 2026 18:06",
-      "hoursAgo": 3,
+      "hoursAgo": 18,
       "source": "Teslarati"
     },
     {
       "title": "Tesla’s Cybercab fleet just had its biggest day ever",
       "link": "https://www.teslarati.com/teslas-cybercab-fleet-just-had-its-biggest-day-ever/",
       "date": "Thu, 19 Nov 2026 05:54",
-      "hoursAgo": 15,
+      "hoursAgo": 30,
       "source": "Teslarati"
     },
     {
       "title": "Tesla Robotaxi takes over for Uber credits and loaners at Service locations",
       "link": "https://www.teslarati.com/tesla-robotaxi-takes-over-uber-credits-loaners-service/",
       "date": "Wed, 18 Nov 2026 20:03",
-      "hoursAgo": 25,
+      "hoursAgo": 40,
       "source": "Teslarati"
     },
     {
       "title": "Sean Duffy fires back at Elon Musk over free Starlink",
       "link": "https://www.teslarati.com/sean-duffy-elon-musk-free-starlink/",
       "date": "Wed, 18 Nov 2026 17:06",
-      "hoursAgo": 28,
-      "source": "Teslarati"
-    },
-    {
-      "title": "Tesla gears up Cybercab with Starlink for public debut, but with notable changes",
-      "link": "https://www.teslarati.com/tesla-gears-up-cybercab-starlink-for-public-debut-notable-changes/",
-      "date": "Wed, 18 Nov 2026 16:30",
-      "hoursAgo": 29,
+      "hoursAgo": 43,
       "source": "Teslarati"
     }
   ],
