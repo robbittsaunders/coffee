@@ -1,32 +1,23 @@
 {
-  "updatedAt": "2026-11-20T23:15+02:00",
+  "updatedAt": "2026-11-21T04:28+02:00",
   "stocks": {
     "TSLA": {
-      "price": 345.82,
-      "change_1d": -7.64,
-      "change_3d": -9.88,
-      "change_1m": -11.7,
-      "change_12m": -12.5,
-      "change_3y": 43.37,
-      "updated": "2026-11-20T21:15:51.059492"
+      "price": 374.41,
+      "change_1d": -2.43,
+      "change_3d": -1.5,
+      "change_1m": 0.59,
+      "change_12m": -7.32,
+      "change_3y": 55.23,
+      "updated": "2026-11-21T02:28:55.107338"
     },
     "NVDA": {
-      "price": 125.53,
-      "change_1d": -14.01,
-      "change_3d": -16.85,
-      "change_1m": -41.88,
-      "change_12m": -30.34,
-      "change_3y": 152.09,
-      "updated": "2026-11-20T21:15:51.059625"
-    },
-    "MU": {
-      "price": 594.51,
-      "change_1d": -13.89,
-      "change_3d": -15.7,
-      "change_1m": -34.21,
-      "change_12m": 195.57,
-      "change_3y": 682.49,
-      "updated": "2026-11-20T21:15:51.059725"
+      "price": 145.98,
+      "change_1d": -3.3,
+      "change_3d": -6.1,
+      "change_1m": -30.8,
+      "change_12m": -21.55,
+      "change_3y": 193.16,
+      "updated": "2026-11-21T02:28:55.107452"
     }
   },
   "news": [
@@ -34,42 +25,42 @@
       "title": "Tesla Assisted Driving (TAD) lands approval in Italy, its 12th EU country",
       "link": "https://www.teslarati.com/tesla-assisted-driving-tad-lands-approval-italy-12th-eu-country/",
       "date": "Fri, 20 Nov 2026 15:14",
-      "hoursAgo": 6,
+      "hoursAgo": 11,
       "source": "Teslarati"
     },
     {
       "title": "Tesla Cybercab’s ‘Autonomy Subscription’ covers all bases for a self-driving car",
       "link": "https://www.teslarati.com/tesla-cybercabs-autonomy-subscription-covers-all-bases-for-a-self-driving-car/",
       "date": "Fri, 20 Nov 2026 14:57",
-      "hoursAgo": 6,
+      "hoursAgo": 11,
       "source": "Teslarati"
     },
     {
       "title": "Elon Musk reveals Tesla’s next vehicle without a steering wheel",
       "link": "https://www.teslarati.com/elon-musk-tesla-model-yl-no-steering-wheel-robotaxi/",
       "date": "Fri, 20 Nov 2026 05:38",
-      "hoursAgo": 15,
+      "hoursAgo": 20,
       "source": "Teslarati"
     },
     {
       "title": "Elon Musk makes surprise stop at Giga Shanghai with a message for Tesla’s China team",
       "link": "https://www.teslarati.com/elon-musk-makes-surprise-stop-at-giga-shanghai-with-a-message-for-teslas-china-team/",
       "date": "Thu, 19 Nov 2026 19:12",
-      "hoursAgo": 26,
+      "hoursAgo": 31,
       "source": "Teslarati"
     },
     {
       "title": "Tesla Cybercab without steering wheel and pedals expands public rides to Dallas",
       "link": "https://www.teslarati.com/tesla-cybercab-without-steering-wheel-pedals-expands-public-rides-dallas/",
       "date": "Thu, 19 Nov 2026 18:06",
-      "hoursAgo": 27,
+      "hoursAgo": 32,
       "source": "Teslarati"
     },
     {
       "title": "Tesla’s Cybercab fleet just had its biggest day ever",
       "link": "https://www.teslarati.com/teslas-cybercab-fleet-just-had-its-biggest-day-ever/",
       "date": "Thu, 19 Nov 2026 05:54",
-      "hoursAgo": 39,
+      "hoursAgo": 44,
       "source": "Teslarati"
     }
   ],
@@ -77,80 +68,80 @@
   "roasts": [],
   "weather": {
     "+1h": {
-      "temp": 17.5,
-      "condition": "Clear",
-      "wind_speed": 11.9,
-      "wind_dir_deg": 174,
-      "cloud": 16,
+      "temp": 15.2,
+      "condition": "Overcast",
+      "wind_speed": 3.9,
+      "wind_dir_deg": 227,
+      "cloud": 82,
       "rain": 0.0
     },
     "+3h": {
-      "temp": 16.3,
-      "condition": "Clear",
-      "wind_speed": 11.0,
-      "wind_dir_deg": 179,
-      "cloud": 1,
+      "temp": 14.4,
+      "condition": "Overcast",
+      "wind_speed": 4.8,
+      "wind_dir_deg": 259,
+      "cloud": 88,
       "rain": 0.0
     },
     "+6h": {
-      "temp": 15.6,
-      "condition": "Clear",
-      "wind_speed": 11.6,
-      "wind_dir_deg": 162,
-      "cloud": 0,
+      "temp": 14.6,
+      "condition": "Mainly clear",
+      "wind_speed": 5.7,
+      "wind_dir_deg": 283,
+      "cloud": 23,
       "rain": 0.0
     },
     "+12h": {
-      "temp": 23.7,
+      "temp": 20.8,
       "condition": "Clear",
-      "wind_speed": 11.0,
-      "wind_dir_deg": 199,
-      "cloud": 0,
+      "wind_speed": 16.1,
+      "wind_dir_deg": 306,
+      "cloud": 11,
       "rain": 0.0
     },
     "+24h": {
       "temp": 15.9,
-      "condition": "Partly cloudy",
-      "wind_speed": 7.4,
-      "wind_dir_deg": 219,
-      "cloud": 52,
+      "condition": "Mainly clear",
+      "wind_speed": 5.5,
+      "wind_dir_deg": 293,
+      "cloud": 30,
       "rain": 0.0
     }
   },
   "keyNumbers": {
-    "usdZar": "17.57",
-    "usdZarWeek": "+6.3%",
+    "usdZar": "17.49",
+    "usdZarWeek": "+5.8%",
     "usdZarLabel": "rand weaker",
-    "btc": "58201",
-    "btcWeek": "-21.3%",
-    "jse": "-1.5%",
+    "btc": "58814",
+    "btcWeek": "-17.6%",
+    "jse": "-0.3%",
     "sp500": "-3.7%"
   },
   "worldEvents": [
     {
-      "text": "UK to explore even closer ties with EU after agreeing deal, says Burnham",
+      "text": "Tech stock sell-off drags markets down as Anthropic shares slide",
       "hoursAgo": 3,
+      "link": "https://www.bbc.co.uk/news/articles/c6808ym10vzgo"
+    },
+    {
+      "text": "UK to explore even closer ties with EU after agreeing deal, says Burnham",
+      "hoursAgo": 8,
       "link": "https://www.bbc.co.uk/news/articles/c6jreyqgw4e9o"
     },
     {
       "text": "Russian missile hits Poland as Ukraine's allies hold military exercise, says Tusk",
-      "hoursAgo": 4,
+      "hoursAgo": 0,
       "link": "https://www.bbc.co.uk/news/articles/cqx2x9dklxnro"
     },
     {
-      "text": "Russia targets Kyiv crossings days after Ukraine hits Crimean Bridge",
-      "hoursAgo": 8,
-      "link": "https://www.bbc.co.uk/news/articles/c6x29gn4pdn9o"
+      "text": "French police officers sentenced for beating of music producer Michel Zecler",
+      "hoursAgo": 3,
+      "link": "https://www.bbc.co.uk/news/articles/ck9d7e9wvvweo"
     },
     {
-      "text": "Gérard Depardieu and French author investigated over sexual allegations",
-      "hoursAgo": 1,
-      "link": "https://www.bbc.co.uk/news/articles/c9ly43pj10mvo"
-    },
-    {
-      "text": "Anthropic shares fall after blockbuster opening as wider tech sell-off continues",
-      "hoursAgo": 1,
-      "link": "https://www.bbc.co.uk/news/articles/c6808ym10vzgo"
+      "text": "In a year of AI solving maths problems, Anthropic may have just solved the biggest",
+      "hoursAgo": 3,
+      "link": "https://www.bbc.co.uk/news/articles/c6pqr2g7w059o"
     }
   ],
   "launches": [
@@ -200,42 +191,42 @@
       "title": "Tesla Assisted Driving (TAD) lands approval in Italy, its 12th EU country",
       "link": "https://www.teslarati.com/tesla-assisted-driving-tad-lands-approval-italy-12th-eu-country/",
       "date": "Fri, 20 Nov 2026 15:14",
-      "hoursAgo": 6,
+      "hoursAgo": 11,
       "source": "Teslarati"
     },
     {
       "title": "Tesla Cybercab’s ‘Autonomy Subscription’ covers all bases for a self-driving car",
       "link": "https://www.teslarati.com/tesla-cybercabs-autonomy-subscription-covers-all-bases-for-a-self-driving-car/",
       "date": "Fri, 20 Nov 2026 14:57",
-      "hoursAgo": 6,
+      "hoursAgo": 11,
       "source": "Teslarati"
     },
     {
       "title": "Elon Musk reveals Tesla’s next vehicle without a steering wheel",
       "link": "https://www.teslarati.com/elon-musk-tesla-model-yl-no-steering-wheel-robotaxi/",
       "date": "Fri, 20 Nov 2026 05:38",
-      "hoursAgo": 15,
+      "hoursAgo": 20,
       "source": "Teslarati"
     },
     {
       "title": "Elon Musk makes surprise stop at Giga Shanghai with a message for Tesla’s China team",
       "link": "https://www.teslarati.com/elon-musk-makes-surprise-stop-at-giga-shanghai-with-a-message-for-teslas-china-team/",
       "date": "Thu, 19 Nov 2026 19:12",
-      "hoursAgo": 26,
+      "hoursAgo": 31,
       "source": "Teslarati"
     },
     {
       "title": "Tesla Cybercab without steering wheel and pedals expands public rides to Dallas",
       "link": "https://www.teslarati.com/tesla-cybercab-without-steering-wheel-pedals-expands-public-rides-dallas/",
       "date": "Thu, 19 Nov 2026 18:06",
-      "hoursAgo": 27,
+      "hoursAgo": 32,
       "source": "Teslarati"
     },
     {
       "title": "Tesla’s Cybercab fleet just had its biggest day ever",
       "link": "https://www.teslarati.com/teslas-cybercab-fleet-just-had-its-biggest-day-ever/",
       "date": "Thu, 19 Nov 2026 05:54",
-      "hoursAgo": 39,
+      "hoursAgo": 44,
       "source": "Teslarati"
     }
   ],
