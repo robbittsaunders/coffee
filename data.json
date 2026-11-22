@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-21T14:06+02:00",
+  "updatedAt": "2026-11-22T14:17+02:00",
   "stocks": {
     "TSLA": {
       "price": 345.82,
@@ -8,7 +8,7 @@
       "change_1m": -11.7,
       "change_12m": -12.5,
       "change_3y": 43.37,
-      "updated": "2026-11-21T12:06:26.613863"
+      "updated": "2026-11-22T12:17:04.645998"
     },
     "NVDA": {
       "price": 125.53,
@@ -17,7 +17,7 @@
       "change_1m": -41.88,
       "change_12m": -30.34,
       "change_3y": 152.09,
-      "updated": "2026-11-21T12:06:26.613969"
+      "updated": "2026-11-22T12:17:04.646181"
     },
     "MU": {
       "price": 594.51,
@@ -26,50 +26,50 @@
       "change_1m": -34.21,
       "change_12m": 195.57,
       "change_3y": 682.49,
-      "updated": "2026-11-21T12:06:26.614057"
+      "updated": "2026-11-22T12:17:04.646340"
     }
   },
   "news": [
     {
+      "title": "Tesla Full Self-Driving v15 rollout begins: full release notes and improvements",
+      "link": "https://www.teslarati.com/tesla-full-self-driving-v15-rollout-begins-full-release-notes-improvements/",
+      "date": "Sat, 21 Nov 2026 20:02",
+      "hoursAgo": 16,
+      "source": "Teslarati"
+    },
+    {
+      "title": "Tesla Full Self-Driving v15 gets release date from Elon Musk",
+      "link": "https://www.teslarati.com/tesla-full-self-driving-v15-gets-release-date-elon-musk/",
+      "date": "Sat, 21 Nov 2026 13:47",
+      "hoursAgo": 22,
+      "source": "Teslarati"
+    },
+    {
       "title": "Tesla Assisted Driving (TAD) lands approval in Italy, its 12th EU country",
       "link": "https://www.teslarati.com/tesla-assisted-driving-tad-lands-approval-italy-12th-eu-country/",
       "date": "Fri, 20 Nov 2026 15:14",
-      "hoursAgo": 20,
+      "hoursAgo": 45,
       "source": "Teslarati"
     },
     {
       "title": "Tesla Cybercab’s ‘Autonomy Subscription’ covers all bases for a self-driving car",
       "link": "https://www.teslarati.com/tesla-cybercabs-autonomy-subscription-covers-all-bases-for-a-self-driving-car/",
       "date": "Fri, 20 Nov 2026 14:57",
-      "hoursAgo": 21,
+      "hoursAgo": 45,
       "source": "Teslarati"
     },
     {
       "title": "Elon Musk reveals Tesla’s next vehicle without a steering wheel",
       "link": "https://www.teslarati.com/elon-musk-tesla-model-yl-no-steering-wheel-robotaxi/",
       "date": "Fri, 20 Nov 2026 05:38",
-      "hoursAgo": 30,
+      "hoursAgo": 54,
       "source": "Teslarati"
     },
     {
       "title": "Elon Musk makes surprise stop at Giga Shanghai with a message for Tesla’s China team",
       "link": "https://www.teslarati.com/elon-musk-makes-surprise-stop-at-giga-shanghai-with-a-message-for-teslas-china-team/",
       "date": "Thu, 19 Nov 2026 19:12",
-      "hoursAgo": 40,
-      "source": "Teslarati"
-    },
-    {
-      "title": "Tesla Cybercab without steering wheel and pedals expands public rides to Dallas",
-      "link": "https://www.teslarati.com/tesla-cybercab-without-steering-wheel-pedals-expands-public-rides-dallas/",
-      "date": "Thu, 19 Nov 2026 18:06",
-      "hoursAgo": 42,
-      "source": "Teslarati"
-    },
-    {
-      "title": "Tesla’s Cybercab fleet just had its biggest day ever",
-      "link": "https://www.teslarati.com/teslas-cybercab-fleet-just-had-its-biggest-day-ever/",
-      "date": "Thu, 19 Nov 2026 05:54",
-      "hoursAgo": 54,
+      "hoursAgo": 65,
       "source": "Teslarati"
     }
   ],
@@ -78,42 +78,42 @@
   "weather": {
     "+1h": {
       "temp": 15.2,
-      "condition": "Overcast",
-      "wind_speed": 3.9,
-      "wind_dir_deg": 227,
-      "cloud": 82,
+      "condition": "Mainly clear",
+      "wind_speed": 7.4,
+      "wind_dir_deg": 292,
+      "cloud": 31,
       "rain": 0.0
     },
     "+3h": {
-      "temp": 14.3,
-      "condition": "Overcast",
-      "wind_speed": 5.0,
-      "wind_dir_deg": 257,
-      "cloud": 98,
+      "temp": 14.6,
+      "condition": "Mainly clear",
+      "wind_speed": 5.2,
+      "wind_dir_deg": 299,
+      "cloud": 32,
       "rain": 0.0
     },
     "+6h": {
-      "temp": 14.1,
-      "condition": "Clear",
-      "wind_speed": 5.7,
+      "temp": 14.7,
+      "condition": "Mainly clear",
+      "wind_speed": 3.7,
       "wind_dir_deg": 281,
-      "cloud": 6,
+      "cloud": 27,
       "rain": 0.0
     },
     "+12h": {
       "temp": 20.4,
-      "condition": "Clear",
-      "wind_speed": 16.5,
-      "wind_dir_deg": 311,
-      "cloud": 5,
+      "condition": "Partly cloudy",
+      "wind_speed": 15.2,
+      "wind_dir_deg": 260,
+      "cloud": 59,
       "rain": 0.0
     },
     "+24h": {
-      "temp": 15.4,
-      "condition": "Mainly clear",
-      "wind_speed": 4.9,
-      "wind_dir_deg": 294,
-      "cloud": 26,
+      "temp": 16.6,
+      "condition": "Clear",
+      "wind_speed": 18.8,
+      "wind_dir_deg": 151,
+      "cloud": 1,
       "rain": 0.0
     }
   },
@@ -121,43 +121,43 @@
     "usdZar": "17.59",
     "usdZarWeek": "+6.4%",
     "usdZarLabel": "rand weaker",
-    "btc": "58095",
-    "btcWeek": "-18.6%",
+    "btc": "61420",
+    "btcWeek": "-10.0%",
     "jse": "-1.5%",
     "sp500": "-3.7%"
   },
   "worldEvents": [
     {
-      "text": "Tech stock sell-off drags markets down as Anthropic shares slide",
-      "hoursAgo": 13,
-      "link": "https://www.bbc.co.uk/news/articles/c6808ym10vzgo"
-    },
-    {
-      "text": "Zelensky says Putin is a 'killer' after Trump calls Russian leader a friend",
-      "hoursAgo": 3,
-      "link": "https://www.bbc.co.uk/news/articles/cxnv4zvmdy0jo"
-    },
-    {
-      "text": "Fight over fossil fuels leaves COP31 climate talks in deadlock",
+      "text": "South Korea education minister resigns over exam cheating scandal",
       "hoursAgo": 2,
-      "link": "https://www.bbc.co.uk/news/articles/c6ly5w40eg07o"
+      "link": "https://www.bbc.co.uk/news/articles/cw3dgk29d37no"
     },
     {
-      "text": "FBI reportedly investigating apparent hack of its criminal database",
-      "hoursAgo": 2,
-      "link": "https://www.bbc.co.uk/news/articles/cvze7de86pk3o"
+      "text": "Russia-bound ship still on fire after attack in Gulf of Finland",
+      "hoursAgo": 0,
+      "link": "https://www.bbc.co.uk/news/articles/cj752ddve27ko"
     },
     {
-      "text": "French police officers sentenced for beating of music producer Michel Zecler",
-      "hoursAgo": 13,
-      "link": "https://www.bbc.co.uk/news/articles/ck9d7e9wvvweo"
+      "text": "Mexican drug lord on FBI's 10 most wanted list arrested in shoot-out",
+      "hoursAgo": 10,
+      "link": "https://www.bbc.co.uk/news/articles/ckz749ey0r75o"
+    },
+    {
+      "text": "Three killed and dozens missing after fire at Indonesian factory",
+      "hoursAgo": 6,
+      "link": "https://www.bbc.co.uk/news/articles/cw8dvg5pgm0eo"
+    },
+    {
+      "text": "Italian jeweller and businessman Paolo Bulgari dies aged 89",
+      "hoursAgo": 5,
+      "link": "https://www.bbc.co.uk/news/articles/c8e39qk5vrpdo"
     }
   ],
   "launches": [
     {
       "name": "Falcon 9 Block 5 | NROL-136",
-      "date": "Sunday 22 November 14h16",
-      "dateISO": "2026-11-22T12:16:00Z",
+      "date": "Sunday 22 November 14h23",
+      "dateISO": "2026-11-22T12:23:56Z",
       "details": "Space Launch Complex 4E - Vandenberg SFB, CA, USA",
       "highlight": false,
       "link": "https://spacelaunchnow.me/launch/falcon-9-block-5-nrol-136"
@@ -197,45 +197,45 @@
   ],
   "companyNews": [
     {
+      "title": "Tesla Full Self-Driving v15 rollout begins: full release notes and improvements",
+      "link": "https://www.teslarati.com/tesla-full-self-driving-v15-rollout-begins-full-release-notes-improvements/",
+      "date": "Sat, 21 Nov 2026 20:02",
+      "hoursAgo": 16,
+      "source": "Teslarati"
+    },
+    {
+      "title": "Tesla Full Self-Driving v15 gets release date from Elon Musk",
+      "link": "https://www.teslarati.com/tesla-full-self-driving-v15-gets-release-date-elon-musk/",
+      "date": "Sat, 21 Nov 2026 13:47",
+      "hoursAgo": 22,
+      "source": "Teslarati"
+    },
+    {
       "title": "Tesla Assisted Driving (TAD) lands approval in Italy, its 12th EU country",
       "link": "https://www.teslarati.com/tesla-assisted-driving-tad-lands-approval-italy-12th-eu-country/",
       "date": "Fri, 20 Nov 2026 15:14",
-      "hoursAgo": 20,
+      "hoursAgo": 45,
       "source": "Teslarati"
     },
     {
       "title": "Tesla Cybercab’s ‘Autonomy Subscription’ covers all bases for a self-driving car",
       "link": "https://www.teslarati.com/tesla-cybercabs-autonomy-subscription-covers-all-bases-for-a-self-driving-car/",
       "date": "Fri, 20 Nov 2026 14:57",
-      "hoursAgo": 21,
+      "hoursAgo": 45,
       "source": "Teslarati"
     },
     {
       "title": "Elon Musk reveals Tesla’s next vehicle without a steering wheel",
       "link": "https://www.teslarati.com/elon-musk-tesla-model-yl-no-steering-wheel-robotaxi/",
       "date": "Fri, 20 Nov 2026 05:38",
-      "hoursAgo": 30,
+      "hoursAgo": 54,
       "source": "Teslarati"
     },
     {
       "title": "Elon Musk makes surprise stop at Giga Shanghai with a message for Tesla’s China team",
       "link": "https://www.teslarati.com/elon-musk-makes-surprise-stop-at-giga-shanghai-with-a-message-for-teslas-china-team/",
       "date": "Thu, 19 Nov 2026 19:12",
-      "hoursAgo": 40,
-      "source": "Teslarati"
-    },
-    {
-      "title": "Tesla Cybercab without steering wheel and pedals expands public rides to Dallas",
-      "link": "https://www.teslarati.com/tesla-cybercab-without-steering-wheel-pedals-expands-public-rides-dallas/",
-      "date": "Thu, 19 Nov 2026 18:06",
-      "hoursAgo": 42,
-      "source": "Teslarati"
-    },
-    {
-      "title": "Tesla’s Cybercab fleet just had its biggest day ever",
-      "link": "https://www.teslarati.com/teslas-cybercab-fleet-just-had-its-biggest-day-ever/",
-      "date": "Thu, 19 Nov 2026 05:54",
-      "hoursAgo": 54,
+      "hoursAgo": 65,
       "source": "Teslarati"
     }
   ],
