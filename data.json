@@ -1,159 +1,232 @@
 {
-  "updatedAt": "2026-11-24T03:01+02:00",
+  "updatedAt": "2026-11-24T16:33+02:00",
   "stocks": {
     "TSLA": {
-      "price": 345.82,
-      "change_1d": -7.64,
-      "change_3d": -9.88,
-      "change_1m": -11.7,
-      "change_12m": -12.5,
-      "change_3y": 46.88,
-      "updated": "2026-11-24T01:00:37.476205"
-    },
-    "NVDA": {
-      "price": 125.53,
-      "change_1d": -14.01,
-      "change_3d": -16.85,
-      "change_1m": -41.88,
-      "change_12m": -30.34,
-      "change_3y": 163.53,
-      "updated": "2026-11-24T01:00:37.476357"
+      "price": 384.77,
+      "change_1d": -0.18,
+      "change_3d": 11.26,
+      "change_1m": -4.81,
+      "change_12m": -7.9,
+      "change_3y": 63.42,
+      "updated": "2026-11-24T14:33:38.099316"
     },
     "MU": {
-      "price": 594.51,
-      "change_1d": -13.89,
-      "change_3d": -15.7,
-      "change_1m": -34.21,
-      "change_12m": 195.57,
-      "change_3y": 680.86,
-      "updated": "2026-11-24T01:00:37.476484"
+      "price": 654.34,
+      "change_1d": -7.54,
+      "change_3d": 10.06,
+      "change_1m": -33.45,
+      "change_12m": 192.54,
+      "change_3y": 759.44,
+      "updated": "2026-11-24T14:33:38.099709"
     }
   },
   "news": [
     {
+      "title": "Tesla eyes AI5 chip as exclusive Optimus trait, not needed for self-driving",
+      "link": "https://www.teslarati.com/tesla-eyes-ai5-chip-exclusive-optimus-trait-not-needed-self-driving/",
+      "date": "Tue, 24 Nov 2026 14:05",
+      "hoursAgo": 0,
+      "source": "Teslarati"
+    },
+    {
       "title": "Tesla FSD v15’s ‘Reality View’ has one complaint and Musk has the solution",
       "link": "https://www.teslarati.com/tesla-fsd-v15s-reality-drive-one-complaint-musk-solution/",
       "date": "Mon, 23 Nov 2026 18:17",
-      "hoursAgo": 6,
+      "hoursAgo": 20,
       "source": "Teslarati"
     },
     {
       "title": "Tesla and SpaceXAI CEO Elon Musk reacts to Jensen Huang’s NVIDIA return",
       "link": "https://www.teslarati.com/tesla-spacexai-ceo-elon-musk-reacts-jensen-huangs-nvidia-return/",
       "date": "Mon, 23 Nov 2026 16:35",
-      "hoursAgo": 8,
+      "hoursAgo": 21,
       "source": "Teslarati"
     },
     {
       "title": "Tesla’s Unsupervised FSD future likely to bring Starlink to every model",
       "link": "https://www.teslarati.com/tesla-starlink-built-in-ai5/",
       "date": "Mon, 23 Nov 2026 06:20",
-      "hoursAgo": 18,
+      "hoursAgo": 32,
       "source": "Teslarati"
     },
     {
       "title": "Tesla Full Self-Driving v15: Reality View review, new features explained",
       "link": "https://www.teslarati.com/tesla-full-self-driving-v15-first-hand-look-at-reality-view-new-features/",
       "date": "Sun, 22 Nov 2026 19:43",
-      "hoursAgo": 29,
+      "hoursAgo": 42,
       "source": "Teslarati"
     },
     {
       "title": "Tesla Full Self-Driving v15 rollout begins: full release notes and improvements",
       "link": "https://www.teslarati.com/tesla-full-self-driving-v15-rollout-begins-full-release-notes-improvements/",
       "date": "Sat, 21 Nov 2026 20:02",
-      "hoursAgo": 52,
-      "source": "Teslarati"
-    },
-    {
-      "title": "Tesla Full Self-Driving v15 gets release date from Elon Musk",
-      "link": "https://www.teslarati.com/tesla-full-self-driving-v15-gets-release-date-elon-musk/",
-      "date": "Sat, 21 Nov 2026 13:47",
-      "hoursAgo": 59,
+      "hoursAgo": 66,
       "source": "Teslarati"
     }
   ],
   "tweets": [],
   "roasts": [],
-  "weather": {},
+  "weather": {
+    "+1h": {
+      "temp": 16.4,
+      "condition": "Clear",
+      "wind_speed": 14.9,
+      "wind_dir_deg": 172,
+      "cloud": 16,
+      "rain": 0.0
+    },
+    "+3h": {
+      "temp": 15.3,
+      "condition": "Clear",
+      "wind_speed": 11.7,
+      "wind_dir_deg": 179,
+      "cloud": 13,
+      "rain": 0.0
+    },
+    "+6h": {
+      "temp": 15.6,
+      "condition": "Clear",
+      "wind_speed": 11.5,
+      "wind_dir_deg": 163,
+      "cloud": 5,
+      "rain": 0.0
+    },
+    "+12h": {
+      "temp": 23.9,
+      "condition": "Clear",
+      "wind_speed": 15.0,
+      "wind_dir_deg": 175,
+      "cloud": 0,
+      "rain": 0.0
+    },
+    "+24h": {
+      "temp": 16.8,
+      "condition": "Clear",
+      "wind_speed": 21.1,
+      "wind_dir_deg": 143,
+      "cloud": 0,
+      "rain": 0.0
+    }
+  },
   "keyNumbers": {
-    "usdZar": "17.39",
-    "usdZarWeek": "+5.2%",
+    "usdZar": "17.52",
+    "usdZarWeek": "+6.0%",
     "usdZarLabel": "rand weaker",
-    "btc": "61228",
-    "btcWeek": "-6.2%",
-    "jse": "-1.5%",
-    "sp500": "+4.7%"
+    "btc": "60097",
+    "btcWeek": "-8.0%",
+    "jse": "-0.5%",
+    "sp500": "-1.2%"
   },
   "worldEvents": [
     {
-      "text": "US to blacklist Asian AI firm Megaspeed after Nvidia scandal",
-      "hoursAgo": 1,
-      "link": "https://www.bbc.co.uk/news/articles/cv98xpg5dg5zo"
+      "text": "Trump faces backlash after saying he 'convinced' Nvidia to reinstate CEO Jensen Huang",
+      "hoursAgo": 3,
+      "link": "https://www.bbc.co.uk/news/articles/cq5y1k8ez407o"
     },
     {
-      "text": "Russian warship hit by Ukrainian drones in Libya, Zelensky says",
-      "hoursAgo": 9,
-      "link": "https://www.bbc.co.uk/news/articles/cr894gjz0j0yo"
-    },
-    {
-      "text": "What strike on Russian ship in Libya says about spread of Ukraine war",
-      "hoursAgo": 4,
-      "link": "https://www.bbc.co.uk/news/articles/cm894p88jzxpo"
-    },
-    {
-      "text": "Iranian authorities flog singer who performed without hijab, lawyers say",
-      "hoursAgo": 6,
-      "link": "https://www.bbc.co.uk/news/articles/cq1j6585l5g6o"
-    },
-    {
-      "text": "What failure of COP31 reveals about a divided world",
+      "text": "What Jensen Huang's return teaches China's Xi about Trump",
       "hoursAgo": 7,
-      "link": "https://www.bbc.co.uk/news/articles/cky970n83rvjo"
+      "link": "https://www.bbc.co.uk/news/articles/c63rgpy50x98o"
+    },
+    {
+      "text": "Nato chief vows defence against space threat after Russian nuclear satellite reports",
+      "hoursAgo": 3,
+      "link": "https://www.bbc.co.uk/news/articles/c9x2er1ry2mzo"
+    },
+    {
+      "text": "Gisèle Pelicot 'humiliated' after nude photos sent to media to promote book",
+      "hoursAgo": 17,
+      "link": "https://www.bbc.co.uk/news/articles/cm3eg502nxw2o"
+    },
+    {
+      "text": "India's 'cockroach' party leader says he was stopped from flying to UK",
+      "hoursAgo": 9,
+      "link": "https://www.bbc.co.uk/news/articles/cm5y1ezx2gqyo"
     }
   ],
-  "launches": [],
+  "launches": [
+    {
+      "name": "Falcon 9 Block 5 | USSF-266",
+      "date": "Tuesday 24 November 18h08",
+      "dateISO": "2026-11-24T16:08:59Z",
+      "details": "Space Launch Complex 4E - Vandenberg SFB, CA, USA",
+      "highlight": false,
+      "link": "https://spacelaunchnow.me/launch/falcon-9-block-5-ussf-266"
+    },
+    {
+      "name": "Falcon 9 Block 5 | USSF-380",
+      "date": "Sunday 29 November 06h39",
+      "dateISO": "2026-11-29T04:39:00Z",
+      "details": "Space Launch Complex 4E - Vandenberg SFB, CA, USA",
+      "highlight": false,
+      "link": "https://spacelaunchnow.me/launch/falcon-9-block-5-ussf-380"
+    },
+    {
+      "name": "Falcon 9 Block 5 | Cygnus CRS-2 NG-25",
+      "date": "Sunday 29 November 17h50",
+      "dateISO": "2026-11-29T15:50:00Z",
+      "details": "Space Launch Complex 40 - Cape Canaveral SFS, FL, USA",
+      "highlight": false,
+      "link": "https://spacelaunchnow.me/launch/falcon-9-block-5-cygnus-crs-2-ng-25"
+    },
+    {
+      "name": "Falcon 9 Block 5 | NROL-132",
+      "date": "Wednesday 2 December 22h30",
+      "dateISO": "2026-12-02T20:30:00Z",
+      "details": "Space Launch Complex 4E - Vandenberg SFB, CA, USA",
+      "highlight": false,
+      "link": "https://spacelaunchnow.me/launch/falcon-9-block-5-nrol-132"
+    },
+    {
+      "name": "Falcon 9 Block 5 | Starlink Group 15-21",
+      "date": "Thursday 31 December (TBD)",
+      "dateISO": "2026-12-31T00:00:00Z",
+      "details": "Space Launch Complex 4E - Vandenberg SFB, CA, USA",
+      "highlight": false,
+      "link": "https://spacelaunchnow.me/launch/falcon-9-block-5-starlink-group-15-21"
+    }
+  ],
   "companyNews": [
+    {
+      "title": "Tesla eyes AI5 chip as exclusive Optimus trait, not needed for self-driving",
+      "link": "https://www.teslarati.com/tesla-eyes-ai5-chip-exclusive-optimus-trait-not-needed-self-driving/",
+      "date": "Tue, 24 Nov 2026 14:05",
+      "hoursAgo": 0,
+      "source": "Teslarati"
+    },
     {
       "title": "Tesla FSD v15’s ‘Reality View’ has one complaint and Musk has the solution",
       "link": "https://www.teslarati.com/tesla-fsd-v15s-reality-drive-one-complaint-musk-solution/",
       "date": "Mon, 23 Nov 2026 18:17",
-      "hoursAgo": 6,
+      "hoursAgo": 20,
       "source": "Teslarati"
     },
     {
       "title": "Tesla and SpaceXAI CEO Elon Musk reacts to Jensen Huang’s NVIDIA return",
       "link": "https://www.teslarati.com/tesla-spacexai-ceo-elon-musk-reacts-jensen-huangs-nvidia-return/",
       "date": "Mon, 23 Nov 2026 16:35",
-      "hoursAgo": 8,
+      "hoursAgo": 21,
       "source": "Teslarati"
     },
     {
       "title": "Tesla’s Unsupervised FSD future likely to bring Starlink to every model",
       "link": "https://www.teslarati.com/tesla-starlink-built-in-ai5/",
       "date": "Mon, 23 Nov 2026 06:20",
-      "hoursAgo": 18,
+      "hoursAgo": 32,
       "source": "Teslarati"
     },
     {
       "title": "Tesla Full Self-Driving v15: Reality View review, new features explained",
       "link": "https://www.teslarati.com/tesla-full-self-driving-v15-first-hand-look-at-reality-view-new-features/",
       "date": "Sun, 22 Nov 2026 19:43",
-      "hoursAgo": 29,
+      "hoursAgo": 42,
       "source": "Teslarati"
     },
     {
       "title": "Tesla Full Self-Driving v15 rollout begins: full release notes and improvements",
       "link": "https://www.teslarati.com/tesla-full-self-driving-v15-rollout-begins-full-release-notes-improvements/",
       "date": "Sat, 21 Nov 2026 20:02",
-      "hoursAgo": 52,
-      "source": "Teslarati"
-    },
-    {
-      "title": "Tesla Full Self-Driving v15 gets release date from Elon Musk",
-      "link": "https://www.teslarati.com/tesla-full-self-driving-v15-gets-release-date-elon-musk/",
-      "date": "Sat, 21 Nov 2026 13:47",
-      "hoursAgo": 59,
+      "hoursAgo": 66,
       "source": "Teslarati"
     }
   ],
