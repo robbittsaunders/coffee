@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-26T00:37+02:00",
+  "updatedAt": "2026-11-26T15:32+02:00",
   "stocks": {
     "TSLA": {
       "price": 380.14,
@@ -8,7 +8,7 @@
       "change_1m": -5.74,
       "change_12m": -9.36,
       "change_3y": 61.02,
-      "updated": "2026-11-25T22:37:36.270329"
+      "updated": "2026-11-26T13:32:02.097413"
     },
     "NVDA": {
       "price": 149.3,
@@ -17,16 +17,7 @@
       "change_1m": -30.12,
       "change_12m": -15.84,
       "change_3y": 210.41,
-      "updated": "2026-11-25T22:37:36.270435"
-    },
-    "MU": {
-      "price": 601.25,
-      "change_1d": -4.53,
-      "change_3d": -15.04,
-      "change_1m": -35.64,
-      "change_12m": 168.09,
-      "change_3y": 683.19,
-      "updated": "2026-11-25T22:37:36.270522"
+      "updated": "2026-11-26T13:32:02.097601"
     }
   },
   "news": [
@@ -34,42 +25,42 @@
       "title": "Tesla removed the most annoying part of Full Self-Driving",
       "link": "https://www.teslarati.com/tesla-removed-most-annoying-part-full-self-driving/",
       "date": "Wed, 25 Nov 2026 15:06",
-      "hoursAgo": 7,
+      "hoursAgo": 22,
       "source": "Teslarati"
     },
     {
       "title": "SpaceX rejects $738M fed subsidy, betting on Starlink alone",
       "link": "https://www.teslarati.com/spacex-starlink-rejects-fed-subsidy/",
       "date": "Wed, 25 Nov 2026 08:05",
-      "hoursAgo": 14,
+      "hoursAgo": 29,
       "source": "Teslarati"
     },
     {
       "title": "Tesla eyes AI5 chip as exclusive Optimus trait, not needed for self-driving",
       "link": "https://www.teslarati.com/tesla-eyes-ai5-chip-exclusive-optimus-trait-not-needed-self-driving/",
       "date": "Tue, 24 Nov 2026 14:05",
-      "hoursAgo": 32,
+      "hoursAgo": 47,
       "source": "Teslarati"
     },
     {
       "title": "Tesla FSD v15’s ‘Reality View’ has one complaint and Musk has the solution",
       "link": "https://www.teslarati.com/tesla-fsd-v15s-reality-drive-one-complaint-musk-solution/",
       "date": "Mon, 23 Nov 2026 18:17",
-      "hoursAgo": 52,
+      "hoursAgo": 67,
       "source": "Teslarati"
     },
     {
       "title": "Tesla and SpaceXAI CEO Elon Musk reacts to Jensen Huang’s NVIDIA return",
       "link": "https://www.teslarati.com/tesla-spacexai-ceo-elon-musk-reacts-jensen-huangs-nvidia-return/",
       "date": "Mon, 23 Nov 2026 16:35",
-      "hoursAgo": 54,
+      "hoursAgo": 68,
       "source": "Teslarati"
     },
     {
       "title": "Tesla’s Unsupervised FSD future likely to bring Starlink to every model",
       "link": "https://www.teslarati.com/tesla-starlink-built-in-ai5/",
       "date": "Mon, 23 Nov 2026 06:20",
-      "hoursAgo": 64,
+      "hoursAgo": 79,
       "source": "Teslarati"
     }
   ],
@@ -77,80 +68,80 @@
   "roasts": [],
   "weather": {
     "+1h": {
-      "temp": 17.5,
+      "temp": 17.3,
       "condition": "Overcast",
-      "wind_speed": 21.1,
-      "wind_dir_deg": 146,
-      "cloud": 97,
+      "wind_speed": 20.7,
+      "wind_dir_deg": 147,
+      "cloud": 100,
       "rain": 0.0
     },
     "+3h": {
       "temp": 16.8,
-      "condition": "Partly cloudy",
-      "wind_speed": 17.7,
-      "wind_dir_deg": 143,
-      "cloud": 66,
+      "condition": "Overcast",
+      "wind_speed": 17.3,
+      "wind_dir_deg": 141,
+      "cloud": 80,
       "rain": 0.0
     },
     "+6h": {
       "temp": 16.3,
-      "condition": "Mainly clear",
-      "wind_speed": 12.1,
-      "wind_dir_deg": 147,
-      "cloud": 20,
+      "condition": "Overcast",
+      "wind_speed": 12.7,
+      "wind_dir_deg": 150,
+      "cloud": 98,
       "rain": 0.0
     },
     "+12h": {
-      "temp": 27.3,
+      "temp": 27.9,
       "condition": "Clear",
-      "wind_speed": 15.3,
-      "wind_dir_deg": 146,
+      "wind_speed": 13.3,
+      "wind_dir_deg": 152,
       "cloud": 0,
       "rain": 0.0
     },
     "+24h": {
-      "temp": 18.5,
+      "temp": 18.6,
       "condition": "Clear",
-      "wind_speed": 12.5,
+      "wind_speed": 12.8,
       "wind_dir_deg": 152,
       "cloud": 0,
       "rain": 0.0
     }
   },
   "keyNumbers": {
-    "usdZar": "17.55",
-    "usdZarWeek": "+5.7%",
+    "usdZar": "17.53",
+    "usdZarWeek": "+4.6%",
     "usdZarLabel": "rand weaker",
-    "btc": "60156",
-    "btcWeek": "-7.2%",
-    "jse": "-0.2%",
+    "btc": "60812",
+    "btcWeek": "-6.3%",
+    "jse": "+1.6%",
     "sp500": "-0.3%"
   },
   "worldEvents": [
     {
-      "text": "US announces new tariffs on host of countries including China",
-      "hoursAgo": 6,
-      "link": "https://www.bbc.co.uk/news/articles/c893r9ke5p97o"
+      "text": "German boat dealer suspected of supplying Channel smuggling gangs, BBC finds",
+      "hoursAgo": 8,
+      "link": "https://www.bbc.co.uk/news/articles/cqlymky8kpzjo"
     },
     {
-      "text": "Images of asteroid targeted to test Earth's defences reveal stadium-sized crater",
-      "hoursAgo": 5,
-      "link": "https://www.bbc.co.uk/news/articles/cw8dv112r5gmo"
+      "text": "Watch: BBC confronts German man suspected of supplying migrant gangs with small boats",
+      "hoursAgo": 8,
+      "link": "https://www.bbc.co.uk/news/videos/cvglrz5yr79go"
     },
     {
-      "text": "Thirty-one killed in massive fire as fuel tanker crashes on Cairo highway",
-      "hoursAgo": 0,
-      "link": "https://www.bbc.co.uk/news/articles/cqy7rn30v314o"
+      "text": "Myanmar refuses to comply with parts of ICJ genocide ruling",
+      "hoursAgo": 3,
+      "link": "https://www.bbc.co.uk/news/articles/c61wr87wyg5wo"
     },
     {
-      "text": "Israeli judges recommend dropping most serious charges against Netanyahu",
+      "text": "Desperate appeals from women on death row in Iran after protests",
+      "hoursAgo": 7,
+      "link": "https://www.bbc.co.uk/news/articles/cm8x0ve4yd7wo"
+    },
+    {
+      "text": "Diesel tanker carrying up to 7,000 tonnes sinks near Ibiza, killing one",
       "hoursAgo": 2,
-      "link": "https://www.bbc.co.uk/news/articles/cxj05mv723r2o"
-    },
-    {
-      "text": "US stocks fall further as fears over AI intensify",
-      "hoursAgo": 0,
-      "link": "https://www.bbc.co.uk/news/articles/cq0md8g14zryo"
+      "link": "https://www.bbc.co.uk/news/articles/c9gklryvj24do"
     }
   ],
   "launches": [
@@ -200,42 +191,42 @@
       "title": "Tesla removed the most annoying part of Full Self-Driving",
       "link": "https://www.teslarati.com/tesla-removed-most-annoying-part-full-self-driving/",
       "date": "Wed, 25 Nov 2026 15:06",
-      "hoursAgo": 7,
+      "hoursAgo": 22,
       "source": "Teslarati"
     },
     {
       "title": "SpaceX rejects $738M fed subsidy, betting on Starlink alone",
       "link": "https://www.teslarati.com/spacex-starlink-rejects-fed-subsidy/",
       "date": "Wed, 25 Nov 2026 08:05",
-      "hoursAgo": 14,
+      "hoursAgo": 29,
       "source": "Teslarati"
     },
     {
       "title": "Tesla eyes AI5 chip as exclusive Optimus trait, not needed for self-driving",
       "link": "https://www.teslarati.com/tesla-eyes-ai5-chip-exclusive-optimus-trait-not-needed-self-driving/",
       "date": "Tue, 24 Nov 2026 14:05",
-      "hoursAgo": 32,
+      "hoursAgo": 47,
       "source": "Teslarati"
     },
     {
       "title": "Tesla FSD v15’s ‘Reality View’ has one complaint and Musk has the solution",
       "link": "https://www.teslarati.com/tesla-fsd-v15s-reality-drive-one-complaint-musk-solution/",
       "date": "Mon, 23 Nov 2026 18:17",
-      "hoursAgo": 52,
+      "hoursAgo": 67,
       "source": "Teslarati"
     },
     {
       "title": "Tesla and SpaceXAI CEO Elon Musk reacts to Jensen Huang’s NVIDIA return",
       "link": "https://www.teslarati.com/tesla-spacexai-ceo-elon-musk-reacts-jensen-huangs-nvidia-return/",
       "date": "Mon, 23 Nov 2026 16:35",
-      "hoursAgo": 54,
+      "hoursAgo": 68,
       "source": "Teslarati"
     },
     {
       "title": "Tesla’s Unsupervised FSD future likely to bring Starlink to every model",
       "link": "https://www.teslarati.com/tesla-starlink-built-in-ai5/",
       "date": "Mon, 23 Nov 2026 06:20",
-      "hoursAgo": 64,
+      "hoursAgo": 79,
       "source": "Teslarati"
     }
   ],
