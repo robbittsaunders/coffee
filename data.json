@@ -1,75 +1,75 @@
 {
-  "updatedAt": "2026-11-27T15:29+02:00",
+  "updatedAt": "2026-11-28T00:05+02:00",
   "stocks": {
     "TSLA": {
-      "price": 380.14,
-      "change_1d": -1.18,
-      "change_3d": -1.38,
-      "change_1m": -5.74,
-      "change_12m": -9.36,
-      "change_3y": 61.02,
-      "updated": "2026-11-27T13:29:01.889015"
+      "price": 400.0,
+      "change_1d": 5.22,
+      "change_3d": 3.98,
+      "change_1m": 0.05,
+      "change_12m": -6.23,
+      "change_3y": 62.13,
+      "updated": "2026-11-27T22:05:25.347017"
     },
     "NVDA": {
-      "price": 149.3,
-      "change_1d": -3.91,
-      "change_3d": -9.54,
-      "change_1m": -30.12,
-      "change_12m": -15.84,
-      "change_3y": 210.41,
-      "updated": "2026-11-27T13:29:01.889137"
+      "price": 150.49,
+      "change_1d": 0.8,
+      "change_3d": -3.15,
+      "change_1m": -26.46,
+      "change_12m": -16.32,
+      "change_3y": 215.63,
+      "updated": "2026-11-27T22:05:25.347102"
     },
     "MU": {
-      "price": 601.25,
-      "change_1d": -4.53,
-      "change_3d": -15.04,
-      "change_1m": -35.64,
-      "change_12m": 168.09,
-      "change_3y": 683.19,
-      "updated": "2026-11-27T13:29:01.889236"
+      "price": 646.95,
+      "change_1d": 7.6,
+      "change_3d": 2.72,
+      "change_1m": -26.88,
+      "change_12m": 181.28,
+      "change_3y": 758.11,
+      "updated": "2026-11-27T22:05:25.347169"
     }
   },
   "news": [
     {
+      "title": "Tesla aims to bolster Optimus with newest company acquisition",
+      "link": "https://www.teslarati.com/tesla-bolster-optimus-company-acquisition-emag-germany/",
+      "date": "Fri, 27 Nov 2026 16:37",
+      "hoursAgo": 5,
+      "source": "Teslarati"
+    },
+    {
+      "title": "Tesla is rolling out its biggest battery upgrade through a software update",
+      "link": "https://www.teslarati.com/tesla-rolling-out-biggest-battery-upgrade-software-update/",
+      "date": "Fri, 27 Nov 2026 15:18",
+      "hoursAgo": 6,
+      "source": "Teslarati"
+    },
+    {
       "title": "Elon Musk will give every American kid a SpaceX share every year",
       "link": "https://www.teslarati.com/elon-musk-gift-spacex-share-kid/",
       "date": "Fri, 27 Nov 2026 08:58",
-      "hoursAgo": 4,
+      "hoursAgo": 13,
       "source": "Teslarati"
     },
     {
       "title": "Tesla removed the most annoying part of Full Self-Driving",
       "link": "https://www.teslarati.com/tesla-removed-most-annoying-part-full-self-driving/",
       "date": "Wed, 25 Nov 2026 15:06",
-      "hoursAgo": 46,
+      "hoursAgo": 54,
       "source": "Teslarati"
     },
     {
       "title": "SpaceX rejects $738M fed subsidy, betting on Starlink alone",
       "link": "https://www.teslarati.com/spacex-starlink-rejects-fed-subsidy/",
       "date": "Wed, 25 Nov 2026 08:05",
-      "hoursAgo": 53,
+      "hoursAgo": 61,
       "source": "Teslarati"
     },
     {
       "title": "Tesla eyes AI5 chip as exclusive Optimus trait, not needed for self-driving",
       "link": "https://www.teslarati.com/tesla-eyes-ai5-chip-exclusive-optimus-trait-not-needed-self-driving/",
       "date": "Tue, 24 Nov 2026 14:05",
-      "hoursAgo": 71,
-      "source": "Teslarati"
-    },
-    {
-      "title": "Tesla FSD v15’s ‘Reality View’ has one complaint and Musk has the solution",
-      "link": "https://www.teslarati.com/tesla-fsd-v15s-reality-drive-one-complaint-musk-solution/",
-      "date": "Mon, 23 Nov 2026 18:17",
-      "hoursAgo": 91,
-      "source": "Teslarati"
-    },
-    {
-      "title": "Tesla and SpaceXAI CEO Elon Musk reacts to Jensen Huang’s NVIDIA return",
-      "link": "https://www.teslarati.com/tesla-spacexai-ceo-elon-musk-reacts-jensen-huangs-nvidia-return/",
-      "date": "Mon, 23 Nov 2026 16:35",
-      "hoursAgo": 92,
+      "hoursAgo": 80,
       "source": "Teslarati"
     }
   ],
@@ -77,80 +77,80 @@
   "roasts": [],
   "weather": {
     "+1h": {
-      "temp": 17.8,
-      "condition": "Clear",
-      "wind_speed": 9.0,
-      "wind_dir_deg": 154,
-      "cloud": 0,
-      "rain": 0.0
+      "temp": 17.0,
+      "condition": "Mixed",
+      "wind_speed": 10.2,
+      "wind_dir_deg": 336,
+      "cloud": 100,
+      "rain": 0.8
     },
     "+3h": {
-      "temp": 16.7,
-      "condition": "Clear",
-      "wind_speed": 6.6,
-      "wind_dir_deg": 133,
-      "cloud": 2,
-      "rain": 0.0
+      "temp": 16.4,
+      "condition": "Mixed",
+      "wind_speed": 6.1,
+      "wind_dir_deg": 302,
+      "cloud": 98,
+      "rain": 0.1
     },
     "+6h": {
-      "temp": 15.1,
-      "condition": "Partly cloudy",
-      "wind_speed": 0.6,
-      "wind_dir_deg": 146,
-      "cloud": 54,
+      "temp": 15.6,
+      "condition": "Fog",
+      "wind_speed": 2.9,
+      "wind_dir_deg": 281,
+      "cloud": 96,
       "rain": 0.0
     },
     "+12h": {
-      "temp": 22.4,
-      "condition": "Mixed",
-      "wind_speed": 13.7,
-      "wind_dir_deg": 260,
-      "cloud": 95,
-      "rain": 0.1
+      "temp": 21.7,
+      "condition": "Overcast",
+      "wind_speed": 11.0,
+      "wind_dir_deg": 294,
+      "cloud": 91,
+      "rain": 0.0
     },
     "+24h": {
-      "temp": 17.5,
-      "condition": "Mixed",
-      "wind_speed": 8.7,
-      "wind_dir_deg": 342,
-      "cloud": 100,
-      "rain": 0.2
+      "temp": 17.2,
+      "condition": "Partly cloudy",
+      "wind_speed": 4.4,
+      "wind_dir_deg": 38,
+      "cloud": 63,
+      "rain": 0.0
     }
   },
   "keyNumbers": {
     "usdZar": "17.37",
     "usdZarWeek": "+2.6%",
     "usdZarLabel": "rand weaker",
-    "btc": "61377",
-    "btcWeek": "-2.6%",
-    "jse": "+2.2%",
-    "sp500": "-0.3%"
+    "btc": "59684",
+    "btcWeek": "-5.2%",
+    "jse": "+1.8%",
+    "sp500": "+1.6%"
   },
   "worldEvents": [
+    {
+      "text": "Spanish PM and rivals rally supporters in final pitch for votes",
+      "hoursAgo": 0,
+      "link": "https://www.bbc.co.uk/news/articles/c8wy5p4gdnwvo"
+    },
     {
       "text": "Zelensky criticises 'strange' Trump-Putin friendship in BBC interview",
       "hoursAgo": 4,
       "link": "https://www.bbc.co.uk/news/articles/c820q9wgrpyyo"
     },
     {
-      "text": "Hundreds of thousands still without power after storms hit US on Thanksgiving",
+      "text": "Weary of war but with no sign of backing down, Kyiv faces another punishing winter",
       "hoursAgo": 3,
-      "link": "https://www.bbc.co.uk/news/articles/cre3dj5n7dpwo"
+      "link": "https://www.bbc.co.uk/news/articles/c3pw4yrr8kz9o"
     },
     {
-      "text": "Leaders clash in final Spain election debate as housing dominates run-in",
-      "hoursAgo": 7,
-      "link": "https://www.bbc.co.uk/news/articles/ckr5gr4g8gn5o"
-    },
-    {
-      "text": "Italy's former police chief rejected mafia inquiry allegations before death",
-      "hoursAgo": 6,
-      "link": "https://www.bbc.co.uk/news/articles/c69q8yjj1v0po"
-    },
-    {
-      "text": "Ex-media executive admits saying Australian child sex abuse survivor 'looking to be raped again'",
+      "text": "'We couldn't give up that easily': Marching bands scramble to cover costs after Thanksgiving parade rearranged",
       "hoursAgo": 1,
-      "link": "https://www.bbc.co.uk/news/articles/ckr5grlq78n9o"
+      "link": "https://www.bbc.co.uk/news/articles/ckd71ypy9e8eo"
+    },
+    {
+      "text": "Brazil pushes back on Macron calling its meat 'doped'",
+      "hoursAgo": 6,
+      "link": "https://www.bbc.co.uk/news/articles/c6rrg28npvzeo"
     }
   ],
   "launches": [
@@ -197,45 +197,45 @@
   ],
   "companyNews": [
     {
+      "title": "Tesla aims to bolster Optimus with newest company acquisition",
+      "link": "https://www.teslarati.com/tesla-bolster-optimus-company-acquisition-emag-germany/",
+      "date": "Fri, 27 Nov 2026 16:37",
+      "hoursAgo": 5,
+      "source": "Teslarati"
+    },
+    {
+      "title": "Tesla is rolling out its biggest battery upgrade through a software update",
+      "link": "https://www.teslarati.com/tesla-rolling-out-biggest-battery-upgrade-software-update/",
+      "date": "Fri, 27 Nov 2026 15:18",
+      "hoursAgo": 6,
+      "source": "Teslarati"
+    },
+    {
       "title": "Elon Musk will give every American kid a SpaceX share every year",
       "link": "https://www.teslarati.com/elon-musk-gift-spacex-share-kid/",
       "date": "Fri, 27 Nov 2026 08:58",
-      "hoursAgo": 4,
+      "hoursAgo": 13,
       "source": "Teslarati"
     },
     {
       "title": "Tesla removed the most annoying part of Full Self-Driving",
       "link": "https://www.teslarati.com/tesla-removed-most-annoying-part-full-self-driving/",
       "date": "Wed, 25 Nov 2026 15:06",
-      "hoursAgo": 46,
+      "hoursAgo": 54,
       "source": "Teslarati"
     },
     {
       "title": "SpaceX rejects $738M fed subsidy, betting on Starlink alone",
       "link": "https://www.teslarati.com/spacex-starlink-rejects-fed-subsidy/",
       "date": "Wed, 25 Nov 2026 08:05",
-      "hoursAgo": 53,
+      "hoursAgo": 61,
       "source": "Teslarati"
     },
     {
       "title": "Tesla eyes AI5 chip as exclusive Optimus trait, not needed for self-driving",
       "link": "https://www.teslarati.com/tesla-eyes-ai5-chip-exclusive-optimus-trait-not-needed-self-driving/",
       "date": "Tue, 24 Nov 2026 14:05",
-      "hoursAgo": 71,
-      "source": "Teslarati"
-    },
-    {
-      "title": "Tesla FSD v15’s ‘Reality View’ has one complaint and Musk has the solution",
-      "link": "https://www.teslarati.com/tesla-fsd-v15s-reality-drive-one-complaint-musk-solution/",
-      "date": "Mon, 23 Nov 2026 18:17",
-      "hoursAgo": 91,
-      "source": "Teslarati"
-    },
-    {
-      "title": "Tesla and SpaceXAI CEO Elon Musk reacts to Jensen Huang’s NVIDIA return",
-      "link": "https://www.teslarati.com/tesla-spacexai-ceo-elon-musk-reacts-jensen-huangs-nvidia-return/",
-      "date": "Mon, 23 Nov 2026 16:35",
-      "hoursAgo": 92,
+      "hoursAgo": 80,
       "source": "Teslarati"
     }
   ],
